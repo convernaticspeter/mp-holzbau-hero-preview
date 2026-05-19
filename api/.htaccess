@@ -1,0 +1,54 @@
+# M&P Lead Queue API hardening
+# LiteSpeed/Apache-compatible. Keep this file in /api/ next to the PHP entrypoints.
+
+Options -Indexes
+DirectoryIndex disabled
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # lead-submit.php should only accept browser submissions/preflight.
+    RewriteCond %{REQUEST_METHOD} !^(POST|OPTIONS)$
+    RewriteRule ^lead-submit\.php$ - [F,L]
+
+    # retry-leads.php may be called by CLI cron. If URL cron is used,
+    # the PHP file must still validate a secret token.
+    RewriteCond %{REQUEST_METHOD} !^(GET|POST)$
+    RewriteRule ^retry-leads\.php$ - [F,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "no-referrer"
+    Header always set X-Robots-Tag "noindex, nofollow, noarchive"
+    Header always set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header always set Pragma "no-cache"
+</IfModule>
+
+# Default-deny direct web access to everything in /api.
+# PHP can still include these files server-side.
+<FilesMatch ".*">
+    Require all denied
+</FilesMatch>
+
+# Public API entrypoints.
+# lead-submit.php = landingpage POST target
+# retry-leads.php = optional URL cron target; protect inside PHP with a token
+# health.php = optional lightweight healthcheck if we add one
+<FilesMatch "^(lead-submit|retry-leads|health)\.php$">
+    Require all granted
+</FilesMatch>
+
+# Extra protection for environment, libraries, logs, dumps, SQL and dotfiles.
+<FilesMatch "(^\.|db|leadtable-client|\.env|\.sql|\.log|\.bak|\.old|\.json|\.lock|composer\.(json|lock))">
+    Require all denied
+</FilesMatch>
+
+# Apache 2.2 fallback. LiteSpeed usually supports Apache 2.4 Require rules,
+# but these keep older compatibility harmlessly.
+<IfModule !mod_authz_core.c>
+    <FilesMatch "(^\.|db|leadtable-client|\.env|\.sql|\.log|\.bak|\.old|\.json|\.lock|composer\.(json|lock))">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+</IfModule>
