@@ -150,12 +150,11 @@
         .proof-redesign{background:#f4ead9;color:#211912;overflow:hidden;border-top:1px solid rgba(39,33,27,.08)}
         .proof-redesign::before{content:"";position:absolute;inset:0;background:url('assets/holzstruktur-lite.svg') center/640px 640px repeat;opacity:.06;pointer-events:none}
         .proof-redesign::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 16% 10%,rgba(213,163,91,.18),transparent 30%),linear-gradient(180deg,rgba(255,250,241,.88),rgba(236,222,200,.88));pointer-events:none}
-        .proof-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(320px,.9fr) minmax(0,1.1fr);gap:clamp(34px,5vw,76px);align-items:start}
-        .proof-copy{position:sticky;top:112px;padding:0 0 28px}.proof-copy .eyebrow{background:transparent;border:0;border-radius:0;color:#9b6730;padding:0 0 0 38px;margin-bottom:20px;position:relative;font-size:11px;letter-spacing:.15em}.proof-copy .eyebrow::before{content:"";position:absolute;left:0;top:50%;width:26px;height:2px;background:#b87936}.proof-copy h2{color:#211912;margin:0 0 20px;font-size:clamp(38px,5vw,68px);line-height:.94;max-width:9.8ch}.proof-copy .section-lead{color:#655a4e;max-width:560px}
-        .proof-clues{display:grid;gap:12px;margin-top:34px}.proof-clues div{background:#fffaf1;border:1px solid rgba(39,33,27,.10);border-left:6px solid #d5a35b;padding:18px 18px 17px;box-shadow:10px 10px 0 rgba(39,33,27,.08)}.proof-clues span{display:block;font-family:'Space Grotesk',Inter,sans-serif;color:#9b6730;font-weight:1000;font-size:12px;letter-spacing:.14em;margin-bottom:8px}.proof-clues strong{display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:18px;line-height:1.1;color:#211912}.proof-clues p{margin-top:7px;font-size:14px;line-height:1.5;color:#655a4e}
-        .voice-wall{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;align-items:start}.voice-card{grid-column:span 3;background:#fffaf1;color:#211912;border:0;border-top:7px solid #d5a35b;border-radius:0;padding:22px;box-shadow:12px 12px 0 rgba(39,33,27,.10),0 28px 90px -64px rgba(24,22,18,.58);transform:rotate(.35deg)}.voice-card:nth-child(even){transform:rotate(-.3deg);margin-top:28px}.voice-card-large{grid-column:span 4}.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:span 3}.voice-card::before{content:"“";right:16px;top:-8px;color:rgba(184,121,54,.12);font-size:96px}.voice-card blockquote{font-size:clamp(15px,1.4vw,18px);line-height:1.56;color:#3f362d}.voice-card-large blockquote{font-size:clamp(18px,2vw,24px);line-height:1.42;font-family:Georgia,'Times New Roman',serif;letter-spacing:-.025em;color:#2a241e}.voice-card .testimonial-top{margin-bottom:15px}.voice-card .testimonial-avatar{border-radius:0;box-shadow:6px 6px 0 rgba(39,33,27,.10);border:0}.voice-card .stars{text-shadow:none;color:#c9852c}.voice-card .name{color:#211912}.voice-card .testimonial-role{color:#655a4e}
-        @media(max-width:980px){.proof-layout{grid-template-columns:1fr}.proof-copy{position:relative;top:auto}.proof-copy h2{max-width:760px}.voice-card,.voice-card-large,.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:span 3}.voice-card:nth-child(even){margin-top:0}}
-        @media(max-width:640px){.proof-redesign{padding:70px 0}.voice-wall{grid-template-columns:1fr}.voice-card,.voice-card-large,.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:auto;transform:none!important;box-shadow:8px 8px 0 rgba(39,33,27,.10);padding:20px}.proof-copy h2{font-size:38px;max-width:11ch}.proof-clues div{box-shadow:8px 8px 0 rgba(39,33,27,.08)}}
+        .proof-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(280px,.62fr) minmax(0,1.38fr);gap:clamp(28px,4vw,58px);align-items:start}
+        .proof-copy{position:sticky;top:112px;padding:0 0 12px}.proof-copy .eyebrow{background:transparent;border:0;border-radius:0;color:#9b6730;padding:0 0 0 38px;margin-bottom:20px;position:relative;font-size:11px;letter-spacing:.15em}.proof-copy .eyebrow::before{content:"";position:absolute;left:0;top:50%;width:26px;height:2px;background:#b87936}.proof-copy h2{color:#211912;margin:0 0 20px;font-size:clamp(38px,4.6vw,62px);line-height:.94;max-width:9.8ch}.proof-copy .section-lead{color:#655a4e;max-width:500px}
+        .voice-wall{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}.voice-card,.voice-card-large,.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:auto}.voice-card{background:#fffaf1;color:#211912;border:0;border-top:6px solid #d5a35b;border-radius:0;padding:19px;box-shadow:10px 10px 0 rgba(39,33,27,.09),0 24px 72px -60px rgba(24,22,18,.52);transform:none!important}.voice-card:nth-child(even){margin-top:0}.voice-card::before{content:"“";right:14px;top:-9px;color:rgba(184,121,54,.10);font-size:82px}.voice-card blockquote,.voice-card-large blockquote{font-size:clamp(14px,1.2vw,16px);line-height:1.52;color:#3f362d;font-family:Inter,sans-serif;letter-spacing:0}.voice-card .testimonial-top{margin-bottom:12px}.voice-card .testimonial-avatar{border-radius:0;box-shadow:5px 5px 0 rgba(39,33,27,.10);border:0}.voice-card .stars{text-shadow:none;color:#c9852c}.voice-card .name{color:#211912}.voice-card .testimonial-role{color:#655a4e}
+        @media(max-width:980px){.proof-layout{grid-template-columns:1fr}.proof-copy{position:relative;top:auto}.proof-copy h2{max-width:760px}.voice-wall{grid-template-columns:repeat(2,minmax(0,1fr))}.voice-card,.voice-card-large,.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:auto}.voice-card:nth-child(even){margin-top:0}}
+        @media(max-width:640px){.proof-redesign{padding:70px 0}.voice-wall{grid-template-columns:1fr}.voice-card,.voice-card-large,.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:auto;box-shadow:8px 8px 0 rgba(39,33,27,.10);padding:20px}.proof-copy h2{font-size:38px;max-width:11ch}}
         /* Move request process near the form and match the editorial craft system */
         .next-step-section{background:#f4ead9;color:#211912;overflow:hidden;border-top:1px solid rgba(39,33,27,.10);padding:clamp(72px,7vw,104px) 0}
         .next-step-section::before{content:"";position:absolute;inset:0;background:url('assets/holzstruktur-lite.svg') center/640px 640px repeat;opacity:.07;pointer-events:none}
@@ -241,11 +240,6 @@
                     <div class="eyebrow">Kundenstimmen</div>
                     <h2>Was Kunden vorher wissen wollten.</h2>
                     <p class="section-lead">Die meisten Fragen entstehen nicht beim Holz, sondern beim Platz: Passt die Höhe? Wohin läuft das Wasser? Bleibt die Einfahrt gut nutzbar? Genau dort entsteht Vertrauen.</p>
-                    <div class="proof-clues" aria-label="Was Kunden häufig ansprechen">
-                        <div><span>01</span><strong>Er gehört sichtbar zum Haus.</strong><p>Proportion, Dachform und Anschluss werden am echten Standort entschieden.</p></div>
-                        <div><span>02</span><strong>Die Einfahrt bleibt alltagstauglich.</strong><p>Türraum, Rangieren, Einkäufe, Kinder und Wasserführung werden mitgeplant.</p></div>
-                        <div><span>03</span><strong>Die Montage folgt der Planung.</strong><p>Was beim Termin geklärt wurde, kommt bei der eigenen Mannschaft an.</p></div>
-                    </div>
                 </div>
                 <div class="voice-wall" aria-label="Ausgewählte Kundenstimmen">
                     <article class="testimonial-card voice-card voice-card-large fade-in">
@@ -859,11 +853,14 @@
             const sticky = document.getElementById('stickyCta');
             const serviceArea = document.getElementById('einzugsgebiet');
             const planningSection = document.getElementById('planung');
+            const testimonialSection = document.getElementById('kundenstimmen');
             const serviceOpen = serviceArea ? serviceArea.getBoundingClientRect() : null;
             const planningOpen = planningSection ? planningSection.getBoundingClientRect() : null;
+            const testimonialOpen = testimonialSection ? testimonialSection.getBoundingClientRect() : null;
             const overServiceArea = serviceOpen && serviceOpen.top < window.innerHeight - 40 && serviceOpen.bottom > 120;
             const overPlanning = planningOpen && planningOpen.top < window.innerHeight - 40 && planningOpen.bottom > 120;
-            const isVisible = window.scrollY > 500 && !overServiceArea && !overPlanning;
+            const overTestimonials = testimonialOpen && testimonialOpen.top < window.innerHeight - 40 && testimonialOpen.bottom > 120;
+            const isVisible = window.scrollY > 500 && !overServiceArea && !overPlanning && !overTestimonials;
             sticky.classList.toggle('visible', isVisible);
             document.body.classList.toggle('sticky-cta-visible', isVisible);
         }
