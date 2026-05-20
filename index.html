@@ -156,6 +156,16 @@
         .voice-wall{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;align-items:start}.voice-card{grid-column:span 3;background:#fffaf1;color:#211912;border:0;border-top:7px solid #d5a35b;border-radius:0;padding:22px;box-shadow:12px 12px 0 rgba(39,33,27,.10),0 28px 90px -64px rgba(24,22,18,.58);transform:rotate(.35deg)}.voice-card:nth-child(even){transform:rotate(-.3deg);margin-top:28px}.voice-card-large{grid-column:span 4}.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:span 3}.voice-card::before{content:"“";right:16px;top:-8px;color:rgba(184,121,54,.12);font-size:96px}.voice-card blockquote{font-size:clamp(15px,1.4vw,18px);line-height:1.56;color:#3f362d}.voice-card-large blockquote{font-size:clamp(18px,2vw,24px);line-height:1.42;font-family:Georgia,'Times New Roman',serif;letter-spacing:-.025em;color:#2a241e}.voice-card .testimonial-top{margin-bottom:15px}.voice-card .testimonial-avatar{border-radius:0;box-shadow:6px 6px 0 rgba(39,33,27,.10);border:0}.voice-card .stars{text-shadow:none;color:#c9852c}.voice-card .name{color:#211912}.voice-card .testimonial-role{color:#655a4e}
         @media(max-width:980px){.proof-layout{grid-template-columns:1fr}.proof-copy{position:relative;top:auto}.proof-copy h2{max-width:760px}.voice-card,.voice-card-large,.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:span 3}.voice-card:nth-child(even){margin-top:0}}
         @media(max-width:640px){.proof-redesign{padding:70px 0}.voice-wall{grid-template-columns:1fr}.voice-card,.voice-card-large,.voice-card:nth-child(3),.voice-card:nth-child(5),.voice-card:nth-child(6){grid-column:auto;transform:none!important;box-shadow:8px 8px 0 rgba(39,33,27,.10);padding:20px}.proof-copy h2{font-size:38px;max-width:11ch}.proof-clues div{box-shadow:8px 8px 0 rgba(39,33,27,.08)}}
+        /* Move request process near the form and match the editorial craft system */
+        .next-step-section{background:#f4ead9;color:#211912;overflow:hidden;border-top:1px solid rgba(39,33,27,.10);padding:clamp(72px,7vw,104px) 0}
+        .next-step-section::before{content:"";position:absolute;inset:0;background:url('assets/holzstruktur-lite.svg') center/640px 640px repeat;opacity:.07;pointer-events:none}
+        .next-step-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr);gap:clamp(30px,5vw,68px);align-items:start}
+        .next-step-copy{position:sticky;top:112px}.next-step-copy .eyebrow{background:transparent;border:0;border-radius:0;color:#8b5b2a;padding:0 0 0 38px;margin-bottom:18px;position:relative;font-size:11px;letter-spacing:.15em}.next-step-copy .eyebrow::before{content:"";position:absolute;left:0;top:50%;width:26px;height:2px;background:#b87936}
+        .next-step-copy h2{margin:0 0 20px;color:#211912;font-size:clamp(38px,5vw,68px);line-height:.94;max-width:9.6ch}.next-step-copy .section-lead{color:#5f5549;max-width:560px}.next-step-reassurance{margin-top:24px;background:#17251b;color:#fffaf1;border-left:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.12);padding:18px 20px;font-weight:850;line-height:1.48}
+        .next-steps{grid-template-columns:1fr;gap:14px}.next-steps::before{display:none}.next-steps .step{display:grid;grid-template-columns:72px minmax(0,1fr);gap:8px 18px;align-items:start;background:#fffaf1;border-top:0;border-left:7px solid #d5a35b;padding:24px 26px;box-shadow:12px 12px 0 rgba(39,33,27,.10),0 26px 80px -64px rgba(24,22,18,.58)}.next-steps .num{width:52px;height:52px;grid-row:1 / span 2}.next-steps h3{margin-top:2px}.next-steps p{grid-column:2;max-width:620px}
+        @media(max-width:980px){.next-step-layout{grid-template-columns:1fr}.next-step-copy{position:relative;top:auto}.next-step-copy h2{max-width:760px}.next-steps .step{grid-template-columns:64px 1fr}}
+        @media(max-width:640px){.next-step-section{padding:64px 0}.next-step-copy h2{font-size:38px;max-width:11ch}.next-step-reassurance{box-shadow:8px 8px 0 rgba(39,33,27,.10)}.next-steps .step{grid-template-columns:52px 1fr;gap:14px;padding:20px;box-shadow:8px 8px 0 rgba(39,33,27,.10)}.next-steps .num{width:44px;height:44px}}
+
 </style>
 </head>
 <body>
@@ -205,22 +215,6 @@
                 <div><b>Ihr persönlicher Ansprechpartner</b><p>Peter Preissinger schaut sich Ihre Situation an und sagt ehrlich, welche Ausführung für Haus, Einfahrt und Budget sinnvoll ist.</p></div>
             </div>
         </div>
-
-        <section id="planung">
-            <div class="container">
-                <div class="section-head center">
-                    <div class="eyebrow">Der nächste Schritt</div>
-                    <h2 style="margin-top:18px">Was passiert nach Ihrer Anfrage?</h2>
-                    <p class="section-lead">Sie müssen noch nicht wissen, welche Konstruktion perfekt ist. Für den ersten Schritt reichen Standort, grober Wunsch und – wenn vorhanden – ein Foto der Einfahrt.</p>
-                </div>
-                <div class="steps">
-                    <div class="step fade-in"><div class="num">1</div><h3>Situation vor Ort zeigen</h3><p>Ort, Einfahrt, Platz am Haus und alles, was jetzt schon erkennbar ist – gerne als Foto oder kurze Beschreibung.</p></div>
-                    <div class="step fade-in"><div class="num">2</div><h3>Wunsch grob einordnen</h3><p>Einzelcarport, Doppelcarport, Stauraum, geschlossene Wetterseite oder noch offen. Es muss noch keine fertige Planung sein.</p></div>
-                    <div class="step fade-in"><div class="num">3</div><h3>Persönliche Einschätzung bekommen</h3><p>M&P sagt Ihnen, worauf es an Ihrem Standort ankommt, welcher Rahmen realistisch sein kann und welcher nächste Schritt sinnvoll ist.</p></div>
-                </div>
-                <div style="text-align:center;margin-top:30px"><button class="btn dark" onclick="openQuiz()">Preis-Schätzung anfragen</button></div>
-            </div>
-        </section>
 
         <section class="site-check" id="warum">
             <div class="container site-check-grid">
@@ -367,6 +361,22 @@
                     <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Sind auch Doppelcarports möglich?<span>+</span></button><div class="faq-answer"><p>Ja. Einzelcarports, Doppelcarports sowie Varianten mit Stauraum oder geschlossener Wetterseite sind möglich – abhängig von Platz, Zufahrt und gewünschter Nutzung.</p></div></div>
                     <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Was ist der Vorteil eines Carports von M&P?<span>+</span></button><div class="faq-answer"><p>M&P betrachtet den Carport als Bauwerk am Haus: Standort, Einfahrt, Fundament, Wasserführung, Schneelast, Optik und Montage müssen gemeinsam funktionieren.</p></div></div>
                     <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Was kostet ein Carport von M&P?<span>+</span></button><div class="faq-answer"><p>Als grobe Orientierung starten maßgefertigte Carports bei etwa 7.500 €. Der konkrete Rahmen hängt von Größe, Fundament, Anschluss, Ausführung und Montageaufwand ab.</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="next-step-section" id="planung">
+            <div class="container next-step-layout">
+                <div class="next-step-copy fade-in">
+                    <div class="eyebrow">Der nächste Schritt</div>
+                    <h2>Was passiert nach Ihrer Anfrage?</h2>
+                    <p class="section-lead">Sie müssen noch nicht wissen, welche Konstruktion perfekt ist. Für den ersten Schritt reichen Standort, grober Wunsch und – wenn vorhanden – ein Foto der Einfahrt.</p>
+                    <p class="next-step-reassurance">Die Anfrage ist noch keine Kaufentscheidung. Sie klärt zuerst, ob und wie ein Carport an Ihrem Standort sinnvoll geplant werden kann.</p>
+                </div>
+                <div class="steps next-steps">
+                    <div class="step fade-in"><div class="num">1</div><h3>Situation vor Ort zeigen</h3><p>Ort, Einfahrt, Platz am Haus und alles, was jetzt schon erkennbar ist – gerne als Foto oder kurze Beschreibung.</p></div>
+                    <div class="step fade-in"><div class="num">2</div><h3>Wunsch grob einordnen</h3><p>Einzelcarport, Doppelcarport, Stauraum, geschlossene Wetterseite oder noch offen. Es muss noch keine fertige Planung sein.</p></div>
+                    <div class="step fade-in"><div class="num">3</div><h3>Persönliche Einschätzung bekommen</h3><p>M&P sagt Ihnen, worauf es an Ihrem Standort ankommt, welcher Rahmen realistisch sein kann und welcher nächste Schritt sinnvoll ist.</p></div>
                 </div>
             </div>
         </section>
@@ -848,9 +858,12 @@
         function updateStickyCta() {
             const sticky = document.getElementById('stickyCta');
             const serviceArea = document.getElementById('einzugsgebiet');
+            const planningSection = document.getElementById('planung');
             const serviceOpen = serviceArea ? serviceArea.getBoundingClientRect() : null;
+            const planningOpen = planningSection ? planningSection.getBoundingClientRect() : null;
             const overServiceArea = serviceOpen && serviceOpen.top < window.innerHeight - 40 && serviceOpen.bottom > 120;
-            const isVisible = window.scrollY > 500 && !overServiceArea;
+            const overPlanning = planningOpen && planningOpen.top < window.innerHeight - 40 && planningOpen.bottom > 120;
+            const isVisible = window.scrollY > 500 && !overServiceArea && !overPlanning;
             sticky.classList.toggle('visible', isVisible);
             document.body.classList.toggle('sticky-cta-visible', isVisible);
         }
