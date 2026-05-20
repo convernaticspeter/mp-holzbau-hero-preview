@@ -66,7 +66,7 @@
         /* Quiz / Cookie */
         .quiz-overlay{position:fixed;inset:0;background:rgba(18,22,17,.72);z-index:2000;display:none;align-items:center;justify-content:center;padding:18px;backdrop-filter:blur(12px)} .quiz-overlay.active{display:flex} .quiz-container{width:min(720px,100%);max-height:92vh;overflow:auto;background:var(--paper);border-radius:30px;box-shadow:0 30px 100px -40px rgba(0,0,0,.65)} .quiz-header{display:flex;align-items:center;gap:14px;padding:18px 20px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,250,241,.92);backdrop-filter:blur(12px);z-index:2} .quiz-progress{height:8px;background:#eadfce;border-radius:999px;flex:1;overflow:hidden} .quiz-progress-bar{height:100%;background:linear-gradient(90deg,#456b4c,#d5a35b);width:0;transition:.25s ease} .quiz-close{border:0;background:#efe4d1;border-radius:50%;width:34px;height:34px;font-size:24px;cursor:pointer;color:#382f27} .quiz-body{padding:28px} .quiz-step{display:none} .quiz-step.active{display:block} .quiz-step h3{font-size:32px;margin-bottom:8px} .quiz-sub,.quiz-hint{color:var(--muted);font-size:15px;margin-bottom:18px} .quiz-options{display:grid;gap:10px} .quiz-option{display:flex;align-items:center;gap:12px;padding:15px;border-radius:18px;border:1px solid rgba(39,33,27,.14);background:white;cursor:pointer;font-weight:750;transition:.18s ease} .quiz-option.selected{border-color:#456b4c;background:#edf4ea;box-shadow:0 0 0 3px rgba(69,107,76,.10)} .quiz-option-radio{width:18px;height:18px;border:2px solid #a99b88;border-radius:50%;flex:0 0 auto} .quiz-option.selected .quiz-option-radio{border-color:#456b4c;background:radial-gradient(circle,#456b4c 43%,transparent 47%)} .quiz-nav{display:flex;justify-content:space-between;gap:12px;margin-top:20px} .quiz-nav .btn{font-size:17px;padding:17px 28px;min-height:54px} .quiz-input{margin-bottom:12px} .quiz-success{text-align:center;padding:30px 0} .quiz-success-icon{width:66px;height:66px;border-radius:50%;display:grid;place-items:center;background:#456b4c;color:white;font-size:34px;margin:0 auto 16px} .upload-zone{border:1.5px dashed rgba(69,107,76,.35);background:#f4ecdf;border-radius:20px;text-align:center;padding:22px;margin-top:12px;cursor:pointer} .upload-zone-icon{font-size:28px} .upload-zone-hint{font-size:13px;color:var(--muted);margin-top:5px} .upload-input{display:none} .upload-previews{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px} .upload-preview{position:relative;width:72px;height:72px;border-radius:14px;overflow:hidden;background:#eadfce} .upload-preview img{width:100%;height:100%;object-fit:cover} .upload-preview-remove{position:absolute;top:3px;right:3px;border:0;background:rgba(0,0,0,.55);color:white;border-radius:50%;width:22px;height:22px;cursor:pointer}
         .cookie-banner{position:fixed;left:18px;right:auto;top:92px;bottom:auto;width:min(410px,calc(100vw - 36px));background:rgba(23,37,27,.94);color:white;border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:14px;z-index:1500;box-shadow:0 22px 70px -30px rgba(0,0,0,.55);transform:translateX(calc(-100% - 28px));transition:transform .35s ease,top .25s ease,bottom .25s ease} .cookie-banner.visible{transform:none} body.sticky-cta-visible .cookie-banner.visible{top:92px} .cookie-banner-inner{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center} .cookie-banner-text{font-size:11px;line-height:1.4;color:rgba(255,255,255,.78)} .cookie-banner-text a{color:#f4d098} .cookie-banner-actions{display:flex;gap:8px} .cookie-btn{border:0;border-radius:999px;padding:9px 11px;font-size:11px;font-weight:850;cursor:pointer} .cookie-btn-accept{background:#f4d098;color:#1c150e} .cookie-btn-deny{background:transparent;color:white;border:1px solid rgba(255,255,255,.22)}
-        @media (max-width:980px){.nav-links{display:none}.hero{padding-top:70px}.hero-shell{grid-template-columns:1fr;gap:18px;align-items:start;padding:18px 0 48px;min-height:auto}.hero-media{min-height:clamp(310px,54svh,520px);border-radius:26px}.hero-copy{max-width:none;border-radius:28px;padding:28px}.hero-panel{display:none}.benefit-row,.scenes,.steps{grid-template-columns:1fr 1fr}.steps::before{display:none} .testimonial-head{grid-template-columns:1fr}.testimonial-grid{grid-template-columns:repeat(6,1fr)}.testimonial-card,.testimonial-card.featured{grid-column:span 3} .section-head,.story-grid,.fit-grid,.usp-card,.usp-card:nth-child(even),.compare,.price-box{grid-template-columns:1fr} .story-img{min-height:0;width:100%;height:clamp(240px,62vw,340px);aspect-ratio:auto;background-size:cover;background-position:center 46%;border-radius:26px;order:2}.story-copy{order:1} .usp-card:nth-child(even) .usp-media{order:0} .gallery-mosaic{grid-template-columns:1fr 1fr} .gallery-tile.big,.gallery-tile.wide{grid-column:auto;grid-row:auto}.gallery-tile:last-child{grid-column:span 2}}
+        @media (max-width:980px){.nav-links{display:none}.hero{padding-top:70px}.hero-shell{grid-template-columns:1fr;gap:18px;align-items:start;padding:18px 0 48px;min-height:auto}.hero-gallery{grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:4px}.hero-copy{max-width:none;border-radius:28px;padding:28px}.hero-panel{display:none}.benefit-row,.scenes,.steps{grid-template-columns:1fr 1fr}.steps::before{display:none} .testimonial-head{grid-template-columns:1fr}.testimonial-grid{grid-template-columns:repeat(6,1fr)}.testimonial-card,.testimonial-card.featured{grid-column:span 3} .section-head,.story-grid,.fit-grid,.usp-card,.usp-card:nth-child(even),.compare,.price-box{grid-template-columns:1fr} .story-img{min-height:0;width:100%;height:clamp(240px,62vw,340px);aspect-ratio:auto;background-size:cover;background-position:center 46%;border-radius:26px;order:2}.story-copy{order:1} .usp-card:nth-child(even) .usp-media{order:0} .gallery-mosaic{grid-template-columns:1fr 1fr} .gallery-tile.big,.gallery-tile.wide{grid-column:auto;grid-row:auto}.gallery-tile:last-child{grid-column:span 2}}
         @media (max-width:640px){.container{width:calc(100% - 28px);max-width:1180px}.wide{width:calc(100% - 24px)}.hero-copy{width:100%;max-width:none}.hero-copy>*{max-width:340px}.hero-copy::after{width:72px;height:72px;font-size:7px;right:14px;top:14px;opacity:.42}.hero .lead,.hero .micro,.hero-proof{max-width:340px}.hero-actions{width:340px;max-width:100%}.hero-actions .btn{width:100%!important;max-width:100%!important}.btn{max-width:100%} section{padding:70px 0} h1{font-size:36px;line-height:1.02;letter-spacing:-.035em} h2{font-size:36px}.lead{font-size:16px}.hero{padding-top:68px}.hero-media{min-height:280px;border-radius:8px 22px 22px 8px;border-left-width:16px}.hero h1{font-size:34px;line-height:1;max-width:11ch}.hero .lead{font-size:15px;line-height:1.45}.hero-copy::after{display:none}.hero-media img{object-position:center 50%}.hero-caption{left:12px;right:12px;bottom:12px;text-align:center;border-radius:18px;font-size:12px}.hero-copy{padding:22px 20px 20px;border-radius:8px 26px 26px 8px}.hero-actions .btn{width:100%;padding:14px 18px}.hero-proof{gap:7px}.proof-pill{font-size:12px;padding:8px 10px}.hero-shell{padding:12px 0 46px}.hero-panel-img{height:210px}.hero-panel-body{grid-template-columns:1fr;gap:10px}.benefit-row{margin-top:18px} .hero-panel-body,.benefit-row,.scenes,.steps,.contact-grid,.contact-checks,.include-grid,.gallery-mosaic{grid-template-columns:1fr}.testimonial-grid{grid-template-columns:1fr}.testimonial-card,.testimonial-card.featured{grid-column:auto}.testimonial-top{align-items:flex-start}.testimonial-card .tag{display:none}.rating-slab{padding:20px}.gallery-mosaic{grid-auto-rows:auto}.gallery-tile{min-height:240px}.gallery-tile:last-child{grid-column:auto}.gallery-tile.facade{grid-column:auto;grid-row:auto;min-height:380px} .sticky-cta{left:50%;right:auto;bottom:10px;width:min(340px,calc(100% - 48px));transform:translate(-50%,150%);border-radius:22px;justify-content:center;align-items:stretch;flex-direction:column;gap:7px;padding:9px} .sticky-cta.visible{transform:translate(-50%,0)} .sticky-cta .btn{order:1;width:100%;padding:14px 18px} .sticky-cta span{order:2;white-space:normal;text-align:center;font-size:12px;line-height:1.25} .nav-logo{height:42px} .scene{min-height:360px} .cookie-banner{left:12px;right:12px;top:auto;bottom:12px;width:auto;transform:translateY(calc(100% + 28px))} body.sticky-cta-visible .cookie-banner.visible{top:auto;bottom:112px} .cookie-banner-inner{grid-template-columns:1fr}}
 
         /* Radical v2: Baustellen-Aufnahme, not split-card landing page */
@@ -74,10 +74,25 @@
         .hero::before{inset:0;background:linear-gradient(90deg,rgba(8,13,9,.72) 0%,rgba(8,13,9,.30) 36%,rgba(8,13,9,.10) 62%,rgba(8,13,9,.50) 100%);z-index:1}
         .hero::after{z-index:2;opacity:.20;mix-blend-mode:screen;background:linear-gradient(90deg,rgba(244,208,152,.22) 1px,transparent 1px) 0 0/90px 90px,linear-gradient(180deg,rgba(244,208,152,.18) 1px,transparent 1px) 0 0/90px 90px;-webkit-mask-image:none;mask-image:none}
         .hero-shell{display:block;min-height:calc(92svh - 76px);padding:clamp(36px,7vw,98px) 0 78px;position:relative;z-index:3}
-        .hero-media{position:absolute;z-index:0;left:-40px;right:auto;top:0;bottom:0;width:calc(100% + 80px);transform:none;min-height:0;height:auto;border:0;border-radius:0;box-shadow:none;background:#101711;overflow:hidden}
-        .hero-media img{width:100%;height:100%;min-height:0;object-fit:cover;object-position:center 52%;filter:saturate(.86) contrast(1.08) brightness(.78)}
-        .hero-media::before{content:"VOR-ORT-AUFNAHME · HAUSANSCHLUSS · WASSERLAUF · FUNDAMENT";left:auto;right:clamp(18px,4vw,58px);top:76px;bottom:auto;width:auto;height:auto;padding:12px 14px;writing-mode:horizontal-tb;transform:none;border-radius:0;background:#d5a35b;color:#21160b;box-shadow:12px 12px 0 rgba(23,37,27,.45);font:1000 11px/1 'Space Grotesk',Inter,sans-serif;letter-spacing:.14em;z-index:4}
-        .hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,15,10,.18),rgba(10,15,10,.70)),radial-gradient(circle at 34% 44%,transparent 0 27%,rgba(10,15,10,.50) 66%);box-shadow:none;z-index:1}
+        .hero-gallery{position:absolute;z-index:0;left:-40px;right:auto;top:0;bottom:0;width:calc(100% + 80px);display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:6px;padding:0;background:#101711;overflow:hidden}
+        .gallery-thumb{background-size:cover;background-position:center;cursor:pointer;position:relative;transition:filter .28s ease,transform .28s ease;filter:brightness(.78) saturate(.86);min-height:0}
+        .gallery-thumb::after{content:"";position:absolute;inset:0;background:rgba(16,23,17,0);transition:background .28s ease}
+        .gallery-thumb:hover{filter:brightness(.92) saturate(1.02);transform:scale(1.02);z-index:3}
+        .gallery-thumb:hover::after{background:rgba(16,23,17,.08)}
+        .gallery-thumb:active{filter:brightness(1) saturate(1.05)}
+        .hero-gallery::before{content:"VOR-ORT-AUFNAHME · HAUSANSCHLUSS · WASSERLAUF · FUNDAMENT";position:absolute;right:clamp(18px,4vw,58px);top:76px;width:auto;height:auto;padding:12px 14px;background:#d5a35b;color:#21160b;box-shadow:12px 12px 0 rgba(23,37,27,.45);font:1000 11px/1 'Space Grotesk',Inter,sans-serif;letter-spacing:.14em;z-index:4;pointer-events:none}
+        .hero-gallery::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,15,10,.18),rgba(10,15,10,.70)),radial-gradient(circle at 34% 44%,transparent 0 27%,rgba(10,15,10,.50) 66%);z-index:1;pointer-events:none}
+        /* Lightbox */
+        .lightbox-overlay{position:fixed;inset:0;z-index:3000;background:rgba(8,13,9,.94);display:none;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+        .lightbox-overlay.active{display:flex}
+        .lightbox-content{position:relative;max-width:92vw;max-height:88vh;display:flex;align-items:center;justify-content:center}
+        .lightbox-img{max-width:100%;max-height:85vh;object-fit:contain;border:1px solid rgba(255,253,248,.12);box-shadow:0 30px 90px -40px rgba(0,0,0,.85),0 0 0 1px rgba(213,163,91,.18)}
+        .lightbox-close{position:fixed;top:22px;right:22px;width:52px;height:52px;border:1px solid rgba(255,253,248,.18);border-radius:0;background:rgba(23,37,27,.88);color:rgba(255,253,248,.82);font-size:28px;cursor:pointer;z-index:3002;display:grid;place-items:center;transition:.18s ease;font-family:'Inter',sans-serif;line-height:1}
+        .lightbox-close:hover{background:rgba(213,163,91,.22);color:#f4d098;border-color:rgba(244,208,152,.35)}
+        .lightbox-nav{position:fixed;top:50%;transform:translateY(-50%);width:56px;height:56px;border:1px solid rgba(255,253,248,.14);border-radius:0;background:rgba(23,37,27,.82);color:rgba(255,253,248,.78);font-size:32px;cursor:pointer;z-index:3002;display:grid;place-items:center;transition:.18s ease;font-family:'Inter',sans-serif;line-height:1}
+        .lightbox-nav:hover{background:rgba(213,163,91,.18);color:#f4d098;border-color:rgba(244,208,152,.28)}
+        .lightbox-prev{left:22px}.lightbox-next{right:22px}
+        .lightbox-counter{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);color:rgba(255,253,248,.62);font-size:13px;font-weight:900;letter-spacing:.06em;z-index:3002;background:rgba(23,37,27,.78);padding:10px 16px;border:1px solid rgba(255,255,255,.10)}
         .hero-caption{left:clamp(18px,4vw,58px);bottom:34px;border-radius:0;background:rgba(255,250,241,.88);color:#1f271d;border:0;border-left:7px solid #d5a35b;box-shadow:18px 18px 0 rgba(13,20,14,.35);font-size:12px;letter-spacing:.03em;text-transform:uppercase;max-width:330px;text-align:left}
         .hero-copy{max-width:700px;margin:clamp(28px,5vh,62px) 0 0 clamp(4px,2vw,24px);background:#fffaf1;color:#211912;border:0;border-radius:0;padding:clamp(30px,4vw,54px) clamp(26px,4vw,58px) clamp(28px,4vw,48px);box-shadow:22px 22px 0 rgba(23,37,27,.82),0 34px 90px -48px rgba(0,0,0,.85);outline:1px solid rgba(33,25,18,.18);overflow:visible;transform:rotate(-.7deg)}
         .hero-copy::before{content:"";position:absolute;left:22px;right:22px;top:18px;height:1px;background:repeating-linear-gradient(90deg,rgba(33,25,18,.42) 0 10px,transparent 10px 18px);border-radius:0}
@@ -91,8 +106,8 @@
         .benefit-row{transform:none;margin:-34px auto 0;grid-template-columns:1.1fr .9fr 1fr;position:relative;z-index:5}.benefit{border-radius:0;background:#fffaf1;border:0;border-top:7px solid #d5a35b;box-shadow:12px 12px 0 rgba(39,33,27,.12);padding:22px}.benefit::after{display:none}.benefit b{font-family:'Space Grotesk',Inter,sans-serif;text-transform:uppercase;font-size:15px;letter-spacing:.04em}.benefit p{font-size:14px;color:#4f463b}
         .section-head{align-items:start}.compare-col,.step,.price-box{border-radius:0}.claim-strip{border-radius:0;box-shadow:12px 12px 0 rgba(0,0,0,.18)}
         .testimonial-card,.gallery-tile,.faq-item,.contact-form{border-radius:0}
-        @media (max-width:980px){.hero-shell{min-height:calc(92svh - 70px);padding:32px 0 72px}.hero-media{top:0}.hero-copy{margin:52px 0 0;max-width:620px}.benefit-row{grid-template-columns:1fr;margin-top:-20px}}
-        @media (max-width:640px){.hero{min-height:0;padding-top:68px}.hero-shell{display:flex;flex-direction:column;min-height:0;padding:0 0 36px}.hero-media{position:relative;left:-40px;right:auto;top:auto;bottom:auto;width:calc(100% + 80px);height:330px;min-height:330px;border-left:0;transform:none;order:0}.hero-media::before{right:12px;top:14px;font-size:8px;letter-spacing:.1em;padding:9px 10px;max-width:260px;box-shadow:7px 7px 0 rgba(23,37,27,.45)}.hero-caption{display:none}.hero-copy{order:1;margin:-34px 0 0 0;width:calc(100vw - 24px);max-width:none;align-self:center;padding:22px 20px 20px;transform:none;box-shadow:10px 10px 0 rgba(23,37,27,.85);z-index:5}.hero-copy>*{max-width:none}.hero-copy::after{display:grid;right:12px;top:-24px;width:72px;height:72px;font-size:7px}.hero .eyebrow{font-size:9px;max-width:250px;margin-bottom:14px}.hero h1{font-size:36px;line-height:.92;max-width:10.4ch}.hero .lead{font-size:14px;line-height:1.43;max-width:315px}.hero-actions{width:100%;margin-top:18px}.hero-actions .btn{border-radius:0}.hero-proof{display:none}.benefit-row{margin:14px auto 0}.benefit{box-shadow:8px 8px 0 rgba(39,33,27,.10)}}
+        @media (max-width:980px){.hero-shell{min-height:calc(92svh - 70px);padding:32px 0 72px}.hero-gallery{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,1fr);gap:4px;left:-20px;width:calc(100% + 40px)}.hero-copy{margin:52px 0 0;max-width:620px}.benefit-row{grid-template-columns:1fr;margin-top:-20px}}
+        @media (max-width:640px){.hero{min-height:0;padding-top:68px}.hero-shell{display:flex;flex-direction:column;min-height:0;padding:0 0 36px}.hero-gallery{position:relative;left:-20px;right:auto;top:auto;bottom:auto;width:calc(100% + 40px);height:420px;min-height:420px;display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,1fr);gap:3px;border-left:0;transform:none;order:0}.hero-gallery::before{right:12px;top:14px;font-size:8px;letter-spacing:.1em;padding:9px 10px;max-width:260px;box-shadow:7px 7px 0 rgba(23,37,27,.45)}.hero-caption{display:none}.hero-copy{order:1;margin:-34px 0 0 0;width:calc(100vw - 24px);max-width:none;align-self:center;padding:22px 20px 20px;transform:none;box-shadow:10px 10px 0 rgba(23,37,27,.85);z-index:5}.hero-copy>*{max-width:none}.hero-copy::after{display:grid;right:12px;top:-24px;width:72px;height:72px;font-size:7px}.hero .eyebrow{font-size:9px;max-width:250px;margin-bottom:14px}.hero h1{font-size:36px;line-height:.92;max-width:10.4ch}.hero .lead{font-size:14px;line-height:1.43;max-width:315px}.hero-actions{width:100%;margin-top:18px}.hero-actions .btn{border-radius:0}.hero-proof{display:none}.benefit-row{margin:14px auto 0}.benefit{box-shadow:8px 8px 0 rgba(39,33,27,.10)}}
 
     </style>
 </head>
@@ -107,10 +122,15 @@
 
     <header class="hero" id="top">
         <div class="wide hero-shell">
-            <figure class="hero-media fade-in visible" aria-label="Moderner Holzcarport mit Auto direkt am Wohnhaus">
-                <img src="assets/gallery-1-v2.webp" alt="Moderner Holzcarport direkt am Haus mit Auto unter dem Dach" width="1344" height="768" fetchpriority="high">
+            <div class="hero-gallery fade-in visible" aria-label="Carport Referenzgalerie – 6 Aufnahmen">
+                <div class="gallery-thumb" onclick="openLightbox(0)" style="background-image:url('assets/gallery-1-v2.webp')" title="Carport mit Dachüberstand – Klicken zum Vergrößern"></div>
+                <div class="gallery-thumb" onclick="openLightbox(1)" style="background-image:url('assets/gallery-2.jpg')" title="Holzcarport Seitenansicht – Klicken zum Vergrößern"></div>
+                <div class="gallery-thumb" onclick="openLightbox(2)" style="background-image:url('assets/gallery-3.jpg')" title="Doppelcarport mit Einfahrt – Klicken zum Vergrößern"></div>
+                <div class="gallery-thumb" onclick="openLightbox(3)" style="background-image:url('assets/gallery-4.webp')" title="Carport mit geschlossener Wetterseite – Klicken zum Vergrößern"></div>
+                <div class="gallery-thumb" onclick="openLightbox(4)" style="background-image:url('assets/gallery-5.webp')" title="Maßarbeit Hausanschluss – Klicken zum Vergrößern"></div>
+                <div class="gallery-thumb" onclick="openLightbox(5)" style="background-image:url('assets/gallery-6-v2.webp')" title="Carport integriert am Haus – Klicken zum Vergrößern"></div>
                 <figcaption class="hero-caption">Keine Katalogfrage. Eine Baustellenfrage.</figcaption>
-            </figure>
+            </div>
             <div class="hero-copy fade-in visible">
                 <div class="eyebrow" id="heroEyebrow">Vor-Ort-Aufnahme · Zimmermeisterbetrieb</div>
                 <h1 id="heroHeadline">Der schwierige Teil am Carport ist nicht das Dach.</h1>
@@ -923,7 +943,85 @@
         document.getElementById('quizOverlay').addEventListener('click', function(e) {
             if (e.target === this) closeQuiz();
         });
+
+        // ── Lightbox ──
+        var GALLERY_IMAGES = [
+            'assets/gallery-1-v2.webp',
+            'assets/gallery-2.jpg',
+            'assets/gallery-3.jpg',
+            'assets/gallery-4.webp',
+            'assets/gallery-5.webp',
+            'assets/gallery-6-v2.webp'
+        ];
+        var GALLERY_CAPTIONS = [
+            'Genug Dachüberstand für Auto und Bewegung',
+            'Holzcarport – saubere Proportion zum Haus',
+            'Doppelcarport mit nutzbarer Bewegungsfläche',
+            'Geschlossene Wetterseite – Schutz bei jedem Wetter',
+            'Maßarbeit für Hausanschluss und Einfahrt',
+            'So integriert, dass es zum Haus gehört'
+        ];
+        var currentLightboxIndex = 0;
+
+        function openLightbox(index) {
+            currentLightboxIndex = index;
+            var overlay = document.getElementById('lightboxOverlay');
+            var content = document.getElementById('lightboxContent');
+            var counter = document.getElementById('lightboxCounter');
+            var img = document.createElement('img');
+            img.src = GALLERY_IMAGES[index];
+            img.alt = GALLERY_CAPTIONS[index];
+            img.className = 'lightbox-img';
+            img.setAttribute('loading', 'eager');
+            content.innerHTML = '';
+            content.appendChild(img);
+            counter.textContent = 'Bild ' + (index + 1) + ' von 6';
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            var overlay = document.getElementById('lightboxOverlay');
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+            document.getElementById('lightboxContent').innerHTML = '';
+        }
+
+        function navigateLightbox(direction) {
+            currentLightboxIndex = (currentLightboxIndex + direction + 6) % 6;
+            var content = document.getElementById('lightboxContent');
+            var counter = document.getElementById('lightboxCounter');
+            var img = document.createElement('img');
+            img.src = GALLERY_IMAGES[currentLightboxIndex];
+            img.alt = GALLERY_CAPTIONS[currentLightboxIndex];
+            img.className = 'lightbox-img';
+            img.setAttribute('loading', 'eager');
+            content.innerHTML = '';
+            content.appendChild(img);
+            counter.textContent = 'Bild ' + (currentLightboxIndex + 1) + ' von 6';
+        }
+
+        document.addEventListener('keydown', function(e) {
+            var overlay = document.getElementById('lightboxOverlay');
+            if (!overlay.classList.contains('active')) return;
+            if (e.key === 'Escape') { closeLightbox(); }
+            if (e.key === 'ArrowLeft') { navigateLightbox(-1); }
+            if (e.key === 'ArrowRight') { navigateLightbox(1); }
+        });
+
+        document.getElementById('lightboxOverlay').addEventListener('click', function(e) {
+            if (e.target === this) closeLightbox();
+        });
     </script>
+
+    <!-- Lightbox -->
+    <div class="lightbox-overlay" id="lightboxOverlay">
+        <button class="lightbox-close" onclick="closeLightbox()" aria-label="Schließen">×</button>
+        <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox(-1)" aria-label="Vorheriges Bild">‹</button>
+        <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)" aria-label="Nächstes Bild">›</button>
+        <div class="lightbox-counter" id="lightboxCounter">Bild 1 von 6</div>
+        <div class="lightbox-content" id="lightboxContent"></div>
+    </div>
 
 </body>
 </html>
