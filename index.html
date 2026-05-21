@@ -170,8 +170,9 @@
         /* Handwerk / Qualität + Team proof sections */
         .craft-quality{background:#fffaf1;color:#211912;overflow:hidden}.craft-quality::before{content:"";position:absolute;inset:0;background:url('assets/holzstruktur-lite.svg') center/640px 640px repeat;opacity:.075;pointer-events:none}.craft-quality-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(300px,.82fr) minmax(0,1.18fr);gap:clamp(30px,5vw,68px);align-items:start}.craft-quality-copy{position:sticky;top:112px}.craft-quality-copy .eyebrow,.team-proof-copy .eyebrow{background:transparent;border:0;border-radius:0;color:#8b5b2a;padding:0 0 0 38px;margin-bottom:18px;position:relative;font-size:11px;letter-spacing:.15em}.craft-quality-copy .eyebrow::before,.team-proof-copy .eyebrow::before{content:"";position:absolute;left:0;top:50%;width:26px;height:2px;background:#b87936}.craft-quality-copy h2,.team-proof-copy h2{margin:0 0 20px;color:#211912;font-size:clamp(38px,5vw,68px);line-height:.94;max-width:10.8ch}.craft-quality-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.quality-card{background:#f4ead9;border:0;border-top:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.09),0 24px 72px -60px rgba(24,22,18,.52);padding:22px;min-height:190px}.quality-card span{display:inline-grid;place-items:center;width:42px;height:42px;background:#17251b;color:#f4d098;font-family:'Space Grotesk',Inter,sans-serif;font-weight:1000;margin-bottom:16px}.quality-card h3{font-size:22px;margin-bottom:9px}.quality-card p{font-size:15px;line-height:1.55;color:#51483d}.quality-note{grid-column:1/-1;background:#17251b;color:#fffaf1;border-left:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.10);padding:22px 24px;font-weight:850;line-height:1.5}
         .team-proof{background:#efe3d1;color:#211912;overflow:hidden}.team-proof::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 82% 12%,rgba(213,163,91,.16),transparent 28%),url('assets/holzstruktur-lite.svg') center/640px 640px repeat;opacity:.9;pointer-events:none}.team-proof-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(360px,.95fr) minmax(0,1.05fr);gap:clamp(30px,5vw,68px);align-items:center}.team-proof-photo{background:#17251b;box-shadow:16px 16px 0 rgba(39,33,27,.13);border-top:8px solid #d5a35b;overflow:hidden}.team-proof-photo img{width:100%;height:auto;min-height:0;display:block;object-fit:contain;object-position:center}.team-proof-card{background:#fffaf1;border-left:8px solid #17251b;box-shadow:14px 14px 0 rgba(39,33,27,.11),0 26px 80px -62px rgba(24,22,18,.58);padding:clamp(24px,3vw,36px);margin-top:24px}.team-proof-card strong{display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:22px;line-height:1.15;color:#17251b;margin-bottom:10px}.team-proof-card p{color:#51483d;line-height:1.62}.team-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:22px}.team-point{background:#f1e6d4;border-left:4px solid #d5a35b;padding:13px 14px;font-size:14px;font-weight:850;color:#40362d}.team-proof-copy .section-lead{max-width:620px}.quiz-loading{text-align:left}.quiz-loading-card{background:#17251b;color:#fffaf1;border-left:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.12);padding:24px;margin-top:18px}.quiz-loading-card strong{display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:20px;line-height:1.2;margin-bottom:8px;color:#f4d098}.quiz-loading-card p{color:rgba(255,250,241,.82);line-height:1.55}.answer-summary{display:grid;gap:8px;margin:18px 0}.answer-chip{background:#f1e6d4;border-left:4px solid #d5a35b;padding:10px 12px;font-size:14px;font-weight:850;color:#40362d}.quiz-option.is-checkbox .quiz-option-radio{border-radius:4px}.quiz-option.is-checkbox.selected .quiz-option-radio{background:#456b4c;position:relative}.quiz-option.is-checkbox.selected .quiz-option-radio::after{content:'✓';color:white;font-size:12px;font-weight:1000;position:absolute;inset:0;display:grid;place-items:center}
-        @media(max-width:980px){.craft-quality-layout,.team-proof-layout{grid-template-columns:1fr}.craft-quality-copy{position:relative;top:auto}.craft-quality-copy h2,.team-proof-copy h2{max-width:760px}.team-proof-photo img{min-height:0}}
-        @media(max-width:640px){.craft-quality-grid,.team-points{grid-template-columns:1fr}.quality-card,.quality-note,.team-proof-card,.team-proof-photo,.quiz-loading-card{box-shadow:8px 8px 0 rgba(39,33,27,.10)}.team-proof-photo img{min-height:0}.craft-quality-copy h2,.team-proof-copy h2{font-size:38px;max-width:11ch}.quiz-nav{flex-direction:column}.quiz-nav .btn{width:100%}}
+        .team-proof-collage{display:grid;grid-template-columns:1.12fr .88fr;grid-template-rows:260px 260px;gap:12px}.team-proof-collage .team-proof-photo{margin:0;min-height:0}.team-proof-collage .team-proof-photo:first-child{grid-row:1 / span 2}.team-proof-collage .team-proof-photo img{width:100%;height:100%;object-fit:cover}.team-proof-collage .team-proof-photo:first-child{background:#f4ead9}.team-proof-collage .team-proof-photo:first-child img{object-fit:contain;object-position:center}.hero-founder-card{display:grid;grid-template-columns:62px minmax(0,1fr);gap:13px;align-items:center;margin-top:18px;padding:13px 14px;background:#f1e6d4;border-left:6px solid #17251b;box-shadow:7px 7px 0 rgba(23,37,27,.10);max-width:520px}.hero-founder-card img{width:62px;height:62px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 3px #fffaf1,0 0 0 6px rgba(23,37,27,.18)}.hero-founder-card strong{display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:15px;line-height:1.2;color:#17251b}.hero-founder-card span{display:block;margin-top:4px;font-size:12px;color:#6a5e50;font-weight:850}.quality-material-card{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:stretch}.quality-material-card .quality-card{min-height:0}.material-proof-photo{margin:0;background:#17251b;border-top:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.09);overflow:hidden}.material-proof-photo img{width:100%;height:100%;min-height:230px;object-fit:cover}
+        @media(max-width:980px){.craft-quality-layout,.team-proof-layout{grid-template-columns:1fr}.craft-quality-copy{position:relative;top:auto}.craft-quality-copy h2,.team-proof-copy h2{max-width:760px}.team-proof-photo img{min-height:0}.quality-material-card{grid-template-columns:1fr}.team-proof-collage{grid-template-rows:220px 220px}}
+        @media(max-width:640px){.craft-quality-grid,.team-points{grid-template-columns:1fr}.quality-card,.quality-note,.team-proof-card,.team-proof-photo,.quiz-loading-card,.material-proof-photo{box-shadow:8px 8px 0 rgba(39,33,27,.10)}.team-proof-photo img{min-height:0}.craft-quality-copy h2,.team-proof-copy h2{font-size:38px;max-width:11ch}.quiz-nav{flex-direction:column}.quiz-nav .btn{width:100%}.team-proof-collage{grid-template-columns:1fr;grid-template-rows:auto}.team-proof-collage .team-proof-photo:first-child{grid-row:auto}.team-proof-collage .team-proof-photo img{height:auto}.hero-founder-card{grid-template-columns:54px 1fr}.hero-founder-card img{width:54px;height:54px}}
 
         /* Mobile edge balance: keep editorial cards off the right viewport edge */
         @media(max-width:640px){
@@ -220,10 +221,14 @@
                 <img class="hero-meister-siegel" src="assets/gutesiegel-meisterbetrieb.png" alt="Meisterbetrieb" width="122" height="122">
                 <div class="eyebrow" id="heroEyebrow">Zimmermeisterbetrieb · Wien · NÖ · Burgenland</div>
                 <h1 id="heroHeadline">Carports vom Zimmermeister.</h1>
-                <p class="lead" id="heroLead" style="margin-top:16px">Für Haus, Einfahrt und Alltag geplant — mit persönlicher Einschätzung durch M&P Holzbau.</p>
+                <p class="lead" id="heroLead" style="margin-top:16px">Für Haus, Einfahrt und Alltag geplant — mit persönlicher Einschätzung von M&P Holzbau.</p>
+                <div class="hero-founder-card" aria-label="Peter Preissinger, persönlicher Ansprechpartner">
+                    <img src="assets/peter-preissinger-portrait.webp?v=pp3" alt="Peter Preissinger von M&P Holzbau" width="720" height="720">
+                    <div><strong>„Ich schaue zuerst auf Ihren Standort – nicht auf ein Standardmodell.“</strong><span>Peter Preissinger · M&P Holzbau</span></div>
+                </div>
                 <div class="hero-actions"><button class="btn" id="heroPrimaryCta" onclick="openQuiz()">Preis-Schätzung anfragen</button></div>
-                <p class="micro" id="heroMicrocopy">Kostenlos und unverbindlich – M&P meldet sich persönlich mit der nächsten sinnvollen Einschätzung.</p>
-                <div class="hero-proof" id="heroProof"><span class="proof-pill">Eigene Montage</span><span class="proof-pill">ab ca. 7.500 €</span><span class="proof-pill">25 Jahre Garantie</span></div>
+                <p class="micro" id="heroMicrocopy">Kostenlos und unverbindlich – M&P meldet sich persönlich mit einer fachlichen Einschätzung.</p>
+                <div class="hero-proof" id="heroProof"><span class="proof-pill">4,9★ aus 25 Bewertungen</span><span class="proof-pill">Eigene Montage</span><span class="proof-pill">25 Jahre Garantie</span></div>
                 <div class="hero-voice-note" id="heroVoiceNote" aria-label="Kundenstimme von M&P Holzbau">
                     <button class="hero-voice-button" type="button" onclick="toggleHeroVoiceDummy(this)" aria-label="Kundenstimme anhören">▶</button>
                     <div class="hero-voice-copy">
@@ -297,25 +302,31 @@
                 <div class="craft-quality-grid">
                     <article class="quality-card fade-in"><span>01</span><h3>Fundament & Stützenpunkte</h3><p>Der Carport muss dort stehen, wo Einfahrt, Türraum, Lasten und Verankerung zusammenpassen – nicht dort, wo ein Standardmodell gerade Platz findet.</p></article>
                     <article class="quality-card fade-in"><span>02</span><h3>Wasserführung & Gefälle</h3><p>Dachneigung, Rinne, Ablauf und Wetterseite werden so geplant, dass Regen nicht zum Problem an Fassade, Einfahrt oder Hauseingang wird.</p></article>
-                    <article class="quality-card fade-in"><span>03</span><h3>Holzdimensionierung & Verbindung</h3><p>Stützen, Träger und Verbindungspunkte werden auf Spannweite, Schneelast und Nutzung ausgelegt – der Carport soll nicht nur schön aussehen.</p></article>
-                    <article class="quality-card fade-in"><span>04</span><h3>Saubere Montage</h3><p>Die Montage kommt nicht als anonyme Subkette. Das Team weiß, was geplant wurde, und baut so, dass Anschluss, Optik und Alltag zusammenpassen.</p></article>
-                    <div class="quality-note fade-in">Genau deshalb kann M&P auf Standsicherheit 25 Jahre Garantie geben: nicht als Werbesatz, sondern als Ergebnis aus Planung, Konstruktion und eigener Ausführung.</div>
+                    <article class="quality-card fade-in"><span>03</span><h3>Sibirische Lärche & Holzbild</h3><p>Beim sichtbaren Holz zählt nicht nur die Holzart, sondern auch Sortierung, Dimensionierung und wie das Holz später zum Haus wirkt.</p></article>
+                    <article class="quality-card fade-in"><span>04</span><h3>Verbindungen statt Kosmetik</h3><p>Träger, Stützenfüße und Anschlussdetails werden so geplant, dass der Carport Lasten, Wetter und Alltag trägt – nicht nur auf Fotos gut aussieht.</p></article>
+                    <div class="quality-material-card fade-in">
+                        <figure class="material-proof-photo"><img src="assets/mp-style-worker-proof-2026-05-21/verbinder-detail.webp?v=personal0521" alt="Detailarbeit an Verbindungspunkten beim M&P Holzbau Carport" loading="eager" width="1376" height="768"></figure>
+                        <article class="quality-card"><span>05</span><h3>Material wird vor Ort entschieden.</h3><p>Offene Bauweise, geschlossene Wetterseite, Pfostenfüße, Dachkante und sichtbare Holzflächen müssen zum Standort passen. Deshalb spricht M&P früh über Holz, Wasser, Schneelast und Anschluss – bevor ein Preis hübsch gerechnet wird.</p></article>
+                    </div>
+                    <div class="quality-note fade-in">Genau deshalb kann M&P auf Standsicherheit 25 Jahre Garantie geben: nicht als Werbesatz, sondern als Ergebnis aus Materialwahl, Planung, Konstruktion und eigener Ausführung.</div>
                 </div>
             </div>
         </section>
 
         <section class="team-proof" id="team">
             <div class="container team-proof-layout">
-                <figure class="team-proof-photo fade-in">
-                    <img src="assets/mp-carport-lp-balanced-2026-05-21/team-mp-outfit-carport.webp?v=balanced0521b" alt="M&P Team bei der Kontrolle eines fertigen Holzcarports" loading="lazy" width="1596" height="828">
-                </figure>
+                <div class="team-proof-collage fade-in" aria-label="M&P Team, Planung und Montage">
+                    <figure class="team-proof-photo"><img src="assets/mp-style-worker-proof-2026-05-21/mp-team.webp?v=personal0521" alt="M&P Holzbau Team vor der Werkstatt" loading="eager" width="1376" height="768"></figure>
+                    <figure class="team-proof-photo"><img src="assets/mp-style-worker-proof-2026-05-21/teamplan.webp?v=personal0521" alt="Persönliche Planung und Standortbesprechung durch M&P Holzbau" loading="eager" width="1024" height="572"></figure>
+                    <figure class="team-proof-photo"><img src="assets/mp-style-worker-proof-2026-05-21/posten-fuss.webp?v=personal0521" alt="Montage eines Stützenpunkts am Holzcarport" loading="eager" width="1376" height="768"></figure>
+                </div>
                 <div class="team-proof-copy fade-in">
                     <div class="eyebrow">Team / Meisterbetrieb</div>
-                    <h2>Geplant vom Zimmermeister. Gebaut von einem Team, das weiß, worauf es ankommt.</h2>
+                    <h2>Peter schaut drauf. Sein Team baut es.</h2>
                     <p class="section-lead">Bei M&P bleibt die Verantwortung nicht zwischen Beratung, Planung und Baustelle hängen. Peter Preissinger schaut fachlich auf Ihr Projekt – und die Ausführung passiert mit eigener Mannschaft.</p>
                     <div class="team-proof-card">
-                        <strong>Der Vorteil für Sie: Planung und Baustelle greifen sichtbar ineinander.</strong>
-                        <p>Was beim Termin besprochen wird, muss später auch auf der Baustelle funktionieren: Höhe, Zufahrt, Stützen, Wasserführung, Optik und Montageweg. Darum zeigen wir das Team lieber in der konkreten Situation am fertigen Carport – Qualität ist hier kein abstrakter Claim.</p>
+                        <strong>Der Unterschied: Sie erklären Ihr Grundstück nicht drei Mal neu.</strong>
+                        <p>Was beim Termin besprochen wird, muss später auch auf der Baustelle funktionieren: Höhe, Zufahrt, Stützen, Wasserführung, Optik und Montageweg. Dafür bleibt die Verantwortung bei M&P – von der ersten Einschätzung bis zur Montage.</p>
                         <div class="team-points">
                             <div class="team-point">Persönlicher Ansprechpartner</div>
                             <div class="team-point">Eigene Montage</div>
@@ -378,7 +389,7 @@
         <section class="preoffer-section" id="ablauf">
             <div class="container preoffer-grid">
                 <figure class="preoffer-media preoffer-annotated fade-in">
-                    <img src="assets/mp-carport-lp-balanced-2026-05-21/preoffer-car-site-check.webp?v=balanced0521b" alt="Holzcarport am Haus mit geplanter Einfahrt, Türraum und Wasserführung" loading="lazy" width="1200" height="900">
+                    <img src="assets/mp-carport-lp-balanced-2026-05-21/preoffer-car-site-check.webp?v=balanced0521b" alt="Holzcarport am Haus mit geplanter Einfahrt, Türraum und Wasserführung" loading="eager" width="1200" height="900">
                     <figcaption class="preoffer-note">Standort-Check mit M&P</figcaption>
                     <span class="site-callout callout-water">Wasserführung</span>
                     <span class="site-callout callout-house">Hausanschluss</span>
@@ -674,11 +685,11 @@
                 adgroupHint: '',
                 eyebrow: 'Zimmermeisterbetrieb · Wien · NÖ · Burgenland',
                 headline: 'Carports vom Zimmermeister.',
-                lead: 'Für Haus, Einfahrt und Alltag geplant — mit persönlicher Einschätzung durch M&P Holzbau.',
+                lead: 'Für Haus, Einfahrt und Alltag geplant — mit persönlicher Einschätzung von M&P Holzbau.',
                 primaryCta: 'Preis-Schätzung anfragen',
                 secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Kostenlos und unverbindlich – M&P meldet sich persönlich mit der nächsten sinnvollen Einschätzung.',
-                proof: ['Eigene Montage', 'ab ca. 7.500 €', '25 Jahre Garantie']
+                microcopy: 'Kostenlos und unverbindlich – M&P meldet sich persönlich mit einer fachlichen Einschätzung.',
+                proof: ['4,9★ aus 25 Bewertungen', 'Eigene Montage', '25 Jahre Garantie']
             },
             massarbeit: {
                 angle: 'massarbeit',
@@ -743,7 +754,7 @@
                 lead: 'Für trockenen Zugang, saubere Wasserführung und einen Carport, der direkt am Haus funktioniert.',
                 primaryCta: 'Preis-Schätzung anfragen',
                 secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'M&P meldet sich persönlich mit der nächsten sinnvollen Einschätzung.',
+                microcopy: 'M&P meldet sich persönlich mit einer fachlichen Einschätzung.',
                 proof: ['Hausanschluss mitgedacht', 'Wasserführung geplant', 'Wien · NÖ · Bgld.']
             },
             wetter: {
@@ -776,7 +787,7 @@
                 lead: 'Damit Einsteigen, Ausladen und der Weg ins Haus trocken und praktisch bleiben.',
                 primaryCta: 'Preis-Schätzung anfragen',
                 secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Kostenlos und unverbindlich – M&P meldet sich persönlich mit der nächsten sinnvollen Einschätzung.',
+                microcopy: 'Kostenlos und unverbindlich – M&P meldet sich persönlich mit einer fachlichen Einschätzung.',
                 proof: ['Auto geschützt', 'trocken ausladen', 'ab ca. 7.500 €']
             },
             unik: {
@@ -815,7 +826,10 @@
             if (secondaryCta) secondaryCta.textContent = variant.secondaryCta;
             if (microcopy) microcopy.textContent = variant.microcopy;
             if (proof) {
-                proof.innerHTML = variant.proof.map(function(item) {
+                const items = variant.proof || [];
+                const social = '4,9★ aus 25 Bewertungen';
+                const proofItems = items.includes(social) ? items : [social].concat(items).slice(0, 3);
+                proof.innerHTML = proofItems.map(function(item) {
                     return '<span class="proof-pill">' + item + '</span>';
                 }).join('');
             }
