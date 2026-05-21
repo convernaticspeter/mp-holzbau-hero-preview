@@ -230,9 +230,10 @@
                 <p class="micro" id="heroMicrocopy">Schicken Sie ein paar Eckdaten. M&P meldet sich persönlich.</p>
                 <div class="hero-proof" id="heroProof"><span class="proof-pill">4,9★ aus 25 Bewertungen</span><span class="proof-pill">Eigene Montage</span><span class="proof-pill">25 Jahre Garantie</span></div>
                 <div class="hero-voice-note" id="heroVoiceNote" aria-label="Kundenstimme von M&P Holzbau">
-                    <button class="hero-voice-button" type="button" onclick="toggleHeroVoiceDummy(this)" aria-label="Kundenstimme anhören">▶</button>
+                    <audio id="heroVoiceAudio" preload="metadata" src="assets/audio/mp-holzbau-kundenstimme-niederoesterreich.mp3?v=voice-4bb9196"></audio>
+                    <button class="hero-voice-button" type="button" onclick="toggleHeroVoice(this)" aria-label="Kundenstimme anhören">▶</button>
                     <div class="hero-voice-copy">
-                        <div class="hero-voice-label">Kundenstimme <span>0:34</span></div>
+                        <div class="hero-voice-label">Kundenstimme <span>0:24</span></div>
                         <div class="hero-voice-quote">„Nach einer Woche war klar, wie wichtig der zusätzliche Platz wirklich ist.“</div>
                         <div class="hero-voice-meta">Kunde aus Niederösterreich</div>
                     </div>
@@ -1033,15 +1034,42 @@
             }
         }
 
-        function toggleHeroVoiceDummy(button) {
+        function toggleHeroVoice(button) {
             var note = document.getElementById('heroVoiceNote');
-            if (!note || !button) return;
+            var audio = document.getElementById('heroVoiceAudio');
+            if (!note || !button || !audio) return;
             var label = note.querySelector('.hero-voice-label span');
-            var isActive = note.classList.toggle('is-playing');
-            button.textContent = isActive ? 'Ⅱ' : '▶';
-            button.setAttribute('aria-label', isActive ? 'Kundenstimme pausieren' : 'Kundenstimme anhören');
-            if (label) label.textContent = isActive ? 'Kundenstimme' : '0:34';
+            if (audio.paused) {
+                audio.play().then(function() {
+                    note.classList.add('is-playing');
+                    button.textContent = 'Ⅱ';
+                    button.setAttribute('aria-label', 'Kundenstimme pausieren');
+                    if (label) label.textContent = 'läuft';
+                }).catch(function() {
+                    if (label) label.textContent = 'Audio nicht geladen';
+                });
+            } else {
+                audio.pause();
+                note.classList.remove('is-playing');
+                button.textContent = '▶';
+                button.setAttribute('aria-label', 'Kundenstimme anhören');
+                if (label) label.textContent = '0:24';
+            }
         }
+
+        (function() {
+            var audio = document.getElementById('heroVoiceAudio');
+            var note = document.getElementById('heroVoiceNote');
+            var button = note ? note.querySelector('.hero-voice-button') : null;
+            var label = note ? note.querySelector('.hero-voice-label span') : null;
+            if (!audio || !note || !button) return;
+            audio.addEventListener('ended', function() {
+                note.classList.remove('is-playing');
+                button.textContent = '▶';
+                button.setAttribute('aria-label', 'Kundenstimme anhören');
+                if (label) label.textContent = '0:24';
+            });
+        })();
 
         function resetQuiz() {
             currentStep = 1;
