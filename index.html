@@ -113,7 +113,7 @@
         .hero .lead{color:#3d352b;font-size:clamp(17px,1.6vw,21px);line-height:1.58;max-width:510px}
         .hero-actions{margin:28px 0 12px}.hero .btn{border-radius:0;box-shadow:8px 8px 0 #1b281d;background:#c97928;color:#fff7e8}.hero .btn:hover{transform:translate(-2px,-2px);box-shadow:12px 12px 0 #1b281d}.hero .micro{color:#5a5044}
         .hero-proof{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.proof-pill{border-radius:0;background:#e7dcc8;border:1px solid rgba(33,25,18,.14);color:#243126;box-shadow:none}.proof-pill::before{background:#243126;box-shadow:none;width:18px;height:18px;font-size:12px}
-        .hero-guarantee{display:flex;align-items:center;gap:19px;margin-top:18px;padding:17px 21px;background:#fffaf1;border:1px solid rgba(39,33,27,.14);border-left:5px solid #456b4c;box-shadow:6px 6px 0 rgba(23,37,27,.08),0 20px 54px -48px rgba(24,22,18,.50)}.guarantee-seal{width:118px;height:118px;object-fit:contain;filter:drop-shadow(0 7px 10px rgba(23,37,27,.15));flex:0 0 auto}.guarantee-text{display:flex;flex-direction:column;gap:4px}.guarantee-text strong{font-family:'Space Grotesk',Inter,sans-serif;font-size:15px;letter-spacing:-.02em;color:#1b221a;line-height:1.2}.guarantee-text span{font-size:13px;color:#4e4439;line-height:1.5}
+        .hero-voice-note{margin-top:18px;background:#17251b;color:#fffaf1;border:1px solid rgba(255,250,241,.14);border-left:7px solid #d5a35b;box-shadow:8px 8px 0 rgba(23,37,27,.18);padding:15px 16px 15px 14px;display:grid;grid-template-columns:auto 1fr;gap:13px;align-items:center;max-width:510px;transform:rotate(.35deg)}.hero-voice-button{width:48px;height:48px;border-radius:999px;border:1px solid rgba(255,250,241,.34);background:#fffaf1;color:#17251b;display:grid;place-items:center;font-size:17px;font-weight:1000;cursor:pointer;box-shadow:4px 4px 0 rgba(213,163,91,.38);transition:transform .18s ease,box-shadow .18s ease}.hero-voice-button:hover{transform:translate(-1px,-1px);box-shadow:6px 6px 0 rgba(213,163,91,.44)}.hero-voice-copy{min-width:0}.hero-voice-label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:'Space Grotesk',Inter,sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:1000;color:#d5a35b}.hero-voice-label span{color:rgba(255,250,241,.62);letter-spacing:.08em}.hero-voice-quote{margin-top:5px;font-size:14px;line-height:1.42;color:rgba(255,250,241,.88);font-weight:650}.hero-voice-meta{margin-top:5px;font-size:12px;color:rgba(255,250,241,.58);font-weight:800}.hero-guarantee{display:flex;align-items:center;gap:19px;margin-top:18px;padding:17px 21px;background:#fffaf1;border:1px solid rgba(39,33,27,.14);border-left:5px solid #456b4c;box-shadow:6px 6px 0 rgba(23,37,27,.08),0 20px 54px -48px rgba(24,22,18,.50)}.guarantee-seal{width:118px;height:118px;object-fit:contain;filter:drop-shadow(0 7px 10px rgba(23,37,27,.15));flex:0 0 auto}.guarantee-text{display:flex;flex-direction:column;gap:4px}.guarantee-text strong{font-family:'Space Grotesk',Inter,sans-serif;font-size:15px;letter-spacing:-.02em;color:#1b221a;line-height:1.2}.guarantee-text span{font-size:13px;color:#4e4439;line-height:1.5}
         .benefit-row{transform:none;margin:-34px auto 0;grid-template-columns:1.1fr .9fr 1fr;position:relative;z-index:5}.benefit{border-radius:0;background:#fffaf1;border:0;border-top:7px solid #d5a35b;box-shadow:12px 12px 0 rgba(39,33,27,.12);padding:22px}.benefit::after{display:none}.benefit b{font-family:'Space Grotesk',Inter,sans-serif;text-transform:uppercase;font-size:15px;letter-spacing:.04em}.benefit p{font-size:14px;color:#4f463b}.guarantee-benefit{display:grid;grid-template-columns:86px 1fr;gap:16px;align-items:center;border-top-color:#456b4c;padding:18px 22px 18px 18px}.guarantee-benefit .guarantee-seal{width:86px;height:86px;filter:drop-shadow(0 5px 7px rgba(23,37,27,.13))}.guarantee-benefit b{font-size:14px}.guarantee-benefit p{margin-top:7px;line-height:1.42}
         .section-head{align-items:start}.compare-col,.step,.price-box{border-radius:0}.claim-strip{border-radius:0;box-shadow:12px 12px 0 rgba(0,0,0,.18)}
         .testimonial-card,.gallery-tile,.faq-item,.contact-form{border-radius:0}
@@ -216,6 +216,14 @@
                 <div class="hero-actions"><button class="btn" id="heroPrimaryCta" onclick="openQuiz()">Preis-Schätzung anfragen</button></div>
                 <p class="micro" id="heroMicrocopy">Kostenlos und unverbindlich – M&P meldet sich persönlich mit der nächsten sinnvollen Einschätzung.</p>
                 <div class="hero-proof" id="heroProof"><span class="proof-pill">Eigene Montage</span><span class="proof-pill">ab ca. 7.500 €</span><span class="proof-pill">25 Jahre Garantie</span></div>
+                <div class="hero-voice-note" id="heroVoiceNote" aria-label="Kundenstimme als Voice-Note Platzhalter">
+                    <button class="hero-voice-button" type="button" onclick="toggleHeroVoiceDummy(this)" aria-label="Kundenstimme anhören – Dummy">▶</button>
+                    <div class="hero-voice-copy">
+                        <div class="hero-voice-label">Kundenstimme anhören <span>0:34 · Voice folgt</span></div>
+                        <div class="hero-voice-quote">„Peter hat nicht einfach ein Modell verkauft, sondern zuerst geschaut, was bei unserem Haus wirklich Sinn macht.“</div>
+                        <div class="hero-voice-meta">Maximilian R. · Wien</div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -916,6 +924,16 @@
                     }]
                 });
             }
+        }
+
+        function toggleHeroVoiceDummy(button) {
+            var note = document.getElementById('heroVoiceNote');
+            if (!note || !button) return;
+            var label = note.querySelector('.hero-voice-label span');
+            var isActive = note.classList.toggle('is-playing');
+            button.textContent = isActive ? 'Ⅱ' : '▶';
+            button.setAttribute('aria-label', isActive ? 'Dummy Voice-Note pausieren' : 'Kundenstimme anhören – Dummy');
+            if (label) label.textContent = isActive ? 'Voice-Note folgt' : '0:34 · Voice folgt';
         }
 
         function openQuiz() {
