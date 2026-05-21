@@ -1,0 +1,539 @@
+{
+  "created_at": "2026-05-21T11:21:10.245665+00:00",
+  "model": "nano-banana-2",
+  "state": "finished",
+  "global_prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.",
+  "scenes": {
+    "01_real_baustelle_posts_beams": {
+      "state": "success",
+      "task_id": "1c42bfd81f37ec5f9782c7ed0fc96ef3",
+      "prompt": "Realistic documentary worksite photo: two carpenters installing straight timber posts and a main beam for a simple attached carport beside a normal Austrian family house. Dark charcoal/navy work trousers and jackets, muted burgundy/dark-grey small chest patch inspired by the supplied logo, no readable text. The workers are actively aligning a beam with a level and clamps; no smiling, no posing. The carport is only partly built, so the construction logic is clear.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic documentary worksite photo: two carpenters installing straight timber posts and a main beam for a simple attached carport beside a normal Austrian family house. Dark charcoal/navy work trousers and jackets, muted burgundy/dark-grey small chest patch inspired by the supplied logo, no readable text. The workers are actively aligning a beam with a level and clamps; no smiling, no posing. The carport is only partly built, so the construction logic is clear.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "01_real_baustelle_posts_beams.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362679276-1scolfq85cc.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/01_real_baustelle_posts_beams.png",
+      "finished_at": "2026-05-21T11:24:43.694424+00:00"
+    },
+    "02_real_baustelle_roof_frame": {
+      "state": "success",
+      "task_id": "ec17017123804fcb0aab616d547836c4",
+      "prompt": "Realistic documentary worksite photo: partially built timber carport roof frame, rafters and beams visible, ladder and sawhorses in plausible positions, one carpenter fastening a rafter while another holds it. Normal Austrian driveway, no car, tidy Baustelle. Dark M&P-style workwear: charcoal/navy with subtle burgundy/grey branding patch, no readable logo text.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic documentary worksite photo: partially built timber carport roof frame, rafters and beams visible, ladder and sawhorses in plausible positions, one carpenter fastening a rafter while another holds it. Normal Austrian driveway, no car, tidy Baustelle. Dark M&P-style workwear: charcoal/navy with subtle burgundy/grey branding patch, no readable logo text.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "02_real_baustelle_roof_frame.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362536310-bcf8m0g47me.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/02_real_baustelle_roof_frame.png",
+      "finished_at": "2026-05-21T11:22:33.299519+00:00"
+    },
+    "03_real_measurement_driveway": {
+      "state": "success",
+      "task_id": "8c5c62e650b109b59de7dd173031adf3",
+      "prompt": "Realistic planning appointment photo: carpenter kneeling at an existing driveway, tape measure stretched between house wall and future post position, chalk marks on paving, clipboard nearby. Normal Austrian home, no finished carport yet. Workwear dark charcoal/navy with small muted burgundy/grey patch, not a stock-photo smile.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic planning appointment photo: carpenter kneeling at an existing driveway, tape measure stretched between house wall and future post position, chalk marks on paving, clipboard nearby. Normal Austrian home, no finished carport yet. Workwear dark charcoal/navy with small muted burgundy/grey patch, not a stock-photo smile.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "03_real_measurement_driveway.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362555730-4w9b31r8uoc.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/03_real_measurement_driveway.png",
+      "finished_at": "2026-05-21T11:22:47.039098+00:00"
+    },
+    "04_real_house_connection_check": {
+      "state": "success",
+      "task_id": "4a942ea316eb4f9b9393718ed6ca8276",
+      "prompt": "Realistic close-medium photo: carpenter checking the wall connection line and roof height for an attached timber carport, holding a level against a cream plaster house facade. Show hands, level, wall, timber sample; face not central. Dark practical M&P-style workwear, subtle non-readable patch.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic close-medium photo: carpenter checking the wall connection line and roof height for an attached timber carport, holding a level against a cream plaster house facade. Show hands, level, wall, timber sample; face not central. Dark practical M&P-style workwear, subtle non-readable patch.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "04_real_house_connection_check.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362506473-en9r3ciapvk.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/04_real_house_connection_check.png",
+      "finished_at": "2026-05-21T11:22:07.685963+00:00"
+    },
+    "05_real_post_base_detail_worker_hands": {
+      "state": "success",
+      "task_id": "2f75892601de85893487477fab6a6ae1",
+      "prompt": "Close documentary detail: worker hands setting a metal post base bracket into concrete/paving for a timber carport post. Gloves, drill, anchor bolts, dust, realistic tools. Physically correct bracket, no fantasy metal, no text.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Close documentary detail: worker hands setting a metal post base bracket into concrete/paving for a timber carport post. Gloves, drill, anchor bolts, dust, realistic tools. Physically correct bracket, no fantasy metal, no text.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "05_real_post_base_detail_worker_hands.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362571941-j7e9gqmism.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/05_real_post_base_detail_worker_hands.png",
+      "finished_at": "2026-05-21T11:22:56.393194+00:00"
+    },
+    "06_real_beam_joinery_hands": {
+      "state": "success",
+      "task_id": "6943c33a32e7878060c4d9f64fb6b3a8",
+      "prompt": "Close documentary detail: carpenter hands fitting a timber beam/post connection with visible screw holes and metal connector plate, believable joinery, natural wood grain, dark work sleeve visible with subtle burgundy/grey patch, no readable text.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Close documentary detail: carpenter hands fitting a timber beam/post connection with visible screw holes and metal connector plate, believable joinery, natural wood grain, dark work sleeve visible with subtle burgundy/grey patch, no readable text.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "06_real_beam_joinery_hands.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362521439-ba8kp7hn1d9.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/06_real_beam_joinery_hands.png",
+      "finished_at": "2026-05-21T11:22:15.817993+00:00"
+    },
+    "07_real_gutter_installation": {
+      "state": "success",
+      "task_id": "03738ac5f663a96630b6c726b95c35e2",
+      "prompt": "Realistic worksite photo: carpenter installing a gutter/downpipe along the front roof edge of a timber carport, roof slope believable, water path logical. Normal Austrian house and driveway, no rain, no car. Dark M&P-style workwear, no readable text.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic worksite photo: carpenter installing a gutter/downpipe along the front roof edge of a timber carport, roof slope believable, water path logical. Normal Austrian house and driveway, no rain, no car. Dark M&P-style workwear, no readable text.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "07_real_gutter_installation.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362528351-0dda4d6swt6j.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/07_real_gutter_installation.png",
+      "finished_at": "2026-05-21T11:22:14.809456+00:00"
+    },
+    "08_real_finished_inspection_empty_bay": {
+      "state": "success",
+      "task_id": "ea5e87bc37d911554ec3c52db89f9926",
+      "prompt": "Realistic finished-project inspection photo: two carpenters from side/back checking a completed timber carport with empty bay, one holds clipboard, one touches a post/beam detail. Normal Austrian home, no car, no posed team portrait. Dark charcoal/navy workwear, subtle burgundy/grey patch.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic finished-project inspection photo: two carpenters from side/back checking a completed timber carport with empty bay, one holds clipboard, one touches a post/beam detail. Normal Austrian home, no car, no posed team portrait. Dark charcoal/navy workwear, subtle burgundy/grey patch.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "08_real_finished_inspection_empty_bay.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362536261-tai1djkzc0b.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/08_real_finished_inspection_empty_bay.png",
+      "finished_at": "2026-05-21T11:22:35.302784+00:00"
+    },
+    "09_real_worker_toolbelt_detail": {
+      "state": "success",
+      "task_id": "48226c7e18542963683eaf81956b2dff",
+      "prompt": "Close waist-up documentary photo: carpenter in dark charcoal/navy workwear with tool belt, folding rule, pencil, cordless drill, standing next to timber carport beam. Subtle muted burgundy/grey chest patch inspired by logo, not readable, no face focus.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Close waist-up documentary photo: carpenter in dark charcoal/navy workwear with tool belt, folding rule, pencil, cordless drill, standing next to timber carport beam. Subtle muted burgundy/grey chest patch inspired by logo, not readable, no face focus.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "09_real_worker_toolbelt_detail.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362530526-y8cf1emhs8.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/09_real_worker_toolbelt_detail.png",
+      "finished_at": "2026-05-21T11:22:12.791968+00:00"
+    },
+    "10_real_material_consultation": {
+      "state": "success",
+      "task_id": "d9bec835b98249da2b0d83e573cf0ad1",
+      "prompt": "Realistic consultation scene outside a house: timber samples, roof sheet sample, pencil, small plan with no readable text, hands of carpenter and homeowner comparing materials on a simple outdoor table. Practical, not luxury showroom.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic consultation scene outside a house: timber samples, roof sheet sample, pencil, small plan with no readable text, hands of carpenter and homeowner comparing materials on a simple outdoor table. Practical, not luxury showroom.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "10_real_material_consultation.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362538116-r49j0n0p0xa.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/10_real_material_consultation.png",
+      "finished_at": "2026-05-21T11:22:28.885513+00:00"
+    },
+    "11_real_under_roof_structure": {
+      "state": "success",
+      "task_id": "85d9580a2ec519b7a365dc7fa3cc7467",
+      "prompt": "Realistic view from under a newly built empty timber carport, showing straight beams, rafters, correct roof underside, clean dry paving below. No cars, no people, no weird geometry, normal Austrian house context.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic view from under a newly built empty timber carport, showing straight beams, rafters, correct roof underside, clean dry paving below. No cars, no people, no weird geometry, normal Austrian house context.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "11_real_under_roof_structure.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362537938-khgkf3ib0xi.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/11_real_under_roof_structure.png",
+      "finished_at": "2026-05-21T11:22:32.233547+00:00"
+    },
+    "12_real_side_weather_wall_install": {
+      "state": "success",
+      "task_id": "98e290ed1d326fcb1efc545ff7ac7e07",
+      "prompt": "Worksite photo: carpenter fixing vertical timber slats as a weather side wall on a carport. Slats straight with realistic spacing, clamps and screws visible, dark M&P-style workwear, no readable text, no car.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Worksite photo: carpenter fixing vertical timber slats as a weather side wall on a carport. Slats straight with realistic spacing, clamps and screws visible, dark M&P-style workwear, no readable text, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "12_real_side_weather_wall_install.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362571330-u3ulo7iqyx.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/12_real_side_weather_wall_install.png",
+      "finished_at": "2026-05-21T11:22:55.624795+00:00"
+    },
+    "13_real_rain_dry_zone_no_worker": {
+      "state": "success",
+      "task_id": "e0d22f9f6d71cf0d88ae3265dcd7fa49",
+      "prompt": "After-rain documentary photo of a completed timber carport: wet driveway outside roof footprint, dry sheltered empty bay under roof, soft irregular wet-dry transition, gutter/downpipe visible and logical. No car, no people, no dramatic CGI.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: After-rain documentary photo of a completed timber carport: wet driveway outside roof footprint, dry sheltered empty bay under roof, soft irregular wet-dry transition, gutter/downpipe visible and logical. No car, no people, no dramatic CGI.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "13_real_rain_dry_zone_no_worker.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362551632-q6t2ic5icqg.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/13_real_rain_dry_zone_no_worker.png",
+      "finished_at": "2026-05-21T11:22:51.682068+00:00"
+    },
+    "14_real_snow_cleared_access_no_worker": {
+      "state": "success",
+      "task_id": "f2390a88a29ba1065de81db7dafc1356",
+      "prompt": "Winter documentary photo: completed timber carport with empty bay, under-roof paving dry and snow-free, driveway cleared from foreground into bay, snow only outside, realistic plowed edges. No car, no people, no snow under roof.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Winter documentary photo: completed timber carport with empty bay, under-roof paving dry and snow-free, driveway cleared from foreground into bay, snow only outside, realistic plowed edges. No car, no people, no snow under roof.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "14_real_snow_cleared_access_no_worker.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362536837-9ekbkpp04g.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/14_real_snow_cleared_access_no_worker.png",
+      "finished_at": "2026-05-21T11:22:30.664601+00:00"
+    },
+    "15_real_windy_weather_side_no_worker": {
+      "state": "success",
+      "task_id": "62cd0a2c43f08d2592a0bf32d63fe637",
+      "prompt": "Overcast windy day: completed timber carport with vertical slatted weather side, empty bay sheltered, shrubs slightly bent, no flying fantasy debris, structure stable and straight. Normal Austrian residential setting.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Overcast windy day: completed timber carport with vertical slatted weather side, empty bay sheltered, shrubs slightly bent, no flying fantasy debris, structure stable and straight. Normal Austrian residential setting.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "15_real_windy_weather_side_no_worker.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362551337-90pis6v9hht.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/15_real_windy_weather_side_no_worker.png",
+      "finished_at": "2026-05-21T11:22:52.576573+00:00"
+    },
+    "16_real_finished_house_integration": {
+      "state": "success",
+      "task_id": "61564dd9877c8c45d4a2d5a7ebdc1168",
+      "prompt": "Realistic finished timber carport attached to a cream plaster Austrian home, empty bay, roof line and posts proportional, clear walking route to entrance, no car. Photograph should look like a real completed job, not an architect rendering.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic finished timber carport attached to a cream plaster Austrian home, empty bay, roof line and posts proportional, clear walking route to entrance, no car. Photograph should look like a real completed job, not an architect rendering.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "16_real_finished_house_integration.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/aistudio/61564dd9877c8c45d4a2d5a7ebdc1168_1779362520248.jpeg",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/16_real_finished_house_integration.png",
+      "finished_at": "2026-05-21T11:22:10.516776+00:00"
+    },
+    "17_real_dark_facade_integration": {
+      "state": "success",
+      "task_id": "5216c0034974d409a8dd691ac3ee9b47",
+      "prompt": "Realistic completed carport beside a modern dark facade house, dark-stained timber matching the house, empty bay, correct shadows and roof depth, no car, no CGI sheen.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic completed carport beside a modern dark facade house, dark-stained timber matching the house, empty bay, correct shadows and roof depth, no car, no CGI sheen.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "17_real_dark_facade_integration.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362538679-r1n1kaeu58q.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/17_real_dark_facade_integration.png",
+      "finished_at": "2026-05-21T11:22:34.352272+00:00"
+    },
+    "18_real_traditional_house_integration": {
+      "state": "success",
+      "task_id": "34a20f5d9a0a64a16f6e9f0a6726afef",
+      "prompt": "Realistic completed warm timber carport beside a traditional Austrian house with clay roof tiles, empty bay, practical driveway, not a catalogue render, no car.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic completed warm timber carport beside a traditional Austrian house with clay roof tiles, empty bay, practical driveway, not a catalogue render, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "18_real_traditional_house_integration.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362557733-qcq5udeqfdq.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/18_real_traditional_house_integration.png",
+      "finished_at": "2026-05-21T11:22:53.714222+00:00"
+    },
+    "19_real_entry_roof_connection": {
+      "state": "success",
+      "task_id": "2a742ef6047938fe1a3db0ddc992b276",
+      "prompt": "Realistic photo showing protective roof line from carport toward entrance, empty bay and dry walkway visible, Austrian house context, no impossible supports, no car.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic photo showing protective roof line from carport toward entrance, empty bay and dry walkway visible, Austrian house context, no impossible supports, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "19_real_entry_roof_connection.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362574721-j9cizd8bx5o.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/19_real_entry_roof_connection.png",
+      "finished_at": "2026-05-21T11:23:07.695736+00:00"
+    },
+    "20_real_double_carport_grounded": {
+      "state": "success",
+      "task_id": "2e64a56383d52607726fea5cde7b8361",
+      "prompt": "Realistic double timber carport, empty two-car bay, simple robust posts and beams, proportional roof, visible drainage, normal suburban Austrian home, no car and no grand luxury villa.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Realistic double timber carport, empty two-car bay, simple robust posts and beams, proportional roof, visible drainage, normal suburban Austrian home, no car and no grand luxury villa.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "20_real_double_carport_grounded.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362566969-2xc5uezih4c.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/20_real_double_carport_grounded.png",
+      "finished_at": "2026-05-21T11:22:48.563406+00:00"
+    },
+    "21_real_quality_walkaround_worker": {
+      "state": "success",
+      "task_id": "8824edb05fea64bfb0be2c6adcdbbd71",
+      "prompt": "Documentary photo: carpenter walking around a completed carport checking post alignment with a level. Side/back view, dark M&P-style workwear, muted burgundy/grey small patch, no readable text, empty bay.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Documentary photo: carpenter walking around a completed carport checking post alignment with a level. Side/back view, dark M&P-style workwear, muted burgundy/grey small patch, no readable text, empty bay.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "21_real_quality_walkaround_worker.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362551725-11wsk1s5wqz.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/21_real_quality_walkaround_worker.png",
+      "finished_at": "2026-05-21T11:22:49.393330+00:00"
+    },
+    "22_real_roof_edge_detail": {
+      "state": "success",
+      "task_id": "683c8bde03efa061f30659e655506b39",
+      "prompt": "Close realistic detail of timber carport roof edge, eaves, gutter, downpipe, screws and wood grain. Show correct slope and drainage; no random water streams, no text.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Close realistic detail of timber carport roof edge, eaves, gutter, downpipe, screws and wood grain. Show correct slope and drainage; no random water streams, no text.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "22_real_roof_edge_detail.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362579509-hefkvte0rcj.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/22_real_roof_edge_detail.png",
+      "finished_at": "2026-05-21T11:23:09.277472+00:00"
+    },
+    "23_real_team_small_backview": {
+      "state": "success",
+      "task_id": "f095e23590221573f5e003996cb68761",
+      "prompt": "Small team of two carpenters from behind at a real worksite, carrying a timber beam together. Dark charcoal/navy practical workwear with subtle burgundy/grey patch inspired by M&P logo, no readable text, no posing, no stock smiles.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Small team of two carpenters from behind at a real worksite, carrying a timber beam together. Dark charcoal/navy practical workwear with subtle burgundy/grey patch inspired by M&P logo, no readable text, no posing, no stock smiles.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "23_real_team_small_backview.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779362556009-94h36rsvjnd.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/23_real_team_small_backview.png",
+      "finished_at": "2026-05-21T11:22:50.420843+00:00"
+    },
+    "24_real_finished_evening_grounded": {
+      "state": "success",
+      "task_id": "71e07849c28b45e04d233aca7b89b04b",
+      "prompt": "Grounded evening photo of a completed timber carport at a normal Austrian home, warm house light, empty bay, no car, realistic shadows, no cinematic fantasy, no CGI perfection.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Generate a photorealistic horizontal 16:9 image for M&P Holzbau, an Austrian Zimmermeisterbetrieb.\nUse the supplied logo ONLY as a color/style reference for subtle workwear branding: dark/charcoal/navy clothes, muted burgundy and dark grey accent patch. Do NOT render readable logo text or fake lettering.\nStrict realism filter: this must look like a real phone/camera documentary photo from a carpentry job, not a 3D render, not a stock image, not an AI fantasy.\nPhysical construction logic is mandatory: vertical posts, straight beams, plausible spans, proper metal brackets, realistic tools, believable roof slope, gutters/downpipes only where they make sense.\nNo impossible roof geometry, no floating beams, no decorative nonsense, no fake water behavior, no over-perfect luxury villa, no people smiling at camera, no high-vis construction helmets unless the exact task needs them.\nDefault: no cars, no vans, no bicycles. The carport bay should be empty unless explicitly stated otherwise.\n\nExtra rendering rule: use imperfect real construction photography, ordinary Austrian tradesmen, practical jobsite clutter, and physically boring-but-correct carpentry. Avoid polished CGI, showroom lighting, fantasy architecture, and stock-photo posing.\n\nScene: Grounded evening photo of a completed timber carport at a normal Austrian home, warm house light, empty bay, no car, realistic shadows, no cinematic fantasy, no CGI perfection.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "24_real_finished_evening_grounded.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/aistudio/71e07849c28b45e04d233aca7b89b04b_1779362550471.jpeg",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/24_real_finished_evening_grounded.png",
+      "finished_at": "2026-05-21T11:23:08.383196+00:00"
+    }
+  },
+  "contact_sheet": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-realism-b2-kie/_contact_sheet.jpg",
+  "finished_at": "2026-05-21T11:24:44.254397+00:00",
+  "pending": []
+}
