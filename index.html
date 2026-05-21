@@ -1191,15 +1191,40 @@
         document.getElementById('name').addEventListener('input', checkStep7);
         document.getElementById('phone').addEventListener('input', checkStep7);
 
-        function submitLeadPayload(payload) {
-            return fetch('/api/lead-submit.php', {
+        async function submitLeadPayload(payload) {
+            const response = await fetch('/api/lead-submit.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
-            }).catch(queueError => console.log('Queue error:', queueError));
+                body: JSON.stringify(payload),
+                keepalive: true
+            });
+            let result = {};
+            try { result = await response.json(); } catch (_) {}
+            if (!response.ok || result.ok !== true) {
+                throw new Error(result.error || 'lead_submit_failed');
+            }
+            return result;
         }
 
-        function submitQuiz() {
+        function trackLeadConversion(redirectToThanks) {
+            if (typeof gtag === 'function') {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-18076280258/vG0oCJ-u25gcEMLLuKtD',
+                    'value': 400.0,
+                    'currency': 'EUR',
+                    'event_callback': redirectToThanks
+                });
+                setTimeout(redirectToThanks, 900);
+            } else {
+                setTimeout(redirectToThanks, 300);
+            }
+        }
+
+        function showLeadSubmitError() {
+            alert('Die Anfrage konnte gerade nicht gespeichert werden. Bitte versuchen Sie es noch einmal oder rufen Sie direkt an.');
+        }
+
+        async function submitQuiz() {
             quizData.name = document.getElementById('name').value.trim();
             quizData.phone = document.getElementById('phone').value.trim();
             const quizWebsite = document.getElementById('quizWebsite').value.trim();
@@ -1227,25 +1252,19 @@
                 }
             };
 
-            submitLeadPayload(payload);
+            try {
+                await submitLeadPayload(payload);
+            } catch (error) {
+                console.error('Lead submit failed:', error);
+                showLeadSubmitError();
+                return;
+            }
 
             showStep(11);
-
-            // Google Ads conversion event
-            if (typeof gtag === 'function') {
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-18076280258/vG0oCJ-u25gcEMLLuKtD',
-                    'value': 400.0,
-                    'currency': 'EUR',
-                    'event_callback': redirectToThanks
-                });
-                setTimeout(redirectToThanks, 900);
-            } else {
-                setTimeout(redirectToThanks, 300);
-            }
+            trackLeadConversion(redirectToThanks);
         }
 
-        function submitContact(e) {
+        async function submitContact(e) {
             e.preventDefault();
             const form = document.getElementById('contactForm');
             if (!form.checkValidity()) {
@@ -1276,21 +1295,17 @@
                 }
             };
 
-            submitLeadPayload(payload);
+            try {
+                await submitLeadPayload(payload);
+            } catch (error) {
+                console.error('Lead submit failed:', error);
+                showLeadSubmitError();
+                return false;
+            }
 
             form.innerHTML = '<div style="text-align:center;padding:40px 0;"><div style="font-size:48px;margin-bottom:16px;">✓</div><h3 style="margin-bottom:8px;">Danke für Ihre Nachricht</h3><p style="color:var(--text-secondary);">Wir leiten Sie zur Danke-Seite weiter.</p></div>';
-
-            if (typeof gtag === 'function') {
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-18076280258/vG0oCJ-u25gcEMLLuKtD',
-                    'value': 400.0,
-                    'currency': 'EUR',
-                    'event_callback': redirectToThanks
-                });
-                setTimeout(redirectToThanks, 900);
-            } else {
-                setTimeout(redirectToThanks, 300);
-            }
+            trackLeadConversion(redirectToThanks);
+            return false;
         }
 
         // ── File Upload ──

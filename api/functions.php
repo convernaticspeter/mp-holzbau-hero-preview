@@ -72,8 +72,8 @@ function validate_required_fields(array $payload): void
 
     if ($source === 'landingpage.carports-zimmermeister') {
         $required = [
-            'name', 'phone', 'strasse', 'plz', 'carport_typ', 'einbindung',
-            'prioritaeten', 'ausloeser', 'zeitrahmen'
+            'name', 'phone', 'plz', 'carport_typ', 'carport_position',
+            'prioritaeten', 'zeitrahmen'
         ];
     } elseif ($source === 'landingpage.carports-kontaktformular') {
         $required = ['name', 'email', 'phone', 'ort', 'interesse', 'nachricht'];
