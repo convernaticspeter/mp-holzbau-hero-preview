@@ -1,0 +1,804 @@
+{
+  "created_at": "2026-05-21T10:55:38.696205+00:00",
+  "batch": "mp-image-round-b1-2026-05-21",
+  "model": "gpt-image-2-text-to-image",
+  "state": "finished",
+  "output_dir": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1",
+  "global_prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.",
+  "scenes": {
+    "01_hero_attached_dark_timber_empty_bay": {
+      "state": "success",
+      "task_id": "ec10202343b3937a7291c594fd0f4053",
+      "prompt": "Wide horizontal hero photo: a custom attached timber carport with dark-stained wood matched to a modern Austrian house facade, fully empty parking bay, clean paved driveway, visible roof depth and front overhang, early morning soft light.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Wide horizontal hero photo: a custom attached timber carport with dark-stained wood matched to a modern Austrian house facade, fully empty parking bay, clean paved driveway, visible roof depth and front overhang, early morning soft light.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "01_hero_attached_dark_timber_empty_bay.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/ec10202343b3937a7291c594fd0f4053_94e9855f42604c85828ec725f486a33d.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/01_hero_attached_dark_timber_empty_bay.png",
+      "finished_at": "2026-05-21T10:57:31.207077+00:00"
+    },
+    "02_hero_rural_warm_timber_empty_bay": {
+      "state": "success",
+      "task_id": "7aa70d12aafa91d4b647836060f1591e",
+      "prompt": "Wide horizontal hero photo: warm natural timber carport attached to a rural Austrian family house, clay roof tiles nearby, empty bay, gravel and paved driveway, honest carpentry feel, not showroom-perfect.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Wide horizontal hero photo: warm natural timber carport attached to a rural Austrian family house, clay roof tiles nearby, empty bay, gravel and paved driveway, honest carpentry feel, not showroom-perfect.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "02_hero_rural_warm_timber_empty_bay.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/7aa70d12aafa91d4b647836060f1591e_870d81226f784044a841aa181f171d91.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/02_hero_rural_warm_timber_empty_bay.png",
+      "finished_at": "2026-05-21T10:57:37.467854+00:00"
+    },
+    "03_hero_modern_plaster_timber_empty_bay": {
+      "state": "success",
+      "task_id": "08fb78db6a3970342cbb54045c01e6c9",
+      "prompt": "Modern cream plaster house with a simple custom timber carport integrated into the entrance side, empty parking bay, proportional roof line, visible gutter and downpipe, calm overcast daylight.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Modern cream plaster house with a simple custom timber carport integrated into the entrance side, empty parking bay, proportional roof line, visible gutter and downpipe, calm overcast daylight.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "03_hero_modern_plaster_timber_empty_bay.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/08fb78db6a3970342cbb54045c01e6c9_131c1ac805334a789514de53e001a10f.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/03_hero_modern_plaster_timber_empty_bay.png",
+      "finished_at": "2026-05-21T10:58:00.038487+00:00"
+    },
+    "04_hero_corner_house_carport_empty_bay": {
+      "state": "success",
+      "task_id": "2cbd773e1d65de9caa25bf175157b7f9",
+      "prompt": "Three-quarter view of a corner-position carport beside an Austrian family house, empty bay, generous walking space to the front door, roof clearly protects the path, realistic garden edges.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Three-quarter view of a corner-position carport beside an Austrian family house, empty bay, generous walking space to the front door, roof clearly protects the path, realistic garden edges.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "04_hero_corner_house_carport_empty_bay.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000249c71fda21ffdf1784c4ae5.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/04_hero_corner_house_carport_empty_bay.png",
+      "finished_at": "2026-05-21T10:57:13.332318+00:00"
+    },
+    "05_hero_double_carport_no_cars": {
+      "state": "success",
+      "task_id": "6f32a2c91f96c4cf0176f5ce74c415be",
+      "prompt": "A double timber carport for two vehicles, completely empty, broad paved driveway, straight posts, well-proportioned roof and beams, normal suburban Lower Austria house, natural light.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: A double timber carport for two vehicles, completely empty, broad paved driveway, straight posts, well-proportioned roof and beams, normal suburban Lower Austria house, natural light.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "05_hero_double_carport_no_cars.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/6f32a2c91f96c4cf0176f5ce74c415be_c4b88756e6664fd6b02e5fb991d30f82.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/05_hero_double_carport_no_cars.png",
+      "finished_at": "2026-05-21T10:57:35.035129+00:00"
+    },
+    "06_hero_closed_weather_side_no_cars": {
+      "state": "success",
+      "task_id": "1176ce92949404aa228518a298a7c052",
+      "prompt": "Custom timber carport with one closed weather side using vertical timber slats, empty parking bay, practical wind/rain protection readable, Austrian residential driveway, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Custom timber carport with one closed weather side using vertical timber slats, empty parking bay, practical wind/rain protection readable, Austrian residential driveway, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "06_hero_closed_weather_side_no_cars.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/1176ce92949404aa228518a298a7c052_e447b8ff9c884c0a836207f1b7d9e4e5.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/06_hero_closed_weather_side_no_cars.png",
+      "finished_at": "2026-05-21T10:57:15.740019+00:00"
+    },
+    "07_hero_black_roof_timber_no_cars": {
+      "state": "success",
+      "task_id": "522d072a8938a26340544c98cf4a096e",
+      "prompt": "Dark metal roof with timber substructure, empty bay, modern Austrian detached house, clean drainage line and downpipe visible, subdued premium craft look.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Dark metal roof with timber substructure, empty bay, modern Austrian detached house, clean drainage line and downpipe visible, subdued premium craft look.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "07_hero_black_roof_timber_no_cars.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/gpt-image-2-kie/1779361040343-7176khowb.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/07_hero_black_roof_timber_no_cars.png",
+      "finished_at": "2026-05-21T10:57:34.270702+00:00"
+    },
+    "08_hero_long_roof_to_entrance_no_cars": {
+      "state": "success",
+      "task_id": "12188ee3b057844f69c00dbeb2abe1d4",
+      "prompt": "Long protective roof line from carport toward house entrance, empty parking area, dry covered walking route visible, Austrian family home, realistic paving and garden.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Long protective roof line from carport toward house entrance, empty parking area, dry covered walking route visible, Austrian family home, realistic paving and garden.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "08_hero_long_roof_to_entrance_no_cars.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_000000002fa071fdb521d5fc16ffc701.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/08_hero_long_roof_to_entrance_no_cars.png",
+      "finished_at": "2026-05-21T10:57:04.754559+00:00"
+    },
+    "09_hero_snow_empty_clean_bay": {
+      "state": "success",
+      "task_id": "57cebf3b2eb85fbf537cddafdab3ac6e",
+      "prompt": "Winter hero photo: timber carport attached to Austrian home, carport bay completely snow-free and empty, 15-20 cm snow outside only, driveway visibly cleared from foreground to bay, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Winter hero photo: timber carport attached to Austrian home, carport bay completely snow-free and empty, 15-20 cm snow outside only, driveway visibly cleared from foreground to bay, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "09_hero_snow_empty_clean_bay.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_000000002c7871fd89f6d3fe61dcc4af.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/09_hero_snow_empty_clean_bay.png",
+      "finished_at": "2026-05-21T10:57:35.883460+00:00"
+    },
+    "10_hero_rain_empty_dry_bay": {
+      "state": "success",
+      "task_id": "3cd51a1df7f631a60aa84011f84ffde1",
+      "prompt": "Rain hero photo: timber carport at Austrian house, rain outside, glossy wet paving beyond roof edge, under-roof bay fully dry and empty, gutter/downpipe logic believable, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Rain hero photo: timber carport at Austrian house, rain outside, glossy wet paving beyond roof edge, under-roof bay fully dry and empty, gutter/downpipe logic believable, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "10_hero_rain_empty_dry_bay.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000ed7471f7b504e1256b6d5568.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/10_hero_rain_empty_dry_bay.png",
+      "finished_at": "2026-05-21T10:57:12.305199+00:00"
+    },
+    "11_detail_beam_joinery": {
+      "state": "success",
+      "task_id": "52386d9227b3bc1d71a34370e3b1a890",
+      "prompt": "Close architectural detail photo of timber carport beam and post connection, clean carpentry joinery, metal fasteners discreet and plausible, natural wood grain, shallow depth of field, no people.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Close architectural detail photo of timber carport beam and post connection, clean carpentry joinery, metal fasteners discreet and plausible, natural wood grain, shallow depth of field, no people.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "11_detail_beam_joinery.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/52386d9227b3bc1d71a34370e3b1a890_10ad720bca4742788476921af179de5e.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/11_detail_beam_joinery.png",
+      "finished_at": "2026-05-21T10:59:13.886594+00:00"
+    },
+    "12_detail_gutter_downpipe_water_path": {
+      "state": "success",
+      "task_id": "84a3c118a467f78bbb7f23b8f39ee8ce",
+      "prompt": "Close detail of carport roof edge with real gutter, downpipe and controlled drainage into paving channel, wet outside surface, dry sheltered zone visible, physically believable water path.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Close detail of carport roof edge with real gutter, downpipe and controlled drainage into paving channel, wet outside surface, dry sheltered zone visible, physically believable water path.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "12_detail_gutter_downpipe_water_path.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/84a3c118a467f78bbb7f23b8f39ee8ce_2f1fcd1baebf48dfbebbb011d4e9bab3.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/12_detail_gutter_downpipe_water_path.png",
+      "finished_at": "2026-05-21T10:58:11.345842+00:00"
+    },
+    "13_detail_foundation_post_base": {
+      "state": "success",
+      "task_id": "fe416d246c1a264111ff7bfc2ba4b1c4",
+      "prompt": "Close documentary photo of timber carport post base anchored into concrete footing with clean metal bracket, realistic driveway paving around it, craft quality proof, no text.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Close documentary photo of timber carport post base anchored into concrete footing with clean metal bracket, realistic driveway paving around it, craft quality proof, no text.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "13_detail_foundation_post_base.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_0000000025ec71fb953d93db165f1ba5.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/13_detail_foundation_post_base.png",
+      "finished_at": "2026-05-21T10:57:14.871830+00:00"
+    },
+    "14_detail_roof_overhang_shadow": {
+      "state": "success",
+      "task_id": "2eaed9e2c4de0f91495f49297fd3aae1",
+      "prompt": "Architectural close-up of a timber carport roof overhang casting a dry shadow line on paving, visible roof depth and timber beams, realistic Austrian residential facade.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Architectural close-up of a timber carport roof overhang casting a dry shadow line on paving, visible roof depth and timber beams, realistic Austrian residential facade.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "14_detail_roof_overhang_shadow.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_000000006cfc71f880003dd997c408a8.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/14_detail_roof_overhang_shadow.png",
+      "finished_at": "2026-05-21T10:57:57.572786+00:00"
+    },
+    "15_detail_slatted_weather_wall": {
+      "state": "success",
+      "task_id": "422ab6a212b7daf03e0afaafeb5af100",
+      "prompt": "Detail photo of vertical timber slat weather wall on a carport, craftsmanship, straight spacing, warm wood texture, garden and house softly in background.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Detail photo of vertical timber slat weather wall on a carport, craftsmanship, straight spacing, warm wood texture, garden and house softly in background.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "15_detail_slatted_weather_wall.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/422ab6a212b7daf03e0afaafeb5af100_1_1779361100_9087.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/15_detail_slatted_weather_wall.png",
+      "finished_at": "2026-05-21T10:58:29.349468+00:00"
+    },
+    "16_detail_roof_structure_underneath": {
+      "state": "success",
+      "task_id": "6053c43fc3356cd65378ae0826298641",
+      "prompt": "View from under an empty timber carport looking up at roof structure, straight beams, clean underside, warm timber, dry sheltered paving below, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: View from under an empty timber carport looking up at roof structure, straight beams, clean underside, warm timber, dry sheltered paving below, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "16_detail_roof_structure_underneath.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/6053c43fc3356cd65378ae0826298641_203e7802cc174c85bd0e47393479e4a6.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/16_detail_roof_structure_underneath.png",
+      "finished_at": "2026-05-21T10:58:13.678280+00:00"
+    },
+    "17_detail_measurement_on_driveway": {
+      "state": "success",
+      "task_id": "745ef580de393e59cb568a0ed4b101da",
+      "prompt": "Documentary detail: tape measure and chalk marks on a paved driveway where a carport will be planned, timber sample board and pencil nearby, no visible logos, realistic consultation scene.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Documentary detail: tape measure and chalk marks on a paved driveway where a carport will be planned, timber sample board and pencil nearby, no visible logos, realistic consultation scene.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "17_detail_measurement_on_driveway.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/745ef580de393e59cb568a0ed4b101da_99be340ebc4649bc9eb449f13bab86df.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/17_detail_measurement_on_driveway.png",
+      "finished_at": "2026-05-21T10:57:50.707837+00:00"
+    },
+    "18_detail_material_samples": {
+      "state": "success",
+      "task_id": "d134cc57268f150f06133c420e0bd64c",
+      "prompt": "Close photo of timber samples, roof color samples, pencil and folded plan on an outdoor table at an Austrian house, practical planning mood, no readable text.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Close photo of timber samples, roof color samples, pencil and folded plan on an outdoor table at an Austrian house, practical planning mood, no readable text.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "18_detail_material_samples.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_000000005b6871fd96fa2ac68e0874df.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/18_detail_material_samples.png",
+      "finished_at": "2026-05-21T10:57:56.172322+00:00"
+    },
+    "19_planning_site_check_driveway": {
+      "state": "success",
+      "task_id": "5a4501df70b4bb1051e05765b71595bb",
+      "prompt": "Documentary photo: Zimmermeister-style site inspection at an Austrian driveway, one craftsman in dark workwear seen from side/back holding clipboard and measuring tape, no logo text, no posing, empty driveway.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Documentary photo: Zimmermeister-style site inspection at an Austrian driveway, one craftsman in dark workwear seen from side/back holding clipboard and measuring tape, no logo text, no posing, empty driveway.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "19_planning_site_check_driveway.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/5a4501df70b4bb1051e05765b71595bb_bcd2aeddf43e433793d0eab442316b56.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/19_planning_site_check_driveway.png",
+      "finished_at": "2026-05-21T10:58:45.103444+00:00"
+    },
+    "20_planning_house_connection_discussion": {
+      "state": "success",
+      "task_id": "81dd17d03e9dcd29fcad6bf64ceb5cb9",
+      "prompt": "Two tradesmen from behind discussing the house connection and roof line beside a partially marked driveway, natural workwear, no smiling to camera, carport not built yet, realistic local appointment.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Two tradesmen from behind discussing the house connection and roof line beside a partially marked driveway, natural workwear, no smiling to camera, carport not built yet, realistic local appointment.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "20_planning_house_connection_discussion.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000fd5c71f8a64ce70389774704.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/20_planning_house_connection_discussion.png",
+      "finished_at": "2026-05-21T10:57:16.850789+00:00"
+    },
+    "21_construction_posts_beams_install": {
+      "state": "success",
+      "task_id": "3af6af4080b782217e48fd58ca07311f",
+      "prompt": "Documentary construction photo: timber carport posts and main beams being installed at a family house, two workers in dark workwear, safe tidy Baustelle, no readable logos, no car, realistic tools.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Documentary construction photo: timber carport posts and main beams being installed at a family house, two workers in dark workwear, safe tidy Baustelle, no readable logos, no car, realistic tools.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "21_construction_posts_beams_install.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/3af6af4080b782217e48fd58ca07311f_b997b67ee3e74185ba6303339f02b8f5.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/21_construction_posts_beams_install.png",
+      "finished_at": "2026-05-21T11:00:32.529438+00:00"
+    },
+    "22_construction_roof_frame": {
+      "state": "success",
+      "task_id": "2783eedb60383c4023c95ac76c260e20",
+      "prompt": "Part-built timber carport roof frame at an Austrian home, empty driveway, scaffolding/ladder plausible, straight beams, no fantasy construction errors.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Part-built timber carport roof frame at an Austrian home, empty driveway, scaffolding/ladder plausible, straight beams, no fantasy construction errors.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "22_construction_roof_frame.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/2783eedb60383c4023c95ac76c260e20_d5110b73ee734a92a1bdfd6d4f816504.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/22_construction_roof_frame.png",
+      "finished_at": "2026-05-21T10:58:12.682205+00:00"
+    },
+    "23_finished_driveway_empty": {
+      "state": "success",
+      "task_id": "5e06ce1e9e3192bf854214e8f1b571c9",
+      "prompt": "Finished carport with empty driveway bay and clean landscaping, looks like it belonged to the house from the first day, proportional to facade, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Finished carport with empty driveway bay and clean landscaping, looks like it belonged to the house from the first day, proportional to facade, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "23_finished_driveway_empty.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000293071f8bcfbdf7b562d5163.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/23_finished_driveway_empty.png",
+      "finished_at": "2026-05-21T10:57:28.063763+00:00"
+    },
+    "24_team_from_back_at_site": {
+      "state": "success",
+      "task_id": "80f39357adac931cb4c4656089c61fda",
+      "prompt": "Small M&P-style carpentry team from behind at a completed empty carport, dark navy/charcoal workwear without readable logos, checking details, not posing, credible Meisterbetrieb feel.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Small M&P-style carpentry team from behind at a completed empty carport, dark navy/charcoal workwear without readable logos, checking details, not posing, credible Meisterbetrieb feel.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "24_team_from_back_at_site.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/80f39357adac931cb4c4656089c61fda_1_1779361168_6044.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/24_team_from_back_at_site.png",
+      "finished_at": "2026-05-21T10:59:38.071681+00:00"
+    },
+    "25_quality_foundation_context": {
+      "state": "success",
+      "task_id": "8746adab6fae9a97fffa6726ff6aeb59",
+      "prompt": "Wider scene showing carport posts aligned with driveway and house entrance, empty bay, foundation/post placement feels deliberately planned for door clearance and movement.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Wider scene showing carport posts aligned with driveway and house entrance, empty bay, foundation/post placement feels deliberately planned for door clearance and movement.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "25_quality_foundation_context.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000fe2c71f88482c35fa928a57c.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/25_quality_foundation_context.png",
+      "finished_at": "2026-05-21T10:57:58.437472+00:00"
+    },
+    "26_quality_door_clearance_empty": {
+      "state": "success",
+      "task_id": "0604ec6e53fba352dc003c7572c75e96",
+      "prompt": "Empty carport bay beside house entrance showing generous door-opening and walking space, no car, composition makes the practical clearance benefit understandable.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Empty carport bay beside house entrance showing generous door-opening and walking space, no car, composition makes the practical clearance benefit understandable.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "26_quality_door_clearance_empty.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/0604ec6e53fba352dc003c7572c75e96_c9a45c9094e347e18828d4d4f15d35e1.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/26_quality_door_clearance_empty.png",
+      "finished_at": "2026-05-21T10:58:14.501550+00:00"
+    },
+    "27_quality_water_after_rain": {
+      "state": "success",
+      "task_id": "0f88a781fca68510a642f26b1b052261",
+      "prompt": "After rain: timber carport with empty dry sheltered bay, wet uncovered paving outside, visible gutter/downpipe, no puddles inside the sheltered area, soft realistic wet/dry transition.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: After rain: timber carport with empty dry sheltered bay, wet uncovered paving outside, visible gutter/downpipe, no puddles inside the sheltered area, soft realistic wet/dry transition.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "27_quality_water_after_rain.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_000000006e5071f88eb14fe74f276ac3.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/27_quality_water_after_rain.png",
+      "finished_at": "2026-05-21T10:57:38.618469+00:00"
+    },
+    "28_quality_weather_side_wind": {
+      "state": "success",
+      "task_id": "a2b079888cd25593161f6c96a8030a2f",
+      "prompt": "Windy overcast day: carport with vertical timber weather side, shrubs bent slightly in wind, sheltered empty bay remains calm and dry, Austrian house context.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Windy overcast day: carport with vertical timber weather side, shrubs bent slightly in wind, sheltered empty bay remains calm and dry, Austrian house context.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "28_quality_weather_side_wind.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/a2b079888cd25593161f6c96a8030a2f_7c26ef30d56243918bf585679f790d51.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/28_quality_weather_side_wind.png",
+      "finished_at": "2026-05-21T10:58:46.163168+00:00"
+    },
+    "29_quality_winter_access": {
+      "state": "success",
+      "task_id": "88d6c01f42aa3ab56fb2475ffc89e53b",
+      "prompt": "Winter practical scene: empty carport bay with dry paving under roof, snow outside and cleared access path from foreground to house entrance, no car, no snow piles under roof.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Winter practical scene: empty carport bay with dry paving under roof, snow outside and cleared access path from foreground to house entrance, no car, no snow piles under roof.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "29_quality_winter_access.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/88d6c01f42aa3ab56fb2475ffc89e53b_2a33c8041d2e4524900d8057b1e23e83.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/29_quality_winter_access.png",
+      "finished_at": "2026-05-21T10:59:01.386162+00:00"
+    },
+    "30_quality_solar_wallbox_empty": {
+      "state": "success",
+      "task_id": "bd9affbf192d7650b996bd3a3b3440c9",
+      "prompt": "Modern timber carport prepared for solar/wallbox use, discreet wallbox on house wall, empty bay, roof geometry plausible, no cables spaghetti, no fake branding.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Modern timber carport prepared for solar/wallbox use, discreet wallbox on house wall, empty bay, roof geometry plausible, no cables spaghetti, no fake branding.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "30_quality_solar_wallbox_empty.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/bd9affbf192d7650b996bd3a3b3440c9_3931e624c7084af08800cf3225cc51dc.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/30_quality_solar_wallbox_empty.png",
+      "finished_at": "2026-05-21T10:59:50.432973+00:00"
+    },
+    "31_atmosphere_morning_woodgrain": {
+      "state": "success",
+      "task_id": "0449062e2f6260515b286b5aabd74446",
+      "prompt": "Editorial close-medium shot of morning light across timber beams and empty paved bay, Austrian house facade softly visible, premium but practical, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Editorial close-medium shot of morning light across timber beams and empty paved bay, Austrian house facade softly visible, premium but practical, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "31_atmosphere_morning_woodgrain.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/gpt-image-2-kie/1779361171409-g59y90gkqou.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/31_atmosphere_morning_woodgrain.png",
+      "finished_at": "2026-05-21T10:59:39.093891+00:00"
+    },
+    "32_atmosphere_evening_warm_lights": {
+      "state": "success",
+      "task_id": "59a20d6ad75e7b016e831c96357d6707",
+      "prompt": "Evening exterior of a warm timber carport with subtle house lights on, empty bay, calm residential mood, not cinematic fantasy, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Evening exterior of a warm timber carport with subtle house lights on, empty bay, calm residential mood, not cinematic fantasy, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "32_atmosphere_evening_warm_lights.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/59a20d6ad75e7b016e831c96357d6707_f0cecd61822944929c653cc7887a0dbc.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/32_atmosphere_evening_warm_lights.png",
+      "finished_at": "2026-05-21T10:58:47.032371+00:00"
+    },
+    "33_atmosphere_autumn_driveway": {
+      "state": "success",
+      "task_id": "931687ae1d2dd8e712f3ad2524db063b",
+      "prompt": "Autumn Austrian driveway with custom timber carport, leaves outside, empty bay clean and usable, house and garden context, realistic colors.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Autumn Austrian driveway with custom timber carport, leaves outside, empty bay clean and usable, house and garden context, realistic colors.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "33_atmosphere_autumn_driveway.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/931687ae1d2dd8e712f3ad2524db063b_6cf23251276042e6af8c72e0e071232f.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/33_atmosphere_autumn_driveway.png",
+      "finished_at": "2026-05-21T10:58:59.780150+00:00"
+    },
+    "34_atmosphere_modern_dark_facade": {
+      "state": "success",
+      "task_id": "85b049d20abc05bb30174e7bf8bfdb60",
+      "prompt": "Modern dark facade house with matching dark-stained timber carport, empty bay, crisp but realistic local craft aesthetic, no car, no showroom CGI.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Modern dark facade house with matching dark-stained timber carport, empty bay, crisp but realistic local craft aesthetic, no car, no showroom CGI.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "34_atmosphere_modern_dark_facade.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/85b049d20abc05bb30174e7bf8bfdb60_b0bd8d4a1ac34305990b6ad6bd5e2ee6.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/34_atmosphere_modern_dark_facade.png",
+      "finished_at": "2026-05-21T10:58:59.071790+00:00"
+    },
+    "35_atmosphere_traditional_house": {
+      "state": "success",
+      "task_id": "6ddc729a4a6ed8dfadccf0973421d8f1",
+      "prompt": "Traditional Austrian house with timber carport carefully integrated without looking like a cheap kit, empty bay, warm daylight, natural garden, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Traditional Austrian house with timber carport carefully integrated without looking like a cheap kit, empty bay, warm daylight, natural garden, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "35_atmosphere_traditional_house.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/file_00000000260071f8966d144d416e6a98.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/35_atmosphere_traditional_house.png",
+      "finished_at": "2026-05-21T10:57:53.605446+00:00"
+    },
+    "36_atmosphere_detail_to_house": {
+      "state": "success",
+      "task_id": "0b7168bd007cd5af8eb85b238a412083",
+      "prompt": "Architectural detail showing how timber carport roof line meets existing house facade, gutter, wall connection and clean transition, empty space below, no car.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary and architectural imagery for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nThe images must feel like believable local craft/trade website photography, not CGI, not a generic stock render, not a luxury architecture magazine fantasy.\nRegional DACH/Austrian houses, realistic driveways, timber construction, cream plaster, clay roof tiles or modern dark facades, practical family homes.\nIMPORTANT: default to an EMPTY carport bay. No cars, no vans, no bicycles parked in the carport or driveway unless the scene explicitly says otherwise. Keep the parking bay visibly empty and usable.\nPhysical logic: structurally plausible timber beams, posts vertical and straight, believable roof thickness, gutters/downpipes where needed, correct shadows and perspective, no impossible cantilevers.\nNo readable text, no logos, no watermarks, no fake signage, no license plates, no people posing at camera unless explicitly described. Natural daylight, realistic lens, slight imperfection, believable weather and materials.\nComposition must be website-usable: clean subject, no awkward crops, enough visual calm for landing page sections, horizontal 16:9 unless otherwise specified.\n\nScene: Architectural detail showing how timber carport roof line meets existing house facade, gutter, wall connection and clean transition, empty space below, no car.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "36_atmosphere_detail_to_house.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/0b7168bd007cd5af8eb85b238a412083_e480c3addc0242a5a13744110dd7a727.png",
+      "file": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/36_atmosphere_detail_to_house.png",
+      "finished_at": "2026-05-21T10:58:32.342848+00:00"
+    }
+  },
+  "contact_sheet": "/private/tmp/mp_holzbau_hero_preview/assets/generated-carports-2026-05-21-image-round-b1/_contact_sheet.jpg",
+  "finished_at": "2026-05-21T11:00:33.120204+00:00"
+}
