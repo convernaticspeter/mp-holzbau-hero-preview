@@ -105,7 +105,7 @@
         .lightbox-prev{left:22px}.lightbox-next{right:22px}
         .lightbox-counter{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);color:rgba(255,253,248,.62);font-size:13px;font-weight:900;letter-spacing:.06em;z-index:3002;background:rgba(23,37,27,.78);padding:10px 16px;border:1px solid rgba(255,255,255,.10)}
         .hero-caption{left:clamp(18px,4vw,58px);bottom:34px;border-radius:0;background:rgba(255,250,241,.88);color:#1f271d;border:0;border-left:7px solid #d5a35b;box-shadow:18px 18px 0 rgba(13,20,14,.35);font-size:12px;letter-spacing:.03em;text-transform:uppercase;max-width:330px;text-align:left}
-        .hero-copy{max-width:700px;margin:clamp(28px,5vh,62px) 0 0 clamp(4px,2vw,24px);background:#fffaf1;color:#211912;border:0;border-radius:0;padding:clamp(30px,4vw,54px) clamp(26px,4vw,58px) clamp(28px,4vw,48px);box-shadow:22px 22px 0 rgba(23,37,27,.82),0 34px 90px -48px rgba(0,0,0,.85);outline:1px solid rgba(33,25,18,.18);overflow:visible;transform:rotate(-.7deg)}
+        .hero-copy{max-width:700px;margin:clamp(28px,5vh,62px) 0 0 clamp(4px,2vw,24px);background:#fffaf1;color:#211912;border:0;border-radius:0;padding:clamp(30px,4vw,54px) clamp(26px,4vw,58px) clamp(28px,4vw,48px);box-shadow:22px 22px 0 rgba(23,37,27,.82),0 34px 90px -48px rgba(0,0,0,.85);outline:1px solid rgba(33,25,18,.18);overflow:visible}
         .hero-copy::after{display:none}.hero-meister-siegel{position:absolute;right:-30px;top:-34px;width:122px;height:122px;object-fit:contain;background:#fff;border-radius:50%;box-shadow:0 18px 38px -24px rgba(0,0,0,.75),0 0 0 1px rgba(255,255,255,.84);transform:rotate(8deg);z-index:6}
         .hero .eyebrow{background:transparent;border:0;border-radius:0;color:#7c4e1f;padding:0 0 0 38px;margin-bottom:18px;position:relative;font-size:11px;letter-spacing:.15em}
         .hero .eyebrow::before{content:"";position:absolute;left:0;top:50%;width:26px;height:2px;background:#b87936}
@@ -165,6 +165,14 @@
         @media(max-width:980px){.next-step-layout{grid-template-columns:1fr}.next-step-copy{position:relative;top:auto}.next-step-copy h2{max-width:760px}.next-steps .step{grid-template-columns:64px 1fr}}
         @media(max-width:640px){.next-step-section{padding:64px 0}.next-step-copy h2{font-size:38px;max-width:11ch}.next-step-reassurance{box-shadow:8px 8px 0 rgba(39,33,27,.10)}.next-steps .step{grid-template-columns:52px 1fr;gap:14px;padding:20px;box-shadow:8px 8px 0 rgba(39,33,27,.10)}.next-steps .num{width:44px;height:44px}}
 
+
+
+        /* Handwerk / Qualität + Team proof sections */
+        .craft-quality{background:#fffaf1;color:#211912;overflow:hidden}.craft-quality::before{content:"";position:absolute;inset:0;background:url('assets/holzstruktur-lite.svg') center/640px 640px repeat;opacity:.075;pointer-events:none}.craft-quality-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(300px,.82fr) minmax(0,1.18fr);gap:clamp(30px,5vw,68px);align-items:start}.craft-quality-copy{position:sticky;top:112px}.craft-quality-copy .eyebrow,.team-proof-copy .eyebrow{background:transparent;border:0;border-radius:0;color:#8b5b2a;padding:0 0 0 38px;margin-bottom:18px;position:relative;font-size:11px;letter-spacing:.15em}.craft-quality-copy .eyebrow::before,.team-proof-copy .eyebrow::before{content:"";position:absolute;left:0;top:50%;width:26px;height:2px;background:#b87936}.craft-quality-copy h2,.team-proof-copy h2{margin:0 0 20px;color:#211912;font-size:clamp(38px,5vw,68px);line-height:.94;max-width:10.8ch}.craft-quality-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.quality-card{background:#f4ead9;border:0;border-top:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.09),0 24px 72px -60px rgba(24,22,18,.52);padding:22px;min-height:190px}.quality-card span{display:inline-grid;place-items:center;width:42px;height:42px;background:#17251b;color:#f4d098;font-family:'Space Grotesk',Inter,sans-serif;font-weight:1000;margin-bottom:16px}.quality-card h3{font-size:22px;margin-bottom:9px}.quality-card p{font-size:15px;line-height:1.55;color:#51483d}.quality-note{grid-column:1/-1;background:#17251b;color:#fffaf1;border-left:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.10);padding:22px 24px;font-weight:850;line-height:1.5}
+        .team-proof{background:#efe3d1;color:#211912;overflow:hidden}.team-proof::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 82% 12%,rgba(213,163,91,.16),transparent 28%),url('assets/holzstruktur-lite.svg') center/640px 640px repeat;opacity:.9;pointer-events:none}.team-proof-layout{position:relative;z-index:1;display:grid;grid-template-columns:minmax(360px,.95fr) minmax(0,1.05fr);gap:clamp(30px,5vw,68px);align-items:center}.team-proof-photo{background:#17251b;box-shadow:16px 16px 0 rgba(39,33,27,.13);border-top:8px solid #d5a35b;overflow:hidden}.team-proof-photo img{width:100%;height:100%;min-height:520px;object-fit:cover;object-position:center}.team-proof-card{background:#fffaf1;border-left:8px solid #17251b;box-shadow:14px 14px 0 rgba(39,33,27,.11),0 26px 80px -62px rgba(24,22,18,.58);padding:clamp(24px,3vw,36px);margin-top:24px}.team-proof-card strong{display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:22px;line-height:1.15;color:#17251b;margin-bottom:10px}.team-proof-card p{color:#51483d;line-height:1.62}.team-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:22px}.team-point{background:#f1e6d4;border-left:4px solid #d5a35b;padding:13px 14px;font-size:14px;font-weight:850;color:#40362d}.team-proof-copy .section-lead{max-width:620px}.quiz-loading{text-align:left}.quiz-loading-card{background:#17251b;color:#fffaf1;border-left:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.12);padding:24px;margin-top:18px}.quiz-loading-card strong{display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:20px;line-height:1.2;margin-bottom:8px;color:#f4d098}.quiz-loading-card p{color:rgba(255,250,241,.82);line-height:1.55}.answer-summary{display:grid;gap:8px;margin:18px 0}.answer-chip{background:#f1e6d4;border-left:4px solid #d5a35b;padding:10px 12px;font-size:14px;font-weight:850;color:#40362d}.quiz-option.is-checkbox .quiz-option-radio{border-radius:4px}.quiz-option.is-checkbox.selected .quiz-option-radio{background:#456b4c;position:relative}.quiz-option.is-checkbox.selected .quiz-option-radio::after{content:'✓';color:white;font-size:12px;font-weight:1000;position:absolute;inset:0;display:grid;place-items:center}
+        @media(max-width:980px){.craft-quality-layout,.team-proof-layout{grid-template-columns:1fr}.craft-quality-copy{position:relative;top:auto}.craft-quality-copy h2,.team-proof-copy h2{max-width:760px}.team-proof-photo img{min-height:420px}}
+        @media(max-width:640px){.craft-quality-grid,.team-points{grid-template-columns:1fr}.quality-card,.quality-note,.team-proof-card,.team-proof-photo,.quiz-loading-card{box-shadow:8px 8px 0 rgba(39,33,27,.10)}.team-proof-photo img{min-height:330px}.craft-quality-copy h2,.team-proof-copy h2{font-size:38px;max-width:11ch}.quiz-nav{flex-direction:column}.quiz-nav .btn{width:100%}}
+
         /* Mobile edge balance: keep editorial cards off the right viewport edge */
         @media(max-width:640px){
             .container{width:calc(100% - 32px)}
@@ -192,7 +200,7 @@
     <nav class="nav" id="nav">
         <div class="container nav-inner">
             <a class="nav-brand" href="#top"><img src="assets/logo-white.png" alt="M&P Holzbau" class="nav-logo"><span>M&P Holzbau</span></a>
-            <div class="nav-links"><a href="#vorteile">Vorteile</a><a href="#planung">Planung</a><a href="#warum">Warum M&P</a><a href="#referenzen">Referenzen</a><a href="#ablauf">Ablauf</a><a href="#einzugsgebiet">Gebiet</a><span class="nav-region">Wien · NÖ · Burgenland</span></div>
+            <div class="nav-links"><a href="#planung">Planung</a><a href="#handwerk">Handwerk</a><a href="#team">Team</a><a href="#referenzen">Referenzen</a><a href="#ablauf">Ablauf</a><a href="#einzugsgebiet">Gebiet</a><span class="nav-region">Wien · NÖ · Burgenland</span></div>
         </div>
     </nav>
     <div class="sticky-cta" id="stickyCta"><span>Erste fachliche Einschätzung</span><button class="btn green" onclick="openQuiz()">Preis-Schätzung anfragen</button></div>
@@ -244,11 +252,27 @@
             </div>
         </div>
 
+        <section class="next-step-section" id="planung">
+            <div class="container next-step-layout">
+                <div class="next-step-copy fade-in">
+                    <div class="eyebrow">Der nächste Schritt</div>
+                    <h2>Vom Standortfoto zur ersten Einschätzung.</h2>
+                    <p class="section-lead">Sie müssen noch nicht wissen, welche Konstruktion perfekt ist. Für den ersten Schritt reichen Standort, grober Wunsch und – wenn vorhanden – ein Foto der Einfahrt.</p>
+                    <p class="next-step-reassurance">Die Anfrage ist noch keine Kaufentscheidung. Sie klärt zuerst, ob und wie ein Carport an Ihrem Standort sinnvoll geplant werden kann.</p>
+                </div>
+                <div class="steps next-steps">
+                    <div class="step fade-in"><div class="num">1</div><h3>Situation vor Ort zeigen</h3><p>Ort, Einfahrt, Platz am Haus und alles, was jetzt schon erkennbar ist – gerne als Foto oder kurze Beschreibung.</p></div>
+                    <div class="step fade-in"><div class="num">2</div><h3>Wunsch grob einordnen</h3><p>Einzelcarport, Doppelcarport, Stauraum, geschlossene Wetterseite oder noch offen. Es muss noch keine fertige Planung sein.</p></div>
+                    <div class="step fade-in"><div class="num">3</div><h3>Persönliche Einschätzung bekommen</h3><p>M&P sagt Ihnen, worauf es an Ihrem Standort ankommt, welcher Rahmen realistisch sein kann und welcher nächste Schritt sinnvoll ist.</p></div>
+                </div>
+            </div>
+        </section>
+
         <section class="site-check" id="warum">
             <div class="container site-check-grid">
                 <div class="site-check-copy fade-in">
                     <div class="eyebrow">Warum M&P</div>
-                    <h2>Was kostet ein Carport vom Zimmermeister?</h2>
+                    <h2>Der schwierige Teil ist nicht das Dach.</h2>
                     <p>Auf einem Foto sehen zwei Carports schnell ähnlich aus. Vor Ort entscheidet aber, ob Wasser richtig abläuft, die Autotür aufgeht, die Zufahrt nutzbar bleibt und die Grundgrenze keine Überraschung wird.</p>
                     <p>Darum beginnt M&P nicht mit einem Standardpreis, sondern mit den Punkten, die später Aufwand, Ausführung und Kosten bestimmen.</p>
                 </div>
@@ -259,6 +283,46 @@
                     <div class="board-row"><span>03</span><strong>Wetter</strong><p>Regen, Schneelast, Windseite, Gefälle und Wasserführung.</p></div>
                     <div class="board-row"><span>04</span><strong>Ausführung</strong><p>Fundament, Höhe, Statik, Anschluss und passende Bauweise.</p></div>
                     <div class="board-result">Ergebnis: eine fachliche Einschätzung, bevor Sie Angebote vergleichen.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="craft-quality" id="handwerk">
+            <div class="container craft-quality-layout">
+                <div class="craft-quality-copy fade-in">
+                    <div class="eyebrow">Handwerk & Qualität</div>
+                    <h2>Was bei einem M&P-Carport unter der Oberfläche stimmen muss.</h2>
+                    <p class="section-lead">Ein guter Carport wirkt einfach. In der Ausführung ist er es nicht. Die Qualität entscheidet sich an den Punkten, die man später kaum sieht – aber jeden Tag merkt.</p>
+                </div>
+                <div class="craft-quality-grid">
+                    <article class="quality-card fade-in"><span>01</span><h3>Fundament & Stützenpunkte</h3><p>Der Carport muss dort stehen, wo Einfahrt, Türraum, Lasten und Verankerung zusammenpassen – nicht dort, wo ein Standardmodell gerade Platz findet.</p></article>
+                    <article class="quality-card fade-in"><span>02</span><h3>Wasserführung & Gefälle</h3><p>Dachneigung, Rinne, Ablauf und Wetterseite werden so geplant, dass Regen nicht zum Problem an Fassade, Einfahrt oder Hauseingang wird.</p></article>
+                    <article class="quality-card fade-in"><span>03</span><h3>Holzdimensionierung & Verbindung</h3><p>Stützen, Träger und Verbindungspunkte werden auf Spannweite, Schneelast und Nutzung ausgelegt – der Carport soll nicht nur schön aussehen.</p></article>
+                    <article class="quality-card fade-in"><span>04</span><h3>Saubere Montage</h3><p>Die Montage kommt nicht als anonyme Subkette. Das Team weiß, was geplant wurde, und baut so, dass Anschluss, Optik und Alltag zusammenpassen.</p></article>
+                    <div class="quality-note fade-in">Genau deshalb kann M&P auf Standsicherheit 25 Jahre Garantie geben: nicht als Werbesatz, sondern als Ergebnis aus Planung, Konstruktion und eigener Ausführung.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-proof" id="team">
+            <div class="container team-proof-layout">
+                <figure class="team-proof-photo fade-in">
+                    <img src="assets/peter-preissinger-portrait.webp?v=pp2" alt="Peter Preissinger von M&P Holzbau" loading="lazy" width="720" height="720">
+                </figure>
+                <div class="team-proof-copy fade-in">
+                    <div class="eyebrow">Team / Meisterbetrieb</div>
+                    <h2>Geplant vom Zimmermeister. Gebaut von einem Team, das weiß, worauf es ankommt.</h2>
+                    <p class="section-lead">Bei M&P bleibt die Verantwortung nicht zwischen Beratung, Planung und Baustelle hängen. Peter Preissinger schaut fachlich auf Ihr Projekt – und die Ausführung passiert mit eigener Mannschaft.</p>
+                    <div class="team-proof-card">
+                        <strong>Der Vorteil für Sie: weniger Reibung zwischen Versprechen und Baustelle.</strong>
+                        <p>Was beim Termin besprochen wird, muss später auch auf der Baustelle funktionieren: Höhe, Zufahrt, Stützen, Wasserführung, Optik und Montageweg. Darum gehört das Team sichtbar auf diese Seite – Qualität ist hier kein abstrakter Claim.</p>
+                        <div class="team-points">
+                            <div class="team-point">Persönlicher Ansprechpartner</div>
+                            <div class="team-point">Eigene Montage</div>
+                            <div class="team-point">Zimmermeister-Planung</div>
+                            <div class="team-point">Klare Verantwortung</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -387,21 +451,7 @@
             </div>
         </section>
 
-        <section class="next-step-section" id="planung">
-            <div class="container next-step-layout">
-                <div class="next-step-copy fade-in">
-                    <div class="eyebrow">Der nächste Schritt</div>
-                    <h2>Vom Standortfoto zur ersten Einschätzung.</h2>
-                    <p class="section-lead">Sie müssen noch nicht wissen, welche Konstruktion perfekt ist. Für den ersten Schritt reichen Standort, grober Wunsch und – wenn vorhanden – ein Foto der Einfahrt.</p>
-                    <p class="next-step-reassurance">Die Anfrage ist noch keine Kaufentscheidung. Sie klärt zuerst, ob und wie ein Carport an Ihrem Standort sinnvoll geplant werden kann.</p>
-                </div>
-                <div class="steps next-steps">
-                    <div class="step fade-in"><div class="num">1</div><h3>Situation vor Ort zeigen</h3><p>Ort, Einfahrt, Platz am Haus und alles, was jetzt schon erkennbar ist – gerne als Foto oder kurze Beschreibung.</p></div>
-                    <div class="step fade-in"><div class="num">2</div><h3>Wunsch grob einordnen</h3><p>Einzelcarport, Doppelcarport, Stauraum, geschlossene Wetterseite oder noch offen. Es muss noch keine fertige Planung sein.</p></div>
-                    <div class="step fade-in"><div class="num">3</div><h3>Persönliche Einschätzung bekommen</h3><p>M&P sagt Ihnen, worauf es an Ihrem Standort ankommt, welcher Rahmen realistisch sein kann und welcher nächste Schritt sinnvoll ist.</p></div>
-                </div>
-            </div>
-        </section>
+
 
         <section class="final-cta"><div class="container"><h2>Preis-Schätzung für Ihren Carport anfragen.</h2><p>Ein Foto der Einfahrt, der gewünschte Standort und Ihre grobe Vorstellung reichen, damit M&P die wichtigsten Punkte persönlich einschätzen kann.</p><button class="btn" onclick="openQuiz()">Preis-Schätzung anfragen</button></div></section>
 
@@ -444,71 +494,114 @@
                 <button class="quiz-close" onclick="closeQuiz()">×</button>
             </div>
             <div class="quiz-body">
-                <!-- Step 1 -->
+                <!-- Step 1: Situation -->
                 <div class="quiz-step active" data-step="1">
-                    <h3>Was soll ungefähr entstehen?</h3>
-                    <p class="quiz-sub">Frage 1 von 3 · eine grobe Richtung reicht</p>
+                    <h3>Wo soll der Carport ungefähr entstehen?</h3>
+                    <p class="quiz-sub">Frage 1 von 7 · eine grobe Richtung reicht</p>
                     <div class="quiz-options">
-                        <div class="quiz-option" onclick="selectOption(this, 'type', 'einzel')">
-                            <span class="quiz-option-radio"></span>
-                            Einzelcarport / 1 Auto
-                        </div>
-                        <div class="quiz-option" onclick="selectOption(this, 'type', 'doppel')">
-                            <span class="quiz-option-radio"></span>
-                            Doppelcarport / 2 Autos
-                        </div>
-                        <div class="quiz-option" onclick="selectOption(this, 'type', 'stauraum')">
-                            <span class="quiz-option-radio"></span>
-                            Carport mit Stauraum oder Wetterseite
-                        </div>
-                        <div class="quiz-option" onclick="selectOption(this, 'type', 'offen')">
-                            <span class="quiz-option-radio"></span>
-                            Noch unsicher – bitte einschätzen
-                        </div>
+                        <div class="quiz-option" onclick="selectOption(this, 'position', 'direkt-am-haus')"><span class="quiz-option-radio"></span>Direkt am Haus</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'position', 'neben-dem-haus')"><span class="quiz-option-radio"></span>Neben dem Haus / an der Einfahrt</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'position', 'freistehend')"><span class="quiz-option-radio"></span>Freistehend am Grundstück</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'position', 'unsicher')"><span class="quiz-option-radio"></span>Noch unsicher – bitte einschätzen</div>
                     </div>
                 </div>
 
-                <!-- Step 2: Standort -->
+                <!-- Step 2: Nutzung -->
                 <div class="quiz-step" data-step="2">
+                    <h3>Wofür soll der Carport Platz bieten?</h3>
+                    <p class="quiz-sub">Frage 2 von 7 · das hilft bei Breite, Höhe und Stützenposition</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectOption(this, 'type', 'einzel')"><span class="quiz-option-radio"></span>1 Auto</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'type', 'doppel')"><span class="quiz-option-radio"></span>2 Autos</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'type', 'stauraum')"><span class="quiz-option-radio"></span>Auto + Stauraum / Geräte</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'type', 'offen')"><span class="quiz-option-radio"></span>Noch offen</div>
+                    </div>
+                </div>
+
+                <!-- Step 3: Prioritäten -->
+                <div class="quiz-step" data-step="3">
+                    <h3>Was ist Ihnen besonders wichtig?</h3>
+                    <p class="quiz-sub">Frage 3 von 7 · Mehrfachauswahl möglich</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option is-checkbox" onclick="toggleMulti(this, 'priorities', 'optisch-passend')"><span class="quiz-option-radio"></span>Optisch passend zum Haus</div>
+                        <div class="quiz-option is-checkbox" onclick="toggleMulti(this, 'priorities', 'trocken-geschuetzt')"><span class="quiz-option-radio"></span>Trocken einsteigen / ausladen</div>
+                        <div class="quiz-option is-checkbox" onclick="toggleMulti(this, 'priorities', 'bequem-rangieren')"><span class="quiz-option-radio"></span>Bequem rangieren und Türen öffnen</div>
+                        <div class="quiz-option is-checkbox" onclick="toggleMulti(this, 'priorities', 'wetterseite')"><span class="quiz-option-radio"></span>Wetterseite / Wind / Regen lösen</div>
+                        <div class="quiz-option is-checkbox" onclick="toggleMulti(this, 'priorities', 'behoerde')"><span class="quiz-option-radio"></span>Vorgaben der Gemeinde früh klären</div>
+                    </div>
+                    <div class="quiz-nav"><button class="btn btn-outline" onclick="prevStep()">Zurück</button><button class="btn" onclick="nextStep()" id="btn3">Auswahl übernehmen</button></div>
+                </div>
+
+                <!-- Step 4: Mirror -->
+                <div class="quiz-step quiz-loading" data-step="4">
+                    <h3>Gut, das sagt schon einiges über die Planung.</h3>
+                    <div class="answer-summary" id="mirrorOne"></div>
+                    <div class="quiz-loading-card"><strong>Warum M&P das fragt</strong><p id="mirrorOneText">Standort, Nutzung und Prioritäten entscheiden über Breite, Stützenpunkte, Wasserführung und optische Angleichung.</p></div>
+                </div>
+
+                <!-- Step 5: Standort -->
+                <div class="quiz-step" data-step="5">
                     <h3>Wo soll der Carport entstehen?</h3>
-                    <p class="quiz-sub">Frage 2 von 3</p>
-                    <p class="quiz-hint">Ort oder PLZ reichen für die erste Einschätzung. Eine Straße oder ein Foto machen die Rückmeldung konkreter.</p>
+                    <p class="quiz-sub">Frage 4 von 7</p>
+                    <p class="quiz-hint">Ort oder PLZ reichen für die erste Einschätzung. Eine Straße macht die Rückmeldung konkreter.</p>
                     <input type="text" class="quiz-input" placeholder="Ort oder Straße" id="street">
                     <input type="text" class="quiz-input" placeholder="Postleitzahl (PLZ) *" id="zip" required>
-                    <div class="quiz-nav">
-                        <button class="btn btn-outline" onclick="prevStep()">Zurück</button>
-                        <button class="btn" onclick="nextStep()" id="btn6" disabled>Weiter zu den Kontaktdaten</button>
+                    <div class="quiz-nav"><button class="btn btn-outline" onclick="prevStep()">Zurück</button><button class="btn" onclick="nextStep()" id="btnLocation" disabled>Standort übernehmen</button></div>
+                </div>
+
+                <!-- Step 6: Mirror Standort -->
+                <div class="quiz-step quiz-loading" data-step="6">
+                    <h3>Standort ist wichtig – nicht nur für die Anfahrt.</h3>
+                    <div class="answer-summary" id="mirrorLocation"></div>
+                    <div class="quiz-loading-card"><strong>Der nächste fachliche Blick</strong><p>Je nach Ort können Wetterseite, Schneelast, Zufahrt, Grundgrenze und mögliche Gemeinde-Vorgaben unterschiedlich relevant sein.</p></div>
+                </div>
+
+                <!-- Step 7: Zeithorizont -->
+                <div class="quiz-step" data-step="7">
+                    <h3>Wann soll das Projekt ungefähr starten?</h3>
+                    <p class="quiz-sub">Frage 5 von 7 · nur zur besseren Einordnung</p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectOption(this, 'timeline', 'bald')"><span class="quiz-option-radio"></span>Möglichst bald</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'timeline', '3-monate')"><span class="quiz-option-radio"></span>In den nächsten 3 Monaten</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'timeline', '6-monate')"><span class="quiz-option-radio"></span>In 3–6 Monaten</div>
+                        <div class="quiz-option" onclick="selectOption(this, 'timeline', 'nur-orientierung')"><span class="quiz-option-radio"></span>Ich orientiere mich erst</div>
                     </div>
                 </div>
 
-                <!-- Step 3: Kontakt -->
-                <div class="quiz-step" data-step="3">
-                    <h3>Wie können wir Sie erreichen?</h3>
-                    <p class="quiz-sub">Frage 3 von 3 · Ihre Telefonnummer wird nur für Rückfragen und Terminabstimmung verwendet.</p>
-                    <input type="text" class="quiz-input" placeholder="Vor- und Nachname *" id="name" required>
-                    <input type="tel" class="quiz-input" placeholder="Telefon *" id="phone" required>
-                    <p class="quiz-hint">Optional: Foto oder Skizze hochladen, wenn vorhanden.</p>
-
+                <!-- Step 8: Upload -->
+                <div class="quiz-step" data-step="8">
+                    <h3>Haben Sie ein Foto, eine Skizze oder einen Plan?</h3>
+                    <p class="quiz-sub">Frage 6 von 7 · optional, aber hilfreich</p>
                     <div class="upload-zone" id="uploadZone" data-file-input="fileInput" tabindex="0" role="button" aria-label="Foto, Plan oder Grundriss hochladen">
                         <div class="upload-zone-icon">📎</div>
-                        <div class="upload-zone-text">Foto, Plan oder Grundriss vorhanden?<br>Gerne hochladen – dann kann M&P den Standort besser einschätzen.</div>
+                        <div class="upload-zone-text">Wenn vorhanden: Foto der Einfahrt, Skizze oder Plan hochladen.</div>
                         <div class="upload-zone-hint">JPG, PNG, PDF · max. 10 MB pro Datei · bis zu 5 Dateien</div>
                     </div>
                     <input type="file" class="upload-input" id="fileInput" multiple accept=".jpg,.jpeg,.png,.pdf,.webp" onchange="handleFiles(this.files, this)">
-                    <input type="text" id="quizWebsite" name="website" tabindex="-1" autocomplete="off" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;" aria-hidden="true">
                     <div class="upload-previews" id="uploadPreviews"></div>
+                    <div class="quiz-nav"><button class="btn btn-outline" onclick="prevStep()">Zurück</button><button class="btn" onclick="nextStep()">Weiter zu den Kontaktdaten</button></div>
+                </div>
 
-                    <div class="quiz-nav" style="margin-top: 20px;">
-                        <button class="btn btn-outline" onclick="prevStep()">Zurück</button>
-                        <button class="btn" onclick="submitQuiz()" id="btnSubmit" disabled>Preis-Schätzung anfragen</button>
-                    </div>
-                    <p style="font-size: 12px; color: var(--text-muted); margin-top: 16px; text-align: center;">
-                        Ihre Angaben werden ausschließlich für die Rückmeldung zu Ihrem Carport-Projekt verwendet.
-                    </p>
+                <!-- Step 9: Mirror final -->
+                <div class="quiz-step quiz-loading" data-step="9">
+                    <h3>Das reicht für einen ersten fachlichen Blick.</h3>
+                    <div class="answer-summary" id="mirrorFinal"></div>
+                    <div class="quiz-loading-card"><strong>Was M&P daraus ableitet</strong><p>Aus Standort, Nutzung und Foto/Skizze entsteht noch kein fertiges Angebot – aber eine deutlich bessere Preis-Schätzung als aus einer Standardliste.</p></div>
+                </div>
+
+                <!-- Step 10: Kontakt -->
+                <div class="quiz-step" data-step="10">
+                    <h3>Wie können wir Sie erreichen?</h3>
+                    <p class="quiz-sub">Frage 7 von 7 · Ihre Telefonnummer wird nur für Rückfragen und Terminabstimmung verwendet.</p>
+                    <input type="text" class="quiz-input" placeholder="Vor- und Nachname *" id="name" required>
+                    <input type="tel" class="quiz-input" placeholder="Telefon *" id="phone" required>
+                    <input type="text" id="quizWebsite" name="website" tabindex="-1" autocomplete="off" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;" aria-hidden="true">
+                    <div class="quiz-nav" style="margin-top: 20px;"><button class="btn btn-outline" onclick="prevStep()">Zurück</button><button class="btn" onclick="submitQuiz()" id="btnSubmit" disabled>Preis-Schätzung anfragen</button></div>
+                    <p style="font-size: 12px; color: var(--text-muted); margin-top: 16px; text-align: center;">Ihre Angaben werden ausschließlich für die Rückmeldung zu Ihrem Carport-Projekt verwendet.</p>
                 </div>
 
                 <!-- Success -->
-                <div class="quiz-step" data-step="4">
+                <div class="quiz-step" data-step="11">
                     <div class="quiz-success">
                         <div class="quiz-success-icon">✓</div>
                         <h3>Danke, Ihre Anfrage ist angekommen</h3>
@@ -522,7 +615,7 @@
 
     <script>
         let quizData = {
-            type: '', usage: '', priorities: [], trigger: '', timeline: '',
+            position: '', type: '', priorities: [], timeline: '',
             street: '', zip: '', name: '', phone: ''
         };
         let currentStep = 1;
@@ -936,10 +1029,24 @@
             if (label) label.textContent = isActive ? 'Voice-Note folgt' : '0:34 · Voice folgt';
         }
 
+        function resetQuiz() {
+            currentStep = 1;
+            quizData = { position: '', type: '', priorities: [], timeline: '', street: '', zip: '', name: '', phone: '' };
+            quizUploadedFiles = [];
+            document.querySelectorAll('.quiz-option.selected').forEach(el => el.classList.remove('selected'));
+            ['street','zip','name','phone','quizWebsite'].forEach(function(id){ const el = document.getElementById(id); if (el) el.value = ''; });
+            const btnLocation = document.getElementById('btnLocation');
+            if (btnLocation) btnLocation.disabled = true;
+            const btnSubmit = document.getElementById('btnSubmit');
+            if (btnSubmit) btnSubmit.disabled = true;
+            renderPreviews('quiz');
+        }
+
         function openQuiz() {
+            resetQuiz();
             document.getElementById('quizOverlay').classList.add('active');
             document.body.style.overflow = 'hidden';
-            updateProgress();
+            showStep(1);
             trackFormOpen();
         }
 
@@ -949,21 +1056,80 @@
         }
 
         function updateProgress() {
-            document.getElementById('quizProgress').style.width = ((currentStep - 1) / 3 * 100) + '%';
+            document.getElementById('quizProgress').style.width = ((currentStep - 1) / 10 * 100) + '%';
+        }
+
+        function labelFor(field, value) {
+            const labels = {
+                position: {'direkt-am-haus':'direkt am Haus', 'neben-dem-haus':'neben dem Haus / an der Einfahrt', 'freistehend':'freistehend am Grundstück', 'unsicher':'noch unsicher'},
+                type: {'einzel':'1 Auto', 'doppel':'2 Autos', 'stauraum':'Auto + Stauraum / Wetterseite', 'offen':'noch offen'},
+                timeline: {'bald':'möglichst bald', '3-monate':'in den nächsten 3 Monaten', '6-monate':'in 3–6 Monaten', 'nur-orientierung':'erst Orientierung'},
+                priorities: {'optisch-passend':'optisch passend zum Haus', 'trocken-geschuetzt':'trocken einsteigen / ausladen', 'bequem-rangieren':'bequem rangieren und Türen öffnen', 'wetterseite':'Wetterseite lösen', 'behoerde':'Gemeinde-Vorgaben klären', 'noch-offen':'noch offen'}
+            };
+            return (labels[field] && labels[field][value]) || value;
+        }
+
+        function chip(text) {
+            return '<div class="answer-chip">' + text + '</div>';
+        }
+
+        function updateMirrors() {
+            const priorities = quizData.priorities.map(v => labelFor('priorities', v));
+            const mirrorOne = document.getElementById('mirrorOne');
+            if (mirrorOne) {
+                mirrorOne.innerHTML = [
+                    quizData.position ? chip('Standort: ' + labelFor('position', quizData.position)) : '',
+                    quizData.type ? chip('Nutzung: ' + labelFor('type', quizData.type)) : '',
+                    priorities.length ? chip('Wichtig: ' + priorities.join(', ')) : ''
+                ].join('');
+            }
+            const mirrorOneText = document.getElementById('mirrorOneText');
+            if (mirrorOneText) {
+                const positionText = quizData.position === 'direkt-am-haus'
+                    ? 'Direkt am Haus heißt: Anschluss, Gefälle, Wasserführung und Optik müssen gemeinsam passen.'
+                    : quizData.position === 'freistehend'
+                        ? 'Freistehend heißt: Stützenpunkte, Fundament, Zufahrt und Wetterseite werden besonders wichtig.'
+                        : 'Der genaue Standort entscheidet über Türraum, Rangierfläche, Wasserführung und die passende Konstruktion.';
+                const typeText = quizData.type === 'doppel'
+                    ? ' Bei 2 Autos zählt nicht nur Breite, sondern auch bequemes Einsteigen, Stützenposition und Rangierfläche.'
+                    : quizData.type === 'stauraum'
+                        ? ' Bei Stauraum oder Wetterseite muss die Konstruktion im Alltag mehr leisten als nur das Auto überdecken.'
+                        : '';
+                mirrorOneText.textContent = positionText + typeText;
+            }
+            const mirrorLocation = document.getElementById('mirrorLocation');
+            if (mirrorLocation) mirrorLocation.innerHTML = chip('Ort/PLZ: ' + [quizData.street, quizData.zip].filter(Boolean).join(' · '));
+            const mirrorFinal = document.getElementById('mirrorFinal');
+            if (mirrorFinal) {
+                mirrorFinal.innerHTML = [
+                    quizData.position ? chip('Situation: ' + labelFor('position', quizData.position)) : '',
+                    quizData.type ? chip('Nutzung: ' + labelFor('type', quizData.type)) : '',
+                    quizData.timeline ? chip('Zeitrahmen: ' + labelFor('timeline', quizData.timeline)) : '',
+                    quizUploadedFiles.length ? chip('Foto/Plan: ' + quizUploadedFiles.length + ' Datei(en)') : chip('Foto/Plan: kann später nachgereicht werden')
+                ].join('');
+            }
         }
 
         function showStep(n) {
             document.querySelectorAll('.quiz-step').forEach(s => s.classList.remove('active'));
-            document.querySelector('.quiz-step[data-step="' + n + '"]').classList.add('active');
+            const step = document.querySelector('.quiz-step[data-step="' + n + '"]');
+            if (!step) return;
+            step.classList.add('active');
             currentStep = n;
             updateProgress();
+            updateMirrors();
+            if ([4,6,9].includes(n)) {
+                window.setTimeout(function() {
+                    if (document.getElementById('quizOverlay').classList.contains('active') && currentStep === n) showStep(n + 1);
+                }, 1250);
+            }
         }
 
         function selectOption(el, field, value) {
             el.closest('.quiz-step').querySelectorAll('.quiz-option').forEach(o => o.classList.remove('selected', 'is-advancing'));
             el.classList.add('selected', 'is-advancing');
             quizData[field] = value;
-            if ([1].includes(currentStep)) {
+            if ([1,2,7].includes(currentStep)) {
                 window.setTimeout(function() {
                     if (document.getElementById('quizOverlay').classList.contains('active')) nextStep();
                 }, 180);
@@ -982,7 +1148,10 @@
         }
 
         function nextStep() {
-            if (currentStep === 2) {
+            if (currentStep === 3 && !quizData.priorities.length) {
+                quizData.priorities = ['noch-offen'];
+            }
+            if (currentStep === 5) {
                 quizData.street = document.getElementById('street').value.trim();
                 quizData.zip = document.getElementById('zip').value.trim();
                 if (quizData.zip.length < 4) return;
@@ -995,10 +1164,10 @@
         }
 
         document.getElementById('street').addEventListener('input', function() {
-            document.getElementById('btn6').disabled = !(document.getElementById('zip').value.trim().length >= 4);
+            document.getElementById('btnLocation').disabled = !(document.getElementById('zip').value.trim().length >= 4);
         });
         document.getElementById('zip').addEventListener('input', function() {
-            document.getElementById('btn6').disabled = !(this.value.trim().length >= 4);
+            document.getElementById('btnLocation').disabled = !(this.value.trim().length >= 4);
         });
 
         function checkStep7() {
@@ -1036,10 +1205,9 @@
                     phone: quizData.phone || '',
                     strasse: quizData.street || '',
                     plz: quizData.zip || '',
+                    carport_position: quizData.position || '',
                     carport_typ: quizData.type || '',
-                    einbindung: quizData.usage || '',
                     prioritaeten: Array.isArray(quizData.priorities) ? quizData.priorities.join(', ') : '',
-                    ausloeser: quizData.trigger || '',
                     zeitrahmen: quizData.timeline || '',
                     dateien: quizUploadedFiles.map(f => f.name).join(', ') || 'keine'
                 }
@@ -1047,7 +1215,7 @@
 
             submitLeadPayload(payload);
 
-            showStep(4);
+            showStep(11);
 
             // Google Ads conversion event
             if (typeof gtag === 'function') {
