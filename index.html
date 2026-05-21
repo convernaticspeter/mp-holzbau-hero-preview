@@ -224,10 +224,10 @@
                 <div class="hero-actions"><button class="btn" id="heroPrimaryCta" onclick="openQuiz()">Preis-Schätzung anfragen</button></div>
                 <p class="micro" id="heroMicrocopy">Kostenlos und unverbindlich – M&P meldet sich persönlich mit der nächsten sinnvollen Einschätzung.</p>
                 <div class="hero-proof" id="heroProof"><span class="proof-pill">Eigene Montage</span><span class="proof-pill">ab ca. 7.500 €</span><span class="proof-pill">25 Jahre Garantie</span></div>
-                <div class="hero-voice-note" id="heroVoiceNote" aria-label="Kundenstimme als Voice-Note Platzhalter">
-                    <button class="hero-voice-button" type="button" onclick="toggleHeroVoiceDummy(this)" aria-label="Kundenstimme anhören – Dummy">▶</button>
+                <div class="hero-voice-note" id="heroVoiceNote" aria-label="Kundenstimme von M&P Holzbau">
+                    <button class="hero-voice-button" type="button" onclick="toggleHeroVoiceDummy(this)" aria-label="Kundenstimme anhören">▶</button>
                     <div class="hero-voice-copy">
-                        <div class="hero-voice-label">Kundenstimme anhören <span>0:34 · Voice folgt</span></div>
+                        <div class="hero-voice-label">Kundenstimme <span>0:34</span></div>
                         <div class="hero-voice-quote">„Peter hat nicht einfach ein Modell verkauft, sondern zuerst geschaut, was bei unserem Haus wirklich Sinn macht.“</div>
                         <div class="hero-voice-meta">Maximilian R. · Wien</div>
                     </div>
@@ -1025,8 +1025,8 @@
             var label = note.querySelector('.hero-voice-label span');
             var isActive = note.classList.toggle('is-playing');
             button.textContent = isActive ? 'Ⅱ' : '▶';
-            button.setAttribute('aria-label', isActive ? 'Dummy Voice-Note pausieren' : 'Kundenstimme anhören – Dummy');
-            if (label) label.textContent = isActive ? 'Voice-Note folgt' : '0:34 · Voice folgt';
+            button.setAttribute('aria-label', isActive ? 'Kundenstimme pausieren' : 'Kundenstimme anhören');
+            if (label) label.textContent = isActive ? 'Kundenstimme' : '0:34';
         }
 
         function resetQuiz() {
