@@ -1,6 +1,24 @@
 <?php
 declare(strict_types=1);
 
+class LeadHttpException extends RuntimeException
+{
+    public int $status;
+    public array $body;
+
+    public function __construct(int $status, array $body)
+    {
+        parent::__construct((string)($body['error'] ?? 'lead_http_error'));
+        $this->status = $status;
+        $this->body = $body;
+    }
+}
+
+function lead_abort(int $status, array $body): void
+{
+    throw new LeadHttpException($status, $body);
+}
+
 function json_response(int $status, array $body): void
 {
     http_response_code($status);
@@ -22,6 +40,30 @@ function get_client_ip(): string
 {
     // Prefer REMOTE_ADDR. Don't trust X-Forwarded-For unless explicitly configured at server level.
     return $_SERVER['REMOTE_ADDR'] ?? '0.0.0.0';
+}
+
+function read_json_submission(): array
+{
+    if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+        return ['ok' => false, 'status' => 204, 'body' => [], 'raw_body' => '', 'payload' => null];
+    }
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+        return ['ok' => false, 'status' => 405, 'body' => ['ok' => false, 'error' => 'method_not_allowed'], 'raw_body' => '', 'payload' => null];
+    }
+
+    $contentLength = (int)($_SERVER['CONTENT_LENGTH'] ?? 0);
+    if ($contentLength > 51200) {
+        $raw = file_get_contents('php://input') ?: '';
+        return ['ok' => false, 'status' => 413, 'body' => ['ok' => false, 'error' => 'payload_too_large'], 'raw_body' => $raw, 'payload' => null];
+    }
+
+    $raw = file_get_contents('php://input') ?: '';
+    $payload = json_decode($raw, true);
+    if (!is_array($payload)) {
+        return ['ok' => false, 'status' => 400, 'body' => ['ok' => false, 'error' => 'invalid_json'], 'raw_body' => $raw, 'payload' => null];
+    }
+
+    return ['ok' => true, 'status' => 200, 'body' => [], 'raw_body' => $raw, 'payload' => $payload];
 }
 
 function require_post_json(): array
@@ -62,7 +104,7 @@ function validate_honeypot(array $payload): void
     $hp = field_value($payload, 'website');
     if ($hp !== '') {
         // Pretend success so simple bots don't learn anything.
-        json_response(200, ['ok' => true, 'queued' => false]);
+        lead_abort(200, ['ok' => true, 'queued' => false, 'reason' => 'honeypot']);
     }
 }
 
@@ -78,7 +120,7 @@ function validate_required_fields(array $payload): void
     } elseif ($source === 'landingpage.carports-kontaktformular') {
         $required = ['name', 'email', 'phone', 'ort', 'interesse', 'nachricht'];
     } else {
-        json_response(400, ['ok' => false, 'error' => 'invalid_source']);
+        lead_abort(400, ['ok' => false, 'error' => 'invalid_source']);
     }
 
     $missing = [];
@@ -89,7 +131,7 @@ function validate_required_fields(array $payload): void
     }
 
     if ($missing) {
-        json_response(422, ['ok' => false, 'error' => 'missing_required_fields', 'fields' => $missing]);
+        lead_abort(422, ['ok' => false, 'error' => 'missing_required_fields', 'fields' => $missing]);
     }
 }
 
@@ -132,7 +174,7 @@ function enforce_rate_limit(PDO $pdo, array $config): void
 
         if ((int)$row['request_count'] >= $maxRequests) {
             $pdo->commit();
-            json_response(429, ['ok' => false, 'error' => 'rate_limited']);
+            lead_abort(429, ['ok' => false, 'error' => 'rate_limited']);
         }
 
         $update = $pdo->prepare('UPDATE lead_rate_limits SET request_count = request_count + 1 WHERE ip_hash = ?');
@@ -144,6 +186,64 @@ function enforce_rate_limit(PDO $pdo, array $config): void
         }
         throw $e;
     }
+}
+
+function submission_ip_hash(array $config): string
+{
+    $salt = (string)($config['rate_limit_salt'] ?? '');
+    if ($salt === '' || strpos($salt, 'CHANGE_ME') === 0) {
+        return '';
+    }
+    return hash('sha256', $salt . '|' . get_client_ip());
+}
+
+function ensure_submission_audit_table(PDO $pdo): void
+{
+    static $ensured = false;
+    if ($ensured) {
+        return;
+    }
+
+    $pdo->exec("CREATE TABLE IF NOT EXISTS lead_submission_audit (
+      id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+      uuid CHAR(36) NOT NULL UNIQUE,
+      source VARCHAR(120) NOT NULL DEFAULT '',
+      raw_body MEDIUMTEXT NOT NULL,
+      payload_json JSON NULL,
+      status ENUM('received','queued','delivered','failed','rejected','honeypot') NOT NULL DEFAULT 'received',
+      error_code VARCHAR(160) NULL,
+      lead_queue_uuid CHAR(36) NULL,
+      client_ip_hash CHAR(64) NULL,
+      user_agent TEXT NULL,
+      created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+      INDEX idx_audit_status_created (status, created_at),
+      INDEX idx_audit_lead_queue_uuid (lead_queue_uuid),
+      INDEX idx_audit_created_at (created_at)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci");
+
+    $ensured = true;
+}
+
+function insert_submission_audit(PDO $pdo, array $config, ?array $payload, string $rawBody, string $status = 'received', ?string $errorCode = null): int
+{
+    ensure_submission_audit_table($pdo);
+
+    $source = is_array($payload) ? field_value($payload, 'source') : '';
+    $payloadJson = is_array($payload) ? json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) : null;
+    $uuid = uuid_v4();
+    $ipHash = submission_ip_hash($config);
+    $userAgent = substr((string)($_SERVER['HTTP_USER_AGENT'] ?? ''), 0, 1000);
+
+    $stmt = $pdo->prepare('INSERT INTO lead_submission_audit (uuid, source, raw_body, payload_json, status, error_code, client_ip_hash, user_agent) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+    $stmt->execute([$uuid, $source, $rawBody, $payloadJson, $status, $errorCode, $ipHash ?: null, $userAgent ?: null]);
+    return (int)$pdo->lastInsertId();
+}
+
+function update_submission_audit(PDO $pdo, int $auditId, string $status, ?string $errorCode = null, ?string $leadQueueUuid = null): void
+{
+    $stmt = $pdo->prepare('UPDATE lead_submission_audit SET status = ?, error_code = ?, lead_queue_uuid = COALESCE(?, lead_queue_uuid) WHERE id = ?');
+    $stmt->execute([$status, $errorCode, $leadQueueUuid, $auditId]);
 }
 
 function insert_lead(PDO $pdo, array $payload): string

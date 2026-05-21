@@ -10,6 +10,18 @@ PHP + MariaDB queue for landingpage leads before forwarding to LeadTable.
 SOURCE api/schema.sql;
 ```
 
+For an existing installation, also run pending migrations, e.g.:
+
+```sql
+SOURCE api/migrations/2026-05-21-lead-submission-audit.sql;
+```
+
+This project intentionally stores every received form POST twice:
+- `lead_submission_audit` = raw/audit record for every POST, including rejected/honeypot/rate-limited submissions.
+- `lead_queue` = valid lead queue for LeadTable delivery and retries.
+
+The browser must only redirect to `danke.html` after `/api/lead-submit.php` returns HTTP 200 with `ok:true`. Google Ads conversion is fired only after that server confirmation.
+
 2. Copy env file:
 
 ```bash
