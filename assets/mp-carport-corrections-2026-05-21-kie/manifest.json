@@ -1,0 +1,189 @@
+{
+  "created_at": "2026-05-21T13:30:51.823886+00:00",
+  "batch": "mp-carport-corrections-2026-05-21",
+  "model": "gpt-image-2-text-to-image",
+  "state": "finished",
+  "output_dir": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie",
+  "global_prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.",
+  "scenes": {
+    "01_verbindungen_statt_kosmetik_carport_detail": {
+      "state": "success",
+      "task_id": "27d7cb4ae4f23d5defb7a82eb286734f",
+      "prompt": "Close documentary detail at a finished timber carport: a solid timber beam meeting a vertical post under the carport roof, visible metal bracket/bolt connection and roof underside, paved driveway below, part of the house in the background. Absolutely no terrace deck or patio floor construction.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Close documentary detail at a finished timber carport: a solid timber beam meeting a vertical post under the carport roof, visible metal bracket/bolt connection and roof underside, paved driveway below, part of the house in the background. Absolutely no terrace deck or patio floor construction.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "01_verbindungen_statt_kosmetik_carport_detail.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/27d7cb4ae4f23d5defb7a82eb286734f_53eab56758d7406ebb37d43afe10ee45.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/01_verbindungen_statt_kosmetik_carport_detail.webp",
+      "finished_at": "2026-05-21T13:33:19.848952+00:00"
+    },
+    "02_material_wunsch_carport_holz_detail": {
+      "state": "success",
+      "task_id": "1c8b3083f4043955da8dfeee42f24da9",
+      "prompt": "Close-medium photo of different timber finish samples and roof color samples held beside an actual timber carport post on a paved driveway, with the carport roof and house entrance softly visible behind. Shows custom material choice for the desired carport, not Siberian larch specifically.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Close-medium photo of different timber finish samples and roof color samples held beside an actual timber carport post on a paved driveway, with the carport roof and house entrance softly visible behind. Shows custom material choice for the desired carport, not Siberian larch specifically.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "02_material_wunsch_carport_holz_detail.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/1c8b3083f4043955da8dfeee42f24da9_1_1779370356_5765.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/02_material_wunsch_carport_holz_detail.webp",
+      "finished_at": "2026-05-21T13:32:52.737696+00:00"
+    },
+    "03_team_planung_am_carport": {
+      "state": "success",
+      "task_id": "98073256de8098e84689f893d3e00d77",
+      "prompt": "Documentary scene: two M&P-style carpenters in burgundy/dark workwear standing at an actual timber carport on an Austrian driveway, looking at plans and pointing toward roof line and post positions. They are not posing. The image must clearly show the carport structure, not a terrace.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Documentary scene: two M&P-style carpenters in burgundy/dark workwear standing at an actual timber carport on an Austrian driveway, looking at plans and pointing toward roof line and post positions. They are not posing. The image must clearly show the carport structure, not a terrace.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "03_team_planung_am_carport.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/98073256de8098e84689f893d3e00d77_6b95fd37cdac4cb88d189db961030f24.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/03_team_planung_am_carport.webp",
+      "finished_at": "2026-05-21T13:34:04.530430+00:00"
+    },
+    "04_montage_stuetzenpunkt_carport": {
+      "state": "success",
+      "task_id": "d78f6c429c40d60341deb3eb242eb118",
+      "prompt": "Construction detail: worker kneeling at the post base of a timber carport, fastening a metal bracket into concrete/paving at the driveway, vertical carport post and roof beams visible above. No terrace boards, no deck, no pergola.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Construction detail: worker kneeling at the post base of a timber carport, fastening a metal bracket into concrete/paving at the driveway, vertical carport post and roof beams visible above. No terrace boards, no deck, no pergola.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "04_montage_stuetzenpunkt_carport.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/d78f6c429c40d60341deb3eb242eb118_918e0540079547e68814402c55252112.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/04_montage_stuetzenpunkt_carport.webp",
+      "finished_at": "2026-05-21T13:34:17.258309+00:00"
+    },
+    "05_referenz_carport_hausanschluss_eingang": {
+      "state": "success",
+      "task_id": "013d7955632ab8c84e7a9fe1ab16522a",
+      "prompt": "Finished custom timber carport with a covered roof extension from the parking bay toward the front door, showing a dry protected path to the house entrance. Austrian family house, paved driveway, no text, believable gutter and downpipe.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Finished custom timber carport with a covered roof extension from the parking bay toward the front door, showing a dry protected path to the house entrance. Austrian family house, paved driveway, no text, believable gutter and downpipe.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "05_referenz_carport_hausanschluss_eingang.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/013d7955632ab8c84e7a9fe1ab16522a_073643ac127a46c29d1ca4fffaa48fde.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/05_referenz_carport_hausanschluss_eingang.webp",
+      "finished_at": "2026-05-21T13:34:16.202235+00:00"
+    },
+    "06_referenz_carport_wasserfuehrung": {
+      "state": "success",
+      "task_id": "902fd4fe60066ee7ec2c8905daae361c",
+      "prompt": "Finished timber carport after rain: wet uncovered driveway outside, dry sheltered paving under roof, visible gutter and downpipe leading water away from house facade. No terrace, no generic patio.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Finished timber carport after rain: wet uncovered driveway outside, dry sheltered paving under roof, visible gutter and downpipe leading water away from house facade. No terrace, no generic patio.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "06_referenz_carport_wasserfuehrung.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/gpt-image-2-kie/1779370382146-sfius0yq1.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/06_referenz_carport_wasserfuehrung.webp",
+      "finished_at": "2026-05-21T13:33:06.542939+00:00"
+    },
+    "07_referenz_carport_wunschcarport": {
+      "state": "success",
+      "task_id": "de9d3de46a32d987755c1fdedf364163",
+      "prompt": "Modern custom timber carport built exactly to fit a normal Austrian house and driveway, practical proportions, clear opening space, optional side storage/weather wall, calm daylight. It should look like a real desired carport, not a catalogue model.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Modern custom timber carport built exactly to fit a normal Austrian house and driveway, practical proportions, clear opening space, optional side storage/weather wall, calm daylight. It should look like a real desired carport, not a catalogue model.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "07_referenz_carport_wunschcarport.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/de9d3de46a32d987755c1fdedf364163_3aa1d29d07884859a0ff1e2f2c9c5dc3.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/07_referenz_carport_wunschcarport.webp",
+      "finished_at": "2026-05-21T13:32:37.767308+00:00"
+    },
+    "08_standort_check_punkte_basisbild": {
+      "state": "success",
+      "task_id": "ff12b2bec32b9eb44db1ddd08f6b9c0c",
+      "prompt": "Wide clean photo of timber carport attached beside an Austrian house, with roof continuing toward front door entrance. Clear visible elements for future labels: roof gutter/downpipe on one side, house connection line, walking space to entrance, post base/foundation area, closed weather side. No labels or text in the image.",
+      "request_body": {
+        "model": "gpt-image-2-text-to-image",
+        "input": {
+          "prompt": "Photorealistic documentary architectural images for M&P Holzbau, an Austrian Zimmermeisterbetrieb building custom timber carports in Vienna, Lower Austria and Burgenland.\nCRITICAL: every image must clearly be about a timber CARPORT or carport construction, never a terrace, patio deck, pergola, balcony, terrace substructure or generic timber platform.\nUse realistic Austrian / DACH detached houses, paved driveways, gutters, downpipes, straight timber posts and beams, plausible roof loads and connections. Craft-quality, practical, believable local trade photography, not CGI, not luxury-render fantasy.\nNo readable text, no logos, no watermarks, no license plates. Workers may wear dark navy/charcoal/burgundy workwear without readable logos. Natural lens and light. Horizontal 16:9, website usable, no awkward crops.\n\nScene: Wide clean photo of timber carport attached beside an Austrian house, with roof continuing toward front door entrance. Clear visible elements for future labels: roof gutter/downpipe on one side, house connection line, walking space to entrance, post base/foundation area, closed weather side. No labels or text in the image.",
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "08_standort_check_punkte_basisbild.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/chatgpt/ff12b2bec32b9eb44db1ddd08f6b9c0c_639f115292bd4ac6800b98459478caa1.png",
+      "file": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/08_standort_check_punkte_basisbild.webp",
+      "finished_at": "2026-05-21T13:32:50.166115+00:00"
+    }
+  },
+  "contact_sheet": "/private/tmp/mp-holzbau-hero-preview/assets/mp-carport-corrections-2026-05-21-kie/_contact_sheet.jpg",
+  "finished_at": "2026-05-21T13:34:18.025021+00:00",
+  "pending": []
+}
