@@ -4,6 +4,7 @@ declare(strict_types=1);
 require __DIR__ . '/db.php';
 require __DIR__ . '/functions.php';
 require __DIR__ . '/leadtable-client.php';
+require __DIR__ . '/google-ads-conversions.php';
 
 $auditId = null;
 $pdo = null;
@@ -32,19 +33,38 @@ try {
     $uuid = insert_lead($pdo, $payload);
     update_submission_audit($pdo, $auditId, 'queued', null, $uuid);
 
-    // Fire a best-effort immediate delivery attempt. The browser receives OK
-    // as long as the lead was saved locally, even if LeadTable is down.
-    $result = forward_to_leadtable($payload, $config);
-    if ($result['ok'] ?? false) {
-        update_delivery_success($pdo, $uuid, (string)($result['response'] ?? ''));
+    // Local persistence is the source of truth, but do not wait for cron for the
+    // business handoff. Try the LeadTable/webhook delivery immediately once; if
+    // the third-party endpoint is slow/down, the existing retry queue remains the
+    // fallback instead of losing the lead.
+    $deliveryStatus = 'queued_for_retry';
+    $deliveryError = null;
+    $googleAdsConversion = null;
+
+    $delivery = forward_to_leadtable($payload, $config);
+    if ($delivery['ok'] ?? false) {
+        update_delivery_success($pdo, $uuid, (string)($delivery['response'] ?? ''));
         update_submission_audit($pdo, $auditId, 'delivered', null, $uuid);
+        $deliveryStatus = 'delivered';
+
+        try {
+            $googleAdsConversion = enqueue_and_try_google_ads_conversion($pdo, $uuid, $payload, $config);
+        } catch (Throwable $conversionError) {
+            error_log('google ads conversion enqueue failed: ' . $conversionError->getMessage());
+        }
     } else {
-        $error = (string)($result['error'] ?? 'unknown_error');
-        update_delivery_failure($pdo, $uuid, $error);
-        update_submission_audit($pdo, $auditId, 'failed', $error, $uuid);
+        $deliveryError = (string)($delivery['error'] ?? 'unknown_error');
+        update_delivery_failure($pdo, $uuid, $deliveryError);
     }
 
-    json_response(200, ['ok' => true, 'queued' => true, 'id' => $uuid]);
+    json_response(200, [
+        'ok' => true,
+        'queued' => $deliveryStatus !== 'delivered',
+        'id' => $uuid,
+        'delivery_status' => $deliveryStatus,
+        'delivery_error' => $deliveryError,
+        'google_ads_conversion' => $googleAdsConversion,
+    ]);
 } catch (LeadHttpException $e) {
     if ($pdo instanceof PDO && $auditId !== null) {
         $errorCode = (string)($e->body['error'] ?? $e->body['reason'] ?? 'rejected');

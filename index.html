@@ -4,8 +4,8 @@
     <!-- Build: v3 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carport Preis-Schätzung vom Zimmermeister – M&P Holzbau</title>
-    <meta name="description" content="Carport für Haus und Einfahrt: M&P Holzbau schätzt Standort, Ausführung und Preisrahmen persönlich ein – in Wien, Niederösterreich und Burgenland.">
+    <title>Wunsch-Carport vom Zimmermeister – M&P Holzbau</title>
+    <meta name="description" content="Wunsch-Carport aus Holz: M&P Holzbau prüft Standort, Wasserführung, Fundament, Statik und Hausanschluss persönlich – in Wien, Niederösterreich und Burgenland.">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
     <link rel="apple-touch-icon" href="assets/favicon-192.png">
@@ -43,6 +43,7 @@
         .btn{appearance:none;border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:16px 26px;font-size:16px;line-height:1.15;font-weight:900;text-decoration:none;background:linear-gradient(135deg,#f3c46f,#bf7932);color:#1c150e;box-shadow:0 18px 42px -26px rgba(120,74,25,.65),inset 0 1px 0 rgba(255,255,255,.55);transition:.22s ease;position:relative;overflow:hidden}
         .btn::after{content:"";position:absolute;inset:-80% auto -80% -40%;width:45%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent);transform:rotate(18deg);animation:shine 4.8s infinite} .btn:hover{transform:translateY(-2px);box-shadow:0 26px 56px -28px rgba(120,74,25,.75)} @keyframes shine{0%,55%{left:-55%}100%{left:135%}}
         .btn.secondary{background:rgba(255,253,248,.10);border:1px solid rgba(255,253,248,.28);color:var(--white);box-shadow:none} .btn.green{background:linear-gradient(135deg,#5f875f,#294a31);color:white} .btn.dark{background:linear-gradient(135deg,#314732,#17251b);color:white}
+        .btn:disabled{cursor:not-allowed;opacity:.72;transform:none}.btn.is-loading::before{content:"";width:16px;height:16px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .75s linear infinite}.lead-submit-card{margin:24px auto 0;padding:24px;border-radius:24px;background:#fffaf1;border:1px solid rgba(39,33,27,.12);box-shadow:12px 12px 0 rgba(39,33,27,.08);text-align:center;max-width:560px}.lead-submit-spinner{width:38px;height:38px;border:4px solid rgba(185,121,54,.22);border-top-color:#b87936;border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px}.lead-submit-status{margin-top:14px;padding:14px 16px;border-radius:16px;background:#fffaf1;border:1px solid rgba(39,33,27,.12);color:#40362d;font-weight:800;text-align:center}@keyframes spin{to{transform:rotate(360deg)}}
         .nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:14px 0;transition:.25s ease;background:rgba(23,37,27,.78);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.10)} .nav.scrolled{background:rgba(23,37,27,.90);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.12);padding:11px 0}
         .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:18px} .nav-brand{display:flex;align-items:center;gap:12px;color:white;text-decoration:none;font-weight:900} .nav-logo{height:48px;width:auto;filter:brightness(0) invert(1) drop-shadow(0 12px 20px rgba(0,0,0,.20))} .nav-links{display:flex;gap:22px;align-items:center;color:rgba(255,253,248,.9);font-size:14px;font-weight:750} .nav-links a{text-decoration:none} .nav-region{padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.14);font-size:12px;white-space:nowrap}
         .sticky-cta{position:fixed;left:50%;bottom:18px;transform:translate(-50%,calc(100% + 34px));z-index:999;background:rgba(255,250,241,.88);border:1px solid rgba(39,33,27,.12);box-shadow:0 24px 70px -36px rgba(24,22,18,.5);backdrop-filter:blur(18px);border-radius:999px;padding:10px;display:flex;align-items:center;gap:12px;transition:.3s ease;opacity:0;visibility:hidden;pointer-events:none} .sticky-cta.visible{transform:translate(-50%,0);opacity:1;visibility:visible;pointer-events:auto} .sticky-cta span{font-size:13px;font-weight:800;color:#273322;white-space:nowrap}
@@ -174,6 +175,9 @@
         @media(max-width:980px){.craft-quality-layout,.team-proof-layout{grid-template-columns:1fr}.craft-quality-copy{position:relative;top:auto}.craft-quality-copy h2,.team-proof-copy h2{max-width:760px}.team-proof-photo img{min-height:0}.quality-material-card{grid-template-columns:1fr}.team-proof-collage{grid-template-rows:220px 220px}}
         @media(max-width:640px){.craft-quality-grid,.team-points{grid-template-columns:1fr}.quality-card,.quality-note,.team-proof-card,.team-proof-photo,.quiz-loading-card,.material-proof-photo{box-shadow:8px 8px 0 rgba(39,33,27,.10)}.team-proof-photo img{min-height:0}.craft-quality-copy h2,.team-proof-copy h2{font-size:38px;max-width:11ch}.quiz-nav{flex-direction:column}.quiz-nav .btn{width:100%}.team-proof-collage{grid-template-columns:1fr;grid-template-rows:auto}.team-proof-collage .team-proof-photo:first-child{grid-row:auto}.team-proof-collage .team-proof-photo img{height:auto}.hero-founder-card{grid-template-columns:54px 1fr}.hero-founder-card img{width:54px;height:54px}}
 
+        .team-mid-cta{margin-top:24px;background:#17251b;color:#fffaf1;border-left:7px solid #d5a35b;box-shadow:10px 10px 0 rgba(39,33,27,.12);padding:22px 24px;display:grid;gap:10px;align-items:start}.team-mid-cta strong{font-family:'Space Grotesk',Inter,sans-serif;font-size:22px;line-height:1.15;color:#fffaf1}.team-mid-cta p{color:rgba(255,250,241,.76);line-height:1.55}.team-mid-cta .btn{justify-self:start;margin-top:4px}
+        @media(max-width:640px){.team-mid-cta{box-shadow:8px 8px 0 rgba(39,33,27,.10);padding:20px}.team-mid-cta .btn{width:100%}}
+
         /* Mobile edge balance: keep editorial cards off the right viewport edge */
         @media(max-width:640px){
             .container{width:calc(100% - 32px)}
@@ -204,7 +208,7 @@
             <div class="nav-links"><a href="#planung">Planung</a><a href="#handwerk">Handwerk</a><a href="#team">Team</a><a href="#referenzen">Beweis</a><a href="#ablauf">Ablauf</a><a href="#einzugsgebiet">Gebiet</a><span class="nav-region">Wien · NÖ · Burgenland</span></div>
         </div>
     </nav>
-    <div class="sticky-cta" id="stickyCta"><span>Erste fachliche Einschätzung</span><button class="btn green" onclick="openQuiz()">Preis-Schätzung anfragen</button></div>
+    <div class="sticky-cta" id="stickyCta"><span>Einfahrt zeigen, erste Preisrichtung bekommen</span><button class="btn green" onclick="openQuiz()">Standort einschätzen lassen</button></div>
 
     <header class="hero" id="top">
         <div class="wide hero-shell">
@@ -215,26 +219,26 @@
                 <div class="gallery-thumb" onclick="openLightbox(3)" style="background-image:url('assets/mp-carport-lp-balanced-2026-05-21/hero-04-empty-winter.webp?v=balanced0521b')" title="Winter: freier, geschützter Bereich – Klicken zum Vergrößern"></div>
                 <div class="gallery-thumb" onclick="openLightbox(4)" style="background-image:url('assets/mp-carport-lp-balanced-2026-05-21/hero-05-car-solar-wallbox.webp?v=balanced0521b')" title="Maßarbeit Hausanschluss – Klicken zum Vergrößern"></div>
                 <div class="gallery-thumb" onclick="openLightbox(5)" style="background-image:url('assets/mp-carport-lp-balanced-2026-05-21/hero-06-empty-evening.webp?v=balanced0521b')" title="Carport integriert am Haus – Klicken zum Vergrößern"></div>
-                <figcaption class="hero-caption">Zimmermeister-Carport für Haus, Einfahrt und Alltag.</figcaption>
+                <figcaption class="hero-caption">Höhe · Wasser · Zufahrt · Fundament – bevor ein Preis Sinn macht.</figcaption>
             </div>
             <div class="hero-copy fade-in visible">
                 <img class="hero-meister-siegel" src="assets/gutesiegel-meisterbetrieb.png" alt="Meisterbetrieb" width="122" height="122">
-                <div class="eyebrow" id="heroEyebrow">Zimmermeisterbetrieb · Wien · NÖ · Burgenland</div>
-                <h1 id="heroHeadline">Ein Holzcarport, der zum Haus gehört.</h1>
-                <p class="lead" id="heroLead" style="margin-top:16px">Für Einfahrt, Wetterseite und Alltag abgestimmt — von M&P Holzbau, Zimmermeisterbetrieb.</p>
+                <div class="eyebrow" id="heroEyebrow">Zimmermeister-Carports · Wien · NÖ · Burgenland</div>
+                <h1 id="heroHeadline">Ein Carport ist erst gut, wenn er am Haus richtig funktioniert.</h1>
+                <p class="lead" id="heroLead" style="margin-top:16px">Bevor ein Preis seriös ist, müssen Höhe, Wasserführung, Fundament, Zufahrt, Wetterseite und Hausanschluss zusammenpassen. Peter Preissinger prüft Ihre Eckdaten persönlich – damit aus dem Dach ein geplanter Wunsch-Carport wird.</p>
                 <div class="hero-founder-card" aria-label="Peter Preissinger, persönlicher Ansprechpartner">
                     <img src="assets/peter-preissinger-portrait.webp?v=pp3" alt="Peter Preissinger von M&P Holzbau" width="720" height="720">
-                    <div><strong>„Wir bauen Holzcarports, die so lange halten wie Ihr Haus.“</strong><span>Peter Preissinger · M&P Holzbau</span></div>
+                    <div><strong>„Der Preis ist nicht die erste Frage. Zuerst muss klar sein, was Ihr Standort wirklich verlangt.“</strong><span>Peter Preissinger · M&P Holzbau</span></div>
                 </div>
-                <div class="hero-actions"><button class="btn" id="heroPrimaryCta" onclick="openQuiz()">Preis-Schätzung anfragen</button></div>
-                <p class="micro" id="heroMicrocopy">Schicken Sie ein paar Eckdaten. M&P meldet sich persönlich.</p>
-                <div class="hero-proof" id="heroProof"><span class="proof-pill">4,9★ aus 25 Bewertungen</span><span class="proof-pill">Eigene Montage</span><span class="proof-pill">25 Jahre Garantie</span></div>
+                <div class="hero-actions"><button class="btn" id="heroPrimaryCta" onclick="openQuiz()">Standort einschätzen lassen</button></div>
+                <p class="micro" id="heroMicrocopy">Foto oder grobe Eckdaten reichen. M&P meldet sich persönlich mit dem passenden nächsten Schritt.</p>
+                <div class="hero-proof" id="heroProof"><span class="proof-pill">4,9★ aus 25 Bewertungen</span><span class="proof-pill">eigene Zimmerer-Mannschaft</span><span class="proof-pill">25 Jahre Standsicherheitsgarantie</span></div>
                 <div class="hero-voice-note" id="heroVoiceNote" aria-label="Kundenstimme von M&P Holzbau">
                     <audio id="heroVoiceAudio" preload="metadata" src="assets/audio/mp-holzbau-kundenstimme-niederoesterreich.mp3?v=orig-telegram-32s"></audio>
                     <button class="hero-voice-button" type="button" onclick="toggleHeroVoice(this)" aria-label="Kundenstimme anhören">▶</button>
                     <div class="hero-voice-copy">
                         <div class="hero-voice-label">Kundenstimme <span>0:33</span></div>
-                        <div class="hero-voice-quote">„Nach einer Woche war klar, wie wichtig der zusätzliche Platz wirklich ist.“</div>
+                        <div class="hero-voice-quote">„Erst nach dem ersten Regen merkt man, ob Wasserlauf, Breite und Zugang wirklich passen.“</div>
                         <div class="hero-voice-meta">Martin L. aus Baden</div>
                     </div>
                 </div>
@@ -246,30 +250,30 @@
         <div class="container benefit-row" id="vorteile">
             <div class="benefit guarantee-benefit fade-in">
                 <img class="guarantee-seal" src="assets/guarantee-25-seal-minimal.svg?v=a22125c" alt="25 Jahre Standsicherheitsgarantie" width="118" height="118">
-                <div><b>25 Jahre Garantie<br>auf Standsicherheit</b><p>Schriftlich zugesichert. Konstruktion, Fundament und Wasserführung werden von Anfang an zusammen gedacht.</p></div>
+                <div><b>25 Jahre Garantie<br>auf Standsicherheit</b><p>Schriftlich zugesichert. Fundament, Verankerung, Statik und Schneelast werden vor dem Angebot mitgedacht.</p></div>
             </div>
             <div class="benefit icon-benefit fade-in">
                 <img class="weather-kie-icon" src="assets/weather-icon-kie.png?v=6afd211" alt="Wetter-Icon: Sonne, Regen und Sturm" width="256" height="256">
-                <div><b>Gebaut für Sonne,<br>Regen und Sturm</b><p>Trocken aussteigen, weniger Schnee am Auto, ein sauberer Weg zum Haus — geplant für echte Wettertage.</p></div>
+                <div><b>Gebaut für Regen,<br>Schnee und Alltag</b><p>Trocken aussteigen, bequem ausladen, weniger Schnee am Auto — geplant für Tage, an denen der Carport wirklich zählen muss.</p></div>
             </div>
             <div class="benefit advisor-benefit fade-in">
                 <img class="advisor-photo" src="assets/peter-preissinger-portrait.webp?v=pp2" alt="Peter Preissinger, persönlicher Ansprechpartner bei M&P Holzbau" width="720" height="720">
-                <div><b>Ihr persönlicher Ansprechpartner</b><p>Peter Preissinger schaut sich Haus, Einfahrt und Budget an — und sagt direkt, welche Ausführung gut passt.</p></div>
+                <div><b>Ihr persönlicher Ansprechpartner</b><p>Peter Preissinger schaut auf Haus, Einfahrt, Budget und Machbarkeit — und sagt auch, wenn eine Ausführung nicht sinnvoll ist.</p></div>
             </div>
         </div>
 
         <section class="next-step-section" id="planung">
             <div class="container next-step-layout">
                 <div class="next-step-copy fade-in">
-                    <div class="eyebrow">Preis-Schätzung</div>
-                    <h2>Ein paar Eckdaten reichen für den Anfang.</h2>
-                    <p class="section-lead">Schicken Sie Ort, groben Wunsch und – wenn vorhanden – ein Foto der Einfahrt. M&P meldet sich mit einer ersten Preisrichtung.</p>
-                    <p class="next-step-reassurance">Für Sie bleibt es ein ruhiger erster Rahmen — ohne Verpflichtung.</p>
+                    <div class="eyebrow">Der erste sinnvolle Schritt</div>
+                    <h2>Ein paar Eckdaten reichen für den fachlichen Blick.</h2>
+                    <p class="section-lead">Senden Sie Ort, gewünschte Nutzung und – wenn vorhanden – ein Foto der Einfahrt. Daraus prüft M&P, welche Ausführung bei Haus, Platz, Wetterseite und Gemeinde überhaupt Sinn macht.</p>
+                    <p class="next-step-reassurance">Die Anfrage ist noch keine Kaufentscheidung. Sie sorgt dafür, dass Sie nicht mit einem Standardpreis starten, der Ihren Standort gar nicht berücksichtigt.</p>
                 </div>
                 <div class="steps next-steps">
-                    <div class="step fade-in"><div class="num">1</div><h3>Standort zeigen</h3><p>Ort, Einfahrt und Platz am Haus — gerne als Foto oder kurze Beschreibung.</p></div>
-                    <div class="step fade-in"><div class="num">2</div><h3>Wunsch festhalten</h3><p>Einzelcarport, Doppelcarport, Stauraum, geschlossene Wetterseite — oder einfach: noch offen.</p></div>
-                    <div class="step fade-in"><div class="num">3</div><h3>Preisrichtung bekommen</h3><p>Peter meldet sich mit einer Einschätzung — passend zu Haus, Einfahrt und Wunsch.</p></div>
+                    <div class="step fade-in"><div class="num">1</div><h3>Einfahrt zeigen</h3><p>Ort, Platz am Haus und wenn möglich ein Foto — grob reicht für die erste Einordnung.</p></div>
+                    <div class="step fade-in"><div class="num">2</div><h3>Nutzung und Alltag klären</h3><p>Ein Auto, zwei Autos, Stauraum, Wetterseite, trocken ausladen — oder noch offen.</p></div>
+                    <div class="step fade-in"><div class="num">3</div><h3>Erste Preisrichtung bekommen</h3><p>Peter meldet sich persönlich mit dem passenden nächsten Schritt für genau Ihren Standort.</p></div>
                 </div>
             </div>
         </section>
@@ -278,17 +282,17 @@
             <div class="container site-check-grid">
                 <div class="site-check-copy fade-in">
                     <div class="eyebrow">Haus, Einfahrt, Wetterseite</div>
-                    <h2>Der beste Platz zeigt sich am Haus.</h2>
-                    <p>Wo läuft Regen ab? Wo geht die Autotür auf? Wo wirkt der Carport selbstverständlich? Genau dort schaut Peter hin.</p>
-                    <p>So wird aus einer Idee eine Preisrichtung, mit der Sie konkret weiterkommen.</p>
+                    <h2>Der schwierige Teil am Carport ist selten nur das Dach.</h2>
+                    <p>Entscheidend ist, was Ihr Standort verlangt: Wasserführung, Zufahrt, Türraum, Wetterseite, Fundamente, Statik und Anschluss ans Haus.</p>
+                    <p>Darum schaut M&P zuerst auf die Einfahrt — bevor ein Preis so tut, als wäre jedes Haus gleich.</p>
                 </div>
                 <div class="site-check-board fade-in" aria-label="Planungs-Check für Carports">
-                    <div class="board-label">Peters Blick vor Ort</div>
-                    <div class="board-row"><span>01</span><strong>Standort</strong><p>Wo der Carport am Haus ruhig und praktisch sitzt.</p></div>
-                    <div class="board-row"><span>02</span><strong>Alltag</strong><p>Einsteigen, ausladen, rangieren, trocken ins Haus kommen.</p></div>
-                    <div class="board-row"><span>03</span><strong>Wetter</strong><p>Regen, Schnee, Windseite, Gefälle und Wasserlauf.</p></div>
+                    <div class="board-label">Was M&P vor dem Preis prüft</div>
+                    <div class="board-row"><span>01</span><strong>Standort</strong><p>Wo der Carport am Haus praktisch und optisch passend sitzt.</p></div>
+                    <div class="board-row"><span>02</span><strong>Alltag</strong><p>Einsteigen, ausladen, rangieren und trocken ins Haus kommen.</p></div>
+                    <div class="board-row"><span>03</span><strong>Wetter</strong><p>Regen, Schnee, Windseite, Gefälle, Ablauf und Wasserlauf.</p></div>
                     <div class="board-row"><span>04</span><strong>Ausführung</strong><p>Fundament, Höhe, Anschluss, Statik und Holzbau-Details.</p></div>
-                    <div class="board-result">Sie bekommen einen ersten Rahmen für genau diese Einfahrt.</div>
+                    <div class="board-result">Sie bekommen eine erste Preisrichtung, bevor Sie sich in falschen Maßen oder unpassenden Angeboten verlieren.</div>
                 </div>
             </div>
         </section>
@@ -297,19 +301,19 @@
             <div class="container craft-quality-layout">
                 <div class="craft-quality-copy fade-in">
                     <div class="eyebrow">Handwerk & Qualität</div>
-                    <h2>Holzarbeit, die man auch nach Jahren merkt.</h2>
-                    <p class="section-lead">Ein guter Carport fühlt sich nicht wie ein Anbau an. Holzbild, Auflager, Nuten und Dachkante greifen sauber ineinander — ruhig, kräftig und aus einem Guss.</p>
+                    <h2>Holzarbeit, die wie ein Teil des Hauses wirkt.</h2>
+                    <p class="section-lead">Ein guter Holzcarport sieht nicht nach nachträglich hingestellt aus. Holzbild, Auflager, Nuten, Dachkante und Wasserlauf greifen so ineinander, dass der Bau zum Haus gehört.</p>
                 </div>
                 <div class="craft-quality-grid">
-                    <article class="quality-card fade-in"><span>01</span><h3>Stützen, die sauber stehen</h3><p>Stützen und Auflager sitzen dort, wo sie hingehören: gerade, ruhig im Bild und sauber auf den Untergrund gesetzt.</p></article>
-                    <article class="quality-card fade-in"><span>02</span><h3>Dachkante & Wasserlauf</h3><p>Rinne, Gefälle und Dachkante wirken selbstverständlich — kein Stückwerk, keine nachträgliche Bastellösung.</p></article>
-                    <article class="quality-card fade-in"><span>03</span><h3>Holz, das zum Haus passt</h3><p>Holzart, Oberfläche und Farbton werden so gewählt, dass der Carport zum Haus gehört — auf Wunsch mit europäischem oder heimischem Holz.</p></article>
-                    <article class="quality-card fade-in"><span>04</span><h3>Saubere Nuten im Holz</h3><p>Bei sichtbaren Holzdetails zählen ruhige Linien, sauber gefräste Nuten und Auflager, die nach echter Handwerkskunst aussehen.</p></article>
+                    <article class="quality-card fade-in"><span>01</span><h3>Stützen mit ruhigem Bild</h3><p>Stützen und Auflager sitzen dort, wo sie Last tragen und im Gesamtbild nicht stören.</p></article>
+                    <article class="quality-card fade-in"><span>02</span><h3>Dachkante und Wasserlauf</h3><p>Rinne, Gefälle und Dachkante werden mitgeplant — damit Wasser nicht erst nach der Montage zum Thema wird.</p></article>
+                    <article class="quality-card fade-in"><span>03</span><h3>Holz, das zum Haus passt</h3><p>Holzart, Oberfläche und Farbton werden so gewählt, dass der Carport zum Haus gehört — mit europäischem oder heimischem Holz nach Wunsch.</p></article>
+                    <article class="quality-card fade-in"><span>04</span><h3>Nuten, Auflager, Details</h3><p>Bei sichtbaren Holzdetails zählen ruhige Linien, gefräste Nuten und Auflager, die nach Zimmererarbeit aussehen.</p></article>
                     <div class="quality-material-card fade-in">
                         <figure class="material-proof-photo"><img src="assets/mp-carport-corrections-2026-05-21-kie/02_material_wunsch_carport_holz_detail.webp?v=joinery0521" alt="Holzcarport mit Materialmustern, sichtbaren Holzdetails und abgestimmter Oberfläche" loading="eager" width="1376" height="768"></figure>
-                        <article class="quality-card"><span>05</span><h3>Holz, Oberfläche, Dachkante — im Detail sauber.</h3><p>Offene Bauweise, geschlossene Wetterseite, Dachkante, sichtbare Holzflächen — Peter stimmt Holz, Wasser, Schneelast und Anschluss früh mit Ihnen ab.</p></article>
+                        <article class="quality-card"><span>05</span><h3>Holz, Oberfläche, Dachkante — im Detail stimmig.</h3><p>Offene Bauweise, geschlossene Wetterseite, Dachkante, sichtbare Holzflächen — Peter stimmt Holz, Wasser, Schneelast und Anschluss früh mit Ihnen ab.</p></article>
                     </div>
-                    <div class="quality-note fade-in">25 Jahre Garantie auf Standsicherheit — mit Materialwahl, Konstruktion und Ausführung aus einer Hand.</div>
+                    <div class="quality-note fade-in">25 Jahre Garantie auf Standsicherheit — weil Materialwahl, Konstruktion, Fundament und eigene Ausführung zusammen geplant werden.</div>
                 </div>
             </div>
         </section>
@@ -323,17 +327,22 @@
                 </div>
                 <div class="team-proof-copy fade-in">
                     <div class="eyebrow">Team / Handwerk</div>
-                    <h2>Die Leute, die reden, bauen auch.</h2>
-                    <p class="section-lead">Peter nimmt das Vorhaben selbst auf. Danach geht es nicht in irgendeine Fremdmontage — die eigene Mannschaft arbeitet mit Holz, Werkzeug und Gefühl fürs Detail.</p>
+                    <h2>Die Leute, die einschätzen, wissen auch, wie es gebaut wird.</h2>
+                    <p class="section-lead">Peter nimmt Ihr Vorhaben auf. Danach verschwindet es nicht in einer anonymen Fremdmontage — die eigene Mannschaft arbeitet mit Holz, Werkzeug und Verantwortung fürs Detail.</p>
                     <div class="team-proof-card">
-                        <strong>Keine Show-Arbeit. Echte Holzbau-Schritte.</strong>
-                        <p>Zuschnitt, Anzeichnen, Auflager, Montage: Bei M&P bleibt sichtbar, dass hier Zimmerer am Werk sind — nicht nur ein Carport aus dem Katalog.</p>
+                        <strong>Keine Show-Arbeit. Echte Zimmerer-Schritte.</strong>
+                        <p>Zuschnitt, Anzeichnen, Auflager, Montage: Bei M&P bleibt sichtbar, dass hier Zimmerer am Werk sind — nicht nur Monteure, die Fertigteile zusammenstellen.</p>
                         <div class="team-points">
                             <div class="team-point">Persönlicher Ansprechpartner</div>
                             <div class="team-point">Eigene Montage</div>
-                            <div class="team-point">Saubere Holzarbeit</div>
+                            <div class="team-point">Zimmerer-Details</div>
                             <div class="team-point">Klare Verantwortung</div>
                         </div>
+                    </div>
+                    <div class="team-mid-cta fade-in">
+                        <strong>Unsicher, was bei Ihrer Einfahrt technisch und preislich realistisch ist?</strong>
+                        <p>Ein Foto oder ein paar Eckdaten reichen für den ersten fachlichen Blick.</p>
+                        <button class="btn dark" onclick="openQuiz()">Standort einschätzen lassen</button>
                     </div>
                 </div>
             </div>
@@ -343,7 +352,7 @@
             <div class="container proof-layout">
                 <div class="proof-copy fade-in">
                     <div class="eyebrow">Kundenstimmen</div>
-                    <h2>Was Kunden nach der Montage sagen.</h2>
+                    <h2>Was Kunden nach Regen, Schnee und Alltag sagen.</h2>
                 </div>
                 <div class="voice-wall" aria-label="Ausgewählte Kundenstimmen">
                     <article class="testimonial-card voice-card voice-card-large fade-in">
@@ -376,11 +385,11 @@
 
         <section id="referenzen">
             <div class="container">
-                <div class="section-head"><div><div class="eyebrow">Carport-Beispiele</div><h2 style="margin-top:18px">So kann ein Carport am Haus wirken.</h2></div></div>
+                <div class="section-head"><div><div class="eyebrow">Carport-Beispiele</div><h2 style="margin-top:18px">So wirkt ein Wunsch-Carport, wenn vorher richtig hingeschaut wurde.</h2></div></div>
                 <div class="gallery-mosaic">
-                    <div class="gallery-tile big fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/07_referenz_carport_wunschcarport.webp?v=kie0521c')"></div><div class="caption">Proportion zur Einfahrt sauber getroffen.</div></div>
-                    <div class="gallery-tile fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/06_referenz_carport_wasserfuehrung.webp?v=kie0521c')"></div><div class="caption">Wasserführung und Wetterseite sauber mitgedacht.</div></div>
-                    <div class="gallery-tile fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/02_material_wunsch_carport_holz_detail.webp?v=joinery0521')"></div><div class="caption">Holzart, Oberfläche und Details passend abgestimmt.</div></div>
+                    <div class="gallery-tile big fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/07_referenz_carport_wunschcarport.webp?v=kie0521c')"></div><div class="caption">Proportion zur Einfahrt und zum Haus passend getroffen.</div></div>
+                    <div class="gallery-tile fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/06_referenz_carport_wasserfuehrung.webp?v=kie0521c')"></div><div class="caption">Wasserführung und Wetterseite mitgedacht.</div></div>
+                    <div class="gallery-tile fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/02_material_wunsch_carport_holz_detail.webp?v=joinery0521')"></div><div class="caption">Holzart, Oberfläche, Nuten und Details passend abgestimmt.</div></div>
                     <div class="gallery-tile wide fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/05_referenz_carport_hausanschluss_eingang.webp?v=kie0521c')"></div><div class="caption">Überdachung bis zum Eingang: trocken aussteigen, geschützt heimkommen.</div></div>
                     <div class="gallery-tile facade fade-in"><div class="gallery-photo" style="background-image:url('assets/mp-carport-corrections-2026-05-21-kie/08_standort_check_punkte_basisbild.webp?v=kie0521c')"></div><div class="caption">Hausanschluss, Wetterseite und Bewegungsfläche auf einen Blick.</div></div>
                 </div>
@@ -400,15 +409,15 @@
                 </figure>
                 <div class="preoffer-copy fade-in">
                     <div class="eyebrow">Haus & Einfahrt</div>
-                    <h2>Das Haus gibt die Richtung vor.</h2>
-                    <p>Am Haus sieht man, wo der Carport gut sitzt: beim Wasserlauf, beim Türraum, bei der Zufahrt und im Gesamtbild.</p>
+                    <h2>Erst das Haus verstehen. Dann den Carport planen.</h2>
+                    <p>Am Haus sieht man, woran ein Carport später scheitert oder gewinnt: Wasserlauf, Türraum, Zufahrt, Wetterseite, Fundament und Gesamtbild.</p>
                     <div class="preoffer-dossier" aria-label="Haus & Einfahrt für Carports">
-                        <div class="dossier-head"><div class="dossier-title"><span>Peters Blick auf Ihr Vorhaben</span><strong>Für Alltag, Wetter und Einfahrt.</strong></div><img class="dossier-seal" src="assets/gutesiegel-meisterbetrieb.png?v=e36ccaa" alt="Meisterbetrieb Gütesiegel" width="755" height="755"></div>
+                        <div class="dossier-head"><div class="dossier-title"><span>M&P Blick auf Ihr Vorhaben</span><strong>Für Alltag, Wetter und Einfahrt.</strong></div><img class="dossier-seal" src="assets/gutesiegel-meisterbetrieb.png?v=e36ccaa" alt="Meisterbetrieb Gütesiegel" width="755" height="755"></div>
                         <div class="dossier-item"><span>01</span><div><strong>Wo läuft das Wasser hin?</strong><p>Gefälle, Dachrinne, Ablauf und Wetterseite direkt am Haus.</p></div></div>
                         <div class="dossier-item"><span>02</span><div><strong>Bleibt die Einfahrt bequem nutzbar?</strong><p>Türraum, Rangieren, Ausladen und der Weg ins Haus zählen jeden Tag.</p></div></div>
                         <div class="dossier-item"><span>03</span><div><strong>Passt der Carport optisch zum Haus?</strong><p>Höhe, Dachform, Holzbild und Anschluss prägen das Gesamtbild.</p></div></div>
                         <div class="dossier-item"><span>04</span><div><strong>Was braucht die Ausführung?</strong><p>Fundament, Verankerung, Schneelast, Grundgrenze und Gemeindethemen — falls relevant.</p></div></div>
-                        <div class="dossier-result">Am Ende steht eine Preisrichtung, die zu Ihrem Vorhaben passt.</div>
+                        <div class="dossier-result">Am Ende steht eine Einschätzung, mit der Sie Preis, Machbarkeit und Ausführung besser einordnen können.</div>
                     </div>
                 </div>
             </div>
@@ -428,12 +437,12 @@
             <div class="container price-box fade-in">
                 <div>
                     <div class="eyebrow">In der Planung enthalten</div>
-                    <h2 style="margin-top:18px">Was Ihre Preisrichtung bestimmt.</h2>
-                    <p class="section-lead" style="margin-top:18px">Größe und Dachfläche sind nur ein Teil. Standort, Fundament, Wasserführung, Optik und mögliche Vorgaben bestimmen den Rahmen mit.</p>
+                    <h2 style="margin-top:18px">Was den Preis wirklich bestimmt.</h2>
+                    <p class="section-lead" style="margin-top:18px">Größe und Dachfläche sind nur ein Teil. Standort, Fundament, Wasserführung, Optik, Schneelast, Montageaufwand und mögliche Vorgaben bestimmen den Rahmen mit.</p>
                 </div>
                 <div>
-                    <h3 style="font-size:28px;margin:0 0 14px;max-width:18ch;">Das sieht sich M&P an:</h3>
-                    <p class="section-lead" style="margin-bottom:18px">So bekommen Sie einen Rahmen, über den man konkret reden kann.</p>
+                    <h3 style="font-size:28px;margin:0 0 14px;max-width:18ch;">Darauf schaut M&P vor dem Angebot:</h3>
+                    <p class="section-lead" style="margin-bottom:18px">So bekommen Sie keinen Fantasiepreis, sondern eine erste Preisrichtung für Ihr echtes Haus.</p>
                     <div class="include-grid">
                         <div class="include">Fundament und Verankerung</div>
                         <div class="include">Statik, Schneelast und Konstruktion</div>
@@ -443,8 +452,8 @@
                         <div class="include">Einreichung oder Bauanzeige bei Bedarf</div>
                     </div>
                     <div style="margin-top:24px;padding:20px 22px;background:#17251b;color:#fffaf1;border-left:7px solid #d5a35b;box-shadow:8px 8px 0 rgba(23,37,27,.13);">
-                        <strong style="display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:20px;line-height:1.15;margin-bottom:8px;">Carports ab ca. 7.500 €</strong>
-                        <span style="display:block;color:rgba(255,250,241,.74);font-size:15px;line-height:1.55;">Für Haus, Einfahrt und gewünschte Nutzung.</span>
+                        <strong style="display:block;font-family:'Space Grotesk',Inter,sans-serif;font-size:20px;line-height:1.15;margin-bottom:8px;">Wunsch-Carports ab ca. 7.500 €</strong>
+                        <span style="display:block;color:rgba(255,250,241,.74);font-size:15px;line-height:1.55;">Je nach Standort, Ausführung, Fundament, Statik und Montageaufwand.</span>
                     </div>
                 </div>
             </div>
@@ -454,22 +463,22 @@
             <div class="container">
                 <div class="section-head center"><div class="eyebrow">FAQ</div><h2 style="margin-top:18px">Häufige Fragen</h2></div>
                 <div class="faq">
-                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Muss ich schon genau wissen, welcher Carport es werden soll?<span>+</span></button><div class="faq-answer"><p>Nein. Ein Standort, die gewünschte Nutzung und ein grober Wunsch reichen für den Anfang. M&P entwickelt daraus die passende Ausführung.</p></div></div>
-                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Kann M&P bei Einreichung, Bauanzeige oder Baubewilligung helfen?<span>+</span></button><div class="faq-answer"><p>Ja, wenn es bei Ihrem Standort Thema ist. Je nach Gemeinde können Bauanzeige, Baubewilligung oder Unterlagen dazukommen.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Muss ich schon genau wissen, welcher Carport es werden soll?<span>+</span></button><div class="faq-answer"><p>Nein. Standort, gewünschte Nutzung und ein grober Wunsch reichen für den Anfang. M&P prüft daraus, welche Ausführung bei Haus, Einfahrt und Wetterseite passt.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Kann M&P bei Einreichung, Bauanzeige oder Baubewilligung helfen?<span>+</span></button><div class="faq-answer"><p>Ja, wenn es bei Ihrem Standort relevant ist. Je nach Gemeinde können Bauanzeige, Baubewilligung oder Unterlagen dazukommen — M&P ordnet früh ein, was zu klären ist.</p></div></div>
                     <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Sind auch Doppelcarports möglich?<span>+</span></button><div class="faq-answer"><p>Ja. Einzelcarports, Doppelcarports sowie Varianten mit Stauraum oder geschlossener Wetterseite sind möglich – abhängig von Platz, Zufahrt und gewünschter Nutzung.</p></div></div>
-                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Was ist der Vorteil eines Carports von M&P?<span>+</span></button><div class="faq-answer"><p>Sie bekommen Planung und Ausführung aus einer Hand — vom ersten Blick auf die Einfahrt bis zur Montage.</p></div></div>
-                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Was kostet ein Carport von M&P?<span>+</span></button><div class="faq-answer"><p>Als grobe Orientierung starten maßgefertigte Carports bei etwa 7.500 €. Der konkrete Rahmen hängt von Größe, Fundament, Anschluss, Ausführung und Montageaufwand ab.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Was ist der Vorteil eines Carports von M&P?<span>+</span></button><div class="faq-answer"><p>M&P denkt Standort, Fundament, Wasserführung, Statik, Hausanschluss und Montage zusammen — statt nur ein Dachmaß anzubieten.</p></div></div>
+                    <div class="faq-item"><button class="faq-question" onclick="toggleFaq(this)">Was kostet ein Carport von M&P?<span>+</span></button><div class="faq-answer"><p>Als grobe Orientierung starten maßgefertigte Carports bei etwa 7.500 €. Der konkrete Rahmen hängt von Größe, Fundament, Anschluss, Wasserführung, Ausführung und Montageaufwand ab.</p></div></div>
                 </div>
             </div>
         </section>
 
 
 
-        <section class="final-cta"><div class="container"><h2>Preisrichtung für Ihren Carport anfragen.</h2><p>Schicken Sie Standort, Foto und grobe Vorstellung. M&P meldet sich persönlich mit einer ersten Preisrichtung.</p><button class="btn" onclick="openQuiz()">Preis-Schätzung anfragen</button></div></section>
+        <section class="final-cta"><div class="container"><h2>Lassen Sie Ihren Standort fachlich einschätzen.</h2><p>Senden Sie Standort, Foto und grobe Vorstellung. M&P prüft, welcher Rahmen bei Ihrem Haus realistisch ist — bevor Sie sich auf eine Ausführung oder einen Preis festlegen.</p><button class="btn" onclick="openQuiz()">Standort einschätzen lassen</button></div></section>
 
         <section id="kontakt" class="alt">
             <div class="container">
-                <div class="section-head center"><div class="eyebrow">Kontakt</div><h2 style="margin-top:18px">Ihr Holzcarport von M&P beginnt hier.</h2><p class="section-lead">Beschreiben Sie kurz Ort, Nutzung und offene Fragen. Ein Foto der Einfahrt hilft sofort.</p></div>
+                <div class="section-head center"><div class="eyebrow">Kontakt</div><h2 style="margin-top:18px">Lassen Sie Einfahrt, Haus und Preisrichtung einschätzen.</h2><p class="section-lead">Beschreiben Sie kurz Ort, Nutzung und offene Fragen. Ein Foto der Einfahrt hilft M&P, Standort, Wasserführung, Fundament und Ausführung einzuordnen.</p></div>
                 <form class="contact-form" id="contactForm" onsubmit="return submitContact(event)">
                     <div class="contact-grid"><div class="contact-field"><label for="contactName">Name</label><input type="text" id="contactName" name="name" required placeholder="Ihr Name"></div><div class="contact-field"><label for="contactEmail">E-Mail</label><input type="email" id="contactEmail" name="email" required placeholder="ihre@email.at"></div><div class="contact-field"><label for="contactPhone">Telefon</label><input type="tel" id="contactPhone" name="phone" required placeholder="+43 ..."></div><div class="contact-field"><label for="contactOrt">Ort / Bundesland</label><input type="text" id="contactOrt" name="ort" required placeholder="Wien, Niederösterreich oder Burgenland"></div></div>
                     <div class="contact-field fullwidth" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;" aria-hidden="true"><label for="contactWebsite">Website</label><input type="text" id="contactWebsite" name="website" tabindex="-1" autocomplete="off"></div>
@@ -485,13 +494,13 @@
                         <div class="upload-previews" id="contactUploadPreviews"></div>
                     </div>
                     <div class="contact-checks"><label class="quiz-option"><input type="checkbox" name="interesse" value="einzelcarport"><span class="quiz-option-radio"></span>Einzelcarport</label><label class="quiz-option"><input type="checkbox" name="interesse" value="doppelcarport"><span class="quiz-option-radio"></span>Doppelcarport</label><label class="quiz-option"><input type="checkbox" name="interesse" value="carport-mit-stauraum"><span class="quiz-option-radio"></span>Carport mit Stauraum</label><label class="quiz-option"><input type="checkbox" name="interesse" value="carport-wetterseite"><span class="quiz-option-radio"></span>Geschlossene Wetterseite</label></div>
-                    <button type="submit" class="btn green" style="width:100%;margin-top:8px">Preis-Schätzung anfragen</button><p class="contact-note">Ihre Telefonnummer wird nur für Rückfragen und Terminabstimmung verwendet. M&P meldet sich persönlich – kostenlos und unverbindlich.</p>
+                    <button type="submit" class="btn green" id="contactSubmitBtn" style="width:100%;margin-top:8px">Standort einschätzen lassen</button><div class="lead-submit-status" id="contactSubmitStatus" hidden>Ihre Anfrage wird sicher übertragen …</div><p class="contact-note">Ihre Telefonnummer wird nur für Rückfragen und Terminabstimmung verwendet. M&P meldet sich persönlich — ohne Kaufdruck und ohne Standardangebot von der Stange.</p>
                 </form>
             </div>
         </section>
     </main>
 
-    <footer><div class="container"><div class="footer-logo">M&P Holzbau</div><p>M&P Holzbau baut Carports und Überdachungen in Wien, Niederösterreich und Burgenland — als Familienbetrieb mit eigener Mannschaft.</p><img src="assets/gutesiegel-meisterbetrieb.png" alt="Gutesiegel Meisterbetrieb" class="meister-siegel"><div class="footer-links"><a href="https://www.mp-holzbau.at/impressum" target="_blank">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="#kontakt">Kontakt</a></div><p style="margin-top:18px">© 2026 M&P Holzbau</p></div></footer>
+    <footer><div class="container"><div class="footer-logo">M&P Holzbau</div><p>M&P Holzbau plant und baut Carports und Überdachungen in Wien, Niederösterreich und Burgenland — als Familienbetrieb mit eigener Mannschaft.</p><img src="assets/gutesiegel-meisterbetrieb.png" alt="Gutesiegel Meisterbetrieb" class="meister-siegel"><div class="footer-links"><a href="https://www.mp-holzbau.at/impressum" target="_blank">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="#kontakt">Kontakt</a></div><p style="margin-top:18px">© 2026 M&P Holzbau</p></div></footer>
     <div class="junghirsch-footer"><div class="container"><div>Ein Neukundensystem der</div><img src="assets/junghirsch-logo.png" alt="Junghirsch" class="junghirsch-footer-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"><svg viewBox="0 0 200 32" class="junghirsch-footer-logo junghirsch-fallback" style="height:22px;width:auto;opacity:0.55;display:none;" xmlns="http://www.w3.org/2000/svg"><text x="0" y="24" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#a89880" letter-spacing="0.08em">JUNGHIRSCH</text></svg><div>Online GmbH</div></div></div>
 
     <div class="cookie-banner" id="cookieBanner"><div class="cookie-banner-inner"><div class="cookie-banner-text">Wir verwenden Cookies für Google Ads Conversion-Tracking und Microsoft Clarity. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</div><div class="cookie-banner-actions"><button class="cookie-btn cookie-btn-deny" onclick="denyConsent()">Ablehnen</button><button class="cookie-btn cookie-btn-accept" onclick="acceptConsent()">Akzeptieren</button></div></div></div>
@@ -546,9 +555,9 @@
 
                 <!-- Step 4: Mirror -->
                 <div class="quiz-step quiz-loading" data-step="4">
-                    <h3>Gut, so bekommt M&P ein Gefühl für Ihr Vorhaben.</h3>
+                    <h3>Gut, damit erkennt M&P den ersten Planungsrahmen.</h3>
                     <div class="answer-summary" id="mirrorOne"></div>
-                    <div class="quiz-loading-card"><strong>Haus, Einfahrt, Wetterseite</strong><p id="mirrorOneText">Standort, Nutzung und Prioritäten zeigen, welche Breite, Stützenpunkte und Wasserführung passen.</p></div>
+                    <div class="quiz-loading-card"><strong>Haus, Einfahrt, Wetterseite</strong><p id="mirrorOneText">Standort, Nutzung und Prioritäten zeigen, worauf es bei Breite, Stützenpunkten und Wasserführung ankommt.</p></div>
                 </div>
 
                 <!-- Step 5: Standort -->
@@ -563,7 +572,7 @@
 
                 <!-- Step 6: Mirror Standort -->
                 <div class="quiz-step quiz-loading" data-step="6">
-                    <h3>Der Standort sagt schon viel aus.</h3>
+                    <h3>Der Standort entscheidet mehr als das Dachmaß.</h3>
                     <div class="answer-summary" id="mirrorLocation"></div>
                     <div class="quiz-loading-card"><strong>Als Nächstes schaut M&P auf</strong><p>Je nach Ort spielen Wetterseite, Schneelast, Zufahrt, Grundgrenze oder Gemeinde-Vorgaben mit.</p></div>
                 </div>
@@ -596,29 +605,28 @@
 
                 <!-- Step 9: Mirror final -->
                 <div class="quiz-step quiz-loading" data-step="9">
-                    <h3>Damit hat M&P die wichtigsten Eckdaten.</h3>
+                    <h3>Damit hat M&P die wichtigsten Punkte für die Ersteinschätzung.</h3>
                     <div class="answer-summary" id="mirrorFinal"></div>
-                    <div class="quiz-loading-card"><strong>Die wichtigsten Eckdaten sind da</strong><p>Mit Standort, Nutzung und Foto/Skizze kann M&P eine brauchbare Preisrichtung geben.</p></div>
+                    <div class="quiz-loading-card"><strong>Die wichtigsten Eckdaten sind da</strong><p>Mit Standort, Nutzung und Foto/Skizze kann M&P einschätzen, welcher Rahmen realistisch ist.</p></div>
                 </div>
 
                 <!-- Step 10: Kontakt -->
                 <div class="quiz-step" data-step="10">
-                    <h3>Wie können wir Sie erreichen?</h3>
-                    <p class="quiz-sub">Frage 7 von 7 · Ihre Telefonnummer wird nur für Rückfragen und Terminabstimmung verwendet.</p>
+                    <h3>Wohin darf M&P die Einschätzung schicken?</h3>
+                    <p class="quiz-sub">Frage 7 von 7 · Ihre Telefonnummer wird nur für Rückfragen zu Ihrem Standort verwendet.</p>
                     <input type="text" class="quiz-input" placeholder="Vor- und Nachname *" id="name" required>
                     <input type="tel" class="quiz-input" placeholder="Telefon *" id="phone" required>
                     <input type="text" id="quizWebsite" name="website" tabindex="-1" autocomplete="off" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;" aria-hidden="true">
-                    <div class="quiz-nav" style="margin-top: 20px;"><button class="btn btn-outline" onclick="prevStep()">Zurück</button><button class="btn" onclick="submitQuiz()" id="btnSubmit" disabled>Preis-Schätzung anfragen</button></div>
-                    <p style="font-size: 12px; color: var(--text-muted); margin-top: 16px; text-align: center;">Ihre Angaben nutzt M&P nur für die Rückmeldung zu Ihrem Carport.</p>
+                    <div class="quiz-nav" style="margin-top: 20px;"><button class="btn btn-outline" onclick="prevStep()">Zurück</button><button class="btn" onclick="submitQuiz()" id="btnSubmit" disabled>Standort einschätzen lassen</button></div>
+                    <p style="font-size: 12px; color: var(--text-muted); margin-top: 16px; text-align: center;">Ihre Angaben nutzt M&P nur für die Einschätzung Ihres Carport-Vorhabens.</p>
                 </div>
 
                 <!-- Success -->
                 <div class="quiz-step" data-step="11">
-                    <div class="quiz-success">
-                        <div class="quiz-success-icon">✓</div>
-                        <h3>Danke, Ihre Anfrage ist angekommen</h3>
-                        <p>M&P meldet sich persönlich bei Ihnen und spricht die passende Ausführung durch.</p>
-                        <button class="btn" onclick="closeQuiz()">Schließen</button>
+                    <div class="lead-submit-card">
+                        <div class="lead-submit-spinner" aria-hidden="true"></div>
+                        <h3 id="quizSubmitTitle">Ihre Standort-Einschätzung wird sicher übertragen …</h3>
+                        <p id="quizSubmitText">Bitte schließen Sie das Fenster noch nicht. Die Angaben werden gerade gespeichert.</p>
                     </div>
                 </div>
             </div>
@@ -636,6 +644,97 @@
         const MAX_FILES = 5;
         const MAX_SIZE = 10 * 1024 * 1024; // 10 MB
         const ATTRIBUTION_STORAGE_KEY = 'mp_carport_attribution';
+        const QUIZ_SESSION_STORAGE_KEY = 'mp_carport_quiz_session_uuid';
+
+        function generateBrowserUuid() {
+            if (window.crypto && typeof window.crypto.randomUUID === 'function') return window.crypto.randomUUID();
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                const r = Math.random() * 16 | 0;
+                const v = c === 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        function getQuizSessionUuid(reset) {
+            let uuid = '';
+            try { uuid = reset ? '' : sessionStorage.getItem(QUIZ_SESSION_STORAGE_KEY) || ''; } catch (_) {}
+            if (!uuid) {
+                uuid = generateBrowserUuid();
+                try { sessionStorage.setItem(QUIZ_SESSION_STORAGE_KEY, uuid); } catch (_) {}
+            }
+            return uuid;
+        }
+
+        function getStepLabel(stepNumber) {
+            const labels = {
+                1: 'Standort', 2: 'Nutzung', 3: 'Wichtig', 4: 'Zwischenstand', 5: 'Adresse',
+                6: 'Standortprüfung', 7: 'Zeitrahmen', 8: 'Foto/Skizze', 9: 'Zusammenfassung',
+                10: 'Kontakt', 11: 'Erfolg'
+            };
+            return labels[stepNumber] || '';
+        }
+
+        function collectCurrentQuizData() {
+            const street = document.getElementById('street');
+            const zip = document.getElementById('zip');
+            const name = document.getElementById('name');
+            const phone = document.getElementById('phone');
+            const website = document.getElementById('quizWebsite');
+            return {
+                position: quizData.position || '',
+                type: quizData.type || '',
+                priorities: Array.isArray(quizData.priorities) ? quizData.priorities.slice() : [],
+                timeline: quizData.timeline || '',
+                street: street ? street.value.trim() : (quizData.street || ''),
+                zip: zip ? zip.value.trim() : (quizData.zip || ''),
+                name: name ? name.value.trim() : (quizData.name || ''),
+                phone: phone ? phone.value.trim() : (quizData.phone || ''),
+                website: website ? website.value.trim() : '',
+                files: quizUploadedFiles.map(function(file) { return { name: file.name, size: file.size, type: file.type }; })
+            };
+        }
+
+        function buildQuizStepAuditPayload(eventName, stepNumber) {
+            return {
+                session_uuid: getQuizSessionUuid(false),
+                source: 'landingpage.carports-zimmermeister',
+                event_name: eventName,
+                step_number: stepNumber || currentStep || 0,
+                step_label: getStepLabel(stepNumber || currentStep || 0),
+                captured_at: new Date().toISOString(),
+                page_url: window.location.href,
+                fields: Object.assign({}, typeof getLeadTrackingFields === 'function' ? getLeadTrackingFields() : {}, collectCurrentQuizData())
+            };
+        }
+
+        function logQuizStep(eventName, stepNumber, preferBeacon) {
+            const payload = buildQuizStepAuditPayload(eventName, stepNumber || currentStep || 0);
+            const body = JSON.stringify(payload);
+            if (preferBeacon && navigator.sendBeacon) {
+                const blob = new Blob([body], { type: 'application/json' });
+                if (navigator.sendBeacon('/api/lead-step-log.php', blob)) return;
+            }
+            fetch('/api/lead-step-log.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: body,
+                keepalive: true
+            }).catch(function() {});
+        }
+
+        function debounce(fn, wait) {
+            let timer;
+            return function() {
+                window.clearTimeout(timer);
+                timer = window.setTimeout(fn, wait);
+            };
+        }
+
+        const logQuizInputDebounced = debounce(function() {
+            if (document.getElementById('quizOverlay').classList.contains('active')) {
+                logQuizStep('step_input', currentStep, false);
+            }
+        }, 700);
 
         function getAttributionParams() {
             const params = new URLSearchParams(window.location.search);
@@ -684,122 +783,122 @@
             default: {
                 angle: 'default',
                 adgroupHint: '',
-                eyebrow: 'Zimmermeisterbetrieb · Wien · NÖ · Burgenland',
-                headline: 'Ein Holzcarport, der zum Haus gehört.',
-                lead: 'Für Einfahrt, Wetterseite und Alltag abgestimmt — von M&P Holzbau, Zimmermeisterbetrieb.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Schicken Sie ein paar Eckdaten. M&P meldet sich persönlich.',
-                proof: ['4,9★ aus 25 Bewertungen', 'Eigene Montage', '25 Jahre Garantie']
+                eyebrow: 'Zimmermeister-Carports · Wien · NÖ · Burgenland',
+                headline: 'Ein Carport ist erst gut, wenn er am Haus richtig funktioniert.',
+                lead: 'Bevor ein Preis seriös ist, müssen Höhe, Wasserführung, Fundament, Zufahrt, Wetterseite und Hausanschluss zusammenpassen. Peter Preissinger prüft Ihre Eckdaten persönlich.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Foto oder grobe Eckdaten reichen. M&P meldet sich persönlich mit dem passenden nächsten Schritt.',
+                proof: ['4,9★ aus 25 Bewertungen', 'eigene Zimmerer-Mannschaft', '25 Jahre Standsicherheitsgarantie']
             },
             massarbeit: {
                 angle: 'massarbeit',
                 adgroupHint: 'Carport nach Maß',
                 eyebrow: 'Maßarbeit aus Holz',
-                headline: 'Maßarbeit aus Holz für Ihr Haus.',
-                lead: 'Peter schaut auf Haus, Einfahrt, Nutzung und Budget. Dann wird die Ausführung greifbar.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'M&P meldet sich persönlich zu Ihrem Standort.',
-                proof: ['Maßarbeit aus Holz', 'Haus & Einfahrt', 'ab ca. 7.500 €']
+                headline: 'Kein Standardmaß für eine echte Einfahrt.',
+                lead: 'Haus, Einfahrt, Nutzung, Wetterseite und Budget geben den Rahmen vor. M&P prüft diese Punkte, bevor Holzart, Dachform und Preisrichtung entschieden werden.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Senden Sie Standort, Wunsch und wenn möglich ein Foto der Einfahrt.',
+                proof: ['Maßarbeit aus Holz', 'Standort geprüft', 'ab ca. 7.500 €']
             },
             zimmermeister: {
                 angle: 'zimmermeister',
                 adgroupHint: 'Carport+Zimmerei',
                 eyebrow: 'Zimmermeister-Qualität',
-                headline: 'Ein Holzcarport, der zum Haus gehört.',
-                lead: 'Statik, Fundament und Montage kommen aus einer Hand — ruhig geplant, sauber gebaut.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Schicken Sie ein paar Eckdaten. M&P meldet sich persönlich.',
+                headline: 'Der schwierige Teil am Carport ist nicht das Dach.',
+                lead: 'Fundament, Statik, Wasserführung, Hausanschluss, Wetterseite und Montage müssen zusammenpassen. Genau dafür ist M&P als Zimmermeisterbetrieb verantwortlich.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Eckdaten senden. M&P prüft, worauf es bautechnisch ankommt.',
                 proof: ['Holzbaubetrieb', 'Planung & Montage', '25 Jahre Garantie']
             },
             montage: {
                 angle: 'montage',
                 adgroupHint: 'Planung und Montage',
-                eyebrow: 'Planung & Montage',
-                headline: 'Vom ersten Blick bis zur Montage.',
-                lead: 'Peter nimmt das Vorhaben auf, die eigene Mannschaft setzt es um.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Ein Ansprechpartner, ein Team, klare Zuständigkeit.',
+                eyebrow: 'Planung & eigene Montage',
+                headline: 'Ein Ansprechpartner vom ersten Blick bis zur Montage.',
+                lead: 'Peter nimmt das Vorhaben auf, die eigene Mannschaft setzt es um. So gehen Standortwissen, Ausführung und Verantwortung nicht verloren.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Senden Sie Standort und Wunsch. M&P meldet sich mit dem passenden nächsten Schritt.',
                 proof: ['eigene Montage', 'klare Zuständigkeit', 'Wien · NÖ · Bgld.']
             },
             montage8: {
                 angle: 'montage8',
-                adgroupHint: 'Freie Montagefenster',
-                eyebrow: 'Rechtzeitig vor der Saison',
-                headline: 'Rechtzeitig Platz für Ihren Carport sichern.',
-                lead: 'Mit wenigen Eckdaten erkennt M&P, welcher Rahmen an Ihrem Standort passt.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Persönliche Rückmeldung von M&P — kostenlos und unverbindlich.',
-                proof: ['Vorlauf einschätzen', 'eigene Mannschaft', 'Wien · NÖ · Bgld.']
+                adgroupHint: 'Planungsstart',
+                eyebrow: 'Vor der Saison richtig starten',
+                headline: 'Erst Standort prüfen, dann den Carport planen.',
+                lead: 'Mit wenigen Eckdaten erkennt M&P, ob Höhe, Zufahrt, Fundament, Wetterseite und Montageaufwand bei Ihrem Haus zusammenpassen.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Die Anfrage klärt den Rahmen — sie ist noch keine Kaufentscheidung.',
+                proof: ['Standort einschätzen', 'eigene Mannschaft', 'Wien · NÖ · Bgld.']
             },
             haus: {
                 angle: 'haus',
                 adgroupHint: 'Carport am Haus',
                 eyebrow: 'Für Haus und Einfahrt',
-                headline: 'Ein Carport, der zur Einfahrt passt.',
-                lead: 'Holz, Proportion, Dachform und Zufahrt werden auf Ihr Haus abgestimmt.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'M&P meldet sich zu Ihrem konkreten Standort.',
+                headline: 'Ein Carport muss am Haus funktionieren.',
+                lead: 'Holz, Proportion, Dachform, Zufahrt, Fundament und Wasserführung werden auf Ihr Haus abgestimmt — sichtbar in der Einfahrt und spürbar im Alltag.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'M&P schaut auf Ihren konkreten Standort, nicht auf ein Standardmaß.',
                 proof: ['passend zum Haus', 'Einfahrt mitgedacht', 'Maßarbeit aus Holz']
             },
             hausanschluss: {
                 angle: 'hausanschluss',
                 adgroupHint: 'Carport am Haus',
                 eyebrow: 'Hausanschluss & Wasserführung',
-                headline: 'Trocken vom Auto bis zur Haustür.',
-                lead: 'Für trockenen Zugang, saubere Wasserführung und einen Carport, der am Haus gut sitzt.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'M&P meldet sich persönlich mit einer ersten Preisrichtung.',
+                headline: 'Trocken vom Auto bis zur Haustür beginnt bei der Planung.',
+                lead: 'Dachüberstand, Ablauf, Gefälle, Türraum und Anschluss ans Haus entscheiden, ob der Carport im Alltag hilft — oder nur das Auto überdacht.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Senden Sie ein Foto der Einfahrt, wenn Sie eines haben.',
                 proof: ['Hausanschluss mitgedacht', 'Wasserführung geplant', 'Wien · NÖ · Bgld.']
             },
             wetter: {
                 angle: 'wetter',
                 adgroupHint: 'Wetterseite und Alltag',
                 eyebrow: 'Schutz für Auto und Alltag',
-                headline: 'Carport mit Überdachung für Auto und Hauseingang.',
-                lead: 'Auto, Zugang, Wetterseite und Wasserführung passen am Ende zusammen.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Schicken Sie ein paar Eckdaten. M&P meldet sich persönlich.',
+                headline: 'Ein Carport muss auch am schlechten Wettertag passen.',
+                lead: 'Regen, Schnee, Windseite, Türraum und der Weg ins Haus werden mitgeplant — nicht erst bemerkt, wenn der erste Winter kommt.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'M&P prüft Standort, Wetterseite und Wasserführung Ihres Vorhabens.',
                 proof: ['trocken aussteigen', 'Wasserführung geplant', '25 Jahre Garantie']
             },
             wert: {
                 angle: 'wert',
                 adgroupHint: 'Wertiger Gesamteindruck',
                 eyebrow: 'Mehr Schutz. Mehr Ordnung.',
-                headline: 'Maßarbeit aus Holz für Ihr Haus.',
-                lead: 'Aus Holz gefertigt, abgestimmt auf Haus, Einfahrt und gewünschte Nutzung.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'M&P meldet sich zu Haus, Einfahrt und Nutzung.',
+                headline: 'Der Carport steht jeden Tag im Blickfeld Ihres Hauses.',
+                lead: 'Deshalb müssen Proportion, Holzbild, Dachkante und Anschluss stimmen. M&P plant den Carport als Teil des Hauses — nicht als Zubehör.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Standort senden. M&P prüft, welcher Rahmen zu Haus und Nutzung passt.',
                 proof: ['Maßarbeit aus Holz', 'wertiger Eindruck', 'ab ca. 7.500 €']
             },
             schutz: {
                 angle: 'schutz',
                 adgroupHint: 'Schutz für Auto und Alltag',
                 eyebrow: 'Auto und Wege geschützt',
-                headline: 'Carport mit Überdachung bis zum Hauseingang.',
-                lead: 'Einsteigen, ausladen und ins Haus gehen — trocken, praktisch, ohne Umweg.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Schicken Sie ein paar Eckdaten. M&P meldet sich persönlich.',
+                headline: 'Nicht nur das Auto schützen. Den Weg ins Haus gleich mitdenken.',
+                lead: 'Einsteigen, ausladen und ins Haus gehen: Dafür zählen Dachüberstand, Türraum, Gefälle und der richtige Platz am Haus.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Senden Sie Standort und Nutzung. M&P schaut auf den Alltag dahinter.',
                 proof: ['Auto geschützt', 'trocken ausladen', 'ab ca. 7.500 €']
             },
             unik: {
                 angle: 'unik',
                 adgroupHint: 'Individuelle Maßarbeit',
                 eyebrow: 'Individuell geplant',
-                headline: 'Ihr Carport, passend zum Grundstück.',
-                lead: 'Haus, Einfahrt, Nutzung, Wetterseite und technische Vorgaben — alles in einem Plan.',
-                primaryCta: 'Preis-Schätzung anfragen',
-                secondaryCta: 'Preis-Schätzung anfragen',
-                microcopy: 'Der erste Schritt: ein Blick auf Ihr Haus.',
+                headline: 'Ihr Grundstück gibt den Rahmen vor.',
+                lead: 'Haus, Einfahrt, Nutzung, Wetterseite und technische Vorgaben entscheiden über die Ausführung. M&P bringt diese Punkte in einen Plan.',
+                primaryCta: 'Standort einschätzen lassen',
+                secondaryCta: 'Standort einschätzen lassen',
+                microcopy: 'Der erste Schritt ist ein fachlicher Blick auf Ihre Einfahrt.',
                 proof: ['individuell geplant', 'Maßarbeit aus Holz', 'ab ca. 7.500 €']
             }
         };
@@ -858,7 +957,7 @@
                 adgroup_hint: getLandingVariant().adgroupHint,
                 referrer: attributionData.referrer || document.referrer || '',
                 consent_state: consent,
-                google_ads_conversion_client_status: consent === 'accepted' && typeof gtag === 'function' ? 'eligible_to_fire' : 'not_fired_no_ads_consent'
+                google_ads_conversion_mode: 'server_side_after_leadtable_delivery'
             };
         }
 
@@ -1073,6 +1172,7 @@
 
         function resetQuiz() {
             currentStep = 1;
+            getQuizSessionUuid(true);
             quizData = { position: '', type: '', priorities: [], timeline: '', street: '', zip: '', name: '', phone: '' };
             quizUploadedFiles = [];
             document.querySelectorAll('.quiz-option.selected').forEach(el => el.classList.remove('selected'));
@@ -1088,11 +1188,15 @@
             resetQuiz();
             document.getElementById('quizOverlay').classList.add('active');
             document.body.style.overflow = 'hidden';
+            logQuizStep('quiz_opened', 1, false);
             showStep(1);
             trackFormOpen();
         }
 
         function closeQuiz() {
+            if (document.getElementById('quizOverlay').classList.contains('active')) {
+                logQuizStep('quiz_closed', currentStep, true);
+            }
             document.getElementById('quizOverlay').classList.remove('active');
             document.body.style.overflow = '';
         }
@@ -1160,6 +1264,9 @@
             currentStep = n;
             updateProgress();
             updateMirrors();
+            if (document.getElementById('quizOverlay').classList.contains('active')) {
+                logQuizStep('step_viewed', n, false);
+            }
             if ([4,6,9].includes(n)) {
                 window.setTimeout(function() {
                     if (document.getElementById('quizOverlay').classList.contains('active') && currentStep === n) showStep(n + 1);
@@ -1171,6 +1278,7 @@
             el.closest('.quiz-step').querySelectorAll('.quiz-option').forEach(o => o.classList.remove('selected', 'is-advancing'));
             el.classList.add('selected', 'is-advancing');
             quizData[field] = value;
+            logQuizStep('step_input', currentStep, false);
             if ([1,2,7].includes(currentStep)) {
                 window.setTimeout(function() {
                     if (document.getElementById('quizOverlay').classList.contains('active')) nextStep();
@@ -1187,6 +1295,7 @@
             }
             const btn = document.getElementById('btn' + currentStep);
             if (btn) btn.textContent = quizData[field].length ? 'Auswahl übernehmen' : 'Weiter';
+            logQuizStep('step_input', currentStep, false);
         }
 
         function nextStep() {
@@ -1198,6 +1307,7 @@
                 quizData.zip = document.getElementById('zip').value.trim();
                 if (quizData.zip.length < 4) return;
             }
+            logQuizStep('step_completed', currentStep, true);
             showStep(currentStep + 1);
         }
 
@@ -1207,17 +1317,19 @@
 
         document.getElementById('street').addEventListener('input', function() {
             document.getElementById('btnLocation').disabled = !(document.getElementById('zip').value.trim().length >= 4);
+            logQuizInputDebounced();
         });
         document.getElementById('zip').addEventListener('input', function() {
             document.getElementById('btnLocation').disabled = !(this.value.trim().length >= 4);
+            logQuizInputDebounced();
         });
 
         function checkStep7() {
             document.getElementById('btnSubmit').disabled =
                 !(document.getElementById('name').value && document.getElementById('phone').value);
         }
-        document.getElementById('name').addEventListener('input', checkStep7);
-        document.getElementById('phone').addEventListener('input', checkStep7);
+        document.getElementById('name').addEventListener('input', function() { checkStep7(); logQuizInputDebounced(); });
+        document.getElementById('phone').addEventListener('input', function() { checkStep7(); logQuizInputDebounced(); });
 
         async function submitLeadPayload(payload) {
             const response = await fetch('/api/lead-submit.php', {
@@ -1234,17 +1346,49 @@
             return result;
         }
 
-        function trackLeadConversion(redirectToThanks) {
+        function setButtonLoading(button, isLoading, label) {
+            if (!button) return;
+            if (!button.dataset.defaultText) button.dataset.defaultText = button.textContent;
+            button.disabled = isLoading;
+            button.classList.toggle('is-loading', isLoading);
+            button.textContent = isLoading ? label : button.dataset.defaultText;
+        }
+
+        function updateQuizSubmitStatus(title, text) {
+            const titleEl = document.getElementById('quizSubmitTitle');
+            const textEl = document.getElementById('quizSubmitText');
+            if (titleEl) titleEl.textContent = title;
+            if (textEl) textEl.textContent = text;
+        }
+
+        function trackLeadConversion(submitResult, redirectToThanks) {
+            let redirected = false;
+            const finish = () => {
+                if (redirected) return;
+                redirected = true;
+                redirectToThanks();
+            };
+
+            const serverConversion = submitResult && submitResult.google_ads_conversion;
+            const handledServerSide = serverConversion && serverConversion.configured === true && serverConversion.uploaded === true;
+            if (handledServerSide) {
+                setTimeout(finish, 250);
+                return;
+            }
+
+            // Browser conversion fires after the backend confirms the lead was saved locally.
+            // LeadTable/webhook delivery is retried separately and must not block the user.
             if (typeof gtag === 'function') {
                 gtag('event', 'conversion', {
                     'send_to': 'AW-18076280258/vG0oCJ-u25gcEMLLuKtD',
                     'value': 400.0,
                     'currency': 'EUR',
-                    'event_callback': redirectToThanks
+                    'transaction_id': submitResult && submitResult.id ? String(submitResult.id) : undefined,
+                    'event_callback': finish
                 });
-                setTimeout(redirectToThanks, 900);
+                setTimeout(finish, 1800);
             } else {
-                setTimeout(redirectToThanks, 300);
+                setTimeout(finish, 300);
             }
         }
 
@@ -1258,6 +1402,7 @@
             const quizWebsite = document.getElementById('quizWebsite').value.trim();
 
             if (!quizData.type || !quizData.zip || !quizData.name || !quizData.phone) return;
+            logQuizStep('step_completed', currentStep, true);
 
             const redirectToThanks = () => { window.location.href = 'danke.html'; };
 
@@ -1280,16 +1425,24 @@
                 }
             };
 
+            const submitButton = document.getElementById('btnSubmit');
+            setButtonLoading(submitButton, true, 'Wird gesendet …');
+            showStep(11);
+            updateQuizSubmitStatus('Ihre Standort-Einschätzung wird sicher übertragen …', 'Bitte schließen Sie das Fenster noch nicht. Die Angaben werden gerade gespeichert.');
+
+            let submitResult = null;
             try {
-                await submitLeadPayload(payload);
+                submitResult = await submitLeadPayload(payload);
             } catch (error) {
                 console.error('Lead submit failed:', error);
+                showStep(10);
+                setButtonLoading(submitButton, false);
                 showLeadSubmitError();
                 return;
             }
 
-            showStep(11);
-            trackLeadConversion(redirectToThanks);
+            updateQuizSubmitStatus('Anfrage gespeichert – fast fertig …', 'Die Anfrage ist angekommen. Die Bestätigung wird jetzt vorbereitet.');
+            trackLeadConversion(submitResult, redirectToThanks);
         }
 
         async function submitContact(e) {
@@ -1323,16 +1476,28 @@
                 }
             };
 
+            const submitButton = document.getElementById('contactSubmitBtn');
+            const statusEl = document.getElementById('contactSubmitStatus');
+            setButtonLoading(submitButton, true, 'Wird gesendet …');
+            if (statusEl) {
+                statusEl.hidden = false;
+                statusEl.textContent = 'Ihre Anfrage wird sicher übertragen …';
+            }
+
+            let submitResult = null;
             try {
-                await submitLeadPayload(payload);
+                submitResult = await submitLeadPayload(payload);
             } catch (error) {
                 console.error('Lead submit failed:', error);
+                setButtonLoading(submitButton, false);
+                if (statusEl) statusEl.hidden = true;
                 showLeadSubmitError();
                 return false;
             }
 
-            form.innerHTML = '<div style="text-align:center;padding:40px 0;"><div style="font-size:48px;margin-bottom:16px;">✓</div><h3 style="margin-bottom:8px;">Danke für Ihre Nachricht</h3><p style="color:var(--text-secondary);">Wir leiten Sie zur Danke-Seite weiter.</p></div>';
-            trackLeadConversion(redirectToThanks);
+            if (statusEl) statusEl.textContent = 'Anfrage gespeichert – fast fertig …';
+            form.innerHTML = '<div style="text-align:center;padding:40px 0;"><div class="lead-submit-spinner" aria-hidden="true"></div><h3 style="margin-bottom:8px;">Anfrage gespeichert – fast fertig …</h3><p style="color:var(--text-secondary);">Die Bestätigung wird jetzt vorbereitet.</p></div>';
+            trackLeadConversion(submitResult, redirectToThanks);
             return false;
         }
 
@@ -1347,6 +1512,9 @@
                 targetFiles.push(file);
             }
             renderPreviews(isContactUpload ? 'contact' : 'quiz');
+            if (!isContactUpload && document.getElementById('quizOverlay').classList.contains('active')) {
+                logQuizStep('step_input', currentStep, false);
+            }
             // Reset input so the same file can be selected again
             if (inputEl) inputEl.value = '';
         }
@@ -1424,7 +1592,7 @@
         ];
         var GALLERY_CAPTIONS = [
             'Dachüberstand für Auto, Türraum und Ausladen',
-            'Holzcarport – saubere Proportion zum Haus',
+            'Holzcarport – passende Proportion zum Haus',
             'Doppelcarport mit nutzbarer Bewegungsfläche',
             'Geschlossene Wetterseite gegen Regen und Wind – Schutz bei jedem Wetter',
             'Maßarbeit für Hausanschluss, Gefälle und Einfahrt',
@@ -1472,14 +1640,18 @@
 
         document.addEventListener('keydown', function(e) {
             var overlay = document.getElementById('lightboxOverlay');
-            if (!overlay.classList.contains('active')) return;
+            if (!overlay || !overlay.classList.contains('active')) return;
             if (e.key === 'Escape') { closeLightbox(); }
             if (e.key === 'ArrowLeft') { navigateLightbox(-1); }
             if (e.key === 'ArrowRight') { navigateLightbox(1); }
         });
 
-        document.getElementById('lightboxOverlay').addEventListener('click', function(e) {
-            if (e.target === this) closeLightbox();
+        document.addEventListener('DOMContentLoaded', function() {
+            var lightboxOverlay = document.getElementById('lightboxOverlay');
+            if (!lightboxOverlay) return;
+            lightboxOverlay.addEventListener('click', function(e) {
+                if (e.target === this) closeLightbox();
+            });
         });
     </script>
 
@@ -1494,4 +1666,4 @@
 
 </body>
 </html>
-<!-- cache-bust: 1779275815 -->
+<!-- cache-bust: 1779461035 -->

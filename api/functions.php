@@ -240,6 +240,58 @@ function insert_submission_audit(PDO $pdo, array $config, ?array $payload, strin
     return (int)$pdo->lastInsertId();
 }
 
+function ensure_form_step_audit_table(PDO $pdo): void
+{
+    static $ensured = false;
+    if ($ensured) {
+        return;
+    }
+
+    $pdo->exec("CREATE TABLE IF NOT EXISTS form_step_audit (
+      id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+      uuid CHAR(36) NOT NULL UNIQUE,
+      session_uuid CHAR(36) NOT NULL,
+      source VARCHAR(120) NOT NULL DEFAULT '',
+      event_name VARCHAR(80) NOT NULL DEFAULT '',
+      step_number TINYINT UNSIGNED NULL,
+      step_label VARCHAR(160) NULL,
+      payload_json JSON NULL,
+      client_ip_hash CHAR(64) NULL,
+      user_agent TEXT NULL,
+      created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      INDEX idx_step_session_created (session_uuid, created_at),
+      INDEX idx_step_source_created (source, created_at),
+      INDEX idx_step_event_created (event_name, created_at)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci");
+
+    $ensured = true;
+}
+
+function insert_form_step_audit(PDO $pdo, array $config, array $payload): string
+{
+    ensure_form_step_audit_table($pdo);
+
+    $fields = $payload['fields'] ?? [];
+    if (!is_array($fields)) {
+        $fields = [];
+    }
+
+    $uuid = uuid_v4();
+    $sessionUuid = trim((string)($payload['session_uuid'] ?? $fields['session_uuid'] ?? ''));
+    $source = trim((string)($payload['source'] ?? $fields['source'] ?? ''));
+    $eventName = trim((string)($payload['event_name'] ?? $fields['event_name'] ?? ''));
+    $stepNumberRaw = $payload['step_number'] ?? $fields['step_number'] ?? null;
+    $stepNumber = is_numeric($stepNumberRaw) ? max(0, min(255, (int)$stepNumberRaw)) : null;
+    $stepLabel = substr(trim((string)($payload['step_label'] ?? $fields['step_label'] ?? '')), 0, 160);
+    $payloadJson = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    $ipHash = submission_ip_hash($config);
+    $userAgent = substr((string)($_SERVER['HTTP_USER_AGENT'] ?? ''), 0, 1000);
+
+    $stmt = $pdo->prepare('INSERT INTO form_step_audit (uuid, session_uuid, source, event_name, step_number, step_label, payload_json, client_ip_hash, user_agent) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)');
+    $stmt->execute([$uuid, $sessionUuid, $source, $eventName, $stepNumber, $stepLabel ?: null, $payloadJson, $ipHash ?: null, $userAgent ?: null]);
+    return $uuid;
+}
+
 function update_submission_audit(PDO $pdo, int $auditId, string $status, ?string $errorCode = null, ?string $leadQueueUuid = null): void
 {
     $stmt = $pdo->prepare('UPDATE lead_submission_audit SET status = ?, error_code = ?, lead_queue_uuid = COALESCE(?, lead_queue_uuid) WHERE id = ?');

@@ -4,6 +4,7 @@ declare(strict_types=1);
 require __DIR__ . '/db.php';
 require __DIR__ . '/functions.php';
 require __DIR__ . '/leadtable-client.php';
+require __DIR__ . '/google-ads-conversions.php';
 
 try {
     $config = app_config();
@@ -37,6 +38,11 @@ try {
         $result = forward_to_leadtable($payload, $config);
         if ($result['ok'] ?? false) {
             update_delivery_success($pdo, $row['uuid'], (string)($result['response'] ?? ''));
+            try {
+                enqueue_and_try_google_ads_conversion($pdo, (string)$row['uuid'], $payload, $config);
+            } catch (Throwable $conversionError) {
+                error_log('google ads conversion enqueue failed: ' . $conversionError->getMessage());
+            }
             $delivered++;
         } else {
             update_delivery_failure($pdo, $row['uuid'], (string)($result['error'] ?? 'unknown_error'));
@@ -46,6 +52,7 @@ try {
 
     $markFailed = $pdo->prepare("UPDATE lead_queue SET status = 'failed' WHERE status = 'pending' AND attempts >= ?");
     $markFailed->execute([$maxAttempts]);
+    $conversionUploads = process_pending_google_ads_conversions($pdo, $config);
 
     $body = [
         'ok' => true,
@@ -53,6 +60,7 @@ try {
         'delivered' => $delivered,
         'failed_attempts' => $failed,
         'marked_failed' => $markFailed->rowCount(),
+        'google_ads_conversions' => $conversionUploads,
     ];
 
     if (PHP_SAPI === 'cli') {

@@ -32,10 +32,11 @@ DirectoryIndex disabled
 </FilesMatch>
 
 # Public API entrypoints.
-# lead-submit.php = landingpage POST target
+# lead-submit.php = landingpage final POST target
+# lead-step-log.php = landingpage best-effort quiz step snapshots
 # retry-leads.php = optional URL cron target; protect inside PHP with a token
 # health.php = optional lightweight healthcheck if we add one
-<FilesMatch "^(lead-submit|retry-leads|health)\.php$">
+<FilesMatch "^(lead-submit|lead-step-log|retry-leads|health)\.php$">
     Require all granted
 </FilesMatch>
 
