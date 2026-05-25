@@ -28,6 +28,45 @@
     .section:not(.dark) .compare-card.good{background:#fff7e8;color:#121610}.section:not(.dark) .compare-card.good h3{color:#121610}.section:not(.dark) .compare-card.good li,.section:not(.dark) .compare-card.good p{color:#2f332b}.dark .compare-card.good li,.dark .compare-card.good p{color:rgba(255,247,232,.82)}
 
     .testimonials-section{position:relative;overflow:hidden}.testimonials-section::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 12% 14%,rgba(214,161,77,.14),transparent 34%),linear-gradient(90deg,rgba(255,247,232,.035) 1px,transparent 1px);background-size:auto,92px 92px;opacity:.85}.testimonials-section>.wrap{position:relative}.testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.testimonial-grid-secondary{grid-template-columns:repeat(2,1fr);margin-top:16px;max-width:900px}.testimonial-card{background:rgba(255,247,232,.085);border:1px solid rgba(255,247,232,.15);padding:24px;box-shadow:0 30px 90px -70px #000;min-height:100%;display:flex;flex-direction:column;justify-content:space-between}.testimonial-card blockquote{margin:0;color:rgba(255,247,232,.9);font-size:16px;line-height:1.58;font-weight:650}.testimonial-card p{margin:22px 0 0;color:var(--gold);font-weight:950}.testimonial-card.small blockquote{font-size:15px}.voice-proof{margin-top:18px;display:grid;grid-template-columns:1fr .92fr;gap:18px;align-items:center;padding:26px;background:#fff7e8;color:#121610;border-left:7px solid var(--gold);box-shadow:var(--shadow)}.voice-proof h3{margin:0;color:#121610;font-family:Space,Inter,sans-serif;font-size:clamp(26px,3vw,44px);line-height:.98;letter-spacing:-.055em}.voice-proof .eyebrow{color:#7b4a17}.voice-proof p:not(.eyebrow){color:#4f4638;font-weight:700;margin:14px 0 0}.voice-player{background:#172419;color:#fff7e8;padding:18px;border:1px solid rgba(255,247,232,.16);box-shadow:8px 8px 0 rgba(23,36,25,.18)}.voice-label{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:12px;color:rgba(255,247,232,.75);font-size:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:950}.voice-label strong{color:var(--gold)}.voice-player audio{width:100%;display:block;accent-color:var(--gold)}@media(max-width:980px){.testimonial-grid,.testimonial-grid-secondary,.voice-proof{grid-template-columns:1fr}.testimonial-card{padding:20px}.voice-proof{padding:22px}}
+
+    /* 2026-05-26 Vision QA polish: spacing, contrast, mobile gutters */
+    @media (min-width: 981px){
+      :root{--site:min(1240px,calc(100% - 64px))}
+      .wide{width:min(1440px,calc(100% - 64px))}
+      .nav{top:20px;left:24px;right:24px}
+      .nav-inner{height:76px;padding:0 24px;border-color:rgba(255,247,232,.24);background:rgba(9,13,9,.82)}
+      .brand img{height:50px}.brand span{font-size:16px;letter-spacing:.01em}
+      .nav-links{gap:24px;font-size:14px;color:rgba(255,247,232,.86)}
+      .nav-cta{padding:13px 20px;font-size:14px}
+      .hero{min-height:92svh;padding:126px 0 82px;align-items:center}
+      .hero-content{grid-template-columns:minmax(0,670px) minmax(400px,.82fr);gap:56px;align-items:center}
+      .hero-panel{align-self:center;max-width:620px;justify-self:end;align-content:center;gap:16px}
+      .hero-proof{gap:14px}.proof-chip{padding:20px 22px;font-size:15px;line-height:1.28;background:rgba(9,13,9,.76)}
+      .proof-chip b{font-size:30px}.seal-row{padding:16px 18px}.seal-row img{width:82px;height:82px}.seal-row span{font-size:16px;line-height:1.25}
+    }
+    .hero::before{background:linear-gradient(90deg,rgba(9,13,9,.97) 0%,rgba(9,13,9,.82) 39%,rgba(9,13,9,.30) 70%,rgba(9,13,9,.58) 100%),linear-gradient(0deg,rgba(9,13,9,.78) 0%,rgba(9,13,9,.08) 46%,rgba(9,13,9,.74) 100%)}
+    .hero .lead{color:rgba(255,247,232,.93);text-shadow:0 2px 22px rgba(0,0,0,.7)}
+    .micro{font-size:14px;color:rgba(255,247,232,.8);line-height:1.45;max-width:560px;text-shadow:0 2px 18px rgba(0,0,0,.7)}
+    .btn{font-size:17px;min-height:58px;padding:17px 25px}.btn.ghost{background:#fff7e8;color:#141009;border-color:#fff7e8;box-shadow:0 16px 42px -30px rgba(255,247,232,.75)}
+    figcaption{font-size:16px;line-height:1.38;padding:18px 20px;color:#2e271e}
+    .compare-card,.testimonial-card,.faq details{font-size:17px}.compare-card{padding:34px}.compare-card p,.compare-card li{line-height:1.55}.dark .lead{color:rgba(255,247,232,.86)}.testimonial-card blockquote{color:rgba(255,247,232,.94)}
+    .fact{box-shadow:0 24px 72px -58px rgba(0,0,0,.72)}.fact p,.faq p,.field label,.choice{font-size:16px;line-height:1.5}
+    .sticky{bottom:18px;padding:12px 14px;background:rgba(255,247,232,.96)}.sticky .btn{min-height:48px;font-size:15px;padding:13px 20px}.section{scroll-margin-top:120px}.footer,.jh{color:rgba(255,247,232,.72)}
+    @media (max-width: 980px){
+      .nav-inner{padding:0 18px;background:rgba(9,13,9,.86)}
+      .hero-content{min-height:auto;padding-top:clamp(420px,62svh,620px);align-content:start;gap:20px}
+      .hero-bg img{object-position:center top}.hero-panel{align-content:start}.scroll-cue{display:none}
+    }
+    @media (max-width: 640px){
+      :root{--site:min(100% - 44px, 390px)}
+      .wide{width:min(100% - 36px, 430px)}.wrap{width:var(--site)}
+      .nav{top:12px;left:14px;right:14px}.nav-inner{height:62px;padding:0 14px}.brand img{height:38px}.nav-cta{font-size:13px;padding:11px 14px}
+      .hero{padding:88px 0 34px;background:#090d09}.hero::before{background:linear-gradient(0deg,rgba(9,13,9,.98) 0%,rgba(9,13,9,.9) 36%,rgba(9,13,9,.22) 62%,rgba(9,13,9,.72) 100%)}
+      .hero-content{padding-top:430px;gap:18px}.hero .reveal{text-align:center;display:flex;flex-direction:column;align-items:center}.hero .eyebrow{justify-content:center}.hero .actions{width:100%}
+      h1{font-size:clamp(44px,12.6vw,52px);max-width:10.5ch}.lead{font-size:17px}.micro{font-size:14px;text-align:center}.btn{width:100%;font-size:16px}
+      .hero-proof{grid-template-columns:1fr}.proof-chip{text-align:left}.seal-row{align-items:center;gap:12px}.seal-row img{width:66px;height:66px}.seal-row span{font-size:15px}
+      .image-band figure{min-height:auto}.image-band img,.image-band figure:first-child img{height:310px}figcaption{font-size:15px;padding:16px 18px}.compare-card{padding:26px}.sticky{left:18px;right:18px;bottom:12px}.footer,.jh{padding-bottom:104px}
+    }
   </style>
 </head>
 <body>
@@ -36,7 +75,7 @@
     <picture class="hero-bg"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-01-car-house-integrated.webp?v=20260525-v15" alt="Holz-Carport passend zum Haus" fetchpriority="high"></picture>
     <div class="wide hero-content">
       <div class="reveal"><p class="eyebrow">Holz-Carports vom Zimmermeister</p><h1>Ein Carport, der so lange hält wie Ihr Haus.</h1><p class="lead">Für Menschen, die vor dem Haus nicht irgendein Dach wollen, sondern einen Carport, der gut aussieht, im Alltag angenehm ist und für viele Jahre ordentlich geplant wird.</p><div class="actions"><a class="btn" href="#anfrage">Wunsch-Carport anfragen</a><a class="btn ghost" href="#wunsch">Bildwelt ansehen</a></div><p class="micro">Ein paar Angaben reichen für den Anfang. Wenn Sie möchten, gern auch ein Foto der Einfahrt.</p></div>
-      <div class="hero-panel reveal"><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260525-v15" alt="Meisterbetrieb"><span>Meisterbetrieb · Familienbetrieb seit 2004</span></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit</div><div class="proof-chip"><b>Peter</b>Preissinger als persönlicher Ansprechpartner</div><div class="proof-chip"><b>2004</b>Familienbetrieb seit 2004</div><div class="proof-chip"><b>Peter</b>persönliche Rückmeldung</div></div></div>
+      <div class="hero-panel reveal"><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb · Familienbetrieb seit 2004</span></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit</div><div class="proof-chip"><b>Peter</b>Preissinger als persönlicher Ansprechpartner</div></div></div>
     </div><div class="scroll-cue">scroll</div>
   </header>
   <main>
@@ -49,7 +88,7 @@
   </main>
   <footer class="footer"><img src="assets/logo-white.png?v=20260525-logo-contrast" alt="M&P Holzbau"><p><strong>M&P Holzbau</strong><br>Wunsch-Carports vom Zimmermeister</p><div class="footer-links"><a href="#top">Start</a><a href="#anfrage">Kontakt</a><a href="https://www.mp-holzbau.at/impressum">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></footer><div class="jh">Ein Neukundensystem der <strong>Junghirsch</strong> Online GmbH</div><div class="sticky"><span>Persönlich mit Peter Preissinger</span><a class="btn" href="#anfrage">Anfragen</a></div>
   <script>
-    const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});document.querySelectorAll('.reveal,.section-head,.image-band figure,.split,.compare-card,.peter,.fact,.step,.lead-form').forEach(el=>io.observe(el));const sticky=document.querySelector('.sticky');addEventListener('scroll',()=>sticky.classList.toggle('visible',scrollY>650),{passive:true});document.querySelector('.lead-form').addEventListener('submit',e=>{e.preventDefault();const s=e.currentTarget.querySelector('.status');s.style.display='block';s.scrollIntoView({block:'nearest',behavior:'smooth'});});
+    const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});document.querySelectorAll('.reveal,.section-head,.image-band figure,.split,.compare-card,.peter,.fact,.step,.lead-form').forEach(el=>io.observe(el));const sticky=document.querySelector('.sticky');const toggleSticky=()=>{const hero=document.querySelector('.hero');const trigger=(hero?.offsetHeight||760)+620;sticky.classList.toggle('visible',scrollY>trigger)};addEventListener('scroll',toggleSticky,{passive:true});toggleSticky();document.querySelector('.lead-form').addEventListener('submit',e=>{e.preventDefault();const s=e.currentTarget.querySelector('.status');s.style.display='block';s.scrollIntoView({block:'nearest',behavior:'smooth'});});
   </script>
 </body>
 </html>
