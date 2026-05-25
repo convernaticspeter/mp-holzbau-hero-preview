@@ -9,254 +9,177 @@
   <link rel="preload" as="font" href="assets/fonts/inter-regular.woff2" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="assets/fonts/inter-semibold.woff2" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="assets/fonts/space-grotesk-bold.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/mp-carport-lp-balanced-2026-05-21/hero-01-car-house-integrated.webp?v=atelier-redesign-20260525">
   <style>
     @font-face{font-family:Inter;src:url('assets/fonts/inter-regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
     @font-face{font-family:Inter;src:url('assets/fonts/inter-medium.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
     @font-face{font-family:Inter;src:url('assets/fonts/inter-semibold.woff2') format('woff2');font-weight:700 850;font-style:normal;font-display:swap}
     @font-face{font-family:SpaceGrotesk;src:url('assets/fonts/space-grotesk-bold.woff2') format('woff2');font-weight:700 850;font-style:normal;font-display:swap}
-    :root{--ink:#171d14;--green:#1b2c1b;--green2:#263e25;--moss:#52633d;--cream:#f4ead9;--paper:#fffaf0;--sand:#dfc8a8;--wood:#9b5b27;--wood2:#c58240;--gold:#d4a85c;--muted:#685d4e;--line:rgba(27,44,27,.14);--darkline:rgba(255,250,240,.16);--shadow:0 30px 90px -58px rgba(17,29,16,.72);--radius:34px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 16% 8%,rgba(212,168,92,.22),transparent 28%),radial-gradient(circle at 88% 12%,rgba(82,99,61,.18),transparent 30%),linear-gradient(180deg,#f8efdf 0%,#efe0c9 100%)}body:after{content:"";position:fixed;inset:0;z-index:-1;opacity:.055;background-image:url('assets/holzstruktur-lite.svg');background-size:760px auto;mix-blend-mode:multiply;pointer-events:none}img{display:block;max-width:100%;height:auto}a{color:inherit}.container{width:min(1180px,calc(100% - 44px));margin-inline:auto}.wide{width:min(1320px,calc(100% - 32px));margin-inline:auto}.narrow{width:min(850px,calc(100% - 44px));margin-inline:auto}.eyebrow{margin:0 0 14px;color:#87511f;font-size:12px;font-weight:850;letter-spacing:.16em;text-transform:uppercase}.dark .eyebrow,.hero .eyebrow{color:rgba(255,250,240,.7)}h1,h2,h3,.display{font-family:SpaceGrotesk,Inter,sans-serif;letter-spacing:-.052em;line-height:.94}h1{font-size:clamp(52px,7.1vw,112px);margin:0 0 22px;max-width:930px}.section-title{font-size:clamp(39px,5.2vw,78px);margin:0 0 20px}.lead{font-size:clamp(18px,1.55vw,22px);line-height:1.52;color:#433a30;margin:0}.dark .lead,.hero .lead{color:rgba(255,250,240,.84)}.micro{font-size:14px;color:rgba(67,58,48,.76);margin:12px 0 0}.hero .micro,.dark .micro{color:rgba(255,250,240,.68)}.btn{appearance:none;border:0;min-height:56px;padding:16px 24px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--wood);color:#fffaf0;text-decoration:none;font-weight:850;box-shadow:0 18px 42px -27px rgba(98,52,20,.85);cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}.btn:hover,.btn:focus-visible{transform:translateY(-2px);background:#894e20;box-shadow:0 22px 48px -30px rgba(98,52,20,.95)}.btn.light{background:#fffaf0;color:var(--green);border:1px solid rgba(27,44,27,.14)}.btn.ghost{background:transparent;border:1px solid rgba(255,250,240,.25);color:#fffaf0;box-shadow:none}.btn.full{width:100%}section{padding:clamp(76px,8vw,124px) 0;scroll-margin-top:96px}.nav{position:fixed;z-index:60;inset:0 0 auto;background:rgba(23,29,20,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,250,240,.12)}.nav-inner{height:74px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:12px;color:#fffaf0;text-decoration:none;font-weight:850}.brand img{height:46px;width:auto;filter:brightness(0) invert(1)}.nav-links{display:flex;align-items:center;gap:22px;color:rgba(255,250,240,.82);font-size:14px;font-weight:760}.nav-links a{text-decoration:none}.nav-cta{border:1px solid rgba(255,250,240,.26);border-radius:999px;padding:10px 16px;color:#fffaf0}.hero{position:relative;overflow:hidden;padding:124px 0 76px;background:linear-gradient(135deg,#1a2618 0%,#1d331e 58%,#152014 100%);color:#fffaf0}.hero:before{content:"";position:absolute;inset:auto -9% -24% 46%;height:68%;background:radial-gradient(circle,rgba(212,168,92,.28),transparent 62%);pointer-events:none}.hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,.94fr) minmax(500px,1.06fr);gap:clamp(36px,5.4vw,78px);align-items:center}.hero-copy{position:relative;z-index:2}.hero .lead{max-width:710px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.trust-line{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.trust-pill{border:1px solid rgba(255,250,240,.16);background:rgba(255,250,240,.08);border-radius:999px;padding:10px 13px;color:rgba(255,250,240,.78);font-size:13px;font-weight:760}.hero-art{position:relative;min-height:650px}.hero-card{position:absolute;overflow:hidden;background:#fffaf0;border:1px solid rgba(255,250,240,.2);box-shadow:0 34px 110px -58px rgba(0,0,0,.9)}.hero-card.main{inset:20px 0 46px 82px;border-radius:44px 0 0 44px}.hero-card.main img{width:100%;height:100%;object-fit:cover}.hero-card.small{left:0;bottom:0;width:45%;border-radius:28px}.hero-card.small img{height:240px;width:100%;object-fit:cover}.seal-stack{position:absolute;right:24px;bottom:18px;display:grid;gap:10px;max-width:260px}.seal{background:rgba(255,250,240,.92);color:var(--green);border:1px solid rgba(27,44,27,.12);border-radius:20px;padding:13px 15px;box-shadow:0 20px 50px -34px rgba(0,0,0,.7)}.seal b{display:block;font-family:SpaceGrotesk,Inter,sans-serif;font-size:25px;letter-spacing:-.04em;line-height:1}.seal span{display:block;margin-top:4px;font-size:12px;color:#645746}.ticker{background:#fffaf0;border-bottom:1px solid var(--line);border-top:1px solid var(--line);padding:18px 0}.ticker-row{display:flex;gap:26px;align-items:center;justify-content:space-between;color:#3e372d;font-weight:800}.ticker-row span{white-space:nowrap}.desire{padding-top:104px}.editorial{display:grid;grid-template-columns:.74fr 1.26fr;gap:50px;align-items:end}.big-serif{font-family:SpaceGrotesk,Inter,sans-serif;font-size:clamp(46px,6vw,90px);line-height:.92;letter-spacing:-.055em;margin:0}.story-card{background:#fffaf0;border:1px solid var(--line);border-radius:var(--radius);padding:clamp(26px,4vw,46px);box-shadow:var(--shadow)}.story-card p{font-size:clamp(19px,1.7vw,24px);line-height:1.48;margin:0 0 18px;color:#362f28}.quiet-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:26px 0 0;padding:0;list-style:none}.quiet-list li{background:rgba(27,44,27,.06);border-radius:17px;padding:13px 15px;font-weight:780;color:#2b3327}.gallery-ribbon{margin-top:38px;display:grid;grid-template-columns:1.2fr .82fr .82fr;gap:16px}.shot{position:relative;overflow:hidden;border-radius:32px;border:1px solid rgba(27,44,27,.12);background:#fffaf0;box-shadow:0 28px 70px -52px rgba(23,29,20,.7)}.shot:first-child{grid-row:span 2}.shot img{width:100%;height:300px;object-fit:cover}.shot:first-child img{height:620px}.shot figcaption{position:absolute;left:16px;right:16px;bottom:16px;background:rgba(23,29,20,.82);backdrop-filter:blur(12px);color:#fffaf0;border-radius:18px;padding:13px 15px;font-weight:850}.moments{background:#fffaf0}.moment-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:48px;align-items:center}.moment-stack{display:grid;gap:12px}.moment{display:grid;grid-template-columns:30px 1fr;gap:14px;align-items:start;background:var(--cream);border:1px solid var(--line);border-radius:22px;padding:18px}.moment i{width:30px;height:30px;border-radius:999px;background:var(--green);color:#fffaf0;display:grid;place-items:center;font-style:normal;font-weight:850}.moment b{display:block}.moment span{display:block;color:var(--muted);margin-top:2px}.feature-image{border-radius:38px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line)}.feature-image img{width:100%;height:620px;object-fit:cover}.dossier{background:linear-gradient(135deg,#172415 0%,#223b22 100%)!important;color:#fffaf0;position:relative;overflow:hidden;isolation:isolate}.dossier:before{content:"";position:absolute;inset:0;z-index:0;background:url('assets/holzstruktur.svg') center/820px auto;opacity:.065;mix-blend-mode:screen}.dossier>*{position:relative;z-index:1}.dossier-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}.pinboard{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.pin{border:1px solid var(--darkline);background:rgba(255,250,240,.075);border-radius:24px;padding:22px}.pin small{display:block;color:rgba(255,250,240,.52);font-weight:850;letter-spacing:.12em;text-transform:uppercase}.pin h3{font-size:31px;margin:8px 0 10px}.pin p{margin:0;color:rgba(255,250,240,.76)}.material{padding-bottom:0}.material-panel{border-radius:42px;overflow:hidden;background:#20170f;color:#fffaf0;display:grid;grid-template-columns:1.04fr .96fr;box-shadow:var(--shadow)}.material-copy{padding:clamp(34px,5vw,64px);background:linear-gradient(135deg,rgba(27,44,27,.96),rgba(36,46,29,.86)),url('assets/holzstruktur.svg') center/760px auto}.material-list{display:grid;gap:12px;margin-top:26px}.material-list div{border-top:1px solid rgba(255,250,240,.16);padding-top:13px;color:rgba(255,250,240,.82);font-weight:760}.material-panel img{width:100%;height:100%;min-height:560px;object-fit:cover}.trust{background:#fffaf0}.trust-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:48px;align-items:center}.portrait-card{border-radius:38px;overflow:hidden;background:var(--cream);border:1px solid var(--line);box-shadow:var(--shadow)}.portrait-card img{width:100%;height:560px;object-fit:cover;object-position:center top}.portrait-caption{padding:22px}.portrait-caption blockquote{font-family:SpaceGrotesk,Inter,sans-serif;font-size:clamp(27px,3vw,42px);letter-spacing:-.04em;line-height:1.02;margin:0}.portrait-caption p{margin:12px 0 0;color:var(--muted)}.proof-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:26px}.proof{background:var(--cream);border:1px solid var(--line);border-radius:22px;padding:20px}.proof b{display:block;font-size:20px}.proof span{display:block;color:var(--muted);margin-top:4px}.voice-proof{margin-top:26px;background:var(--green);color:#fffaf0;border-radius:28px;padding:20px;display:grid;grid-template-columns:58px 1fr;gap:16px;align-items:start}.voice-proof button{width:58px;height:58px;border-radius:999px;border:1px solid rgba(255,250,240,.35);background:#fffaf0;color:var(--green);font-size:21px;cursor:pointer}.voice-proof strong{display:block}.voice-proof span{display:block;color:rgba(255,250,240,.65);font-size:13px;margin-top:3px}.voice-proof p{margin:10px 0 0;color:rgba(255,250,240,.85)}.process{background:linear-gradient(180deg,var(--cream),#ead6b8)}.steps{counter-reset:step;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px}.step{counter-increment:step;background:#fffaf0;border:1px solid var(--line);border-radius:28px;padding:24px;min-height:230px;box-shadow:0 20px 54px -48px rgba(23,29,20,.7)}.step:before{content:counter(step,decimal-leading-zero);display:block;font-family:SpaceGrotesk,Inter,sans-serif;font-size:44px;letter-spacing:-.05em;color:var(--wood);line-height:1}.step h3{font-size:27px;margin:18px 0 10px}.step p{margin:0;color:var(--muted)}.price{background:#fffaf0}.price-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:42px;align-items:start}.price-card{background:var(--cream);border:1px solid var(--line);border-radius:38px;padding:clamp(28px,4vw,48px);box-shadow:var(--shadow)}.price-card h3{font-size:clamp(38px,4.4vw,64px);margin:0 0 18px}.price-list{display:grid;gap:10px;margin:24px 0}.price-list div{background:rgba(27,44,27,.06);border-radius:17px;padding:14px 16px;font-weight:780}.testimonials{padding-top:0;background:#fffaf0}.quote-grid{display:grid;grid-template-columns:.9fr 1.05fr 1.05fr;gap:16px}.quote,.quote-audio{border:1px solid var(--line);border-radius:30px;padding:24px;background:var(--cream)}.quote blockquote{margin:0;color:#362f28;font-size:18px}.quote cite{display:block;margin-top:14px;font-style:normal;font-weight:850;color:#1f2b1c}.quote-audio{background:var(--green);color:#fffaf0;display:grid;align-content:space-between}.quote-audio p{color:rgba(255,250,240,.82)}.faq-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:38px;align-items:start}.faq details{background:#fffaf0;border:1px solid var(--line);border-radius:20px;padding:19px 22px;margin-bottom:12px}.faq summary{cursor:pointer;font-weight:850}.faq p{color:var(--muted);margin:12px 0 0}.form-section{background:linear-gradient(135deg,#1a2618,#243823);color:#fffaf0;position:relative;overflow:hidden}.form-section:before{content:"";position:absolute;inset:0;background:url('assets/holzstruktur.svg') center/820px auto;opacity:.055;mix-blend-mode:screen}.form-section>*{position:relative}.form-section .lead{color:rgba(255,250,240,.84)}.form-shell{display:grid;grid-template-columns:.78fr 1.22fr;gap:34px;align-items:start}.form-copy{position:sticky;top:98px}.quiz{background:#fffaf0;color:var(--ink);border:1px solid rgba(255,250,240,.22);border-radius:38px;padding:clamp(24px,4vw,42px);box-shadow:0 34px 110px -60px rgba(0,0,0,.9)}.step-tabs{display:flex;gap:8px;margin-bottom:22px}.step-dot{flex:1;height:7px;border-radius:99px;background:rgba(27,44,27,.12)}.step-dot.active{background:var(--wood)}.quiz-step[hidden]{display:none!important}.quiz-step h3{font-size:clamp(30px,3.2vw,46px);margin:0 0 18px}.step-note{margin:-6px 0 20px;color:var(--muted)}.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.choice{border:1px solid rgba(27,44,27,.16);background:#fffaf0;border-radius:20px;padding:18px;text-align:left;font:inherit;cursor:pointer;min-height:90px;transition:.16s ease}.choice:hover,.choice.selected{border-color:var(--wood);box-shadow:0 16px 36px -31px rgba(98,52,20,.9);transform:translateY(-1px)}.choice b{display:block;font-weight:850}.choice span{display:block;color:var(--muted);font-size:14px;margin-top:4px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}.field{display:grid;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:14px;font-weight:850}.field input,.field textarea{width:100%;border:1px solid rgba(27,44,27,.18);background:#fffef8;border-radius:16px;padding:14px 15px;font:inherit;color:var(--ink)}.field textarea{min-height:120px;resize:vertical}.quiz-nav{display:flex;gap:12px;justify-content:space-between;margin-top:22px}.status{margin-top:14px;padding:12px 14px;background:rgba(27,44,27,.07);border-radius:14px}.sticky{position:fixed;z-index:50;left:50%;bottom:18px;transform:translate(-50%,18px);background:var(--wood);color:#fffaf0;text-decoration:none;font-weight:850;border-radius:999px;padding:14px 20px;box-shadow:0 18px 44px -28px rgba(87,46,16,.86);opacity:0;visibility:hidden;pointer-events:none;transition:.18s ease}.sticky.visible{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0)}.cookie{position:fixed;z-index:80;left:22px;bottom:22px;width:min(440px,calc(100% - 44px));background:#fffaf0;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:18px;display:flex;gap:14px;align-items:center;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(12px);transition:.18s ease}.cookie.visible{opacity:1;visibility:visible;pointer-events:auto;transform:none}.cookie p{margin:0;font-size:13px;color:var(--muted)}.cookie-actions{display:flex;gap:8px}.cookie button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 12px;font-weight:850;cursor:pointer}.cookie .accept{background:var(--green);color:#fffaf0}.footer{background:#10170f;color:rgba(255,250,240,.72);padding:52px 0 98px}.footer a{color:#fffaf0}.footer p{margin:8px 0}
-    @media(max-width:980px){.nav-links a:not(.nav-cta){display:none}.hero-grid,.editorial,.moment-grid,.dossier-grid,.material-panel,.trust-grid,.price-grid,.faq-grid,.form-shell{grid-template-columns:1fr}.hero-art{min-height:520px}.hero-card.main{left:50px}.gallery-ribbon{grid-template-columns:1fr 1fr}.shot:first-child{grid-row:auto}.shot:first-child img,.shot img{height:330px}.steps,.proof-grid,.quote-grid{grid-template-columns:1fr 1fr}.pinboard{grid-template-columns:1fr}.material-panel img{min-height:420px}.form-copy{position:static}.ticker-row{overflow:auto;justify-content:flex-start}.feature-image img,.portrait-card img{height:460px}}
-    @media(max-width:620px){.container,.narrow{width:min(334px,calc(100% - 56px));margin-left:28px;margin-right:auto}section{padding:64px 0}.nav-inner{height:66px}.brand img{height:34px}.brand span{font-size:15px}.nav-cta{display:none}.hero{padding:92px 0 48px}.hero h1{font-size:clamp(31px,8vw,34px);line-height:1.06;max-width:100%;overflow-wrap:break-word}.hero .lead{font-size:16px}.hero-copy,.hero-grid{min-width:0;max-width:334px;overflow:hidden}.hero-actions .btn{width:100%;max-width:334px}.trust-line{display:grid}.hero-art{min-height:370px;margin-top:24px}.hero-card.main{inset:0;border-radius:28px}.hero-card.main img{height:370px}.hero-card.small,.seal-stack{display:none}.ticker-row{font-size:13px}.quiet-list,.gallery-ribbon,.choices,.form-grid,.steps,.proof-grid,.quote-grid{grid-template-columns:1fr}.shot:first-child img,.shot img{height:285px}.feature-image img,.portrait-card img,.material-panel img{height:330px;min-height:330px}.section-title{font-size:39px}.big-serif{font-size:42px}.story-card{padding:24px}.pin,.proof,.step{padding:20px}.quiz-nav{flex-direction:column}.quiz-nav .btn{width:100%}.sticky{left:14px;right:14px;bottom:10px;transform:none;text-align:center;padding:13px 16px}.sticky.visible{transform:none}.cookie{left:14px;right:14px;bottom:70px;width:auto;flex-direction:column;align-items:stretch}.cookie-actions{width:100%}.cookie button{flex:1}.footer{padding-bottom:88px}}
+    :root{--paper:#f5efe2;--sheet:#fffaf0;--ink:#151812;--muted:#655f53;--green:#18261c;--green2:#263a27;--line:rgba(21,24,18,.16);--wood:#8a5224;--copper:#bd7b3a;--gold:#d6a95f;--cream:#efe1c7;--blueprint:#23312a;--shadow:0 44px 110px -70px rgba(18,27,19,.9)}
+    *{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;z-index:-3;background:linear-gradient(90deg,rgba(21,24,18,.055) 1px,transparent 1px),linear-gradient(0deg,rgba(21,24,18,.055) 1px,transparent 1px),radial-gradient(circle at 20% 8%,rgba(189,123,58,.2),transparent 28%),radial-gradient(circle at 86% 2%,rgba(38,58,39,.17),transparent 34%),var(--paper);background-size:72px 72px,72px 72px,auto,auto,auto}body:after{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opacity:.08;background:url('assets/holzstruktur-lite.svg') center/900px auto repeat;mix-blend-mode:multiply}img{display:block;max-width:100%;height:auto}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.wrap{width:min(1240px,calc(100% - 42px));margin-inline:auto}.wide{width:min(1440px,calc(100% - 28px));margin-inline:auto}.sheet{background:rgba(255,250,240,.88);border:1px solid var(--line);box-shadow:var(--shadow)}.nav{position:fixed;inset:14px 14px auto;z-index:30}.nav-inner{height:64px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:26px;padding:0 20px;background:rgba(255,250,240,.78);backdrop-filter:blur(18px);border:1px solid rgba(21,24,18,.14);box-shadow:0 20px 60px -46px rgba(21,24,18,.85)}.brand{display:flex;align-items:center;gap:12px;font-weight:850}.brand img{height:38px;width:auto}.nav-links{display:flex;justify-content:end;align-items:center;gap:22px;font-size:13px;font-weight:800;color:#3b3f35}.nav-cta{background:var(--ink);color:var(--sheet);padding:12px 16px}.hero{padding:118px 0 48px;min-height:100svh;display:grid;align-items:end}.hero-board{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(420px,47%);gap:0;min-height:720px;background:var(--sheet);border:1px solid rgba(21,24,18,.22);box-shadow:0 70px 180px -100px rgba(0,0,0,.95);overflow:hidden}.hero-copy{padding:64px clamp(28px,4.6vw,76px) 54px;display:flex;flex-direction:column;justify-content:space-between;position:relative;z-index:2}.hero-copy:before{content:"M&P / CARPORT DOSSIER";position:absolute;top:22px;right:26px;color:rgba(21,24,18,.22);font-size:11px;font-weight:850;letter-spacing:.22em}.eyebrow{margin:0 0 14px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:850;color:var(--wood)}h1,h2,h3,.display{font-family:SpaceGrotesk,Inter,sans-serif;letter-spacing:-.055em;line-height:.92;margin:0}h1{font-size:clamp(54px,7.1vw,116px);max-width:850px;text-wrap:balance}.lead{font-size:clamp(18px,1.5vw,22px);line-height:1.55;color:#453f36;margin:22px 0 0;max-width:720px}.hero-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:15px 22px;background:var(--wood);color:#fffaf0;border:1px solid var(--wood);font-weight:850;cursor:pointer;box-shadow:0 22px 52px -34px rgba(99,55,23,.95);transition:transform .18s ease,background .18s ease}.btn:hover,.btn:focus-visible{transform:translateY(-2px);background:#704117}.btn.ghost,.btn.light{background:transparent;color:var(--ink);border-color:rgba(21,24,18,.28);box-shadow:none}.btn.full{width:100%}.micro{font-size:14px;color:rgba(21,24,18,.62);margin:12px 0 0}.trust-strip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:42px}.trust-strip span{padding:18px 16px 0 0;font-size:13px;font-weight:800;color:#3f4337}.hero-photo{position:relative;background:var(--green);min-height:680px;clip-path:polygon(10% 0,100% 0,100% 100%,0 100%)}.hero-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.94) contrast(1.06)}.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,rgba(12,18,13,.64)),linear-gradient(90deg,rgba(12,18,13,.35),transparent 35%)}.stamp{position:absolute;right:28px;bottom:28px;z-index:2;color:#fffaf0;border:1px solid rgba(255,250,240,.55);padding:18px 20px;background:rgba(20,31,22,.72);backdrop-filter:blur(10px);text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:850}.stamp b{display:block;font-size:34px;letter-spacing:-.04em;line-height:1;margin-bottom:8px}.section{padding:86px 0}.split{display:grid;grid-template-columns:390px 1fr;gap:38px;align-items:start}.rail{position:sticky;top:100px;border-top:4px solid var(--ink);padding-top:22px}.section-kicker{font-size:13px;text-transform:uppercase;letter-spacing:.18em;font-weight:850;color:var(--wood);margin:0 0 16px}.section-title{font-size:clamp(40px,5.5vw,82px);text-wrap:balance}.copy-block{font-size:19px;color:#312e27}.copy-block p{margin:0 0 18px}.copy-block ul{margin:22px 0;padding:0;display:grid;gap:10px;list-style:none}.copy-block li{position:relative;padding-left:24px}.copy-block li:before{content:"";position:absolute;left:0;top:.72em;width:8px;height:8px;background:var(--wood)}.gallery{display:grid;grid-template-columns:1.25fr .75fr .95fr;gap:14px;margin-top:42px}.gallery figure{margin:0;position:relative;overflow:hidden;background:#111;min-height:330px;border:1px solid rgba(21,24,18,.18)}.gallery figure:nth-child(1){grid-row:span 2;min-height:680px}.gallery img{width:100%;height:100%;object-fit:cover}.gallery figcaption{position:absolute;left:14px;bottom:14px;right:14px;background:rgba(255,250,240,.86);padding:10px 12px;font-size:12px;font-weight:850}.darkband{background:var(--green);color:#fffaf0;position:relative;overflow:hidden}.darkband:before{content:"";position:absolute;inset:0;opacity:.09;background:linear-gradient(90deg,#fff 1px,transparent 1px),linear-gradient(0deg,#fff 1px,transparent 1px);background-size:54px 54px}.darkband .wrap{position:relative}.darkband .rail{border-color:rgba(255,250,240,.8)}.darkband .section-kicker,.darkband .eyebrow{color:rgba(255,250,240,.65)}.darkband .lead,.darkband .copy-block{color:rgba(255,250,240,.82)}.darkband .copy-block li:before{background:var(--gold)}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:rgba(255,250,240,.2);border:1px solid rgba(255,250,240,.2)}.card{background:rgba(255,250,240,.075);padding:28px}.card small{display:block;color:rgba(255,250,240,.58);font-weight:850;letter-spacing:.14em;text-transform:uppercase;margin-bottom:24px}.card h3{font-size:28px;line-height:1;margin-bottom:14px}.card p{margin:0;color:rgba(255,250,240,.72)}.photo-text{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);background:var(--sheet);box-shadow:var(--shadow)}.photo-text img{height:100%;min-height:560px;width:100%;object-fit:cover}.photo-text .copy-block{padding:clamp(30px,5vw,76px)}.proof-grid{display:grid;grid-template-columns:repeat(5,1fr);border-left:1px solid var(--line);border-top:1px solid var(--line);background:rgba(255,250,240,.6)}.proof-grid div{padding:22px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);font-weight:850}.quotes{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:18px}.quote{padding:28px;background:var(--sheet);border:1px solid var(--line);min-height:220px}.quote blockquote{font-family:SpaceGrotesk,Inter,sans-serif;font-size:28px;letter-spacing:-.045em;line-height:1.08;margin:0}.quote p{margin:18px 0 0;color:var(--muted);font-size:14px}.quote.note{background:var(--ink);color:#fffaf0}.quote.note p{color:rgba(255,250,240,.7)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);background:var(--sheet)}.step{padding:28px;border-right:1px solid var(--line)}.step:last-child{border-right:0}.step b{display:block;font-size:42px;line-height:1;color:var(--wood);font-family:SpaceGrotesk}.pricebox{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;background:var(--sheet);border:1px solid var(--line);box-shadow:var(--shadow)}.pricebox>div{padding:clamp(28px,4vw,58px)}.pricebox>div:first-child{background:var(--cream)}.faq{display:grid;gap:10px}.faq details{background:var(--sheet);border:1px solid var(--line);padding:20px}.faq summary{cursor:pointer;font-weight:850}.faq p{color:var(--muted);margin:12px 0 0}.form-section{padding:92px 0;background:#131a13;color:#fffaf0}.form-shell{display:grid;grid-template-columns:380px 1fr;gap:34px}.form-copy{position:sticky;top:100px;align-self:start;border-top:4px solid #fffaf0;padding-top:22px}.form-copy .lead{color:rgba(255,250,240,.78)}.quiz{background:#fffaf0;color:var(--ink);border:1px solid rgba(255,250,240,.22);padding:clamp(22px,4vw,42px)}.step-tabs{display:flex;gap:8px;margin-bottom:24px}.step-dot{height:5px;flex:1;background:rgba(21,24,18,.15)}.step-dot.active{background:var(--wood)}.quiz-step h3{font-size:clamp(30px,3.4vw,48px);margin-bottom:12px}.step-note{color:var(--muted);margin:0 0 18px}.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.choice{min-height:74px;text-align:left;background:#f2e5cf;border:1px solid rgba(21,24,18,.16);padding:16px;font-weight:850;color:var(--ink);cursor:pointer}.choice.selected,.choice:hover{background:var(--green);color:#fffaf0;border-color:var(--green)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field.full{grid-column:1/-1}.field label{display:block;font-weight:850;margin-bottom:7px}.field input,.field textarea{width:100%;border:1px solid rgba(21,24,18,.18);background:#fff;border-radius:0;padding:14px;color:var(--ink)}.field textarea{min-height:128px;resize:vertical}.quiz-nav{display:flex;gap:12px;justify-content:space-between;margin-top:22px}.status{margin-top:14px;color:var(--wood);font-weight:850}.sticky{position:fixed;left:50%;bottom:18px;transform:translate(-50%,120px);z-index:29;background:var(--wood);color:#fffaf0;padding:14px 22px;font-weight:850;box-shadow:0 24px 64px -32px #000;transition:transform .25s ease,opacity .25s ease;opacity:0;visibility:hidden;pointer-events:none}.sticky.visible{transform:translate(-50%,0);opacity:1;visibility:visible;pointer-events:auto}.cookie{position:fixed;left:18px;bottom:18px;z-index:40;width:min(430px,calc(100% - 36px));background:#fffaf0;color:var(--ink);border:1px solid var(--line);padding:16px;box-shadow:0 24px 70px -45px #000;display:none;gap:14px}.cookie.visible{display:flex}.cookie p{margin:0;font-size:13px}.cookie-actions{display:flex;gap:8px}.cookie button{border:1px solid var(--line);background:transparent;padding:10px 12px;font-weight:850;cursor:pointer}.cookie .accept{background:var(--ink);color:#fffaf0}.footer{padding:44px 0 100px;background:#0f140f;color:rgba(255,250,240,.72);font-size:14px}.footer strong{color:#fffaf0}.mobile-br{display:none}
+    @media(max-width:980px){.nav-links a:not(.nav-cta){display:none}.hero-board,.split,.photo-text,.pricebox,.form-shell{grid-template-columns:1fr}.hero-photo{clip-path:none;min-height:520px;order:-1}.hero-copy{padding:38px}.rail,.form-copy{position:static}.gallery,.quotes{grid-template-columns:1fr 1fr}.gallery figure:nth-child(1){grid-row:auto;min-height:360px}.proof-grid,.steps{grid-template-columns:repeat(2,1fr)}.step:nth-child(2){border-right:0}.cards{grid-template-columns:1fr}.photo-text img{min-height:420px}.form-shell{gap:24px}}
+    @media(max-width:620px){.wrap{width:min(344px,calc(100% - 46px))}.wide{width:min(360px,calc(100% - 28px))}.nav{inset:10px 10px auto}.nav-inner{height:58px;padding:0 14px}.brand img{height:32px}.brand span{display:none}.nav-cta{display:none}.hero{padding:82px 0 34px;min-height:auto}.hero-board{min-height:0}.hero-photo{min-height:318px}.hero-copy{padding:26px 22px 28px}.hero-copy:before{display:none}h1{font-size:42px;line-height:.96}.lead{font-size:16px}.hero-actions .btn{width:100%}.trust-strip{grid-template-columns:1fr;border-top:0;gap:8px;margin-top:24px}.trust-strip span{border-top:1px solid var(--line);padding:10px 0}.stamp{right:14px;bottom:14px;padding:12px}.stamp b{font-size:25px}.section{padding:62px 0}.section-title{font-size:40px}.split{gap:24px}.copy-block{font-size:16px}.gallery,.quotes,.proof-grid,.steps,.form-grid,.choices{grid-template-columns:1fr}.gallery figure,.gallery figure:nth-child(1){min-height:280px}.proof-grid div{padding:16px}.step{border-right:0;border-bottom:1px solid var(--line)}.step:last-child{border-bottom:0}.photo-text img{min-height:300px}.photo-text .copy-block,.pricebox>div{padding:24px}.quote blockquote{font-size:24px}.quiz{padding:22px 18px}.quiz-step h3{font-size:29px}.quiz-nav{flex-direction:column}.quiz-nav .btn{width:100%}.sticky{left:14px;right:14px;bottom:10px;transform:translateY(120px);text-align:center}.sticky.visible{transform:translateY(0)}.cookie{left:14px;right:14px;bottom:72px;width:auto;flex-direction:column}.cookie-actions button{flex:1}.footer{padding-bottom:88px}.mobile-br{display:block}}
   </style>
 </head>
 <body>
   <nav class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="#top"><img src="assets/logo.png?v=v12-design-20260525" alt="M&P Holzbau"><span>M&P Holzbau</span></a>
+    <div class="nav-inner">
+      <a class="brand" href="#top"><img src="assets/logo.png?v=atelier-redesign-20260525" alt="M&P Holzbau"><span>M&P Holzbau</span></a>
+      <div></div>
       <div class="nav-links"><a href="#wunschbild">Wunschbild</a><a href="#planung">Planung</a><a href="#peter">Peter</a><a href="#faq">FAQ</a><a class="nav-cta" href="#anfrage">Wunsch-Carport anfragen</a></div>
     </div>
   </nav>
 
   <header class="hero" id="top">
-    <div class="container hero-grid">
+    <div class="wide hero-board">
       <div class="hero-copy">
-        <p class="eyebrow">Holz-Carports vom Zimmermeister</p>
-        <h1>Ein Carport, der gut aussieht. Und lange gut bleibt.</h1>
-        <p class="lead">Für Menschen, die vor dem Haus nicht irgendein Dach wollen, sondern einen Carport, der schön aussieht, im Alltag Freude macht und für Jahrzehnte sauber durchdacht ist.</p>
-        <div class="hero-actions"><a class="btn" href="#anfrage">Wunsch-Carport anfragen</a><a class="btn ghost" href="#wunschbild">Einblicke ansehen</a></div>
-        <p class="micro">Mit ein paar Angaben und wenn möglich einem Foto der Einfahrt.</p>
-        <div class="trust-line" aria-label="Nachweise und Vertrauen">
-          <span class="trust-pill">25 Jahre Garantie auf Standsicherheit</span>
-          <span class="trust-pill">Meisterbetrieb-Siegel</span>
-          <span class="trust-pill">Familienbetrieb seit 2004</span>
-          <span class="trust-pill">Peter Preissinger persönlich</span>
+        <div>
+          <p class="eyebrow">Holz-Carports vom Zimmermeister</p>
+          <h1>Ein Carport, der gut aussieht. Und lange gut bleibt.</h1>
+          <p class="lead">Für Menschen, die vor dem Haus nicht irgendein Dach wollen, sondern einen Carport, der schön aussieht, im Alltag Freude macht und für Jahrzehnte sauber durchdacht ist.</p>
+          <div class="hero-actions"><a class="btn" href="#anfrage">Wunsch-Carport anfragen</a><a class="btn ghost" href="#wunschbild">Wunschbild</a></div>
+          <p class="micro">Mit ein paar Angaben und wenn möglich einem Foto der Einfahrt.</p>
+        </div>
+        <div class="trust-strip">
+          <span>25 Jahre Garantie auf Standsicherheit</span><span>Meisterbetrieb-Siegel</span><span>Familienbetrieb seit 2004</span><span>Persönlicher Ansprechpartner: Peter Preissinger</span>
         </div>
       </div>
-      <div class="hero-art" aria-label="Carport Impressionen">
-        <figure class="hero-card main"><img loading="eager" fetchpriority="high" src="assets/mp-carport-lp-balanced-2026-05-21/hero-01-car-house-integrated.webp?v=v12-design-20260525" alt="Holz-Carport passend zum Haus mit Auto unter Dach"></figure>
-        <figure class="hero-card small"><img src="assets/lp-scene-dry-groceries-v2.webp?v=v12-design-20260525" alt="Trockenes Ankommen beim Carport"></figure>
-        <div class="seal-stack">
-          <div class="seal"><b>25 Jahre</b><span>Garantie auf Standsicherheit</span></div>
-          <div class="seal"><b>Seit 2004</b><span>Familienbetrieb aus Neutal</span></div>
-        </div>
-      </div>
+      <figure class="hero-photo"><img loading="eager" fetchpriority="high" src="assets/mp-carport-lp-balanced-2026-05-21/hero-01-car-house-integrated.webp?v=atelier-redesign-20260525" alt="Holz-Carport passend zum Haus"><div class="stamp"><b>25</b>Jahre Garantie auf Standsicherheit</div></figure>
     </div>
   </header>
 
-  <div class="ticker">
-    <div class="container ticker-row">
-      <span>Wien · Niederösterreich · Burgenland</span>
-      <span>Holzbau, Planung und Montage aus einer Hand</span>
-      <span>Persönliche Rückmeldung statt Formularschleife</span>
-    </div>
-  </div>
-
   <main>
-    <section class="desire" id="wunschbild">
-      <div class="container editorial">
-        <div><p class="eyebrow">Wunschbild</p><h2 class="big-serif">Ein Carport, auf den man angesprochen wird.</h2></div>
-        <div class="story-card">
+    <section class="section" id="wunschbild">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">Wunschbild</p><h2 class="section-title">Ein Carport, auf den man angesprochen wird.</h2></aside>
+        <div class="copy-block">
           <p>Sie kommen heim. Fahren entspannt unter Dach. Steigen trocken aus.</p>
-          <p>Vor dem Haus steht etwas, das richtig gut aussieht. Etwas, auf das man gern schaut. Und über das auch die Nachbarn sagen: Das ist schön geworden.</p>
-          <ul class="quiet-list">
-            <li>Das Auto steht ordentlich geschützt.</li>
-            <li>Der Bereich vor dem Haus wirkt ruhiger.</li>
-            <li>Der Carport gehört selbstverständlich zum Haus.</li>
-            <li>Das Zuhause wirkt kompletter.</li>
-          </ul>
+          <p>Vor dem Haus steht kein Behelf. Sondern etwas, das richtig gut aussieht. Etwas, auf das man gern schaut. Und über das auch die Nachbarn sagen: Das ist schön geworden.</p>
+          <p>Genau das ist für viele der eigentliche Wunsch:</p>
+          <ul><li>Das Auto steht ordentlich geschützt.</li><li>Der Bereich vor dem Haus wirkt ruhiger und hochwertiger.</li><li>Das Ganze sieht nicht nach Nachtrag aus.</li><li>Der Carport gehört einfach selbstverständlich zum Haus.</li></ul>
+          <p>Ein guter Carport macht nicht nur praktisch Sinn. Er macht das Zuhause schöner.</p>
         </div>
       </div>
-      <div class="wide gallery-ribbon">
-        <figure class="shot"><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-01-car-double-clearance.webp?v=v12-design-20260525" alt="Doppelcarport mit Bewegungsfläche"><figcaption>Genug Platz links und rechts vom Auto.</figcaption></figure>
-        <figure class="shot"><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-05-empty-facade.webp?v=v12-design-20260525" alt="Carport passend zur Hausfassade"><figcaption>Proportionen, die zum Haus passen.</figcaption></figure>
-        <figure class="shot"><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-02-empty-weather-side.webp?v=v12-design-20260525" alt="Carport Wetterseite"><figcaption>Wetterseite dort mitdenken, wo sie hilft.</figcaption></figure>
-        <figure class="shot"><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-04-car-door-space.webp?v=v12-design-20260525" alt="Türöffnung und Platz beim Carport"><figcaption>Tür auf. Einkäufe raus. Trocken hinein.</figcaption></figure>
-        <figure class="shot"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-05-car-solar-wallbox.webp?v=v12-design-20260525" alt="Carport mit PV und Wallbox-Vorbereitung"><figcaption>PV, Stauraum oder Wallbox früh mitdenken.</figcaption></figure>
+      <div class="wide gallery">
+        <figure><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-01-car-double-clearance.webp?v=atelier-redesign-20260525" alt="Doppelcarport mit Auto"><figcaption>Das Auto steht ordentlich geschützt.</figcaption></figure>
+        <figure><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-05-empty-facade.webp?v=atelier-redesign-20260525" alt="Carport an Fassade"><figcaption>Der Bereich vor dem Haus wirkt ruhiger und hochwertiger.</figcaption></figure>
+        <figure><img src="assets/mp-carport-lp-balanced-2026-05-21/story-empty-house-fit.webp?v=atelier-redesign-20260525" alt="Carport als Teil des Hauses"><figcaption>Das Ganze sieht nicht nach Nachtrag aus.</figcaption></figure>
+        <figure><img src="assets/lp-scene-dry-groceries-v2.webp?v=atelier-redesign-20260525" alt="Trocken unter dem Carport"><figcaption>Steigen trocken aus.</figcaption></figure>
+        <figure><img src="assets/mp-carport-corrections-2026-05-21-kie/07_referenz_carport_wunschcarport.webp?v=atelier-redesign-20260525" alt="Wunsch-Carport"><figcaption>Der Carport gehört einfach selbstverständlich zum Haus.</figcaption></figure>
       </div>
     </section>
 
-    <section class="moments">
-      <div class="container moment-grid">
-        <div>
-          <p class="eyebrow">Alltag</p>
-          <h2 class="section-title">Ein Carport, der jeden Tag angenehm ist.</h2>
-          <p class="lead">Was später zählt, sind nicht schöne Worte. Sondern die kleinen Momente, die fast jeden Tag passieren.</p>
-          <div class="moment-stack">
-            <div class="moment"><i>1</i><div><b>Trocken aussteigen</b><span>Es regnet, und Sie kommen trotzdem ruhig ins Haus.</span></div></div>
-            <div class="moment"><i>2</i><div><b>Entspannt ausladen</b><span>Einkäufe, Kindersitz, Fahrräder oder Reifen landen nicht zuerst im Nassen.</span></div></div>
-            <div class="moment"><i>3</i><div><b>Genug Bewegungsfläche</b><span>Sie gehen ums Auto, ohne sich irgendwo vorbeizwängen zu müssen.</span></div></div>
-          </div>
-        </div>
-        <figure class="feature-image"><img src="assets/lp-scene-space-to-open-door.webp?v=v12-design-20260525" alt="Genug Platz zum Aussteigen unter dem Carport"></figure>
-      </div>
-    </section>
-
-    <section class="dossier dark" id="planung">
-      <div class="container dossier-grid">
-        <div>
-          <p class="eyebrow">Was M&P-Carports so begehrlich macht</p>
-          <h2 class="section-title">Peter denkt den Carport fertig. Nicht nur bis zur ersten Skizze.</h2>
-          <p class="lead">Ein M&P-Carport soll nicht nur heute passen. Er soll auch in vielen Jahren noch ruhig am Haus stehen, gut funktionieren und hochwertig wirken.</p>
-          <div class="hero-actions"><a class="btn" href="#anfrage">Wunsch-Carport anfragen</a></div>
-        </div>
-        <div class="pinboard">
-          <article class="pin"><small>Standort</small><h3>Fundament & Stützenpunkte</h3><p>Damit der Carport sauber steht und die Einfahrt nutzbar bleibt.</p></article>
-          <article class="pin"><small>Wetter</small><h3>Wasserführung & Dachaufbau</h3><p>Regen, Schnee und Wetterseite werden nicht erst bei der Montage wichtig.</p></article>
-          <article class="pin"><small>Alltag</small><h3>Bewegung rund ums Auto</h3><p>Tür öffnen, ausladen, vorbeigehen — solche Details entscheiden später.</p></article>
-          <article class="pin"><small>Zukunft</small><h3>Nutzung heute und später</h3><p>Tiefe, Höhe und Extras werden so gedacht, dass auch spätere Bedürfnisse Platz haben.</p></article>
+    <section class="section darkband" id="planung">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">Was M&P-Carports so begehrlich macht</p><h2 class="section-title">Peter denkt den Carport fertig. Nicht nur bis zur ersten Skizze.</h2></aside>
+        <div class="copy-block">
+          <p>Ein M&P-Carport soll nicht nur heute passen. Sondern auch in 20, 30 oder 40 Jahren noch.</p>
+          <p>Darum wird nicht knapp geplant. Sondern ordentlich.</p>
+          <ul><li>Genug Platz links und rechts vom Auto</li><li>Trocken aussteigen ohne Verrenkungen</li><li>Einkäufe entspannt ausladen</li><li>Kinder trocken ins Haus bringen</li><li>Auf Wunsch den Weg bis zum Eingang mitdenken</li><li>Tiefe so geplant, dass auch ein späteres Auto noch gut passt</li><li>Rund ums Auto genug Bewegungsfläche</li></ul>
+          <p>Das ist der Unterschied zwischen „passt schon“ und „richtig gut gemacht“.</p>
         </div>
       </div>
     </section>
 
-    <section class="material">
-      <div class="container material-panel">
-        <div class="material-copy">
-          <p class="eyebrow">Material und Ausführung</p>
-          <h2 class="section-title">Schönes Holz reicht nicht. Es muss auch gut eingesetzt sein.</h2>
-          <p class="lead">M&P arbeitet je nach Projekt mit heimischen beziehungsweise europäischen Hölzern wie Fichte, Lärche oder Eiche. Entscheidend ist, wie das Holz geplant, verbunden und sichtbar ausgeführt wird.</p>
-          <div class="material-list">
-            <div>Ruhige Dachkante und gute Proportionen</div>
-            <div>Saubere Anschlüsse und hochwertige sichtbare Ausführung</div>
-            <div>Konstruktion, die nicht laut sein muss, um Eindruck zu machen</div>
-          </div>
-        </div>
-        <img src="assets/mp-carport-corrections-2026-05-21-kie/06_referenz_carport_wasserfuehrung.webp?v=v12-design-20260525" alt="Holz-Carport Detail mit Wasserführung">
-      </div>
-    </section>
-
-    <section class="trust" id="peter">
-      <div class="container trust-grid">
-        <div class="portrait-card"><img src="assets/peter-preissinger-portrait.webp?v=v12-design-20260525" alt="Peter Preissinger von M&P Holzbau"><div class="portrait-caption"><blockquote>„Ein guter Carport schaut nicht nachträglich hingestellt aus. Er gehört zum Haus.“</blockquote><p>Peter Preissinger · Holzbaumeister · M&P Holzbau</p></div></div>
-        <div>
-          <p class="eyebrow">Vertrauen</p>
-          <h2 class="section-title">Peter Preissinger schaut selbst drauf.</h2>
-          <p class="lead">Sie bekommen eine persönliche Rückmeldung von jemandem, der Carports wirklich durchdenkt — und der später auch für die Ausführung geradesteht.</p>
-          <div class="proof-grid">
-            <div class="proof"><b>Familienbetrieb seit 2004</b><span>Holzbau aus Neutal für Wien, NÖ und Burgenland.</span></div>
-            <div class="proof"><b>Meisterbetrieb-Siegel</b><span>Geplante Ausführung statt reine Produktlogik.</span></div>
-            <div class="proof"><b>Ausbildungsbetrieb</b><span>Handwerk, das im Betrieb weitergegeben wird.</span></div>
-            <div class="proof"><b>Holzbaupreis Burgenland 2016</b><span>Auszeichnung für Qualität im Holzbau.</span></div>
-          </div>
-          <article class="voice-proof"><button type="button" onclick="toggleVoice(this)" aria-label="Kundenstimme von Martin R. abspielen">▶</button><div><strong>Sprachnachricht von Martin R.</strong><span>0:33 · Niederösterreich</span><p>„Beim ersten Schnee hat man gemerkt: Breite, Wasserlauf und Zugang passen.“</p><audio id="voiceAudio" preload="metadata" src="assets/audio/mp-holzbau-kundenstimme-niederoesterreich.mp3?v=orig-telegram-32s"></audio></div></article>
+    <section class="section">
+      <div class="wrap photo-text">
+        <img src="assets/lp-scene-space-to-open-door.webp?v=atelier-redesign-20260525" alt="Genug Bewegungsfläche rund ums Auto">
+        <div class="copy-block">
+          <p class="section-kicker">Alltag</p><h2 class="section-title">Ein Carport, der jeden Tag angenehm ist.</h2>
+          <p>Was später zählt, sind nicht schöne Worte. Sondern diese Momente:</p>
+          <ul><li>Es regnet, und Sie steigen trotzdem trocken aus.</li><li>Die Einkäufe landen nicht zuerst im Nassen.</li><li>Das Kind muss nicht durchs Wetter.</li><li>Das Auto steht im Schatten statt in der Sommerhitze.</li><li>Im Winter ist nicht alles voll Schnee und Eis.</li><li>Sie gehen ums Auto, ohne sich irgendwo vorbeizwängen zu müssen.</li></ul>
+          <p>So etwas merkt man nicht einmal pro Jahr. Sondern fast jeden Tag.</p>
         </div>
       </div>
     </section>
 
-    <section class="process">
-      <div class="narrow"><p class="eyebrow">Ablauf</p><h2 class="section-title">So kommen Sie zu Ihrem Wunsch-Carport.</h2><p class="lead">Der erste Schritt ist bewusst einfach. Danach wird klar, was bei Ihnen gut aussehen und gut funktionieren kann.</p></div>
-      <div class="container steps">
-        <article class="step"><h3>Angaben schicken</h3><p>Ein paar Eckdaten, wenn möglich ein Foto der Einfahrt und die wichtigsten Wünsche.</p></article>
-        <article class="step"><h3>Peter schaut drauf</h3><p>M&P prüft Haus, Einfahrt, Alltag, Position und Konstruktion.</p></article>
-        <article class="step"><h3>Rückmeldung bekommen</h3><p>Sie erhalten eine persönliche Einschätzung und eine erste Preisrichtung.</p></article>
-        <article class="step"><h3>Planung starten</h3><p>Wenn es für Sie passt, beginnt daraus die konkrete Carport-Planung.</p></article>
-      </div>
-    </section>
-
-    <section class="price" id="preis">
-      <div class="container price-grid">
-        <div><p class="eyebrow">Preislogik</p><h2 class="section-title">Ein guter Carport ist nicht nur Material. Er ist Planung.</h2><p class="lead">Der Wert entsteht durch Entscheidungen, die später jeden Tag spürbar sind: Tiefe, Bewegungsfläche, Wasserführung, Hauswirkung und die Frage, ob die Lösung auch für spätere Bedürfnisse passt.</p></div>
-        <aside class="price-card"><h3>Erst die echte Situation. Dann eine Zahl, die Sinn macht.</h3><p>M&P beginnt nicht mit einer Schätzung aus dem Bauch, sondern mit einem Blick auf Ihr Haus, Ihre Einfahrt und Ihre gewünschte Ausführung.</p><div class="price-list"><div>Größe, Fundament und Dachaufbau</div><div>Wetterseite, Wasserführung und Standort</div><div>Optik, Holzart und sichtbare Ausführung</div><div>Bauanzeige, Einreichung oder Vorgaben der Gemeinde</div></div><a class="btn full" href="#anfrage">Wunsch-Carport anfragen</a><p class="micro">Die Anfrage ist noch keine Kaufentscheidung.</p></aside>
-      </div>
-    </section>
-
-    <section class="testimonials">
-      <div class="container quote-grid">
-        <article class="quote-audio"><div><p class="eyebrow">Kundenstimmen</p><h2 class="section-title">So klingt gute Planung später.</h2></div><p>Die besten Rückmeldungen kommen oft erst im Alltag: bei Regen, Schnee, beim Ausladen oder wenn die Einfahrt plötzlich fertiger wirkt.</p></article>
-        <article class="quote"><blockquote>„Uns war wichtig, dass der Carport ordentlich aussieht und nicht zu schwer wirkt. Genau das haben sie gut verstanden.“</blockquote><cite>Silke K.</cite></article>
-        <article class="quote"><blockquote>„Wir haben zuerst nur Fotos geschickt. Die Rückmeldung war gleich konkret. Da hat man gemerkt, dass sich wirklich jemand Gedanken macht.“</blockquote><cite>Martin R.</cite></article>
-      </div>
-    </section>
-
-    <section id="faq">
-      <div class="container faq-grid">
-        <div><p class="eyebrow">Häufige Fragen</p><h2 class="section-title">Bevor Sie einen Carport planen lassen.</h2><p class="lead">Die wichtigsten Punkte werden im ersten Gespräch ruhig sortiert. Sie müssen noch keine fertige Lösung kennen.</p></div>
-        <div class="faq">
-          <details open><summary>Welche Hölzer kommen für einen Carport in Frage?</summary><p>Je nach Projekt und gewünschter Wirkung arbeitet M&P mit heimischen beziehungsweise europäischen Hölzern wie Fichte, Lärche oder Eiche.</p></details>
-          <details><summary>Bekomme ich sofort einen Fixpreis?</summary><p>Für eine erste Rückmeldung reichen die wichtigsten Eckdaten. Für ein genaues Angebot braucht es den Blick auf die konkrete Situation und die gewünschte Ausführung.</p></details>
-          <details><summary>Ist Peter Preissinger mein Ansprechpartner?</summary><p>Ja. Die erste Rückmeldung kommt persönlich von Peter Preissinger.</p></details>
-          <details><summary>Wo ist M&P Holzbau tätig?</summary><p>Vor allem in Wien, Niederösterreich und Burgenland.</p></details>
-          <details><summary>Warum 25 Jahre Garantie auf Standsicherheit?</summary><p>Weil Konstruktion, Fundamente, Wasserführung und Ausführung gemeinsam geplant werden — nicht als loses Einzelteil, sondern als Bauwerk am Haus.</p></details>
+    <section class="section">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">Wirkung</p><h2 class="section-title">Er soll nicht nur praktisch sein. Er soll verdammt gut aussehen.</h2></aside>
+        <div class="copy-block">
+          <p>Viele wollen keinen Carport, der einfach irgendwie neben dem Haus steht.</p><p>Sie wollen einen, der das Haus aufwertet.</p><p>Einen Carport,</p>
+          <ul><li>der proportioniert ist,</li><li>der nicht zu wuchtig wirkt,</li><li>der zur Einfahrt passt,</li><li>der zur Architektur passt,</li><li>und der so aussieht, als wäre er von Anfang an mitgedacht worden.</li></ul>
+          <p>Wenn das gut gemacht ist, merkt man es sofort. Selbst Leute, die mit Holzbau sonst nichts anfangen, sehen: Das ist stark gemacht.</p>
         </div>
+      </div>
+    </section>
+
+    <section class="section darkband">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">Mechanismus</p><h2 class="section-title">Langlebigkeit beginnt vor der Montage.</h2></aside>
+        <div class="copy-block">
+          <p>Ein Carport hält nicht lange, weil irgendwo Qualität draufgeschrieben wird.</p><p>Er hält lange, wenn die Konstruktion stimmt.</p><p>M&P schaut deshalb auf die Dinge, die später den Unterschied machen:</p>
+          <div class="cards"><article class="card"><small>01</small><h3>Fundament</h3></article><article class="card"><small>02</small><h3>Stützenpunkte</h3></article><article class="card"><small>03</small><h3>Wasserführung</h3></article><article class="card"><small>04</small><h3>Dachaufbau</h3></article><article class="card"><small>05</small><h3>Schneelast und Wetterseite</h3></article><article class="card"><small>06</small><h3>Anschluss an Haus und Einfahrt</h3></article><article class="card"><small>07</small><h3>Bewegungsfläche rund ums Auto</h3></article><article class="card"><small>08</small><h3>Nutzung heute und in Zukunft</h3></article></div>
+          <p>Peter denkt das nicht für die nächsten zwei Jahre.<br>Sondern für die Familie und das Haus auf lange Sicht.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap photo-text">
+        <div class="copy-block"><p class="section-kicker">Material und Ausführung</p><h2 class="section-title">Schönes Holz reicht nicht. Es muss auch gut eingesetzt sein.</h2><p>M&P arbeitet je nach Projekt mit heimischen beziehungsweise europäischen Hölzern wie Fichte, Lärche oder Eiche.</p><p>Worauf es ankommt:</p><ul><li>ruhige Dachkante</li><li>saubere Anschlüsse</li><li>gute Proportionen</li><li>hochwertige sichtbare Ausführung</li><li>Konstruktion, die nicht billig wirkt</li></ul><p>So entsteht ein Carport, der nicht laut sein muss, um Eindruck zu machen.</p></div>
+        <img src="assets/mp-carport-corrections-2026-05-21-kie/06_referenz_carport_wasserfuehrung.webp?v=atelier-redesign-20260525" alt="Holz-Carport Detail">
+      </div>
+    </section>
+
+    <section class="section" id="peter">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">Vertrauen</p><h2 class="section-title">Peter Preissinger schaut selbst drauf.</h2></aside>
+        <div class="copy-block"><p>Sie bekommen keine anonyme Vertriebsschleife.</p><p>Sie bekommen eine persönliche Rückmeldung von jemandem, der Carports wirklich durchdenkt.</p><p>Und genau das spürt man später auch im Ergebnis.</p></div>
+      </div>
+      <div class="wrap proof-grid"><div>Persönlicher Ansprechpartner: Peter Preissinger</div><div>Familienbetrieb seit 2004</div><div>Ausbildungsbetrieb</div><div>Burgenländischer Holzbaupreis 2016</div><div>Meisterbetrieb-Siegel</div></div>
+    </section>
+
+    <section class="section">
+      <div class="wrap quotes">
+        <article class="quote note"><p class="section-kicker">Kundenstimmen</p><h2 class="section-title">So klingt es glaubwürdiger</h2><p>Hinweis: Platzhalter. Vor Livegang bitte durch echte Kundenstimmen ersetzen.</p></article>
+        <article class="quote"><blockquote>„Uns war wichtig, dass der Carport ordentlich aussieht und nicht zu schwer wirkt. Genau das haben sie gut verstanden.“</blockquote></article>
+        <article class="quote"><blockquote>„Wir haben zuerst nur Fotos geschickt. Die Rückmeldung war gleich konkret. Da hat man gemerkt, dass sich wirklich jemand Gedanken macht.“</blockquote></article>
+        <article class="quote"><blockquote>„Angenehm war, dass nichts gedrängt gewirkt hat. Es war ruhig, klar und einfach nachvollziehbar.“</blockquote></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">Ablauf</p><h2 class="section-title">So kommen Sie zu Ihrem Wunsch-Carport.</h2></aside>
+        <div><div class="steps"><article class="step"><b>1.</b><p>Sie schicken M&P ein paar Angaben zu Ihrem Vorhaben.</p></article><article class="step"><b>2.</b><p>M&P schaut auf Haus, Einfahrt, Alltag und Konstruktion.</p></article><article class="step"><b>3.</b><p>Sie erhalten eine persönliche Rückmeldung und eine erste Preisrichtung.</p></article><article class="step"><b>4.</b><p>Wenn es für Sie passt, startet die konkrete Planung.</p></article></div><div class="copy-block"><p>Der erste Schritt ist bewusst einfach.<br>Damit schnell klar wird, was bei Ihnen gut aussehen und gut funktionieren kann.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap pricebox">
+        <div><p class="section-kicker">Preislogik</p><h2 class="section-title">Ein guter Carport ist nicht nur Material. Er ist Planung.</h2><div class="hero-actions"><a class="btn" href="#anfrage">Wunsch-Carport anfragen</a></div></div>
+        <div class="copy-block"><p>Der Wert entsteht nicht nur durch Holz und Dach.</p><p>Er entsteht durch Entscheidungen, die später jeden Tag spürbar sind.</p><p>Zum Beispiel:</p><ul><li>Wie tief wird geplant?</li><li>Wie bequem steigt man aus?</li><li>Wo läuft Wasser hin?</li><li>Wie wirkt der Carport am Haus?</li><li>Reicht die Lösung auch noch für spätere Bedürfnisse?</li></ul><p>Darum beginnt M&P nicht mit einer Zahl aus dem Bauch.</p><p>Sondern mit einem Blick auf Ihre echte Situation.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">FAQ</p><h2 class="section-title">Häufige Fragen</h2></aside>
+        <div class="faq"><details open><summary>Welche Hölzer kommen für einen Carport in Frage?</summary><p>Je nach Projekt und gewünschter Wirkung arbeitet M&P mit heimischen beziehungsweise europäischen Hölzern wie Fichte, Lärche oder Eiche.</p></details><details><summary>Bekomme ich sofort einen Fixpreis?</summary><p>Für eine erste Rückmeldung reichen die wichtigsten Eckdaten. Für ein genaues Angebot braucht es den Blick auf die konkrete Situation und die gewünschte Ausführung.</p></details><details><summary>Ist Peter Preissinger mein Ansprechpartner?</summary><p>Ja. Die erste Rückmeldung kommt persönlich von Peter Preissinger.</p></details><details><summary>Wo ist M&P Holzbau tätig?</summary><p>Vor allem in Wien, Niederösterreich und Burgenland.</p></details><details><summary>Warum 25 Jahre Garantie auf Standsicherheit?</summary><p>Weil M&P Konstruktion und Ausführung so plant, dass der Carport dauerhaft trägt und lange verlässlich bleibt.</p></details></div>
+      </div>
+    </section>
+
+    <section class="section darkband">
+      <div class="wrap split">
+        <aside class="rail"><p class="section-kicker">Final CTA</p><h2 class="section-title">Wenn Sie einen Carport wollen, der Sie jeden Tag freut, ist das der nächste Schritt.</h2></aside>
+        <div class="copy-block"><p>Schicken Sie die Eckdaten zu Ihrem Vorhaben.</p><p>M&P meldet sich persönlich mit einer ersten Einschätzung dazu, wie Ihr Wunsch-Carport aussehen und funktionieren kann.</p><div class="hero-actions"><a class="btn" href="#anfrage">Wunsch-Carport anfragen</a></div><p class="micro">Persönlich mit Peter Preissinger. Für Wien, Niederösterreich und Burgenland.</p></div>
       </div>
     </section>
 
     <section class="form-section" id="anfrage">
-      <div class="container form-shell">
-        <div class="form-copy"><p class="eyebrow">Wunsch-Carport anfragen</p><h2 class="section-title">Ein paar Angaben. Dann meldet sich Peter persönlich.</h2><p class="lead">Ihre Antworten reichen für eine erste persönliche Rückmeldung dazu, wie Ihr Wunsch-Carport aussehen und funktionieren kann.</p></div>
+      <div class="wrap form-shell">
+        <div class="form-copy"><p class="section-kicker">Wunsch-Carport anfragen</p><h2 class="section-title">Wunsch-Carport anfragen</h2><p class="lead">Ihre Angaben reichen jetzt schon für eine persönliche Rückmeldung zu Ihrem Wunsch-Carport.</p></div>
         <form class="quiz" id="contactForm" onsubmit="return submitContact(event)">
           <input id="contactWebsite" name="website" type="text" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-          <input id="quizPriority" name="quiz_priority" type="hidden">
-          <input id="quizLocation" name="quiz_location" type="hidden">
-          <input id="quizExtras" name="quiz_extras" type="hidden">
-          <input id="quizFuture" name="quiz_future" type="hidden">
+          <input id="quizPriority" name="quiz_priority" type="hidden"><input id="quizLocation" name="quiz_location" type="hidden"><input id="quizExtras" name="quiz_extras" type="hidden"><input id="quizFuture" name="quiz_future" type="hidden">
           <div class="step-tabs" aria-hidden="true"><span class="step-dot active"></span><span class="step-dot"></span><span class="step-dot"></span><span class="step-dot"></span><span class="step-dot"></span></div>
-          <div class="quiz-step" data-step="0">
-            <h3>Was wäre Ihnen bei Ihrem Carport am wichtigsten?</h3>
-            <p class="step-note">Genau dort beginnt ein guter Carport: bei dem, was Sie später jeden Tag sehen und spüren.</p>
-            <div class="choices" data-target="quizPriority">
-              <button class="choice" type="button" data-value="Richtig gute Optik"><b>Dass er richtig gut aussieht</b><span>ruhig, hochwertig, passend zum Haus</span></button>
-              <button class="choice" type="button" data-value="Auto geschützt"><b>Dass mein Auto ordentlich geschützt steht</b><span>Regen, Schnee, Sommerhitze</span></button>
-              <button class="choice" type="button" data-value="Trocken ins Haus"><b>Dass ich trocken ins Haus komme</b><span>Aussteigen, ausladen, ankommen</span></button>
-              <button class="choice" type="button" data-value="Sauber durchdacht"><b>Dass alles sauber durchdacht ist</b><span>Fundament, Wasser, Bewegungsfläche</span></button>
-            </div>
-          </div>
-          <div class="quiz-step" data-step="1" hidden>
-            <h3>Wo soll Ihr Carport ungefähr entstehen?</h3>
-            <p class="step-note">Je nach Position schaut M&P auf Anschluss, Proportion, Wetterseite und Hauswirkung.</p>
-            <div class="choices" data-target="quizLocation">
-              <button class="choice" type="button" data-value="Direkt am Haus"><b>Direkt am Haus</b><span>angeschlossen oder nahe am Eingang</span></button>
-              <button class="choice" type="button" data-value="Neben dem Haus"><b>Neben dem Haus</b><span>seitlich, ruhig integriert</span></button>
-              <button class="choice" type="button" data-value="Freistehend bei der Einfahrt"><b>Freistehend bei der Einfahrt</b><span>mit eigener Wirkung am Grundstück</span></button>
-              <button class="choice" type="button" data-value="Noch offen"><b>Das ist noch offen</b><span>Peter soll mitdenken</span></button>
-            </div>
-          </div>
-          <div class="quiz-step" data-step="2" hidden>
-            <h3>Was soll Ihr Carport außerdem können?</h3>
-            <p class="step-note">Solche Details machen oft den Unterschied zwischen praktisch und richtig begehrlich.</p>
-            <div class="choices" data-target="quizExtras">
-              <button class="choice" type="button" data-value="Überdachung bis zur Haustür"><b>Überdachung bis zur Haustür</b><span>trocken vom Auto ins Haus</span></button>
-              <button class="choice" type="button" data-value="Stauraum oder Abstellbereich"><b>Stauraum oder Abstellbereich</b><span>Fahrräder, Reifen, Geräte</span></button>
-              <button class="choice" type="button" data-value="Wetter- oder Sichtschutz"><b>Seitlicher Wetter- oder Sichtschutz</b><span>wo Wind und Regen wirklich herkommen</span></button>
-              <button class="choice" type="button" data-value="Platz für 2 Fahrzeuge"><b>Platz für 2 Fahrzeuge</b><span>oder eine breitere Lösung</span></button>
-              <button class="choice" type="button" data-value="Hochwertige Holzoptik"><b>Besonders hochwertige Holzoptik</b><span>sichtbar schön ausgeführt</span></button>
-              <button class="choice" type="button" data-value="Noch unklar"><b>Das weiß ich noch nicht genau</b><span>M&P soll die Möglichkeiten einordnen</span></button>
-            </div>
-          </div>
-          <div class="quiz-step" data-step="3" hidden>
-            <h3>Was ist Ihnen für die nächsten Jahre wichtig?</h3>
-            <div class="choices" data-target="quizFuture">
-              <button class="choice" type="button" data-value="Lange Haltbarkeit"><b>Lange Haltbarkeit</b><span>stabil und dauerhaft geplant</span></button>
-              <button class="choice" type="button" data-value="Hochwertige Ausführung"><b>Hochwertige Ausführung</b><span>sichtbare Details und saubere Anschlüsse</span></button>
-              <button class="choice" type="button" data-value="Viel Bewegungsfläche"><b>Viel Bewegungsfläche rund ums Auto</b><span>bequem statt knapp</span></button>
-              <button class="choice" type="button" data-value="Persönliche Beratung"><b>Persönliche Beratung</b><span>Peter schaut selbst drauf</span></button>
-              <button class="choice" type="button" data-value="Wie mitgebaut"><b>Eine Lösung, die wie mitgebaut wirkt</b><span>ruhig am Haus statt fremd davor</span></button>
-              <button class="choice" type="button" data-value="Späteres Auto passt"><b>Dass auch ein späteres Auto gut passt</b><span>nicht nur für die nächsten zwei Jahre</span></button>
-            </div>
-          </div>
-          <div class="quiz-step" data-step="4" hidden>
-            <h3>Wohin darf Peter sich melden?</h3>
-            <p class="step-note">Wenn möglich, können Sie im Nachrichtenfeld gleich erwähnen, ob ein Foto der Einfahrt vorhanden ist.</p>
-            <div class="form-grid">
-              <div class="field"><label for="contactName">Name</label><input id="contactName" name="name" required autocomplete="name"></div>
-              <div class="field"><label for="contactPhone">Telefon</label><input id="contactPhone" name="phone" required autocomplete="tel"></div>
-              <div class="field"><label for="contactEmail">E-Mail</label><input id="contactEmail" name="email" type="email" autocomplete="email"></div>
-              <div class="field"><label for="contactOrt">Ort / PLZ</label><input id="contactOrt" name="ort" required placeholder="z. B. Eisenstadt, Wien, Baden"></div>
-              <div class="field full"><label for="contactMessage">Was sollte Peter noch wissen?</label><textarea id="contactMessage" name="nachricht" placeholder="z. B. Foto der Einfahrt vorhanden, Wetterseite, Stauraum, PV später möglich..."></textarea></div>
-            </div>
-          </div>
+          <div class="quiz-step" data-step="0"><h3>Was wäre Ihnen bei Ihrem Carport am wichtigsten?</h3><p class="step-note">Genau dort beginnt ein guter Carport: bei dem, was Sie später jeden Tag sehen und spüren.</p><div class="choices" data-target="quizPriority"><button class="choice" type="button" data-value="Dass er richtig gut aussieht">Dass er richtig gut aussieht</button><button class="choice" type="button" data-value="Dass mein Auto ordentlich geschützt steht">Dass mein Auto ordentlich geschützt steht</button><button class="choice" type="button" data-value="Dass ich trocken ins Haus komme">Dass ich trocken ins Haus komme</button><button class="choice" type="button" data-value="Dass alles sauber durchdacht ist">Dass alles sauber durchdacht ist</button></div></div>
+          <div class="quiz-step" data-step="1" hidden><h3>Wo soll Ihr Carport ungefähr entstehen?</h3><p class="step-note">Je nach Position schauen wir auf Anschluss, Proportion, Wetterseite und darauf, wie der Carport später am Haus wirkt.</p><div class="choices" data-target="quizLocation"><button class="choice" type="button" data-value="Direkt am Haus">Direkt am Haus</button><button class="choice" type="button" data-value="Neben dem Haus">Neben dem Haus</button><button class="choice" type="button" data-value="Freistehend bei der Einfahrt">Freistehend bei der Einfahrt</button><button class="choice" type="button" data-value="Das ist noch offen">Das ist noch offen</button></div></div>
+          <div class="quiz-step" data-step="2" hidden><h3>Was soll Ihr Carport außerdem können?</h3><p class="step-note">Solche Details machen oft den Unterschied zwischen praktisch und richtig begehrlich.</p><div class="choices" data-target="quizExtras"><button class="choice" type="button" data-value="Überdachung bis zur Haustür">Überdachung bis zur Haustür</button><button class="choice" type="button" data-value="Integrierter Stauraum oder Abstellbereich">Integrierter Stauraum oder Abstellbereich</button><button class="choice" type="button" data-value="Seitlicher Wetter- oder Sichtschutz">Seitlicher Wetter- oder Sichtschutz</button><button class="choice" type="button" data-value="Platz für 2 Fahrzeuge">Platz für 2 Fahrzeuge</button><button class="choice" type="button" data-value="Besonders hochwertige Holzoptik">Besonders hochwertige Holzoptik</button><button class="choice" type="button" data-value="Das weiß ich noch nicht genau">Das weiß ich noch nicht genau</button></div></div>
+          <div class="quiz-step" data-step="3" hidden><h3>Was ist Ihnen für die nächsten Jahre wichtig?</h3><div class="choices" data-target="quizFuture"><button class="choice" type="button" data-value="Lange Haltbarkeit">Lange Haltbarkeit</button><button class="choice" type="button" data-value="Hochwertige Ausführung">Hochwertige Ausführung</button><button class="choice" type="button" data-value="Viel Bewegungsfläche rund ums Auto">Viel Bewegungsfläche rund ums Auto</button><button class="choice" type="button" data-value="Persönliche Beratung">Persönliche Beratung</button><button class="choice" type="button" data-value="Eine Lösung, die wie mitgebaut wirkt">Eine Lösung, die wie mitgebaut wirkt</button><button class="choice" type="button" data-value="Dass auch ein späteres Auto gut passt">Dass auch ein späteres Auto gut passt</button></div></div>
+          <div class="quiz-step" data-step="4" hidden><h3>Ihre Angaben reichen jetzt schon für eine persönliche Rückmeldung zu Ihrem Wunsch-Carport.</h3><p class="step-note">Danach erst</p><div class="form-grid"><div class="field"><label for="contactName">Name</label><input id="contactName" name="name" required autocomplete="name"></div><div class="field"><label for="contactPhone">Telefon</label><input id="contactPhone" name="phone" required autocomplete="tel"></div><div class="field"><label for="contactEmail">E-Mail</label><input id="contactEmail" name="email" type="email" autocomplete="email"></div><div class="field"><label for="contactOrt">Ort / PLZ</label><input id="contactOrt" name="ort" required></div><div class="field"><label for="contactHorizon">Zeithorizont</label><input id="contactHorizon" name="zeithorizont"></div><div class="field"><label for="contactPhoto">Foto / Skizze optional</label><input id="contactPhoto" name="foto_skizze_optional"></div><div class="field full"><label for="contactMessage">Kontaktdaten</label><textarea id="contactMessage" name="nachricht"></textarea></div></div></div>
           <div class="quiz-nav"><button class="btn light" id="prevStepBtn" type="button" onclick="prevStep()" hidden>Zurück</button><button class="btn" id="nextStepBtn" type="button" onclick="nextStep()">Weiter</button><button class="btn" id="contactSubmitBtn" type="submit" hidden>Wunsch-Carport anfragen</button></div>
-          <p class="micro">Ihre Anfrage ist noch keine Kaufentscheidung. M&P verwendet Ihre Daten nur für Rückfragen zu Ihrem Carport.</p>
           <div class="status" id="contactSubmitStatus" role="status" aria-live="polite" hidden></div>
         </form>
       </div>
@@ -264,8 +187,7 @@
   </main>
 
   <a class="sticky" href="#anfrage">Wunsch-Carport anfragen</a>
-  <footer class="footer"><div class="container"><p><strong>M&P Holzbau und Handels GmbH</strong></p><p>Werner von Siemens-Straße 12 · 7343 Neutal · Burgenland · Wien · Niederösterreich · Burgenland</p><p><a href="tel:+43261820740">+43 2618 20740</a> · <a href="mailto:info@mp-holzbau.at">info@mp-holzbau.at</a></p><p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a></p></div></footer>
-
+  <footer class="footer"><div class="wrap"><p><strong>M&P Holzbau und Handels GmbH</strong></p><p>Werner von Siemens-Straße 12 · 7343 Neutal · Burgenland · Wien · Niederösterreich · Burgenland</p><p><a href="tel:+432****0740">+43 2618 20740</a> · <a href="mailto:info@mp-holzbau.at">info@mp-holzbau.at</a></p><p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a></p></div></footer>
   <div class="cookie" id="cookieBanner"><p>Wir nutzen Cookies für Google Ads und Microsoft Clarity. Mehr dazu steht in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p><div class="cookie-actions"><button type="button" onclick="denyConsent()">Ablehnen</button><button type="button" class="accept" onclick="acceptConsent()">Akzeptieren</button></div></div>
   <script>
     window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
@@ -279,17 +201,15 @@
     function acceptConsent(){gtag('consent','update',{'ad_storage':'granted','analytics_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'});localStorage.setItem('cookie_consent','accepted');loadGtag();loadClarity();document.getElementById('cookieBanner').classList.remove('visible')}
     function denyConsent(){localStorage.setItem('cookie_consent','denied');document.getElementById('cookieBanner').classList.remove('visible')}
     (function(){const c=localStorage.getItem('cookie_consent');loadGtag();if(!c){let shown=false;const showCookie=()=>{if(shown)return;shown=true;document.getElementById('cookieBanner').classList.add('visible');window.removeEventListener('scroll',onCookieScroll)};const onCookieScroll=()=>{if(window.scrollY>360)showCookie()};window.addEventListener('scroll',onCookieScroll,{passive:true});}if(c==='accepted'){gtag('consent','update',{'ad_storage':'granted','analytics_storage':'granted','ad_user_data':'granted','ad_personalization':'granted'});loadClarity()}})();
-    const stickyCta=document.querySelector('.sticky');function updateSticky(){if(!stickyCta)return;const formTop=document.getElementById('anfrage').getBoundingClientRect().top;stickyCta.classList.toggle('visible',window.scrollY>560&&formTop>window.innerHeight*.72)}window.addEventListener('scroll',updateSticky,{passive:true});window.addEventListener('resize',updateSticky);updateSticky();
+    const stickyCta=document.querySelector('.sticky');function updateSticky(){if(!stickyCta)return;const heroBottom=document.getElementById('top').getBoundingClientRect().bottom;const formTop=document.getElementById('anfrage').getBoundingClientRect().top;stickyCta.classList.toggle('visible',heroBottom<0&&formTop>window.innerHeight*.72)}window.addEventListener('scroll',updateSticky,{passive:true});window.addEventListener('resize',updateSticky);updateSticky();
     document.querySelectorAll('.choice').forEach(btn=>btn.addEventListener('click',()=>{const wrap=btn.closest('.choices');const target=document.getElementById(wrap.dataset.target);wrap.querySelectorAll('.choice').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');if(target)target.value=btn.dataset.value;setTimeout(()=>{if(currentStep<FINAL_STEP)nextStep()},120)}));
     function renderStep(){document.querySelectorAll('.quiz-step').forEach(s=>s.hidden=Number(s.dataset.step)!==currentStep);document.querySelectorAll('.step-dot').forEach((d,i)=>d.classList.toggle('active',i<=currentStep));document.getElementById('prevStepBtn').hidden=currentStep===0;document.getElementById('nextStepBtn').hidden=currentStep===FINAL_STEP;document.getElementById('contactSubmitBtn').hidden=currentStep!==FINAL_STEP}
-    function toggleVoice(btn){const audio=document.getElementById('voiceAudio');if(!audio)return;if(audio.paused){audio.play().then(()=>{document.querySelectorAll('.voice-proof button').forEach(b=>b.textContent='❚❚')}).catch(()=>{})}else{audio.pause();document.querySelectorAll('.voice-proof button').forEach(b=>b.textContent='▶')}}
-    const voiceAudio=document.getElementById('voiceAudio');if(voiceAudio)voiceAudio.addEventListener('ended',()=>document.querySelectorAll('.voice-proof button').forEach(b=>b.textContent='▶'));
     function nextStep(){if(currentStep<FINAL_STEP){currentStep++;renderStep()}}
     function prevStep(){if(currentStep>0){currentStep--;renderStep()}}
     async function submitLeadPayload(payload){const response=await fetch('/api/lead-submit.php',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),keepalive:true});let result={};try{result=await response.json()}catch(e){}if(!response.ok||result.ok!==true)throw new Error(result.error||'lead_submit_failed');return result}
     function setButtonLoading(button,isLoading,label){if(!button)return;if(!button.dataset.defaultText)button.dataset.defaultText=button.textContent;button.disabled=isLoading;button.textContent=isLoading?label:button.dataset.defaultText}
     function trackLeadConversion(result,finish){const server=result&&result.google_ads_conversion;const handled=server&&server.configured===true&&server.uploaded===true;if(handled){setTimeout(finish,250);return}if(typeof gtag==='function'){gtag('event','conversion',{'send_to':'AW-18076280258/vG0oCJ-u25gcEMLLuKtD','value':400.0,'currency':'EUR','transaction_id':result&&result.id?String(result.id):undefined,'event_callback':finish});setTimeout(finish,1800)}else setTimeout(finish,300)}
-    async function submitContact(e){e.preventDefault();const form=document.getElementById('contactForm');currentStep=FINAL_STEP;renderStep();if(!form.checkValidity()){form.reportValidity();return false}const quiz=[document.getElementById('quizPriority').value,document.getElementById('quizLocation').value,document.getElementById('quizExtras').value,document.getElementById('quizFuture').value].filter(Boolean);const message=(document.getElementById('contactMessage').value||'').trim();const payload={fields:{event:'contact.submitted',source:'landingpage.carports-maya-v12-design',website:document.getElementById('contactWebsite').value.trim(),...getLeadTrackingFields(),timestamp:new Date().toISOString(),name:document.getElementById('contactName').value||'',email:document.getElementById('contactEmail').value||'',phone:document.getElementById('contactPhone').value||'',ort:document.getElementById('contactOrt').value||'',interesse:quiz.join(' · ')||'keine Angabe',nachricht:[quiz.length?'Quiz: '+quiz.join(' · '):'',message].filter(Boolean).join('\n\n')||'keine Zusatzangabe',dateien:'keine'}};const btn=document.getElementById('contactSubmitBtn');const status=document.getElementById('contactSubmitStatus');setButtonLoading(btn,true,'Wird gesendet …');status.hidden=false;status.textContent='Ihre Anfrage wird übertragen …';let result=null;try{result=await submitLeadPayload(payload)}catch(err){console.error('Lead submit failed:',err);setButtonLoading(btn,false);status.hidden=true;alert('Die Anfrage konnte gerade nicht gespeichert werden. Bitte versuchen Sie es noch einmal oder rufen Sie direkt an.');return false}status.textContent='Anfrage gespeichert – Bestätigung wird vorbereitet …';form.innerHTML='<div style="text-align:center;padding:34px 0"><h3>Anfrage gespeichert.</h3><p>Die Bestätigung wird vorbereitet.</p></div>';trackLeadConversion(result,()=>{location.href='danke.html'});return false}
+    async function submitContact(e){e.preventDefault();const form=document.getElementById('contactForm');currentStep=FINAL_STEP;renderStep();if(!form.checkValidity()){form.reportValidity();return false}const quiz=[document.getElementById('quizPriority').value,document.getElementById('quizLocation').value,document.getElementById('quizExtras').value,document.getElementById('quizFuture').value].filter(Boolean);const message=(document.getElementById('contactMessage').value||'').trim();const horizon=document.getElementById('contactHorizon')?document.getElementById('contactHorizon').value:'';const photo=document.getElementById('contactPhoto')?document.getElementById('contactPhoto').value:'';const payload={fields:{event:'contact.submitted',source:'landingpage.carports-maya-v12-atelier-redesign',website:document.getElementById('contactWebsite').value.trim(),...getLeadTrackingFields(),timestamp:new Date().toISOString(),name:document.getElementById('contactName').value||'',email:document.getElementById('contactEmail').value||'',phone:document.getElementById('contactPhone').value||'',ort:document.getElementById('contactOrt').value||'',zeithorizont:horizon,foto_skizze_optional:photo,interesse:quiz.join(' · ')||'keine Angabe',nachricht:[quiz.length?'Quiz: '+quiz.join(' · '):'',horizon?'Zeithorizont: '+horizon:'',photo?'Foto / Skizze optional: '+photo:'',message].filter(Boolean).join('\n\n')||'keine Zusatzangabe',dateien:'keine'}};const btn=document.getElementById('contactSubmitBtn');const status=document.getElementById('contactSubmitStatus');setButtonLoading(btn,true,'Wird gesendet …');status.hidden=false;status.textContent='Ihre Anfrage wird übertragen …';let result=null;try{result=await submitLeadPayload(payload)}catch(err){console.error('Lead submit failed:',err);setButtonLoading(btn,false);status.hidden=true;alert('Die Anfrage konnte gerade nicht gespeichert werden. Bitte versuchen Sie es noch einmal oder rufen Sie direkt an.');return false}status.textContent='Anfrage gespeichert – Bestätigung wird vorbereitet …';form.innerHTML='<div style="text-align:center;padding:34px 0"><h3>Anfrage gespeichert.</h3><p>Die Bestätigung wird vorbereitet.</p></div>';trackLeadConversion(result,()=>{location.href='danke.html'});return false}
     renderStep();
   </script>
 </body>
