@@ -78,6 +78,7 @@
 
     /* 2026-05-26 Peter feedback implementation: real quiz animations, richer Wunschbild gallery, Peter hero portrait */
     .hero-person{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center;padding:14px 16px;background:rgba(255,247,232,.94);color:#121610;border-left:5px solid var(--gold);box-shadow:0 26px 78px -54px #000}
+    .hero-panel .hero-proof{grid-template-columns:1fr}
     .hero-person img{width:72px;height:72px;object-fit:cover;border-radius:999px;border:3px solid #fff7e8;box-shadow:0 10px 26px -18px #000}
     .hero-person strong{display:block;font-family:Space,Inter,sans-serif;font-size:20px;line-height:1;letter-spacing:-.045em;color:#121610}.hero-person span{display:block;margin-top:4px;font-size:13px;font-weight:850;color:#51483b;line-height:1.25}
     .wunsch-gallery{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-auto-rows:255px;gap:24px;align-items:stretch;margin-top:10px}
@@ -97,7 +98,7 @@
     <picture class="hero-bg"><source media="(max-width: 640px)" srcset="assets/mp-carport-lp-balanced-2026-05-21/hero-01-mobile-focus.webp?v=20260526-mobile-crop"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-01-car-house-integrated.webp?v=20260526-mobile-crop" alt="Holz-Carport passend zum Haus" fetchpriority="high"></picture>
     <div class="wide hero-content">
       <div class="reveal"><p class="eyebrow">Holz-Carports vom Zimmermeister</p><h1>Ein Carport, der so lange hält wie Ihr Haus.</h1><p class="lead">Für Menschen, die vor dem Haus nicht irgendein Dach wollen, sondern einen Carport, der gut aussieht, im Alltag angenehm ist und für viele Jahre ordentlich geplant wird.</p><div class="actions"><button class="btn" type="button" onclick="openQuiz()">Wunsch-Carport anfragen</button><a class="btn ghost" href="#wunsch">Bildwelt ansehen</a></div><p class="micro">Ein paar Angaben reichen für den Anfang. Wenn Sie möchten, gern auch ein Foto der Einfahrt.</p></div>
-      <div class="hero-panel reveal"><div class="hero-person"><img src="assets/peter-preissinger-portrait.webp?v=20260526-hero-person" alt="Peter Preissinger"><div><strong>Peter Preissinger</strong><span>Zimmermeister · prüft Ihre Anfrage persönlich</span></div></div><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb · Familienbetrieb seit 2004</span></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit</div><div class="proof-chip"><b>Peter</b>Preissinger als persönlicher Ansprechpartner</div></div></div>
+      <div class="hero-panel reveal"><div class="hero-person"><img src="assets/peter-preissinger-portrait.webp?v=20260526-hero-person" alt="Peter Preissinger"><div><strong>Peter Preissinger</strong><span>Zimmermeister · prüft Ihre Anfrage persönlich</span></div></div><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb · Familienbetrieb seit 2004</span></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit</div></div></div>
     </div><div class="scroll-cue">scroll</div>
   </header>
   <main>
