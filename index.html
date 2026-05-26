@@ -61,18 +61,18 @@
       :root{--site:min(100% - 44px, 390px)}
       .wide{width:min(100% - 36px, 430px)}.wrap{width:var(--site)}
       .nav{top:12px;left:14px;right:14px}.nav-inner{height:62px;padding:0 14px}.brand img{height:38px}.nav-cta{font-size:13px;padding:11px 14px}
-      .hero{padding:88px 0 34px;background:#090d09}.hero::before{background:linear-gradient(0deg,rgba(9,13,9,.98) 0%,rgba(9,13,9,.9) 36%,rgba(9,13,9,.22) 62%,rgba(9,13,9,.72) 100%)}
-      .hero-content{padding-top:430px;gap:18px}.hero .reveal{text-align:center;display:flex;flex-direction:column;align-items:center}.hero .eyebrow{justify-content:center}.hero .actions{width:100%}
-      h1{font-size:clamp(44px,12.6vw,52px);max-width:10.5ch}.lead{font-size:17px}.micro{font-size:14px;text-align:center}.btn{width:100%;font-size:16px}
-      .hero-proof{grid-template-columns:1fr}.proof-chip{text-align:left}.seal-row{align-items:center;gap:12px}.seal-row img{width:66px;height:66px}.seal-row span{font-size:15px}
-      .image-band figure{min-height:auto}.image-band img,.image-band figure:first-child img{height:310px}figcaption{font-size:15px;padding:16px 18px}.compare-card{padding:26px}.sticky{left:18px;right:18px;bottom:12px}.footer,.jh{padding-bottom:104px}
+      .hero{padding:86px 0 42px;background:#090d09;min-height:auto;align-items:start}.hero-bg{inset:0 0 auto;height:430px}.hero-bg img{object-position:center center}.hero::before{background:linear-gradient(0deg,rgba(9,13,9,1) 0%,rgba(9,13,9,.98) 20%,rgba(9,13,9,.78) 45%,rgba(9,13,9,.12) 78%,rgba(9,13,9,.52) 100%)}
+      .hero-content{padding-top:350px;gap:26px}.hero .reveal{text-align:center;display:flex;flex-direction:column;align-items:center}.hero .eyebrow{justify-content:center;margin-bottom:12px}.hero .actions{width:100%;gap:10px;margin-top:24px}
+      h1{font-size:clamp(38px,10.8vw,44px);line-height:.94;max-width:11ch}.hero .lead{font-size:16px;line-height:1.48;max-width:32ch}.micro{font-size:13px;line-height:1.45;text-align:center;margin-top:12px}.btn{width:100%;font-size:15px;min-height:52px;padding:14px 18px}
+      .hero-panel{gap:14px;padding-top:4px}.hero-proof{grid-template-columns:1fr;gap:10px}.proof-chip{text-align:left;padding:15px 16px}.proof-chip b{font-size:24px}.seal-row{align-items:center;gap:12px;padding:14px 15px}.seal-row img{width:58px;height:58px}.seal-row span{font-size:14px;line-height:1.28}
+      .section{padding:78px 0}.section-head{gap:22px;margin-bottom:30px}.section-head .lead{font-size:16px;line-height:1.55}.image-band{gap:16px}.image-band figure{min-height:auto}.image-band img,.image-band figure:first-child img{height:300px}figcaption{font-size:14px;line-height:1.42;padding:16px 18px}.compare{gap:16px;margin-top:16px}.compare-card{padding:24px}.compare-card+ .compare-card{margin-top:0}.icon-list{gap:13px}.fact,.testimonial-card,.faq details{padding:22px}.sticky{left:18px;right:18px;bottom:12px}.footer,.jh{padding-bottom:104px}
     }
   </style>
 </head>
 <body>
   <nav class="nav" aria-label="Hauptnavigation"><div class="nav-inner"><a class="brand" href="#top"><img src="assets/logo-white.png?v=20260525-logo-contrast" alt="M&P Holzbau"><span>M&P Holzbau</span></a><div class="nav-links"><a href="#wunsch">Wunschbild</a><a href="#alltag">Alltag</a><a href="#peter">Peter</a><a href="#faq">FAQ</a><a class="nav-cta" href="#anfrage">Wunsch-Carport anfragen</a></div></div></nav>
   <header class="hero" id="top">
-    <picture class="hero-bg"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-01-car-house-integrated.webp?v=20260525-v15" alt="Holz-Carport passend zum Haus" fetchpriority="high"></picture>
+    <picture class="hero-bg"><source media="(max-width: 640px)" srcset="assets/mp-carport-lp-balanced-2026-05-21/hero-01-mobile-focus.webp?v=20260526-mobile-crop"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-01-car-house-integrated.webp?v=20260526-mobile-crop" alt="Holz-Carport passend zum Haus" fetchpriority="high"></picture>
     <div class="wide hero-content">
       <div class="reveal"><p class="eyebrow">Holz-Carports vom Zimmermeister</p><h1>Ein Carport, der so lange hält wie Ihr Haus.</h1><p class="lead">Für Menschen, die vor dem Haus nicht irgendein Dach wollen, sondern einen Carport, der gut aussieht, im Alltag angenehm ist und für viele Jahre ordentlich geplant wird.</p><div class="actions"><a class="btn" href="#anfrage">Wunsch-Carport anfragen</a><a class="btn ghost" href="#wunsch">Bildwelt ansehen</a></div><p class="micro">Ein paar Angaben reichen für den Anfang. Wenn Sie möchten, gern auch ein Foto der Einfahrt.</p></div>
       <div class="hero-panel reveal"><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb · Familienbetrieb seit 2004</span></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit</div><div class="proof-chip"><b>Peter</b>Preissinger als persönlicher Ansprechpartner</div></div></div>
