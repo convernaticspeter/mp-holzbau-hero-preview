@@ -1,0 +1,655 @@
+{
+  "created_at": "2026-05-26T17:46:24.020780+00:00",
+  "batch": "mp-avatar-scenes-2026-05-26-kie",
+  "model": "nano-banana-2",
+  "state": "finished",
+  "output_dir": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie",
+  "global_prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.",
+  "scenes": {
+    "01_montage_balken_ausrichten_level": {
+      "state": "success",
+      "task_id": "444499a1630d2c06d9e16727e2ace5a0",
+      "avatar_names": [
+        "Michael",
+        "Markus"
+      ],
+      "prompt": "Two supplied M&P avatars at a timber carport montage site align a long main beam under the roof edge. One avatar holds a spirit level against the beam, the other steadies the timber. Real posts, rafters, paved driveway, house facade.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars at a timber carport montage site align a long main beam under the roof edge. One avatar holds a spirit level against the beam, the other steadies the timber. Real posts, rafters, paved driveway, house facade.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "01_montage_balken_ausrichten_level.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817731421-1sgfc0y9hl2.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/01_montage_balken_ausrichten_level.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/01_montage_balken_ausrichten_level.png",
+      "finished_at": "2026-05-26T17:49:01.454140+00:00"
+    },
+    "02_montage_sparren_einheben": {
+      "state": "success",
+      "task_id": "a8bfff0a3597c7c72004ef648864362d",
+      "avatar_names": [
+        "Gerhard",
+        "Tobias"
+      ],
+      "prompt": "Two supplied M&P avatars carefully lift and position a roof rafter into a timber carport frame. One stands on a stable work platform, one guides from below. Hands and tool positions must be physically plausible.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars carefully lift and position a roof rafter into a timber carport frame. One stands on a stable work platform, one guides from below. Hands and tool positions must be physically plausible.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "02_montage_sparren_einheben.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817697823-uydj8z6qsdo.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/02_montage_sparren_einheben.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/02_montage_sparren_einheben.png",
+      "finished_at": "2026-05-26T17:48:21.187246+00:00"
+    },
+    "03_montage_zollstock_anzeichnen": {
+      "state": "success",
+      "task_id": "62a40c87292b170934df9907339f2e79",
+      "avatar_names": [
+        "Markus",
+        "Tobias"
+      ],
+      "prompt": "Two supplied M&P avatars mark a timber post on site: one holds a folding rule / Zollstock, the other marks a clean pencil line on the wood. Real carport posts and driveway visible.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars mark a timber post on site: one holds a folding rule / Zollstock, the other marks a clean pencil line on the wood. Real carport posts and driveway visible.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "03_montage_zollstock_anzeichnen.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/62a40c87292b170934df9907339f2e79_1_1779817662_9186.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/03_montage_zollstock_anzeichnen.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/03_montage_zollstock_anzeichnen.png",
+      "finished_at": "2026-05-26T17:47:50.908529+00:00"
+    },
+    "04_montage_pfosten_lot_pruefen": {
+      "state": "success",
+      "task_id": "179493786dbb8165fbcc949572309ac8",
+      "avatar_names": [
+        "Michael",
+        "Gerhard"
+      ],
+      "prompt": "Two supplied M&P avatars check a vertical timber post for plumb using a long spirit level before fastening. Foundation/paved driveway visible, no metal angle close-up.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars check a vertical timber post for plumb using a long spirit level before fastening. Foundation/paved driveway visible, no metal angle close-up.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "04_montage_pfosten_lot_pruefen.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/179493786dbb8165fbcc949572309ac8_1_1779817648_6244.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/04_montage_pfosten_lot_pruefen.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/04_montage_pfosten_lot_pruefen.png",
+      "finished_at": "2026-05-26T17:47:32.414876+00:00"
+    },
+    "05_montage_dachueberstand_kontrolle": {
+      "state": "success",
+      "task_id": "03af8d3396c1ee4abc24ea16b70994b7",
+      "avatar_names": [
+        "Michael"
+      ],
+      "prompt": "One supplied older M&P avatar in burgundy work jacket inspects the roof overhang and gutter line of a new timber carport, holding a folded plan in one hand and pointing at the exact roof edge.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: One supplied older M&P avatar in burgundy work jacket inspects the roof overhang and gutter line of a new timber carport, holding a folded plan in one hand and pointing at the exact roof edge.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "05_montage_dachueberstand_kontrolle.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/03af8d3396c1ee4abc24ea16b70994b7_1_1779817666_9528.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/05_montage_dachueberstand_kontrolle.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/05_montage_dachueberstand_kontrolle.png",
+      "finished_at": "2026-05-26T17:48:02.052915+00:00"
+    },
+    "06_montage_unterdach_verschrauben": {
+      "state": "success",
+      "task_id": "18df525c959238295acae63536fd4ed3",
+      "avatar_names": [
+        "Markus",
+        "Gerhard"
+      ],
+      "prompt": "Two supplied M&P avatars fasten underside timber boards/rafters on a carport roof using a cordless driver in a plausible position. Visible screw alignment, no random drilling into metal.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars fasten underside timber boards/rafters on a carport roof using a cordless driver in a plausible position. Visible screw alignment, no random drilling into metal.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "06_montage_unterdach_verschrauben.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/18df525c959238295acae63536fd4ed3_1_1779817654_3676.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/06_montage_unterdach_verschrauben.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/06_montage_unterdach_verschrauben.png",
+      "finished_at": "2026-05-26T17:47:44.725978+00:00"
+    },
+    "07_montage_wetterseite_schalung": {
+      "state": "success",
+      "task_id": "71bbbf601aaec6c3562b72b1d82d55cf",
+      "avatar_names": [
+        "Tobias",
+        "Michael"
+      ],
+      "prompt": "Two supplied M&P avatars install vertical timber slats on the weather side of a carport. One holds a board, the other checks spacing with a small spacer block. Austrian residential driveway.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars install vertical timber slats on the weather side of a carport. One holds a board, the other checks spacing with a small spacer block. Austrian residential driveway.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "07_montage_wetterseite_schalung.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817683968-garlng5vnth.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/07_montage_wetterseite_schalung.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/07_montage_wetterseite_schalung.png",
+      "finished_at": "2026-05-26T17:48:19.780386+00:00"
+    },
+    "08_montage_dachrinne_anpassen": {
+      "state": "success",
+      "task_id": "e0acc2a78e28d89e2591e53ca585d980",
+      "avatar_names": [
+        "Gerhard",
+        "Markus"
+      ],
+      "prompt": "Two supplied M&P avatars fit a gutter/downpipe line to a timber carport roof edge. One measures slope, one holds the gutter. Realistic water drainage logic, no impossible floating pipe.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars fit a gutter/downpipe line to a timber carport roof edge. One measures slope, one holds the gutter. Realistic water drainage logic, no impossible floating pipe.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "08_montage_dachrinne_anpassen.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817730294-adz0urffe5q.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/08_montage_dachrinne_anpassen.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/08_montage_dachrinne_anpassen.png",
+      "finished_at": "2026-05-26T17:49:02.408120+00:00"
+    },
+    "09_montage_werkzeug_detail_balkenverbindung": {
+      "state": "success",
+      "task_id": "993e5e3ec3158a3a88485ee9a92d71f8",
+      "avatar_names": [
+        "Tobias"
+      ],
+      "prompt": "Close documentary scene with one supplied M&P avatar working on a real timber beam connection with clamps, pencil marks, and cordless driver. The connection is wood-to-wood, not a fake metal bracket hero.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Close documentary scene with one supplied M&P avatar working on a real timber beam connection with clamps, pencil marks, and cordless driver. The connection is wood-to-wood, not a fake metal bracket hero.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "09_montage_werkzeug_detail_balkenverbindung.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/993e5e3ec3158a3a88485ee9a92d71f8_1_1779817643_2967.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/09_montage_werkzeug_detail_balkenverbindung.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/09_montage_werkzeug_detail_balkenverbindung.png",
+      "finished_at": "2026-05-26T17:47:31.521297+00:00"
+    },
+    "10_montage_abschlusskontrolle_team": {
+      "state": "success",
+      "task_id": "092a9f0ec90dab8eb15bcb716816c67d",
+      "avatar_names": [
+        "Michael",
+        "Markus",
+        "Gerhard"
+      ],
+      "prompt": "Three supplied M&P avatars do a final walkaround at a nearly finished timber carport, checking alignment, post bases, roof edge, and driveway clearance. Professional focused body language.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Three supplied M&P avatars do a final walkaround at a nearly finished timber carport, checking alignment, post bases, roof edge, and driveway clearance. Professional focused body language.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "10_montage_abschlusskontrolle_team.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817722986-dgslvdvnwth.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/10_montage_abschlusskontrolle_team.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/10_montage_abschlusskontrolle_team.png",
+      "finished_at": "2026-05-26T17:48:48.395067+00:00"
+    },
+    "11_werkstatt_kappsaege_zuschnitt": {
+      "state": "success",
+      "task_id": "70772a16d3d2dbab25907733d54942da",
+      "avatar_names": [
+        "Markus"
+      ],
+      "prompt": "One supplied M&P avatar in the workshop cuts a carport timber beam on a professional chop saw / Kappsäge. Beam is clamped or properly supported, hands safe, real sawdust/offcuts.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: One supplied M&P avatar in the workshop cuts a carport timber beam on a professional chop saw / Kappsäge. Beam is clamped or properly supported, hands safe, real sawdust/offcuts.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "11_werkstatt_kappsaege_zuschnitt.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/70772a16d3d2dbab25907733d54942da_1_1779817747_2466.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/11_werkstatt_kappsaege_zuschnitt.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/11_werkstatt_kappsaege_zuschnitt.png",
+      "finished_at": "2026-05-26T17:49:13.498334+00:00"
+    },
+    "12_werkstatt_hobelbank_anzeichnen": {
+      "state": "success",
+      "task_id": "fda1e31edc3ef2f750ab90a7c71ceff4",
+      "avatar_names": [
+        "Tobias"
+      ],
+      "prompt": "One supplied M&P avatar at a timber workbench marks a beam with pencil and square. Workshop background with stacked timber, clamps, sawdust. Practical preparation for carport montage.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: One supplied M&P avatar at a timber workbench marks a beam with pencil and square. Workshop background with stacked timber, clamps, sawdust. Practical preparation for carport montage.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "12_werkstatt_hobelbank_anzeichnen.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817702277-by8xc1olimh.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/12_werkstatt_hobelbank_anzeichnen.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/12_werkstatt_hobelbank_anzeichnen.png",
+      "finished_at": "2026-05-26T17:48:35.234095+00:00"
+    },
+    "13_werkstatt_team_material_sortieren": {
+      "state": "success",
+      "task_id": "dc7a422f829b62d0618388877ddffce6",
+      "avatar_names": [
+        "Gerhard",
+        "Michael"
+      ],
+      "prompt": "Two supplied M&P avatars in a timber workshop sort and label prepared beams for a carport montage. Stacked wood, measuring tape, clear practical organization, no readable labels.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars in a timber workshop sort and label prepared beams for a carport montage. Stacked wood, measuring tape, clear practical organization, no readable labels.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "13_werkstatt_team_material_sortieren.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817828352-vpor00xb7f.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/13_werkstatt_team_material_sortieren.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/13_werkstatt_team_material_sortieren.png",
+      "finished_at": "2026-05-26T17:50:37.520778+00:00"
+    },
+    "14_werkstatt_bohrung_vorbereiten": {
+      "state": "success",
+      "task_id": "7c9c3ebbf1f842717d330465fde38882",
+      "avatar_names": [
+        "Markus",
+        "Tobias"
+      ],
+      "prompt": "Two supplied M&P avatars prepare precise pre-drilled holes in a timber beam on a workshop bench. One holds the beam/clamp, one uses a drill press or guided cordless drill safely.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars prepare precise pre-drilled holes in a timber beam on a workshop bench. One holds the beam/clamp, one uses a drill press or guided cordless drill safely.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "14_werkstatt_bohrung_vorbereiten.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/7c9c3ebbf1f842717d330465fde38882_1_1779817650_2510.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/14_werkstatt_bohrung_vorbereiten.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/14_werkstatt_bohrung_vorbereiten.png",
+      "finished_at": "2026-05-26T17:47:47.432599+00:00"
+    },
+    "15_werkstatt_oberflaeche_schleifen": {
+      "state": "success",
+      "task_id": "b459667fde5eb03439ee2fa9903973d2",
+      "avatar_names": [
+        "Gerhard"
+      ],
+      "prompt": "One supplied M&P avatar sands or finishes the edge of a visible timber beam in the workshop. Close enough to show craftsmanship, but still a real documentary scene.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: One supplied M&P avatar sands or finishes the edge of a visible timber beam in the workshop. Close enough to show craftsmanship, but still a real documentary scene.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "15_werkstatt_oberflaeche_schleifen.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/b459667fde5eb03439ee2fa9903973d2_1_1779817659_1479.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/15_werkstatt_oberflaeche_schleifen.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/15_werkstatt_oberflaeche_schleifen.png",
+      "finished_at": "2026-05-26T17:47:48.916153+00:00"
+    },
+    "16_werkstatt_materialcheck_plan": {
+      "state": "success",
+      "task_id": "1387b5a7c7f9204e6aa37d27e253859c",
+      "avatar_names": [
+        "Michael",
+        "Gerhard"
+      ],
+      "prompt": "Two supplied M&P avatars compare a printed plan with prepared timber parts in the workshop before loading for montage. Plans visible but no readable text.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars compare a printed plan with prepared timber parts in the workshop before loading for montage. Plans visible but no readable text.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "16_werkstatt_materialcheck_plan.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817708345-71eu0dwuu2e.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/16_werkstatt_materialcheck_plan.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/16_werkstatt_materialcheck_plan.png",
+      "finished_at": "2026-05-26T17:48:36.434650+00:00"
+    },
+    "17_abladen_lkw_balken": {
+      "state": "success",
+      "task_id": "9dfdd6949ec4f432cf6d06d23edfcf88",
+      "avatar_names": [
+        "Markus",
+        "Tobias"
+      ],
+      "prompt": "Two supplied M&P avatars unload long timber beams from a flatbed or trailer at an Austrian residential carport montage site. They carry the timber together with correct posture, driveway and house visible.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars unload long timber beams from a flatbed or trailer at an Austrian residential carport montage site. They carry the timber together with correct posture, driveway and house visible.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "17_abladen_lkw_balken.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/9dfdd6949ec4f432cf6d06d23edfcf88_1_1779817672_2321.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/17_abladen_lkw_balken.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/17_abladen_lkw_balken.png",
+      "finished_at": "2026-05-26T17:48:05.785936+00:00"
+    },
+    "18_abladen_stapler_palette": {
+      "state": "success",
+      "task_id": "7aa714100820ca2f629cc04b9004ab45",
+      "avatar_names": [
+        "Gerhard",
+        "Markus"
+      ],
+      "prompt": "Two supplied M&P avatars receive a pallet of timber materials near the driveway; one guides the load, one checks the delivery list/plan. Forklift or pallet jack is plausible and safe, no third-party branding.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars receive a pallet of timber materials near the driveway; one guides the load, one checks the delivery list/plan. Forklift or pallet jack is plausible and safe, no third-party branding.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "18_abladen_stapler_palette.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/7aa714100820ca2f629cc04b9004ab45_1_1779817669_4426.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/18_abladen_stapler_palette.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/18_abladen_stapler_palette.png",
+      "finished_at": "2026-05-26T17:48:07.465390+00:00"
+    },
+    "19_abladen_material_aufboecken": {
+      "state": "success",
+      "task_id": "eb0887ca09b4e1e6a3b30c512bd14738",
+      "avatar_names": [
+        "Michael",
+        "Tobias"
+      ],
+      "prompt": "Two supplied M&P avatars place unloaded timber beams onto trestles / Böcke beside the future carport area. Practical staging before montage, straps and spacers visible.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Two supplied M&P avatars place unloaded timber beams onto trestles / Böcke beside the future carport area. Practical staging before montage, straps and spacers visible.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "19_abladen_material_aufboecken.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817734901-0986ez5soisg.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/19_abladen_material_aufboecken.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/19_abladen_material_aufboecken.png",
+      "finished_at": "2026-05-26T17:49:00.312176+00:00"
+    },
+    "20_abladen_team_transport_zur_baustelle": {
+      "state": "success",
+      "task_id": "bd530676cb586094ef86f0b936b3f7ce",
+      "avatar_names": [
+        "Michael",
+        "Markus",
+        "Gerhard"
+      ],
+      "prompt": "Three supplied M&P avatars carry and stage smaller timber parts from a trailer toward the carport construction area. Real driveway, residential setting, focused movement, no invented extra crew.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary scene for M&P Holzbau, an Austrian carpentry / Zimmermeisterbetrieb.\nUse ONLY the supplied M&P avatar reference images as the workers in the scene. Preserve their faces, hair, age, build, and red/burgundy M&P hoodies/work jackets with dark work trousers. Do not invent random workers, do not add extra people, do not change the crew into generic models. Small M&P logo on chest is okay, no large fake text.\n\nScene style: real Austrian construction photography, natural lens, 16:9 horizontal, useful landing-page image, practical jobsite/workshop detail, quiet professional mood. Workers are focused on the task, not smiling at camera.\n\nPhysical logic is critical: only real carpentry or carport installation work. No fake working poses, no meaningless pointing, no fantasy brackets, no Blechwinkel hero shots, no terrace/deck/pergola confusion, no impossible post bases, no leaning beams, no AI showroom look, no generic stock photo, no CGI, no watermark, no readable third-party branding.\n\nScene: Three supplied M&P avatars carry and stage smaller timber parts from a trailer toward the carport construction area. Real driveway, residential setting, focused movement, no invented extra crew.\n\nIdentity rule for this scene: the visible workers must match the supplied avatar reference images attached to this task. Use the same faces and M&P red/burgundy workwear; do not invent different people.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "20_abladen_team_transport_zur_baustelle.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779817705337-pyj2r9dyjvg.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/20_abladen_team_transport_zur_baustelle.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/20_abladen_team_transport_zur_baustelle.png",
+      "finished_at": "2026-05-26T17:48:34.112827+00:00"
+    }
+  },
+  "avatar_dir": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20",
+  "uploaded_refs": {
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Gerhard.png": "https://tempfile.redpandaai.co/kieai/768263/images/1779817584565-74f33tp18bi.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Markus.png": "https://tempfile.redpandaai.co/kieai/768263/images/1779817588825-6wlva9edxhc.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Michael.png": "https://tempfile.redpandaai.co/kieai/768263/images/1779817592740-j14xwy3v3og.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Tobias.png": "https://tempfile.redpandaai.co/kieai/768263/images/1779817595492-7x709w2um5.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/logo/logo.png": "https://tempfile.redpandaai.co/kieai/768263/images/1779817599093-26mt15mjona.png"
+  },
+  "contact_sheet": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-avatar-scenes-2026-05-26-kie/_contact_sheet.jpg",
+  "finished_at": "2026-05-26T17:50:37.834260+00:00",
+  "pending": []
+}
