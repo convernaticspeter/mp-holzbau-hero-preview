@@ -307,6 +307,13 @@
     .testimonials-section .testimonial-card{background:rgba(13,19,14,.84)!important}
     .section.dark .compare-card{background:rgba(13,19,14,.86)!important}
     .section.dark .step p,.section.dark .compare-card p,.section.dark .compare-card li,.testimonials-section .testimonial-card blockquote,.testimonials-section .testimonial-card p{color:rgba(255,247,232,.95)!important}
+
+    /* 2026-05-26 Peter feedback: Langlebigkeit section vertical so image can breathe */
+    .longevity-split{display:grid!important;grid-template-columns:1fr!important;gap:0!important;overflow:hidden}
+    .longevity-split .split-copy{max-width:1120px;margin:0 auto;padding:clamp(34px,5vw,72px) clamp(24px,5vw,72px) clamp(26px,4vw,44px)}
+    .longevity-split .feature-img{width:100%;border:0;border-top:1px solid rgba(9,13,9,.12);box-shadow:none;min-height:0;background:#101610}
+    .longevity-split .feature-img img{width:100%;height:clamp(440px,58vw,760px);min-height:0;aspect-ratio:auto;object-fit:cover;object-position:center 54%}
+    @media(max-width:640px){.longevity-split .split-copy{padding:30px 22px 24px}.longevity-split .feature-img img{height:360px}}
   </style>
 </head>
 <body>
