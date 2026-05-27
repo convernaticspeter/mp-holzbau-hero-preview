@@ -1,0 +1,171 @@
+{
+  "created_at": "2026-05-27T03:38:02.948244+00:00",
+  "batch": "mp-hero-canopy-logo-kie-2026-05-26",
+  "model": "nano-banana-2",
+  "state": "finished",
+  "output_dir": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26",
+  "refs": [
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-happy-finished-oak-2026-05-26-gemini/selected_happy_finished_oak_hero.webp",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-happy-finished-oak-2026-05-26-gemini/04_happy_peter_team_carport_reveal.webp",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/peter-preissinger-portrait.webp",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/01_peter_red_hoodie_plan_carport.webp",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Michael.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Markus.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Gerhard.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-avatar-bases-v2-hoodies-2026-04-20/Tobias.png",
+    "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/logo-white.png"
+  ],
+  "global_prompt": "Create a corrected premium photorealistic 16:9 hero image for the M&P Holzbau landing page.\n\nUse the supplied existing hero/team images as composition inspiration only: keep the improved close-together happy group feeling, not random scattered people. Use the supplied Peter and M&P avatar references as identity/workwear anchors. Use the supplied WHITE M&P logo image as the logo reference for clothing: the small chest logo must be clean, white, simple, and plausible. Do not invent messy pseudo text or random symbols.\n\nMain correction from previous version:\n- The roof/canopy from the carport to the house entrance MUST be clearly visible and architecturally believable.\n- Show a continuous covered path from the large oak carport roof toward the front door / entrance canopy.\n- It should read immediately: people can walk dry from the carport to the house entrance.\n- Do not hide this connection behind people or crop it away.\n\nPeople:\n- Peter Preissinger is the main older Austrian Zimmermeister: short gray hair, gray stubble beard, calm proud happy expression.\n- 2 to 3 team members stand close beside/behind him as a coherent happy group, shoulder-to-shoulder or naturally clustered, like a finished-project handover/team-pride photo.\n- Burgundy/dark red M&P hoodies or work jackets, dark work trousers, subtle clean white M&P chest logo from the logo reference.\n- No random generic workers, no scattered awkward lineup, no one floating alone.\n\nCarport/location:\n- Very special wide oak timber carport, massive visible oak beams and posts, wide enough for two cars plus two motorcycles, but completely empty.\n- Hard negative: no cars, no motorcycles, no bicycles, no vans, no vehicles, no license plates anywhere.\n- No Blechwinkel, no sheet-metal angle brackets, no shiny metal connector hero detail. Use oak joinery, Nuten/Auflager, timber-to-timber support logic.\n- Medium-sized detached Austrian family house, about 200 sqm, early 2000s Vienna Basin / Wiener Becken feel: plaster facade, realistic suburban house, not Alpine chalet, not luxury villa.\n- Well-designed front garden with shrubs/grasses/stone path and clean driveway.\n\nHero layout:\n- True horizontal 16:9, warm daylight, premium but believable documentary photo.\n- Keep calm darker/less busy space on the left for headline text overlay.\n- Put Peter/team mostly center-right/right third, but do not block the visible canopy route to the entrance.\n- No watermark, no readable text except subtle clean M&P chest logo.",
+  "scenes": {
+    "01_close_group_canopy_clearly_visible": {
+      "state": "success",
+      "task_id": "a2d77bc019744c5caab282eb6286183a",
+      "prompt": "Close happy Peter-and-team group on the right third. The carport roof continues behind them as a clear covered walkway all the way toward the visible front door on the left/middle background.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Create a corrected premium photorealistic 16:9 hero image for the M&P Holzbau landing page.\n\nUse the supplied existing hero/team images as composition inspiration only: keep the improved close-together happy group feeling, not random scattered people. Use the supplied Peter and M&P avatar references as identity/workwear anchors. Use the supplied WHITE M&P logo image as the logo reference for clothing: the small chest logo must be clean, white, simple, and plausible. Do not invent messy pseudo text or random symbols.\n\nMain correction from previous version:\n- The roof/canopy from the carport to the house entrance MUST be clearly visible and architecturally believable.\n- Show a continuous covered path from the large oak carport roof toward the front door / entrance canopy.\n- It should read immediately: people can walk dry from the carport to the house entrance.\n- Do not hide this connection behind people or crop it away.\n\nPeople:\n- Peter Preissinger is the main older Austrian Zimmermeister: short gray hair, gray stubble beard, calm proud happy expression.\n- 2 to 3 team members stand close beside/behind him as a coherent happy group, shoulder-to-shoulder or naturally clustered, like a finished-project handover/team-pride photo.\n- Burgundy/dark red M&P hoodies or work jackets, dark work trousers, subtle clean white M&P chest logo from the logo reference.\n- No random generic workers, no scattered awkward lineup, no one floating alone.\n\nCarport/location:\n- Very special wide oak timber carport, massive visible oak beams and posts, wide enough for two cars plus two motorcycles, but completely empty.\n- Hard negative: no cars, no motorcycles, no bicycles, no vans, no vehicles, no license plates anywhere.\n- No Blechwinkel, no sheet-metal angle brackets, no shiny metal connector hero detail. Use oak joinery, Nuten/Auflager, timber-to-timber support logic.\n- Medium-sized detached Austrian family house, about 200 sqm, early 2000s Vienna Basin / Wiener Becken feel: plaster facade, realistic suburban house, not Alpine chalet, not luxury villa.\n- Well-designed front garden with shrubs/grasses/stone path and clean driveway.\n\nHero layout:\n- True horizontal 16:9, warm daylight, premium but believable documentary photo.\n- Keep calm darker/less busy space on the left for headline text overlay.\n- Put Peter/team mostly center-right/right third, but do not block the visible canopy route to the entrance.\n- No watermark, no readable text except subtle clean M&P chest logo.\n\nVariant: Close happy Peter-and-team group on the right third. The carport roof continues behind them as a clear covered walkway all the way toward the visible front door on the left/middle background.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853083686-wgr74g7jard.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853086208-65jml2rvi8l.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853089194-itgxx7duucf.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853092353-8x9vspomksm.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853096261-9zdlzcsvzia.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853100641-3esskrolejl.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853105090-68ciihj2dri.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853109073-hzggct3hdbt.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853112814-92qg6w5dez.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "01_close_group_canopy_clearly_visible.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/a2d77bc019744c5caab282eb6286183a_1_1779853187_1458.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/01_close_group_canopy_clearly_visible.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/01_close_group_canopy_clearly_visible.png",
+      "finished_at": "2026-05-27T03:39:52.227241+00:00"
+    },
+    "02_handover_group_front_garden_canopy": {
+      "state": "success",
+      "task_id": "b8e543219545de525a1449d01966d7f2",
+      "prompt": "Finished-project handover feeling: Peter and team stand close together near the front garden path, with the oak carport and a continuous entrance canopy clearly visible behind them.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Create a corrected premium photorealistic 16:9 hero image for the M&P Holzbau landing page.\n\nUse the supplied existing hero/team images as composition inspiration only: keep the improved close-together happy group feeling, not random scattered people. Use the supplied Peter and M&P avatar references as identity/workwear anchors. Use the supplied WHITE M&P logo image as the logo reference for clothing: the small chest logo must be clean, white, simple, and plausible. Do not invent messy pseudo text or random symbols.\n\nMain correction from previous version:\n- The roof/canopy from the carport to the house entrance MUST be clearly visible and architecturally believable.\n- Show a continuous covered path from the large oak carport roof toward the front door / entrance canopy.\n- It should read immediately: people can walk dry from the carport to the house entrance.\n- Do not hide this connection behind people or crop it away.\n\nPeople:\n- Peter Preissinger is the main older Austrian Zimmermeister: short gray hair, gray stubble beard, calm proud happy expression.\n- 2 to 3 team members stand close beside/behind him as a coherent happy group, shoulder-to-shoulder or naturally clustered, like a finished-project handover/team-pride photo.\n- Burgundy/dark red M&P hoodies or work jackets, dark work trousers, subtle clean white M&P chest logo from the logo reference.\n- No random generic workers, no scattered awkward lineup, no one floating alone.\n\nCarport/location:\n- Very special wide oak timber carport, massive visible oak beams and posts, wide enough for two cars plus two motorcycles, but completely empty.\n- Hard negative: no cars, no motorcycles, no bicycles, no vans, no vehicles, no license plates anywhere.\n- No Blechwinkel, no sheet-metal angle brackets, no shiny metal connector hero detail. Use oak joinery, Nuten/Auflager, timber-to-timber support logic.\n- Medium-sized detached Austrian family house, about 200 sqm, early 2000s Vienna Basin / Wiener Becken feel: plaster facade, realistic suburban house, not Alpine chalet, not luxury villa.\n- Well-designed front garden with shrubs/grasses/stone path and clean driveway.\n\nHero layout:\n- True horizontal 16:9, warm daylight, premium but believable documentary photo.\n- Keep calm darker/less busy space on the left for headline text overlay.\n- Put Peter/team mostly center-right/right third, but do not block the visible canopy route to the entrance.\n- No watermark, no readable text except subtle clean M&P chest logo.\n\nVariant: Finished-project handover feeling: Peter and team stand close together near the front garden path, with the oak carport and a continuous entrance canopy clearly visible behind them.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853083686-wgr74g7jard.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853086208-65jml2rvi8l.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853089194-itgxx7duucf.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853092353-8x9vspomksm.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853096261-9zdlzcsvzia.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853100641-3esskrolejl.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853105090-68ciihj2dri.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853109073-hzggct3hdbt.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853112814-92qg6w5dez.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "02_handover_group_front_garden_canopy.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/b8e543219545de525a1449d01966d7f2_1_1779853429_1923.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/02_handover_group_front_garden_canopy.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/02_handover_group_front_garden_canopy.png",
+      "finished_at": "2026-05-27T03:43:55.145376+00:00"
+    },
+    "03_more_house_context_clear_covered_path": {
+      "state": "success",
+      "task_id": "8a6ea54bce9ca816d3b1b5a1335dc2a1",
+      "prompt": "A slightly wider house-context hero: the early-2000s house facade, front door, garden path, and continuous roof/canopy from carport to entrance are unmistakable; Peter and team remain close together on the right.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Create a corrected premium photorealistic 16:9 hero image for the M&P Holzbau landing page.\n\nUse the supplied existing hero/team images as composition inspiration only: keep the improved close-together happy group feeling, not random scattered people. Use the supplied Peter and M&P avatar references as identity/workwear anchors. Use the supplied WHITE M&P logo image as the logo reference for clothing: the small chest logo must be clean, white, simple, and plausible. Do not invent messy pseudo text or random symbols.\n\nMain correction from previous version:\n- The roof/canopy from the carport to the house entrance MUST be clearly visible and architecturally believable.\n- Show a continuous covered path from the large oak carport roof toward the front door / entrance canopy.\n- It should read immediately: people can walk dry from the carport to the house entrance.\n- Do not hide this connection behind people or crop it away.\n\nPeople:\n- Peter Preissinger is the main older Austrian Zimmermeister: short gray hair, gray stubble beard, calm proud happy expression.\n- 2 to 3 team members stand close beside/behind him as a coherent happy group, shoulder-to-shoulder or naturally clustered, like a finished-project handover/team-pride photo.\n- Burgundy/dark red M&P hoodies or work jackets, dark work trousers, subtle clean white M&P chest logo from the logo reference.\n- No random generic workers, no scattered awkward lineup, no one floating alone.\n\nCarport/location:\n- Very special wide oak timber carport, massive visible oak beams and posts, wide enough for two cars plus two motorcycles, but completely empty.\n- Hard negative: no cars, no motorcycles, no bicycles, no vans, no vehicles, no license plates anywhere.\n- No Blechwinkel, no sheet-metal angle brackets, no shiny metal connector hero detail. Use oak joinery, Nuten/Auflager, timber-to-timber support logic.\n- Medium-sized detached Austrian family house, about 200 sqm, early 2000s Vienna Basin / Wiener Becken feel: plaster facade, realistic suburban house, not Alpine chalet, not luxury villa.\n- Well-designed front garden with shrubs/grasses/stone path and clean driveway.\n\nHero layout:\n- True horizontal 16:9, warm daylight, premium but believable documentary photo.\n- Keep calm darker/less busy space on the left for headline text overlay.\n- Put Peter/team mostly center-right/right third, but do not block the visible canopy route to the entrance.\n- No watermark, no readable text except subtle clean M&P chest logo.\n\nVariant: A slightly wider house-context hero: the early-2000s house facade, front door, garden path, and continuous roof/canopy from carport to entrance are unmistakable; Peter and team remain close together on the right.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853083686-wgr74g7jard.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853086208-65jml2rvi8l.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853089194-itgxx7duucf.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853092353-8x9vspomksm.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853096261-9zdlzcsvzia.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853100641-3esskrolejl.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853105090-68ciihj2dri.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853109073-hzggct3hdbt.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853112814-92qg6w5dez.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "03_more_house_context_clear_covered_path.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/8a6ea54bce9ca816d3b1b5a1335dc2a1_1_1779853343_3821.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/03_more_house_context_clear_covered_path.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/03_more_house_context_clear_covered_path.png",
+      "finished_at": "2026-05-27T03:43:01.390275+00:00"
+    },
+    "04_oak_carport_depth_team_not_blocking": {
+      "state": "success",
+      "task_id": "a7f1dba5bf0408cd52f081853a65f823",
+      "prompt": "Emphasize the large empty oak carport depth and the covered walkway to entrance. Peter and team form one compact proud group to the side, not blocking the architecture.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Create a corrected premium photorealistic 16:9 hero image for the M&P Holzbau landing page.\n\nUse the supplied existing hero/team images as composition inspiration only: keep the improved close-together happy group feeling, not random scattered people. Use the supplied Peter and M&P avatar references as identity/workwear anchors. Use the supplied WHITE M&P logo image as the logo reference for clothing: the small chest logo must be clean, white, simple, and plausible. Do not invent messy pseudo text or random symbols.\n\nMain correction from previous version:\n- The roof/canopy from the carport to the house entrance MUST be clearly visible and architecturally believable.\n- Show a continuous covered path from the large oak carport roof toward the front door / entrance canopy.\n- It should read immediately: people can walk dry from the carport to the house entrance.\n- Do not hide this connection behind people or crop it away.\n\nPeople:\n- Peter Preissinger is the main older Austrian Zimmermeister: short gray hair, gray stubble beard, calm proud happy expression.\n- 2 to 3 team members stand close beside/behind him as a coherent happy group, shoulder-to-shoulder or naturally clustered, like a finished-project handover/team-pride photo.\n- Burgundy/dark red M&P hoodies or work jackets, dark work trousers, subtle clean white M&P chest logo from the logo reference.\n- No random generic workers, no scattered awkward lineup, no one floating alone.\n\nCarport/location:\n- Very special wide oak timber carport, massive visible oak beams and posts, wide enough for two cars plus two motorcycles, but completely empty.\n- Hard negative: no cars, no motorcycles, no bicycles, no vans, no vehicles, no license plates anywhere.\n- No Blechwinkel, no sheet-metal angle brackets, no shiny metal connector hero detail. Use oak joinery, Nuten/Auflager, timber-to-timber support logic.\n- Medium-sized detached Austrian family house, about 200 sqm, early 2000s Vienna Basin / Wiener Becken feel: plaster facade, realistic suburban house, not Alpine chalet, not luxury villa.\n- Well-designed front garden with shrubs/grasses/stone path and clean driveway.\n\nHero layout:\n- True horizontal 16:9, warm daylight, premium but believable documentary photo.\n- Keep calm darker/less busy space on the left for headline text overlay.\n- Put Peter/team mostly center-right/right third, but do not block the visible canopy route to the entrance.\n- No watermark, no readable text except subtle clean M&P chest logo.\n\nVariant: Emphasize the large empty oak carport depth and the covered walkway to entrance. Peter and team form one compact proud group to the side, not blocking the architecture.",
+          "image_input": [
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853083686-wgr74g7jard.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853086208-65jml2rvi8l.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853089194-itgxx7duucf.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853092353-8x9vspomksm.webp",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853096261-9zdlzcsvzia.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853100641-3esskrolejl.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853105090-68ciihj2dri.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853109073-hzggct3hdbt.png",
+            "https://tempfile.redpandaai.co/kieai/768263/images/1779853112814-92qg6w5dez.png"
+          ],
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "file_name": "04_oak_carport_depth_team_not_blocking.png",
+      "status_snapshot": {
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779853291889-p2auocuf8s.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/04_oak_carport_depth_team_not_blocking.webp",
+      "source_png": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/04_oak_carport_depth_team_not_blocking.png",
+      "finished_at": "2026-05-27T03:41:43.144294+00:00"
+    }
+  },
+  "ref_urls": [
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853083686-wgr74g7jard.webp",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853086208-65jml2rvi8l.webp",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853089194-itgxx7duucf.webp",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853092353-8x9vspomksm.webp",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853096261-9zdlzcsvzia.png",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853100641-3esskrolejl.png",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853105090-68ciihj2dri.png",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853109073-hzggct3hdbt.png",
+    "https://tempfile.redpandaai.co/kieai/768263/images/1779853112814-92qg6w5dez.png"
+  ],
+  "contact_sheet": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-hero-canopy-logo-kie-2026-05-26/_contact_sheet.jpg",
+  "finished_at": "2026-05-27T03:43:55.362987+00:00",
+  "pending": []
+}
