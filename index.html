@@ -903,6 +903,74 @@
       .section-head > .lead{display:none !important}
       .section-head{grid-template-columns:minmax(0,1fr) !important;gap:0 !important}
     }
+
+    /* 2026-05-27 Hero-Awards: kompakter Meisterbetrieb-Siegel + eigenes Holzbaupreis-Kärtchen */
+    .hero .hero-awards{
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:10px;
+      align-items:stretch;
+    }
+    .hero .hero-awards .seal-row{
+      padding:9px 12px !important;
+      gap:10px !important;
+      width:auto !important;
+      grid-template-columns:36px 1fr !important;
+      align-items:center !important;
+    }
+    .hero .hero-awards .seal-row img{
+      width:36px !important;height:36px !important;padding:2px;
+    }
+    .hero .hero-awards .seal-row span{
+      font-size:13px !important;
+      line-height:1.2 !important;
+      font-weight:850;
+    }
+    .hero .hero-awards .seal-row small{
+      display:block;
+      margin-top:3px;
+      font-size:11px;
+      font-weight:700;
+      color:rgba(255,247,232,.55);
+      letter-spacing:.02em;
+    }
+    .hero .hero-awards .award-chip{
+      display:flex;
+      align-items:center;
+      gap:11px;
+      padding:9px 12px;
+      background:rgba(214,161,77,.08);
+      border:1px solid rgba(214,161,77,.32);
+    }
+    .hero .hero-awards .award-icon{
+      width:28px;height:28px;
+      flex:0 0 auto;
+      object-fit:contain;
+      filter:brightness(0) saturate(100%) invert(67%) sepia(36%) saturate(783%) hue-rotate(358deg) brightness(91%) contrast(86%);
+    }
+    .hero .hero-awards .award-chip strong{
+      display:block;
+      font-family:Inter,sans-serif;
+      font-size:12.5px;
+      font-weight:850;
+      color:rgba(255,247,232,.94);
+      letter-spacing:-.005em;
+      line-height:1.2;
+    }
+    .hero .hero-awards .award-chip > div > span{
+      display:block;
+      margin-top:2px;
+      font-family:Space,Inter,sans-serif;
+      font-size:15px;
+      font-weight:900;
+      color:var(--gold);
+      letter-spacing:-.02em;
+      line-height:1;
+    }
+    @media(max-width:980px){
+      .hero .hero-awards{grid-template-columns:1fr}
+    }
+  </style>
 </head>
 <body>
   <nav class="nav" aria-label="Hauptnavigation"><div class="nav-inner"><a class="brand" href="#top"><img src="assets/logo.png?v=20260527-official-logo" alt="M&P Holzbau"><span>M&P Holzbau</span></a><div class="nav-links"><a href="#wunsch">Wunschbild</a><a href="#alltag">Alltag</a><a href="#peter">Peter</a><a href="#faq">FAQ</a><button class="nav-cta" type="button" onclick="openQuiz()">Projekt-Check starten</button></div></div></nav>
@@ -910,7 +978,7 @@
     <div class="wide hero-content">
       <div class="reveal"><p class="eyebrow">Zimmermeister-Carports für Wien, NÖ und Burgenland · seit 2004</p><h1>Carports die <span class="hl">so lange halten</span> wie Ihr Haus.</h1><p class="lead">Trocken aussteigen, Einkäufe in Ruhe ausladen, die Einfahrt wirkt endlich fertig — und die Konstruktion ist so geplant, dass sie auch in Jahren noch passt.</p><div class="hero-quickfacts"><span>Erste Rückmeldung in &lt;24h (werktags)</span><span>Kostenlos und unverbindlich</span></div><div class="actions"><button class="btn" type="button" onclick="openQuiz()">Projekt-Check starten</button></div><a class="hero-link" href="#wunsch">Referenzen ansehen</a></div>
       <picture class="hero-bg"><source media="(max-width: 640px)" srcset="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_hero_peter_paved_workwear_official_logo.webp?v=20260527-official-hero-logo"><img src="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_hero_peter_paved_workwear_official_logo.webp?v=20260527-official-hero-logo" alt="Peter Preissinger steht neben einem fertigen Holz-Carport und zeigt die Zimmererarbeit am Carport" fetchpriority="high"></picture>
-      <div class="hero-panel reveal"><div class="hero-person"><img src="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_peter_portrait_professional_carport.webp?v=20260527-pro-portrait" alt="Peter Preissinger"><div><strong>Peter Preissinger</strong><span>Zimmermeister · meldet sich persönlich</span></div></div><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb · Familienbetrieb seit 2004</span></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit<small>schriftlich für die tragende Konstruktion</small></div><div class="proof-chip"><b>Seit 2004</b>persönlich geführt<small>eigene Werkstatt · eigener Ansprechpartner</small></div></div></div>
+      <div class="hero-panel reveal"><div class="hero-person"><img src="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_peter_portrait_professional_carport.webp?v=20260527-pro-portrait" alt="Peter Preissinger"><div><strong>Peter Preissinger</strong><span>Zimmermeister · meldet sich persönlich</span></div></div><div class="hero-awards"><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb</span></div><div class="award-chip"><img class="award-icon" src="assets/icons/fa/award.svg" alt=""><div><strong>Holzbaupreis Burgenland</strong><span>2016</span></div></div></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit<small>schriftlich für die tragende Konstruktion</small></div><div class="proof-chip"><b>Seit 2004</b>persönlich geführt<small>eigene Werkstatt · eigener Ansprechpartner</small></div></div></div>
     </div><div class="scroll-cue">scroll</div>
   </header>
   <main>
