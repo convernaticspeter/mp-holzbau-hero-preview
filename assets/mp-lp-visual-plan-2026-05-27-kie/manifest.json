@@ -49,13 +49,13 @@
     },
     {
       "id": "02_achtziger_haus_aufwertung",
-      "state": "success",
-      "task_id": "3337cacb3db29575925c7c2c00f92273",
-      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nIMPORTANT architectural requirement: the carport includes a clearly visible covered pedestrian connection from the carport to the house entrance/front door. It must look like one planned timber solution: carport roof continues as a narrow roof/canopy/walkway toward the front door, or a connected side canopy protects the walkway. Make the house entrance/front door visible enough that the covered path is instantly understandable.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark.\nIf a car appears, it must be naturally aligned with the driveway, fully under the roof, with generous door-opening and walking space, not tight to posts/walls. Never place cars sideways/perpendicular/quer zur Einfahrt. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: typical Austrian 1980s/1990s family house with plaster facade and older pitched roof character. A warm medium-brown timber carport upgrades the entrance/einfahrt and includes a connected covered walkway to the front door. One ordinary family car fully under the main roof, enough space, practical and believable, not luxury. The dry route from car to entrance is the main story.",
+      "state": "success_no_boxes_regen",
+      "task_id": "97e11a9aaa13370f22f13f1ffa875f27",
+      "prompt": "Photorealistic Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject: a custom timber carport by an Austrian Zimmermeisterbetrieb for a typical 1980s/1990s Austrian family house. The house has a modest plaster facade, older pitched tiled roof, ordinary garden and paved driveway; not a villa, not luxury, not US suburbia.\nScene: a warm medium-brown timber carport visibly upgrades the driveway and entrance area while fitting the older house. The carport must be structurally plausible: straight timber posts on clean concrete point foundations, correct roof depth, believable rafters, clean roof edge/gutter, natural joinery feeling, no floating beams, no warped posts, no impossible spans. Show the full carport and enough of the house so the relationship makes sense.\nIMPORTANT: empty parking bay / no vehicles anywhere. No cars, no vans, no bicycles, no readable license plates, no white rectangles, no masking boxes, no random blank signs, no text, no house number, no watermark. No covered walkway unless it clearly connects to the front entrance; prefer a simple clean carport next to the driveway. True horizontal 16:9 composition, 2K, natural daylight, polished but believable.",
       "request_body": {
         "model": "nano-banana-2",
         "input": {
-          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nIMPORTANT architectural requirement: the carport includes a clearly visible covered pedestrian connection from the carport to the house entrance/front door. It must look like one planned timber solution: carport roof continues as a narrow roof/canopy/walkway toward the front door, or a connected side canopy protects the walkway. Make the house entrance/front door visible enough that the covered path is instantly understandable.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark.\nIf a car appears, it must be naturally aligned with the driveway, fully under the roof, with generous door-opening and walking space, not tight to posts/walls. Never place cars sideways/perpendicular/quer zur Einfahrt. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: typical Austrian 1980s/1990s family house with plaster facade and older pitched roof character. A warm medium-brown timber carport upgrades the entrance/einfahrt and includes a connected covered walkway to the front door. One ordinary family car fully under the main roof, enough space, practical and believable, not luxury. The dry route from car to entrance is the main story.",
+          "prompt": "Photorealistic Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject: a custom timber carport by an Austrian Zimmermeisterbetrieb for a typical 1980s/1990s Austrian family house. The house has a modest plaster facade, older pitched tiled roof, ordinary garden and paved driveway; not a villa, not luxury, not US suburbia.\nScene: a warm medium-brown timber carport visibly upgrades the driveway and entrance area while fitting the older house. The carport must be structurally plausible: straight timber posts on clean concrete point foundations, correct roof depth, believable rafters, clean roof edge/gutter, natural joinery feeling, no floating beams, no warped posts, no impossible spans. Show the full carport and enough of the house so the relationship makes sense.\nIMPORTANT: empty parking bay / no vehicles anywhere. No cars, no vans, no bicycles, no readable license plates, no white rectangles, no masking boxes, no random blank signs, no text, no house number, no watermark. No covered walkway unless it clearly connects to the front entrance; prefer a simple clean carport next to the driveway. True horizontal 16:9 composition, 2K, natural daylight, polished but believable.",
           "aspect_ratio": "16:9",
           "resolution": "2K",
           "output_format": "png"
@@ -65,17 +65,17 @@
         "code": 200,
         "msg": "success",
         "data": {
-          "taskId": "3337cacb3db29575925c7c2c00f92273",
-          "recordId": "3337cacb3db29575925c7c2c00f92273"
+          "taskId": "97e11a9aaa13370f22f13f1ffa875f27",
+          "recordId": "97e11a9aaa13370f22f13f1ffa875f27"
         }
       },
-      "created_at": "2026-05-27T14:11:53.052913+00:00",
+      "created_at": "2026-05-27T15:22:49.637162+00:00",
       "last_status": {
         "state": "success",
         "failCode": null,
         "failMsg": null
       },
-      "finished_at": "2026-05-27T14:12:39.508615+00:00",
+      "finished_at": "2026-05-27T15:23:29.641047+00:00",
       "history": [
         {
           "task_id": "4dae17bd7f02d3f432a82971cbd875c2",
@@ -84,10 +84,19 @@
           "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.png",
           "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.webp",
           "finished_at": "2026-05-27T13:42:44.185131+00:00"
+        },
+        {
+          "state": "success",
+          "task_id": "3337cacb3db29575925c7c2c00f92273",
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nIMPORTANT architectural requirement: the carport includes a clearly visible covered pedestrian connection from the carport to the house entrance/front door. It must look like one planned timber solution: carport roof continues as a narrow roof/canopy/walkway toward the front door, or a connected side canopy protects the walkway. Make the house entrance/front door visible enough that the covered path is instantly understandable.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark.\nIf a car appears, it must be naturally aligned with the driveway, fully under the roof, with generous door-opening and walking space, not tight to posts/walls. Never place cars sideways/perpendicular/quer zur Einfahrt. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: typical Austrian 1980s/1990s family house with plaster facade and older pitched roof character. A warm medium-brown timber carport upgrades the entrance/einfahrt and includes a connected covered walkway to the front door. One ordinary family car fully under the main roof, enough space, practical and believable, not luxury. The dry route from car to entrance is the main story.",
+          "finished_at": "2026-05-27T14:12:39.508615+00:00",
+          "result_url": "https://tempfile.aiquickdraw.com/p/3337cacb3db29575925c7c2c00f92273_1_1779891155_1407.png",
+          "file": "/Users/theo/OneDrive/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.png",
+          "webp": "/Users/theo/OneDrive/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.webp"
         }
       ],
       "entrance_canopy_fix_run": "2026-05-27T14:11:53.052913+00:00",
-      "result_url": "https://tempfile.aiquickdraw.com/p/3337cacb3db29575925c7c2c00f92273_1_1779891155_1407.png",
+      "result_url": "https://tempfile.aiquickdraw.com/p/97e11a9aaa13370f22f13f1ffa875f27_1_1779895401_9611.png",
       "file": "/Users/theo/OneDrive/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.png",
       "webp": "/Users/theo/OneDrive/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.webp"
     },
