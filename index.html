@@ -1649,15 +1649,14 @@
     #wunsch .scroll-pin{
       position:sticky;
       top:0;
-      height:65vh;
+      height:min(520px,58vh);
       width:100%;
       display:flex;
-      flex-direction:column;
-      justify-content:center;
-      gap:clamp(18px,2.4vw,36px);
+      align-items:center;
       overflow:hidden;
       background:transparent;
     }
+    #wunsch.section{padding-bottom:0}
     #wunsch .pinned-head{padding-top:clamp(20px,3vw,40px);margin:0 auto;flex:0 0 auto}
     #wunsch .pinned-head h2{margin:0}
     #wunsch .scroll-track{
@@ -1746,9 +1745,8 @@
     </div><div class="scroll-cue">scroll</div>
   </header>
   <main>
-    <section class="section" id="wunsch"><div class="scroll-gallery" role="region" aria-label="Carport-Referenzen Slider">
+    <section class="section" id="wunsch"><div class="wrap section-head"><div><p class="eyebrow">Wunschbild</p><h2>Ein Carport, der Haus und Einfahrt <span class="hl">komplett macht</span>.</h2></div><p class="lead">Beim Heimkommen, beim Einparken, beim Blick von der Straße — ein Carport, der wirklich passt, verändert, wie Ihr Haus wirkt. Jeden Tag.</p></div><div class="scroll-gallery" role="region" aria-label="Carport-Referenzen Slider">
         <div class="scroll-pin">
-          <div class="wrap section-head pinned-head"><div><p class="eyebrow">Wunschbild</p><h2>Ein Carport, der Haus und Einfahrt <span class="hl">komplett macht</span>.</h2></div><p class="lead">Beim Heimkommen, beim Einparken, beim Blick von der Straße — ein Carport, der wirklich passt, verändert, wie Ihr Haus wirkt. Jeden Tag.</p></div>
           <div class="scroll-track">
             <figure class="scroll-scene"><img loading="lazy" src="assets/mp-lp-visual-plan-2026-05-27-kie/images/01_architekt_villa_fassadenintegration.webp?v=20260527-empty-fix" alt="Architektenvilla: Carport, Fassade und Einfahrt wirken wie aus einem Guss"></figure>
             <figure class="scroll-scene"><img loading="lazy" src="assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.webp?v=20260527-no-boxes-v2" alt="1980er-Haus: warmer Holz-Carport wertet die Einfahrt sichtbar auf"></figure>
