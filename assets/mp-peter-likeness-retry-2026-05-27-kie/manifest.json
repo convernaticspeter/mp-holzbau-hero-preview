@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-05-27T09:11:30.156590+00:00",
+  "refs": [
+    "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-4.jpeg",
+    "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-1.jpeg",
+    "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-3.jpeg"
+  ],
+  "ref_urls": [
+    "https://files.catbox.moe/l10r5j.jpeg",
+    "https://files.catbox.moe/vicxa6.jpeg",
+    "https://files.catbox.moe/3joakk.jpeg"
+  ],
+  "outputs": [
+    {
+      "name": "selected_peter_portrait_REAL_photo_crop",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-likeness-retry-2026-05-27-kie/selected_peter_portrait_REAL_photo_crop.webp",
+      "method": "direct crop of real photo"
+    },
+    {
+      "name": "peter_real_likeness_hero_close_carport",
+      "task_id": "1acaafce56a0314fd381f165245888c8",
+      "state": "success",
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779873225510-uktjudwij3s.png",
+      "raw_state": {
+        "taskId": "1acaafce56a0314fd381f165245888c8",
+        "model": "nano-banana-2",
+        "state": "success",
+        "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://files.catbox.moe/l10r5j.jpeg\\\",\\\"https://files.catbox.moe/vicxa6.jpeg\\\",\\\"https://files.catbox.moe/3joakk.jpeg\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Create a photorealistic website hero image for M&P Holzbau.\\\\n\\\\nIDENTITY IS THE MAIN TASK: Use the supplied real photos as the exact identity anchor for Peter Preissinger. He must clearly look like the same real Austrian carpenter in the references: late 50s/early 60s, grey tousled hair, salt-and-pepper beard, broad natural face, slightly heavy eyelids, gentle tired-friendly eyes, normal real skin texture, not beautified, not younger, not generic model, not a different man.\\\\n\\\\nScene: Peter stands prominently in the foreground beside a finished oak/timber carport at a detached Austrian house. He wears believable burgundy/dark-red M&P-style workwear over normal work trousers. He is relaxed and approachable, slight real smile, not a stock-photo grin. One hand casually rests near a timber post or beam; the carport roof and craftsmanship remain clearly visible behind him.\\\\n\\\\nComposition: 16:9 horizontal. Peter should be large enough that his face is readable and recognizably the reference person. Text-safe negative space on the left. Warm overcast natural daylight. Documentary craft photography, realistic lens, no CGI gloss.\\\\n\\\\nHard negatives: no team group, no fake young man, no black-only workwear, no readable gibberish logo, no extra fingers, no duplicated body, no cars in the carport bay, no metal bracket focus.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+        "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779873225510-uktjudwij3s.png\"]}",
+        "failCode": null,
+        "failMsg": null,
+        "costTime": 135,
+        "completeTime": 1779873226897,
+        "createTime": 1779873090483,
+        "creditsConsumed": 12.0
+      },
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-likeness-retry-2026-05-27-kie/peter_real_likeness_hero_close_carport.png"
+    },
+    {
+      "name": "peter_real_likeness_quality_portrait_generated",
+      "task_id": "f48607d7641303d3415fe6b1d6c10e78",
+      "state": "success",
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779873274405-lb0ts3dweh.png",
+      "raw_state": {
+        "taskId": "f48607d7641303d3415fe6b1d6c10e78",
+        "model": "nano-banana-2",
+        "state": "success",
+        "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://files.catbox.moe/l10r5j.jpeg\\\",\\\"https://files.catbox.moe/vicxa6.jpeg\\\",\\\"https://files.catbox.moe/3joakk.jpeg\\\"],\\\"aspect_ratio\\\":\\\"1:1\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Create a square photorealistic landing-page profile image of Peter Preissinger at a timber carport workshop/jobsite.\\\\n\\\\nIDENTITY IS THE MAIN TASK: copy the person identity from the supplied real photos exactly enough that someone who knows him recognizes him immediately. Preserve grey tousled hair, salt-and-pepper beard, broad natural face, slightly heavy eyelids, calm friendly expression, age impression, and real skin texture. Do not make him younger, slimmer, more polished, or like a generic stock craftsman.\\\\n\\\\nScene: chest-up portrait, Peter in burgundy/dark-red M&P-style workwear, standing in front of warm timber beams / stacked wood / carport construction. Friendly but understated Austrian craftsman expression. Natural daylight, realistic photo, no studio look.\\\\n\\\\nHard negatives: no black jacket, no generic model face, no exaggerated smile, no fake/gibberish large logo, no over-smoothed AI skin.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+        "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779873274405-lb0ts3dweh.png\"]}",
+        "failCode": null,
+        "failMsg": null,
+        "costTime": 40,
+        "completeTime": 1779873275952,
+        "createTime": 1779873234671,
+        "creditsConsumed": 12.0
+      },
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-likeness-retry-2026-05-27-kie/peter_real_likeness_quality_portrait_generated.png"
+    }
+  ],
+  "contact_sheet": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-likeness-retry-2026-05-27-kie/_contact_sheet.jpg"
+}
