@@ -1,0 +1,194 @@
+{
+  "created_at": "2026-05-27T09:32:57.917665+00:00",
+  "model": "nano-banana-2",
+  "outputs": [
+    {
+      "name": "hero_v2_paved_workwear_skin",
+      "refs": [
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-likeness-retry-2026-05-27-kie/peter_real_likeness_hero_close_carport.png",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/02_peter_red_hoodie_post_level.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/03_peter_red_hoodie_roofline.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/logo-white.png",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-4.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-1.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-3.jpeg"
+      ],
+      "ref_urls": [
+        "https://files.catbox.moe/4jvktx.png",
+        "https://files.catbox.moe/awk1p9.webp",
+        "https://files.catbox.moe/b43f8u.webp",
+        "https://files.catbox.moe/hpuaxk.png",
+        "https://files.catbox.moe/l10r5j.jpeg",
+        "https://files.catbox.moe/vicxa6.jpeg",
+        "https://files.catbox.moe/3joakk.jpeg"
+      ],
+      "prompt": "\nThis is a targeted correction pass for the supplied existing website hero image. Preserve the same broad composition, same finished timber/oak carport, same Austrian family-house context, same hero framing with calm text-safe space on the left, and Peter standing at the right side.\n\n\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\n\n\nCritical corrections:\n1. Change the ground under and around the carport from gravel/schotter/dirt to a clean finished paved surface: neat grey concrete paving stones or large-format driveway pavers, believable joints, fully installed, suitable for a finished carport at a home. No loose gravel, no muddy dirt, no unfinished construction ground.\n2. Correct the workwear: Peter must wear authentic M&P Holzbau work clothing \u2014 rich burgundy / dark red work jacket or work hoodie, dark work trousers, practical carpenter workwear, subtle small white M&P chest logo only. Use the supplied workwear references and logo as style anchors. Avoid black-only clothing, purple/mauve jacket, generic fashion jacket, fake big text, misspelled logos, or random brand marks.\n3. Skin and face realism: keep natural skin texture, pores, wrinkles, beard texture, normal outdoor-light face detail. No plastic smoothing, no beauty retouching, no AI wax skin.\n\nKeep the timber carport physically plausible: premium oak/timber look, clean roof edge, visible Nuten/Auflager style timber details, no visible Blechwinkel/sheet-metal bracket hero focus, no vehicles in the bay. Professional documentary landing-page photography, realistic lens and daylight.\n",
+      "task_id": "d29321bfdd1aa8cb65e8ab68aa9651ea",
+      "state": "success",
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779874453535-63ekeft7dn5.png",
+      "raw_state": {
+        "taskId": "d29321bfdd1aa8cb65e8ab68aa9651ea",
+        "model": "nano-banana-2",
+        "state": "success",
+        "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://files.catbox.moe/4jvktx.png\\\",\\\"https://files.catbox.moe/awk1p9.webp\\\",\\\"https://files.catbox.moe/b43f8u.webp\\\",\\\"https://files.catbox.moe/hpuaxk.png\\\",\\\"https://files.catbox.moe/l10r5j.jpeg\\\",\\\"https://files.catbox.moe/vicxa6.jpeg\\\",\\\"https://files.catbox.moe/3joakk.jpeg\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"This is a targeted correction pass for the supplied existing website hero image. Preserve the same broad composition, same finished timber/oak carport, same Austrian family-house context, same hero framing with calm text-safe space on the left, and Peter standing at the right side.\\\\n\\\\n\\\\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\\\\n\\\\n\\\\nCritical corrections:\\\\n1. Change the ground under and around the carport from gravel/schotter/dirt to a clean finished paved surface: neat grey concrete paving stones or large-format driveway pavers, believable joints, fully installed, suitable for a finished carport at a home. No loose gravel, no muddy dirt, no unfinished construction ground.\\\\n2. Correct the workwear: Peter must wear authentic M&P Holzbau work clothing \u2014 rich burgundy / dark red work jacket or work hoodie, dark work trousers, practical carpenter workwear, subtle small white M&P chest logo only. Use the supplied workwear references and logo as style anchors. Avoid black-only clothing, purple/mauve jacket, generic fashion jacket, fake big text, misspelled logos, or random brand marks.\\\\n3. Skin and face realism: keep natural skin texture, pores, wrinkles, beard texture, normal outdoor-light face detail. No plastic smoothing, no beauty retouching, no AI wax skin.\\\\n\\\\nKeep the timber carport physically plausible: premium oak/timber look, clean roof edge, visible Nuten/Auflager style timber details, no visible Blechwinkel/sheet-metal bracket hero focus, no vehicles in the bay. Professional documentary landing-page photography, realistic lens and daylight.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+        "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779874453535-63ekeft7dn5.png\"]}",
+        "failCode": null,
+        "failMsg": null,
+        "costTime": 60,
+        "completeTime": 1779874454472,
+        "createTime": 1779874393773,
+        "creditsConsumed": 12.0
+      },
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-hero-portraits-v2-2026-05-27-kie/hero_v2_paved_workwear_skin.png"
+    },
+    {
+      "name": "01_professional_photographer_workshop_portrait",
+      "refs": [
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-4.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-1.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-3.jpeg",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/02_peter_red_hoodie_post_level.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/03_peter_red_hoodie_roofline.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/logo-white.png"
+      ],
+      "ref_urls": [
+        "https://files.catbox.moe/l10r5j.jpeg",
+        "https://files.catbox.moe/vicxa6.jpeg",
+        "https://files.catbox.moe/3joakk.jpeg",
+        "https://files.catbox.moe/awk1p9.webp",
+        "https://files.catbox.moe/b43f8u.webp",
+        "https://files.catbox.moe/hpuaxk.png"
+      ],
+      "prompt": "\nGenerate a NEW attractive professional portrait photograph of Peter Preissinger for a premium M&P Holzbau landing page. Do not reuse the existing photo crop; create a fresh portrait that looks shot by a professional photographer.\n\n\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\n\n\nScene: chest-up / upper-body portrait in a warm timber workshop or beside beautiful oak beams. Peter wears authentic burgundy/dark-red M&P workwear with dark work trousers or jacket details and one subtle small white M&P chest logo. Expression: approachable, confident, friendly but not cheesy. Lighting: professional photographer look, soft natural key light, gentle background separation, realistic depth of field, premium editorial craft-business portrait. Skin must stay real: pores, wrinkles, beard texture, no over-smoothing.\n\nHard negatives: no old photo crop, no studio passport photo, no black jacket, no fake giant logo, no gibberish text, no plastic skin, no younger generic model, no exaggerated grin.\n",
+      "task_id": "c1714a8b429efa35a4df970313c55b06",
+      "state": "success",
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779874501655-tcrn7eyft2.png",
+      "raw_state": {
+        "taskId": "c1714a8b429efa35a4df970313c55b06",
+        "model": "nano-banana-2",
+        "state": "success",
+        "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://files.catbox.moe/l10r5j.jpeg\\\",\\\"https://files.catbox.moe/vicxa6.jpeg\\\",\\\"https://files.catbox.moe/3joakk.jpeg\\\",\\\"https://files.catbox.moe/awk1p9.webp\\\",\\\"https://files.catbox.moe/b43f8u.webp\\\",\\\"https://files.catbox.moe/hpuaxk.png\\\"],\\\"aspect_ratio\\\":\\\"1:1\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Generate a NEW attractive professional portrait photograph of Peter Preissinger for a premium M&P Holzbau landing page. Do not reuse the existing photo crop; create a fresh portrait that looks shot by a professional photographer.\\\\n\\\\n\\\\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\\\\n\\\\n\\\\nScene: chest-up / upper-body portrait in a warm timber workshop or beside beautiful oak beams. Peter wears authentic burgundy/dark-red M&P workwear with dark work trousers or jacket details and one subtle small white M&P chest logo. Expression: approachable, confident, friendly but not cheesy. Lighting: professional photographer look, soft natural key light, gentle background separation, realistic depth of field, premium editorial craft-business portrait. Skin must stay real: pores, wrinkles, beard texture, no over-smoothing.\\\\n\\\\nHard negatives: no old photo crop, no studio passport photo, no black jacket, no fake giant logo, no gibberish text, no plastic skin, no younger generic model, no exaggerated grin.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+        "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779874501655-tcrn7eyft2.png\"]}",
+        "failCode": null,
+        "failMsg": null,
+        "costTime": 46,
+        "completeTime": 1779874502560,
+        "createTime": 1779874456164,
+        "creditsConsumed": 12.0
+      },
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-hero-portraits-v2-2026-05-27-kie/01_professional_photographer_workshop_portrait.png"
+    },
+    {
+      "name": "02_professional_photographer_carport_portrait",
+      "refs": [
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-4.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-1.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-3.jpeg",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/02_peter_red_hoodie_post_level.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/03_peter_red_hoodie_roofline.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/logo-white.png"
+      ],
+      "ref_urls": [
+        "https://files.catbox.moe/l10r5j.jpeg",
+        "https://files.catbox.moe/vicxa6.jpeg",
+        "https://files.catbox.moe/3joakk.jpeg",
+        "https://files.catbox.moe/awk1p9.webp",
+        "https://files.catbox.moe/b43f8u.webp",
+        "https://files.catbox.moe/hpuaxk.png"
+      ],
+      "prompt": "\nGenerate a NEW attractive professional portrait photograph of Peter Preissinger for a premium M&P Holzbau landing page. It should feel commissioned by a professional photographer, not a casual snapshot and not an AI avatar.\n\n\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\n\n\nScene: Peter stands beside a finished paved timber carport, with warm oak beams softly blurred behind him. Chest-up portrait, face clearly in focus. Authentic burgundy/dark-red M&P work jacket/hoodie, dark practical workwear, subtle small white M&P chest logo only. Expression: calm, competent, slight warm smile, trustworthy Zimmermeister. Use professional natural-light portrait photography, 85mm lens feel, tasteful contrast, realistic skin texture with pores and wrinkles.\n\nHard negatives: no reused existing photo, no overly smooth skin, no black-only workwear, no fake text, no stock-model face, no construction dirt, no gravel foreground.\n",
+      "task_id": "c38552fc80a1898394ffa4cca8097b6a",
+      "state": "success",
+      "result_url": "https://tempfile.aiquickdraw.com/p/c38552fc80a1898394ffa4cca8097b6a_1_1779874564_2038.png",
+      "raw_state": {
+        "taskId": "c38552fc80a1898394ffa4cca8097b6a",
+        "model": "nano-banana-2",
+        "state": "success",
+        "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://files.catbox.moe/l10r5j.jpeg\\\",\\\"https://files.catbox.moe/vicxa6.jpeg\\\",\\\"https://files.catbox.moe/3joakk.jpeg\\\",\\\"https://files.catbox.moe/awk1p9.webp\\\",\\\"https://files.catbox.moe/b43f8u.webp\\\",\\\"https://files.catbox.moe/hpuaxk.png\\\"],\\\"aspect_ratio\\\":\\\"1:1\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Generate a NEW attractive professional portrait photograph of Peter Preissinger for a premium M&P Holzbau landing page. It should feel commissioned by a professional photographer, not a casual snapshot and not an AI avatar.\\\\n\\\\n\\\\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\\\\n\\\\n\\\\nScene: Peter stands beside a finished paved timber carport, with warm oak beams softly blurred behind him. Chest-up portrait, face clearly in focus. Authentic burgundy/dark-red M&P work jacket/hoodie, dark practical workwear, subtle small white M&P chest logo only. Expression: calm, competent, slight warm smile, trustworthy Zimmermeister. Use professional natural-light portrait photography, 85mm lens feel, tasteful contrast, realistic skin texture with pores and wrinkles.\\\\n\\\\nHard negatives: no reused existing photo, no overly smooth skin, no black-only workwear, no fake text, no stock-model face, no construction dirt, no gravel foreground.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+        "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/p/c38552fc80a1898394ffa4cca8097b6a_1_1779874564_2038.png\"]}",
+        "failCode": null,
+        "failMsg": null,
+        "costTime": 45,
+        "completeTime": 1779874564632,
+        "createTime": 1779874519002,
+        "creditsConsumed": 12.0
+      },
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-hero-portraits-v2-2026-05-27-kie/02_professional_photographer_carport_portrait.png"
+    },
+    {
+      "name": "03_professional_photographer_authority_portrait",
+      "refs": [
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-4.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-1.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-3.jpeg",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/02_peter_red_hoodie_post_level.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/03_peter_red_hoodie_roofline.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/logo-white.png"
+      ],
+      "ref_urls": [
+        "https://files.catbox.moe/l10r5j.jpeg",
+        "https://files.catbox.moe/vicxa6.jpeg",
+        "https://files.catbox.moe/3joakk.jpeg",
+        "https://files.catbox.moe/awk1p9.webp",
+        "https://files.catbox.moe/b43f8u.webp",
+        "https://files.catbox.moe/hpuaxk.png"
+      ],
+      "prompt": "\nGenerate a NEW attractive square business portrait of Peter Preissinger for a landing-page contact card.\n\n\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\n\n\nScene: clean professional environmental portrait at a timber carport jobsite after completion. Finished paved driveway under the carport, timber beams in background, Peter centered chest-up. Clothing: authentic M&P burgundy/dark-red workwear, subtle small white M&P logo, dark work trousers/jacket accents. Expression: confident, experienced, friendly, personally approachable. Professional photographer quality: soft daylight, realistic color grading, natural face detail, believable eyes, beard texture, no beauty filter.\n\nHard negatives: no passport-photo crop, no reused real image, no fake plastic face, no younger man, no generic craftsman, no large unreadable logo.\n",
+      "task_id": "5aa9566f91bdcf36ca1561c6d68dc2e8",
+      "state": "success",
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779874628938-q03oqdj6t9.png",
+      "raw_state": {
+        "taskId": "5aa9566f91bdcf36ca1561c6d68dc2e8",
+        "model": "nano-banana-2",
+        "state": "success",
+        "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://files.catbox.moe/l10r5j.jpeg\\\",\\\"https://files.catbox.moe/vicxa6.jpeg\\\",\\\"https://files.catbox.moe/3joakk.jpeg\\\",\\\"https://files.catbox.moe/awk1p9.webp\\\",\\\"https://files.catbox.moe/b43f8u.webp\\\",\\\"https://files.catbox.moe/hpuaxk.png\\\"],\\\"aspect_ratio\\\":\\\"1:1\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Generate a NEW attractive square business portrait of Peter Preissinger for a landing-page contact card.\\\\n\\\\n\\\\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\\\\n\\\\n\\\\nScene: clean professional environmental portrait at a timber carport jobsite after completion. Finished paved driveway under the carport, timber beams in background, Peter centered chest-up. Clothing: authentic M&P burgundy/dark-red workwear, subtle small white M&P logo, dark work trousers/jacket accents. Expression: confident, experienced, friendly, personally approachable. Professional photographer quality: soft daylight, realistic color grading, natural face detail, believable eyes, beard texture, no beauty filter.\\\\n\\\\nHard negatives: no passport-photo crop, no reused real image, no fake plastic face, no younger man, no generic craftsman, no large unreadable logo.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+        "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779874628938-q03oqdj6t9.png\"]}",
+        "failCode": null,
+        "failMsg": null,
+        "costTime": 49,
+        "completeTime": 1779874630148,
+        "createTime": 1779874581316,
+        "creditsConsumed": 12.0
+      },
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-hero-portraits-v2-2026-05-27-kie/03_professional_photographer_authority_portrait.png"
+    },
+    {
+      "name": "04_professional_photographer_warm_portrait",
+      "refs": [
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-4.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-1.jpeg",
+        "/Users/theo/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - Convernatics.noindex/OneDrive - Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/real-images/humans/peter-preissinger/peter-preissinger-3.jpeg",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/02_peter_red_hoodie_post_level.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-workwear-corrections-2026-05-26-kie/03_peter_red_hoodie_roofline.webp",
+        "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/logo-white.png"
+      ],
+      "ref_urls": [
+        "https://files.catbox.moe/l10r5j.jpeg",
+        "https://files.catbox.moe/vicxa6.jpeg",
+        "https://files.catbox.moe/3joakk.jpeg",
+        "https://files.catbox.moe/awk1p9.webp",
+        "https://files.catbox.moe/b43f8u.webp",
+        "https://files.catbox.moe/hpuaxk.png"
+      ],
+      "prompt": "\nCreate a NEW attractive professional portrait photo of Peter Preissinger for the section \"Ihr pers\u00f6nlicher Ansprechpartner\" / landing-page advisor card.\n\n\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\n\n\nScene: relaxed professional portrait in front of stacked timber / oak beams and a clean workshop-carport background. Upper body, shoulders visible, face sharp and naturally lit. Clothing: M&P burgundy/dark-red work jacket or hoodie, dark practical accents, subtle small white M&P logo on chest. Expression: warm, honest, slightly smiling, not staged. Professional photographer result: premium editorial look, natural skin texture, pores and wrinkles preserved, no AI smoothing, no glamour retouch.\n\nHard negatives: no existing photo crop, no black jacket, no fake text, no waxy smooth skin, no generic stock photo, no distorted hands.\n",
+      "task_id": "e03dcc082ca871ec5d9079255b2a69df",
+      "state": "success",
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779874690211-c9whawoxtee.png",
+      "raw_state": {
+        "taskId": "e03dcc082ca871ec5d9079255b2a69df",
+        "model": "nano-banana-2",
+        "state": "success",
+        "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://files.catbox.moe/l10r5j.jpeg\\\",\\\"https://files.catbox.moe/vicxa6.jpeg\\\",\\\"https://files.catbox.moe/3joakk.jpeg\\\",\\\"https://files.catbox.moe/awk1p9.webp\\\",\\\"https://files.catbox.moe/b43f8u.webp\\\",\\\"https://files.catbox.moe/hpuaxk.png\\\"],\\\"aspect_ratio\\\":\\\"1:1\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Create a NEW attractive professional portrait photo of Peter Preissinger for the section \\\\\\\"Ihr pers\u00f6nlicher Ansprechpartner\\\\\\\" / landing-page advisor card.\\\\n\\\\n\\\\nPeter Preissinger identity: use the supplied real photos as strict identity anchors. Austrian Zimmermeister, late 50s to early 60s, grey tousled hair, salt-and-pepper beard/stubble, broad natural face, slightly heavy eyelids, calm friendly eyes, real age impression. Keep realistic skin texture with pores, subtle wrinkles, beard texture, small natural imperfections. Do NOT smooth the skin, do NOT make him younger, slimmer, glossy, waxy or like a generic stock model.\\\\n\\\\n\\\\nScene: relaxed professional portrait in front of stacked timber / oak beams and a clean workshop-carport background. Upper body, shoulders visible, face sharp and naturally lit. Clothing: M&P burgundy/dark-red work jacket or hoodie, dark practical accents, subtle small white M&P logo on chest. Expression: warm, honest, slightly smiling, not staged. Professional photographer result: premium editorial look, natural skin texture, pores and wrinkles preserved, no AI smoothing, no glamour retouch.\\\\n\\\\nHard negatives: no existing photo crop, no black jacket, no fake text, no waxy smooth skin, no generic stock photo, no distorted hands.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+        "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779874690211-c9whawoxtee.png\"]}",
+        "failCode": null,
+        "failMsg": null,
+        "costTime": 47,
+        "completeTime": 1779874691320,
+        "createTime": 1779874644221,
+        "creditsConsumed": 12.0
+      },
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-hero-portraits-v2-2026-05-27-kie/04_professional_photographer_warm_portrait.png"
+    }
+  ],
+  "contact_sheet": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-hero-portraits-v2-2026-05-27-kie/_contact_sheet.jpg"
+}
