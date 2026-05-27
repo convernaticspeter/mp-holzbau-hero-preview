@@ -1,0 +1,406 @@
+{
+  "created_at": "2026-05-27T13:41:32.971935+00:00",
+  "batch": "mp-lp-visual-plan-2026-05-27-kie",
+  "model": "nano-banana-2",
+  "scenes": [
+    {
+      "id": "01_architekt_villa_fassadenintegration",
+      "state": "success",
+      "task_id": "c630be1c6777ac2be219b66218a7e7c3",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: modern Austrian architect villa with glass, pale render and timber accents. A high-end light natural oak/larch timber flat-roof carport is architecturally integrated into the house. One weather-side wall of the carport uses the same facade language as the house: matching pale facade panels/render rhythm and vertical structure, while the timber carport structure remains clearly visible. Premium but realistic, one clean empty parking bay or discreet car, calm wide angle.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: modern Austrian architect villa with glass, pale render and timber accents. A high-end light natural oak/larch timber flat-roof carport is architecturally integrated into the house. One weather-side wall of the carport uses the same facade language as the house: matching pale facade panels/render rhythm and vertical structure, while the timber carport structure remains clearly visible. Premium but realistic, one clean empty parking bay or discreet car, calm wide angle.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "c630be1c6777ac2be219b66218a7e7c3",
+          "recordId": "c630be1c6777ac2be219b66218a7e7c3"
+        }
+      },
+      "created_at": "2026-05-27T13:41:33.385948+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779889374711-1ybvezimd6x.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/01_architekt_villa_fassadenintegration.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/01_architekt_villa_fassadenintegration.webp",
+      "finished_at": "2026-05-27T13:43:07.075029+00:00"
+    },
+    {
+      "id": "02_achtziger_haus_aufwertung",
+      "state": "success",
+      "task_id": "4dae17bd7f02d3f432a82971cbd875c2",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: typical Austrian 1980s/1990s family house with plaster facade, older pitched roof character and paved driveway. A warm medium-brown timber carport visibly upgrades the entrance/einfahrt without looking foreign. One ordinary family car fully under the roof, enough door space, practical and believable, not luxury.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: typical Austrian 1980s/1990s family house with plaster facade, older pitched roof character and paved driveway. A warm medium-brown timber carport visibly upgrades the entrance/einfahrt without looking foreign. One ordinary family car fully under the roof, enough door space, practical and believable, not luxury.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4dae17bd7f02d3f432a82971cbd875c2",
+          "recordId": "4dae17bd7f02d3f432a82971cbd875c2"
+        }
+      },
+      "created_at": "2026-05-27T13:41:35.340364+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779889350029-v38477k3pj.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/02_achtziger_haus_aufwertung.webp",
+      "finished_at": "2026-05-27T13:42:44.185131+00:00"
+    },
+    {
+      "id": "03_traditionell_satteldach",
+      "state": "success",
+      "task_id": "b9012d9b916af6e5ede5b6d7eb754578",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: classic DACH family house with red tile pitched roof. A timber carport with its own Satteldach/pitched roof, visible carpenter roof structure, dark natural brown timber, harmonizes with the house roof. No metal carport. Calm frontal three-quarter perspective, optional empty bay.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: classic DACH family house with red tile pitched roof. A timber carport with its own Satteldach/pitched roof, visible carpenter roof structure, dark natural brown timber, harmonizes with the house roof. No metal carport. Calm frontal three-quarter perspective, optional empty bay.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "b9012d9b916af6e5ede5b6d7eb754578",
+          "recordId": "b9012d9b916af6e5ede5b6d7eb754578"
+        }
+      },
+      "created_at": "2026-05-27T13:41:37.270044+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/b9012d9b916af6e5ede5b6d7eb754578_1_1779889403_7698.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/03_traditionell_satteldach.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/03_traditionell_satteldach.webp",
+      "finished_at": "2026-05-27T13:43:37.232368+00:00"
+    },
+    {
+      "id": "04_landhaus_satteldach_honig",
+      "state": "success",
+      "task_id": "7d9e7dcf02cc66629910b889287bf5d8",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: modernized Austrian rural/landhaus home with garden and neat driveway. Honey-warm timber carport with pitched or clearly sloped roof matching the house character. One car fully sheltered, high-quality Zimmerer craft, warm but not kitschy.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: modernized Austrian rural/landhaus home with garden and neat driveway. Honey-warm timber carport with pitched or clearly sloped roof matching the house character. One car fully sheltered, high-quality Zimmerer craft, warm but not kitschy.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "7d9e7dcf02cc66629910b889287bf5d8",
+          "recordId": "7d9e7dcf02cc66629910b889287bf5d8"
+        }
+      },
+      "created_at": "2026-05-27T13:41:39.207193+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/7d9e7dcf02cc66629910b889287bf5d8_1_1779889330_6906.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/04_landhaus_satteldach_honig.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/04_landhaus_satteldach_honig.webp",
+      "finished_at": "2026-05-27T13:42:26.790036+00:00"
+    },
+    {
+      "id": "05_lfoermiger_eck_carport",
+      "state": "success",
+      "task_id": "325211abc475962023c6e537e475a583",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: unusual L-shaped corner carport solution for a difficult angled driveway beside an existing house corner. Medium-to-dark timber, roof turns around the corner to protect the main car bay and a side access/abstellbereich. One car fully under the main roof, second protected side zone visible. Make the L-shape readable from elevated three-quarter view.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: unusual L-shaped corner carport solution for a difficult angled driveway beside an existing house corner. Medium-to-dark timber, roof turns around the corner to protect the main car bay and a side access/abstellbereich. One car fully under the main roof, second protected side zone visible. Make the L-shape readable from elevated three-quarter view.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "325211abc475962023c6e537e475a583",
+          "recordId": "325211abc475962023c6e537e475a583"
+        }
+      },
+      "created_at": "2026-05-27T13:41:41.140782+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/325211abc475962023c6e537e475a583_1_1779889355_8694.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/05_lfoermiger_eck_carport.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/05_lfoermiger_eck_carport.webp",
+      "finished_at": "2026-05-27T13:42:47.038862+00:00"
+    },
+    {
+      "id": "06_ueberdachter_weg_eingang",
+      "state": "success",
+      "task_id": "4187694c63c691b4ed414cf85d7243c2",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: long/tief timber carport that continues visually toward the house entrance, protecting the car and the walking path to the front door. Light-to-medium timber, DACH family home, wet driveway after rain but sheltered area dry. One car fully under roof, path to entrance clearly covered or connected.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: long/tief timber carport that continues visually toward the house entrance, protecting the car and the walking path to the front door. Light-to-medium timber, DACH family home, wet driveway after rain but sheltered area dry. One car fully under roof, path to entrance clearly covered or connected.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4187694c63c691b4ed414cf85d7243c2",
+          "recordId": "4187694c63c691b4ed414cf85d7243c2"
+        }
+      },
+      "created_at": "2026-05-27T13:41:43.080926+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779889396677-0j712nnv3w3.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/06_ueberdachter_weg_eingang.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/06_ueberdachter_weg_eingang.webp",
+      "finished_at": "2026-05-27T13:43:22.151414+00:00"
+    },
+    {
+      "id": "07_geraeteraum_holzlager_stauraum",
+      "state": "success",
+      "task_id": "4b5cf9966761a40c3a49af5d9053eb44",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: custom timber carport with integrated side or rear storage room for garden tools / bicycles / firewood, partially closed timber volume but not a garage. Reddish-warm or dark timber, normal modernized family house. Empty readable parking bay plus integrated storage door/wall, practical premium Wunsch-Carport.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: custom timber carport with integrated side or rear storage room for garden tools / bicycles / firewood, partially closed timber volume but not a garage. Reddish-warm or dark timber, normal modernized family house. Empty readable parking bay plus integrated storage door/wall, practical premium Wunsch-Carport.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4b5cf9966761a40c3a49af5d9053eb44",
+          "recordId": "4b5cf9966761a40c3a49af5d9053eb44"
+        }
+      },
+      "created_at": "2026-05-27T13:41:45.125982+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779889355340-9vmu9jpi1if.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/07_geraeteraum_holzlager_stauraum.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/07_geraeteraum_holzlager_stauraum.webp",
+      "finished_at": "2026-05-27T13:42:49.250356+00:00"
+    },
+    {
+      "id": "08_lamellenwand_wetterseite",
+      "state": "success",
+      "task_id": "96f31e4f6fcd5c2425b000074057e99e",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: timber carport with a high-quality vertical timber louver/lamellen wall on the weather side for wind, privacy and neighbor-side screening. Dark or contrast-rich timber, still open and light, one car or empty bay, realistic Austrian residential context. The lamellen wall is the visual feature.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: timber carport with a high-quality vertical timber louver/lamellen wall on the weather side for wind, privacy and neighbor-side screening. Dark or contrast-rich timber, still open and light, one car or empty bay, realistic Austrian residential context. The lamellen wall is the visual feature.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "96f31e4f6fcd5c2425b000074057e99e",
+          "recordId": "96f31e4f6fcd5c2425b000074057e99e"
+        }
+      },
+      "created_at": "2026-05-27T13:41:47.035102+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779889364050-28akf3ndpdf.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/08_lamellenwand_wetterseite.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/08_lamellenwand_wetterseite.webp",
+      "finished_at": "2026-05-27T13:42:50.728708+00:00"
+    },
+    {
+      "id": "09_satteldach_doppelcarport_stauraum",
+      "state": "success",
+      "task_id": "f10b41973604fb57284f6f58b60c0e15",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: generous double carport with Satteldach/pitched roof for a classic or rural family house. Warm honey/medium-brown timber, visible Zimmerer roof truss, hint of attic/storage under the pitched roof. Two cars or one car plus clear second bay, enough movement space, not a garage.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: generous double carport with Satteldach/pitched roof for a classic or rural family house. Warm honey/medium-brown timber, visible Zimmerer roof truss, hint of attic/storage under the pitched roof. Two cars or one car plus clear second bay, enough movement space, not a garage.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "f10b41973604fb57284f6f58b60c0e15",
+          "recordId": "f10b41973604fb57284f6f58b60c0e15"
+        }
+      },
+      "created_at": "2026-05-27T13:41:48.984101+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779889431808-wdhwv9ibif.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/09_satteldach_doppelcarport_stauraum.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/09_satteldach_doppelcarport_stauraum.webp",
+      "finished_at": "2026-05-27T13:44:05.097845+00:00"
+    },
+    {
+      "id": "10_designer_dunkel_fassadenwand_lichtband",
+      "state": "success",
+      "task_id": "949e6babc49e0f21de6f6311eab80e22",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: designer timber carport with dark stained deep-brown/anthracite-near timber frame beside a light plaster modern house. The closed or semi-closed weather-side wall of the carport uses the same facade look as the house: matching render/facade plates/color/vertical facade rhythm. Warm subtle indirect light or narrow light band, premium realistic evening atmosphere, empty bay or discreet car.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates.\nIf a car appears, it must be fully under the roof with enough door-opening and walking space, not tight to posts/walls. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: designer timber carport with dark stained deep-brown/anthracite-near timber frame beside a light plaster modern house. The closed or semi-closed weather-side wall of the carport uses the same facade look as the house: matching render/facade plates/color/vertical facade rhythm. Warm subtle indirect light or narrow light band, premium realistic evening atmosphere, empty bay or discreet car.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "949e6babc49e0f21de6f6311eab80e22",
+          "recordId": "949e6babc49e0f21de6f6311eab80e22"
+        }
+      },
+      "created_at": "2026-05-27T13:41:50.944713+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/949e6babc49e0f21de6f6311eab80e22_1_1779889465_7530.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/10_designer_dunkel_fassadenwand_lichtband.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/10_designer_dunkel_fassadenwand_lichtband.webp",
+      "finished_at": "2026-05-27T13:44:31.323442+00:00"
+    },
+    {
+      "id": "11_team_anzeichnen_messen",
+      "state": "success",
+      "task_id": "76af6c7313d602fe48a552abd405ebfb",
+      "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two M&P timber workers on a real paved driveway beside a partially built timber carport. One holds a Zollstock/tape measure, the other marks a post or Auflager position with pencil. Burgundy/dark red workwear, dark trousers, real measuring work, no posing. The carport post/beam and house/einfahrt context must be clearly visible.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two M&P timber workers on a real paved driveway beside a partially built timber carport. One holds a Zollstock/tape measure, the other marks a post or Auflager position with pencil. Burgundy/dark red workwear, dark trousers, real measuring work, no posing. The carport post/beam and house/einfahrt context must be clearly visible.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "76af6c7313d602fe48a552abd405ebfb",
+          "recordId": "76af6c7313d602fe48a552abd405ebfb"
+        }
+      },
+      "created_at": "2026-05-27T13:41:52.952200+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/76af6c7313d602fe48a552abd405ebfb_1_1779889343_1562.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/11_team_anzeichnen_messen.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/11_team_anzeichnen_messen.webp",
+      "finished_at": "2026-05-27T13:42:29.971019+00:00"
+    },
+    {
+      "id": "12_team_montage_konstruktion",
+      "state": "success",
+      "task_id": "473c8551b09a454b8020307bb7d71ba4",
+      "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two or three M&P timber workers carefully align a glulam beam/roof carrier on prepared posts of a timber carport. One checks with a long spirit level or laser, another steadies the beam. Clean residential jobsite, plausible scaffolding/ladder if needed, burgundy/dark red workwear, visible stable timber construction.",
+      "request_body": {
+        "model": "nano-banana-2",
+        "input": {
+          "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two or three M&P timber workers carefully align a glulam beam/roof carrier on prepared posts of a timber carport. One checks with a long spirit level or laser, another steadies the beam. Clean residential jobsite, plausible scaffolding/ladder if needed, burgundy/dark red workwear, visible stable timber construction.",
+          "aspect_ratio": "16:9",
+          "resolution": "2K",
+          "output_format": "png"
+        }
+      },
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "473c8551b09a454b8020307bb7d71ba4",
+          "recordId": "473c8551b09a454b8020307bb7d71ba4"
+        }
+      },
+      "created_at": "2026-05-27T13:41:54.850801+00:00",
+      "last_status": {
+        "state": "success",
+        "failCode": null,
+        "failMsg": null
+      },
+      "result_url": "https://tempfile.aiquickdraw.com/p/473c8551b09a454b8020307bb7d71ba4_1_1779889365_5728.png",
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/12_team_montage_konstruktion.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/12_team_montage_konstruktion.webp",
+      "finished_at": "2026-05-27T13:42:53.135908+00:00"
+    }
+  ],
+  "contact_sheet": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/_contact_sheet.jpg",
+  "finished_at": "2026-05-27T13:44:31.952569+00:00",
+  "state": "finished"
+}
