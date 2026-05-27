@@ -367,12 +367,12 @@
     {
       "id": "10_designer_dunkel_fassadenwand_lichtband",
       "state": "success",
-      "task_id": "1d485a004b6f204022a788409c18fa6a",
-      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark.\nIMPORTANT: empty carport / empty parking bay. No cars, no vans, no vehicles, no bicycles parked in the bay, no vehicle crossing the driveway, no car perpendicular or sideways to the entrance. The empty paved parking bay must make the carport architecture and driveway flow readable. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: designer timber carport with dark stained deep-brown/anthracite-near timber frame beside a light plaster modern house. The closed or semi-closed weather-side wall uses the same facade look as the house: matching render/facade plates/color/vertical facade rhythm. Warm subtle indirect light or narrow light band, premium realistic evening atmosphere, empty bay.",
+      "task_id": "689b0d5098f5d91fbcf237f6dbc77c39",
+      "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: modern Austrian house with light plaster facade and a designer dark-stained timber flat-roof carport placed BESIDE the house on the driveway side, not in front of any living-room or upper-floor window. Important layout: the house windows remain free and visible; the carport roof does not cover or block windows. A closed/semi-closed equipment shed / Geräteraum sits to one side of the carport, using matching light facade panels/render and vertical rhythm. Behind this Geräteraum, the same flat timber roof continues backward as a narrow covered pedestrian walkway toward a visible rear entrance / Hintereingang, so it clearly reads as “trocken vom Auto bis zum Hintereingang”. Empty parking bay, premium evening mood with subtle warm light band under the roof, believable drainage and posts.",
       "request_body": {
         "model": "nano-banana-2",
         "input": {
-          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark.\nIMPORTANT: empty carport / empty parking bay. No cars, no vans, no vehicles, no bicycles parked in the bay, no vehicle crossing the driveway, no car perpendicular or sideways to the entrance. The empty paved parking bay must make the carport architecture and driveway flow readable. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: designer timber carport with dark stained deep-brown/anthracite-near timber frame beside a light plaster modern house. The closed or semi-closed weather-side wall uses the same facade look as the house: matching render/facade plates/color/vertical facade rhythm. Warm subtle indirect light or narrow light band, premium realistic evening atmosphere, empty bay.",
+          "prompt": "Photorealistic premium Austrian/DACH residential architecture photography for M&P Holzbau landing page.\nSubject is a custom timber carport by an Austrian Zimmermeisterbetrieb, not a metal carport, not a pergola, not a garage. Realistic Lower Austria / Burgenland / Vienna surroundings, plausible family homes and driveways.\nShow believable timber construction: straight posts, correct roof depth, clean rafters, credible roof edge, clean Auflager/Nuten/joinery feeling, structurally plausible spans and foundations. No crude metal angle brackets as hero detail. No impossible beams, warped posts, floating roofs, fantasy architecture, US suburbia, Mediterranean villa, showroom CGI, text, signage, watermark, readable license plates. True horizontal 16:9 composition, 2K, natural light, polished but believable.\nScene: modern Austrian house with light plaster facade and a designer dark-stained timber flat-roof carport placed BESIDE the house on the driveway side, not in front of any living-room or upper-floor window. Important layout: the house windows remain free and visible; the carport roof does not cover or block windows. A closed/semi-closed equipment shed / Geräteraum sits to one side of the carport, using matching light facade panels/render and vertical rhythm. Behind this Geräteraum, the same flat timber roof continues backward as a narrow covered pedestrian walkway toward a visible rear entrance / Hintereingang, so it clearly reads as “trocken vom Auto bis zum Hintereingang”. Empty parking bay, premium evening mood with subtle warm light band under the roof, believable drainage and posts.",
           "aspect_ratio": "16:9",
           "resolution": "2K",
           "output_format": "png"
@@ -382,8 +382,8 @@
         "code": 200,
         "msg": "success",
         "data": {
-          "taskId": "1d485a004b6f204022a788409c18fa6a",
-          "recordId": "1d485a004b6f204022a788409c18fa6a"
+          "taskId": "689b0d5098f5d91fbcf237f6dbc77c39",
+          "recordId": "689b0d5098f5d91fbcf237f6dbc77c39"
         }
       },
       "created_at": "2026-05-27T14:02:57.741482+00:00",
@@ -392,7 +392,7 @@
         "failCode": null,
         "failMsg": null
       },
-      "finished_at": "2026-05-27T14:03:50.059713+00:00",
+      "finished_at": "2026-05-27T14:23:25.681978+00:00",
       "history": [
         {
           "task_id": "949e6babc49e0f21de6f6311eab80e22",
@@ -404,19 +404,20 @@
         }
       ],
       "empty_fix_run": "2026-05-27T14:02:57.741482+00:00",
-      "result_url": "https://tempfile.aiquickdraw.com/p/1d485a004b6f204022a788409c18fa6a_1_1779890624_1020.png",
+      "result_url": "https://tempfile.aiquickdraw.com/images/1779891792684-weq23bcusr.png",
       "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/10_designer_dunkel_fassadenwand_lichtband.png",
-      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/10_designer_dunkel_fassadenwand_lichtband.webp"
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/10_designer_dunkel_fassadenwand_lichtband.webp",
+      "regenerated_at": "2026-05-27T14:22:11.753398+00:00"
     },
     {
       "id": "11_team_anzeichnen_messen",
       "state": "success",
-      "task_id": "76af6c7313d602fe48a552abd405ebfb",
-      "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two M&P timber workers on a real paved driveway beside a partially built timber carport. One holds a Zollstock/tape measure, the other marks a post or Auflager position with pencil. Burgundy/dark red workwear, dark trousers, real measuring work, no posing. The carport post/beam and house/einfahrt context must be clearly visible.",
+      "task_id": "1eb3e6bcfd72dd862102b1997069a718",
+      "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, carpenter pencil, tape measure, laser level, spirit level, clamps, temporary braces, ladder/platform only if structurally plausible. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text, no readable license plates. True horizontal 16:9 composition.\nScene: practical close documentary view of two M&P timber workers preparing a real timber carport post connection on a paved Austrian residential driveway. Correct construction logic: concrete point foundations with post bases are already installed, vertical timber posts are plumb and temporarily braced, one worker uses a Zollstock/speed square and pencil to mark the beam-seat / bolt line on a vertical post, the second worker checks the measurement from a plan or tape. No random loose roof frame, no measuring a floating board, no vehicle in the work zone, no car blocking the scene. The viewer should immediately understand real Zimmerer measuring/marking before assembly.",
       "request_body": {
         "model": "nano-banana-2",
         "input": {
-          "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two M&P timber workers on a real paved driveway beside a partially built timber carport. One holds a Zollstock/tape measure, the other marks a post or Auflager position with pencil. Burgundy/dark red workwear, dark trousers, real measuring work, no posing. The carport post/beam and house/einfahrt context must be clearly visible.",
+          "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, carpenter pencil, tape measure, laser level, spirit level, clamps, temporary braces, ladder/platform only if structurally plausible. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text, no readable license plates. True horizontal 16:9 composition.\nScene: practical close documentary view of two M&P timber workers preparing a real timber carport post connection on a paved Austrian residential driveway. Correct construction logic: concrete point foundations with post bases are already installed, vertical timber posts are plumb and temporarily braced, one worker uses a Zollstock/speed square and pencil to mark the beam-seat / bolt line on a vertical post, the second worker checks the measurement from a plan or tape. No random loose roof frame, no measuring a floating board, no vehicle in the work zone, no car blocking the scene. The viewer should immediately understand real Zimmerer measuring/marking before assembly.",
           "aspect_ratio": "16:9",
           "resolution": "2K",
           "output_format": "png"
@@ -426,8 +427,8 @@
         "code": 200,
         "msg": "success",
         "data": {
-          "taskId": "76af6c7313d602fe48a552abd405ebfb",
-          "recordId": "76af6c7313d602fe48a552abd405ebfb"
+          "taskId": "1eb3e6bcfd72dd862102b1997069a718",
+          "recordId": "1eb3e6bcfd72dd862102b1997069a718"
         }
       },
       "created_at": "2026-05-27T13:41:52.952200+00:00",
@@ -436,20 +437,21 @@
         "failCode": null,
         "failMsg": null
       },
-      "result_url": "https://tempfile.aiquickdraw.com/p/76af6c7313d602fe48a552abd405ebfb_1_1779889343_1562.png",
+      "result_url": "https://tempfile.aiquickdraw.com/p/1eb3e6bcfd72dd862102b1997069a718_1_1779891764_5952.png",
       "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/11_team_anzeichnen_messen.png",
       "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/11_team_anzeichnen_messen.webp",
-      "finished_at": "2026-05-27T13:42:29.971019+00:00"
+      "finished_at": "2026-05-27T14:22:57.188391+00:00",
+      "regenerated_at": "2026-05-27T14:22:13.195199+00:00"
     },
     {
       "id": "12_team_montage_konstruktion",
       "state": "success",
-      "task_id": "473c8551b09a454b8020307bb7d71ba4",
-      "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two or three M&P timber workers carefully align a glulam beam/roof carrier on prepared posts of a timber carport. One checks with a long spirit level or laser, another steadies the beam. Clean residential jobsite, plausible scaffolding/ladder if needed, burgundy/dark red workwear, visible stable timber construction.",
+      "task_id": "66e481ae5f4a00e7f3120702f170113f",
+      "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, carpenter pencil, tape measure, laser level, spirit level, clamps, temporary braces, ladder/platform only if structurally plausible. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text, no readable license plates. True horizontal 16:9 composition.\nScene: two or three M&P timber workers mounting a glulam roof carrier/beam onto already standing timber posts of a carport. Correct construction logic: the beam is visibly supported by posts and/or temporary supports, workers align it on top of the posts with clamps and a normal spirit level/laser, temporary diagonal braces hold the frame square, prepared concrete foundations visible. No floating beam, no beam held only by hands, no giant level pretending to be structural support, no impossible half-frame geometry. Residential DACH jobsite, believable carport frame.",
       "request_body": {
         "model": "nano-banana-2",
         "input": {
-          "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, pencil, tape measure, laser level, spirit level, clamps. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text. True horizontal 16:9 composition.\nScene: two or three M&P timber workers carefully align a glulam beam/roof carrier on prepared posts of a timber carport. One checks with a long spirit level or laser, another steadies the beam. Clean residential jobsite, plausible scaffolding/ladder if needed, burgundy/dark red workwear, visible stable timber construction.",
+          "prompt": "Photorealistic documentary Austrian timber construction image for M&P Holzbau landing page.\nShow a real small Zimmermeisterbetrieb team at work on a timber carport: burgundy/dark red hoodies or work jackets, dark grey/black work trousers, black safety shoes. No prominent or legible fake logos; at most a tiny subtle textile patch with no readable invented text. Realistic tools: Zollstock, carpenter pencil, tape measure, laser level, spirit level, clamps, temporary braces, ladder/platform only if structurally plausible. No warning-vest stock workers, no staged smiling group portrait, no Blechwinkel hero detail, no terrace/deck confusion, no impossible hands or tools, no CGI gloss, no watermark, no gibberish text, no readable license plates. True horizontal 16:9 composition.\nScene: two or three M&P timber workers mounting a glulam roof carrier/beam onto already standing timber posts of a carport. Correct construction logic: the beam is visibly supported by posts and/or temporary supports, workers align it on top of the posts with clamps and a normal spirit level/laser, temporary diagonal braces hold the frame square, prepared concrete foundations visible. No floating beam, no beam held only by hands, no giant level pretending to be structural support, no impossible half-frame geometry. Residential DACH jobsite, believable carport frame.",
           "aspect_ratio": "16:9",
           "resolution": "2K",
           "output_format": "png"
@@ -459,8 +461,8 @@
         "code": 200,
         "msg": "success",
         "data": {
-          "taskId": "473c8551b09a454b8020307bb7d71ba4",
-          "recordId": "473c8551b09a454b8020307bb7d71ba4"
+          "taskId": "66e481ae5f4a00e7f3120702f170113f",
+          "recordId": "66e481ae5f4a00e7f3120702f170113f"
         }
       },
       "created_at": "2026-05-27T13:41:54.850801+00:00",
@@ -469,14 +471,15 @@
         "failCode": null,
         "failMsg": null
       },
-      "result_url": "https://tempfile.aiquickdraw.com/p/473c8551b09a454b8020307bb7d71ba4_1_1779889365_5728.png",
+      "result_url": "https://tempfile.aiquickdraw.com/ggc/66e481ae5f4a00e7f3120702f170113f_1779891764890.png",
       "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/12_team_montage_konstruktion.png",
       "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/images/12_team_montage_konstruktion.webp",
-      "finished_at": "2026-05-27T13:42:53.135908+00:00"
+      "finished_at": "2026-05-27T14:22:59.169252+00:00",
+      "regenerated_at": "2026-05-27T14:22:14.728215+00:00"
     }
   ],
-  "contact_sheet": "/Users/theo/OneDrive/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/_contact_sheet.jpg",
-  "finished_at": "2026-05-27T13:44:31.952569+00:00",
+  "contact_sheet": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-lp-visual-plan-2026-05-27-kie/_contact_sheet.jpg",
+  "finished_at": "2026-05-27T14:23:26.370133+00:00",
   "state": "finished",
   "empty_fix_finished_at": "2026-05-27T14:04:41.476039+00:00",
   "entrance_canopy_fix_finished_at": "2026-05-27T14:14:11.383670+00:00"
