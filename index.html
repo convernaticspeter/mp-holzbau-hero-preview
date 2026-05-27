@@ -613,6 +613,25 @@
     .lead{max-width:68ch}
     .hero .lead{max-width:none}
 
+    /* 2026-05-27 Ablauf-Steps als 4 eigenständige Karten mit Gap — keine dunklen Trennbalken mehr */
+    .flow-proof .steps{
+      background:transparent !important;
+      border:0 !important;
+      box-shadow:none !important;
+      gap:clamp(14px,1.4vw,20px) !important;
+    }
+    .flow-proof .step{
+      background:rgba(13,19,14,.92) !important;
+      border:1px solid rgba(255,247,232,.14) !important;
+      border-right:1px solid rgba(255,247,232,.14) !important;
+      box-shadow:0 22px 64px -50px rgba(0,0,0,.9);
+    }
+    .flow-proof .step:last-child{border-right:1px solid rgba(255,247,232,.14) !important}
+    @media(max-width:640px){
+      .flow-proof .step{border-bottom:1px solid rgba(255,247,232,.14) !important}
+      .flow-proof .step:last-child{border-bottom:1px solid rgba(255,247,232,.14) !important}
+    }
+
     /* 2026-05-27 Hero-Bild: gewünschter Crop rechts-mittig, keine widersprechenden object-fit/object-position-Regeln */
     .hero-bg{aspect-ratio:16 / 9 !important}
     .hero .hero-bg img,
