@@ -1,0 +1,1629 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>M&P Holzbau · Werkverzeichnis · Edition MMXXVI</title>
+  <meta name="description" content="Eine Werkschau aus Bauwerksdetails, Material und Stimmen. M&P Holzbau, Familienbetrieb seit 2004.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,200..900,30..100,0..1;1,9..144,200..900,30..100,0..1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap">
+  <link rel="preload" as="image" href="assets/mp-hero-canopy-logo-kie-2026-05-26/04_oak_carport_depth_team_not_blocking.webp">
+  <style>
+    /* ---------- design tokens ---------- */
+    :root{
+      --paper:#f1e8d6;
+      --paper-deep:#e8dcc1;
+      --card:#fbf3e2;
+      --ink:#15140f;
+      --ink-soft:#3a3225;
+      --ink-mute:#6e6049;
+      --rule:rgba(21,20,15,.16);
+      --rule-strong:rgba(21,20,15,.32);
+      --ochre:#a3521b;
+      --ochre-deep:#7a3b10;
+      --moss:#384528;
+      --margin:clamp(20px,4.4vw,68px);
+      --measure:min(640px,calc(100% - var(--margin) * 2));
+      --gutter:clamp(20px,2.8vw,42px);
+      --serif:'Fraunces','Times New Roman',Georgia,serif;
+      --sans:'Inter',system-ui,-apple-system,sans-serif;
+      --mono:'JetBrains Mono',ui-monospace,monospace;
+    }
+
+    /* ---------- reset / base ---------- */
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{
+      margin:0;
+      background:var(--paper);
+      color:var(--ink);
+      font:400 17px/1.55 var(--sans);
+      font-feature-settings:"ss01","ss02","kern";
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+      overflow-x:hidden;
+    }
+    body::before{
+      content:"";
+      position:fixed;inset:0;
+      pointer-events:none;
+      background:
+        radial-gradient(120% 80% at 10% 0%,rgba(122,59,16,.04),transparent 60%),
+        radial-gradient(80% 60% at 100% 100%,rgba(56,69,40,.05),transparent 60%);
+      z-index:1;
+      mix-blend-mode:multiply;
+    }
+    body::after{
+      content:"";
+      position:fixed;inset:0;
+      pointer-events:none;
+      background-image:
+        radial-gradient(circle at 1px 1px,rgba(21,20,15,.06) 1px,transparent 1px);
+      background-size:3px 3px;
+      opacity:.5;
+      z-index:1;
+      mix-blend-mode:multiply;
+    }
+    main,header,section,footer{position:relative;z-index:2}
+
+    img,svg{display:block;max-width:100%;height:auto}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit;cursor:pointer;background:none;border:0;color:inherit;padding:0}
+    ::selection{background:var(--ochre);color:var(--paper)}
+
+    h1,h2,h3,h4{margin:0;font-family:var(--serif);font-weight:400;letter-spacing:-.012em}
+    p{margin:0}
+
+    /* ---------- layout primitives ---------- */
+    .frame{
+      max-width:1440px;margin:0 auto;
+      padding:0 var(--margin);
+      position:relative;
+    }
+    .frame--narrow{max-width:920px}
+    .frame--measure{max-width:780px}
+
+    /* hairline rule */
+    .rule{height:1px;background:var(--rule-strong);width:100%}
+    .rule--soft{background:var(--rule)}
+
+    /* mono caption */
+    .meta{
+      font-family:var(--mono);
+      font-size:11px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--ink-mute);
+      font-weight:400;
+    }
+    .meta--ochre{color:var(--ochre)}
+    .meta--ink{color:var(--ink)}
+
+    /* roman numerals & chapter mark */
+    .chapter-mark{
+      display:flex;align-items:baseline;gap:18px;
+      font-family:var(--mono);
+      font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--ochre);
+      padding-bottom:14px;border-bottom:1px solid var(--rule-strong);
+    }
+    .chapter-mark .roman{
+      font-family:var(--serif);
+      font-style:italic;
+      font-size:18px;letter-spacing:0;text-transform:none;
+      color:var(--ink);
+      font-feature-settings:"smcp" 1;
+    }
+    .chapter-mark .num{
+      margin-left:auto;
+      color:var(--ink-mute);
+    }
+
+    .chapter-title{
+      font-size:clamp(40px,5.8vw,82px);
+      font-weight:340;
+      font-variation-settings:"opsz" 120,"SOFT" 50,"WONK" 0;
+      line-height:.95;
+      letter-spacing:-.025em;
+      margin:32px 0 0;
+    }
+    .chapter-title em{
+      font-style:italic;
+      font-variation-settings:"opsz" 120,"SOFT" 100,"WONK" 1;
+      color:var(--ochre);
+    }
+
+    .lede{
+      font-family:var(--serif);
+      font-weight:380;
+      font-size:clamp(20px,2vw,26px);
+      line-height:1.4;
+      color:var(--ink-soft);
+      max-width:46ch;
+      font-feature-settings:"kern","liga";
+      margin-top:28px;
+    }
+
+    /* ---------- masthead ---------- */
+    .masthead{
+      padding:18px var(--margin);
+      display:grid;
+      grid-template-columns:1fr auto 1fr;
+      align-items:center;
+      gap:18px;
+      border-bottom:1px solid var(--rule);
+    }
+    .masthead .meta{font-size:10.5px}
+    .masthead .center{text-align:center;font-family:var(--serif);font-style:italic;font-size:14px;font-weight:380;color:var(--ink)}
+    .masthead .right{text-align:right}
+    @media(max-width:640px){
+      .masthead{grid-template-columns:1fr 1fr;row-gap:8px}
+      .masthead .center{grid-column:1/-1;order:-1;padding-bottom:6px;border-bottom:1px solid var(--rule);margin-bottom:4px}
+    }
+
+    /* ---------- top nav ---------- */
+    .topnav{
+      padding:18px var(--margin) 14px;
+      display:flex;align-items:center;justify-content:space-between;
+      gap:24px;
+    }
+    .brand{
+      display:flex;align-items:baseline;gap:14px;
+      font-family:var(--serif);
+      font-size:22px;font-style:italic;
+      letter-spacing:-.01em;
+    }
+    .brand .amp{font-style:italic;color:var(--ochre);font-feature-settings:"ss01" 1}
+    .brand .lockup{
+      font-family:var(--mono);font-style:normal;font-size:10px;
+      letter-spacing:.22em;text-transform:uppercase;color:var(--ink-mute);
+      padding-left:14px;border-left:1px solid var(--rule-strong);
+    }
+    .topnav .back{
+      font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+      color:var(--ink-mute);transition:color .2s ease;
+    }
+    .topnav .back:hover{color:var(--ochre)}
+    .topnav .back::before{content:"←  "}
+    @media(max-width:640px){.brand .lockup{display:none}}
+
+    /* ---------- hero ---------- */
+    .hero{
+      padding:clamp(30px,4vw,60px) var(--margin) clamp(40px,5vw,90px);
+      display:grid;
+      grid-template-columns:60px minmax(0,1fr);
+      gap:clamp(24px,3vw,52px);
+      position:relative;
+    }
+    .hero-edge{
+      writing-mode:vertical-rl;
+      transform:rotate(180deg);
+      font-family:var(--mono);
+      font-size:10.5px;letter-spacing:.32em;
+      text-transform:uppercase;color:var(--ink-mute);
+      align-self:end;
+      padding-bottom:6px;
+    }
+    .hero-edge::before{
+      content:"";display:block;
+      width:1px;height:60px;background:var(--ochre);
+      margin:0 auto 22px;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.05fr) minmax(0,1.2fr);
+      gap:clamp(28px,4vw,68px);
+      align-items:end;
+    }
+    .hero-type h1{
+      font-size:clamp(46px,7.2vw,118px);
+      font-weight:300;
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;
+      line-height:.92;
+      letter-spacing:-.032em;
+      color:var(--ink);
+    }
+    .hero-type h1 .roman{
+      font-style:normal;
+      font-feature-settings:"smcp" 1,"c2sc" 1;
+      font-size:.62em;
+      color:var(--ochre);
+      letter-spacing:.02em;
+      vertical-align:.16em;
+    }
+    .hero-sub{
+      margin-top:28px;
+      max-width:38ch;
+      font-size:17px;
+      color:var(--ink-soft);
+      line-height:1.55;
+    }
+    .hero-photo{
+      position:relative;
+      aspect-ratio:5/4;
+      overflow:hidden;
+      background:var(--ink);
+    }
+    .hero-photo img{
+      width:100%;height:100%;
+      object-fit:cover;
+      object-position:center 38%;
+      filter:saturate(.9) contrast(1.02);
+      transform:scale(1.02);
+      transition:transform 1.4s cubic-bezier(.16,1,.3,1);
+    }
+    .hero-photo.in img{transform:scale(1)}
+    .hero-photo::after{
+      content:"";
+      position:absolute;inset:0;
+      background:linear-gradient(180deg,transparent 55%,rgba(21,20,15,.18) 100%);
+      pointer-events:none;
+    }
+    .hero-photo-caption{
+      position:absolute;left:14px;bottom:14px;right:14px;
+      display:flex;justify-content:space-between;gap:12px;
+      color:var(--paper);
+      font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+      mix-blend-mode:difference;
+    }
+
+    .hero-stats{
+      margin-top:clamp(40px,4vw,72px);
+      grid-column:1/-1;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:clamp(18px,2vw,42px);
+      padding-top:32px;
+      border-top:1px solid var(--rule-strong);
+    }
+    .stat{display:grid;gap:6px;align-content:start}
+    .stat .v{
+      font-family:var(--serif);
+      font-style:italic;
+      font-size:clamp(28px,3.6vw,46px);
+      font-weight:380;
+      font-variation-settings:"opsz" 144,"SOFT" 80;
+      line-height:1;
+      color:var(--ink);
+      letter-spacing:-.02em;
+    }
+    .stat .v .roman{font-style:normal;font-feature-settings:"smcp" 1;color:var(--ochre);font-size:.7em;letter-spacing:.04em;vertical-align:.16em}
+    .stat .k{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-mute)}
+
+    @media(max-width:860px){
+      .hero{grid-template-columns:1fr;gap:24px}
+      .hero-edge{writing-mode:horizontal-tb;transform:none;display:flex;align-items:center;gap:14px}
+      .hero-edge::before{width:32px;height:1px;margin:0;display:inline-block}
+      .hero-grid{grid-template-columns:1fr;gap:34px}
+      .hero-stats{grid-template-columns:1fr 1fr;gap:24px}
+    }
+    @media(max-width:520px){.hero-stats{grid-template-columns:1fr}}
+
+    /* ---------- intro essay ---------- */
+    .essay{padding:clamp(56px,7vw,112px) var(--margin) clamp(40px,5vw,80px)}
+    .essay-inner{max-width:740px;margin:0 auto}
+    .essay-prose{
+      font-family:var(--serif);
+      font-weight:380;
+      font-size:clamp(20px,1.7vw,24px);
+      line-height:1.55;
+      color:var(--ink);
+      font-feature-settings:"kern","liga","onum";
+    }
+    .essay-prose::first-letter{
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;
+      font-size:5.2em;
+      line-height:.82;
+      float:left;
+      padding:.08em .12em 0 0;
+      color:var(--ochre);
+      font-weight:300;
+    }
+    .essay-prose em{font-style:italic;color:var(--ochre-deep)}
+    .essay-signature{
+      margin-top:42px;
+      display:flex;align-items:center;gap:14px;
+      font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--ink-mute);
+    }
+    .essay-signature::before{content:"";flex:0 0 36px;height:1px;background:var(--ochre)}
+
+    /* ---------- section ---------- */
+    .section{padding:clamp(56px,7vw,124px) var(--margin) clamp(48px,6vw,96px)}
+    .section--cream{background:var(--card);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+    .section--deep{background:var(--paper-deep)}
+    .section-head{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);
+      gap:clamp(36px,5vw,80px);
+      align-items:end;
+      margin-bottom:clamp(48px,5vw,84px);
+    }
+    .section-head .right{padding-bottom:18px}
+    @media(max-width:860px){.section-head{grid-template-columns:1fr;gap:24px}.section-head .right{padding-bottom:0}}
+
+    /* ---------- material chapter ---------- */
+    .materials{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:1px;
+      background:var(--rule-strong);
+      border:1px solid var(--rule-strong);
+    }
+    .material{
+      background:var(--paper);
+      padding:clamp(28px,3vw,44px) clamp(24px,2.6vw,38px);
+      display:grid;gap:18px;
+      position:relative;
+    }
+    .material-swatch{
+      aspect-ratio:5/3;
+      position:relative;overflow:hidden;
+      box-shadow:inset 0 0 0 1px var(--rule);
+    }
+    .material-swatch::before{
+      content:"";
+      position:absolute;inset:0;
+      background-image:
+        repeating-linear-gradient(92deg,
+          transparent 0 2px,
+          rgba(21,20,15,.07) 2px 3px,
+          transparent 3px 7px,
+          rgba(21,20,15,.04) 7px 9px,
+          transparent 9px 16px),
+        repeating-linear-gradient(178deg,
+          transparent 0 18px,
+          rgba(21,20,15,.05) 18px 19px,
+          transparent 19px 44px);
+    }
+    .material-swatch::after{
+      content:"";
+      position:absolute;inset:0;
+      background-image:radial-gradient(ellipse 80% 30% at 20% 50%,rgba(21,20,15,.18),transparent 65%);
+      opacity:.6;
+    }
+    .swatch--fichte{background:linear-gradient(160deg,#e8c891 0%,#d4a866 50%,#bf8a45 100%)}
+    .swatch--laerche{background:linear-gradient(160deg,#c9763e 0%,#a3521b 55%,#783912 100%)}
+    .swatch--eiche{background:linear-gradient(160deg,#a07344 0%,#74522e 55%,#48311a 100%)}
+
+    .material-name{
+      display:flex;align-items:baseline;justify-content:space-between;gap:14px;
+    }
+    .material-name h3{
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 80;
+      font-size:clamp(32px,3.4vw,44px);
+      font-weight:380;
+      line-height:1;
+      letter-spacing:-.02em;
+    }
+    .material-latin{
+      font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+      color:var(--ink-mute);
+    }
+    .material-spec{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:14px 20px;
+      padding:14px 0;
+      border-top:1px solid var(--rule);
+      border-bottom:1px solid var(--rule);
+    }
+    .material-spec dt{
+      font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--ink-mute);
+      margin-bottom:3px;
+    }
+    .material-spec dd{
+      margin:0;
+      font-family:var(--serif);font-size:16px;font-weight:380;
+      color:var(--ink);
+      line-height:1.3;
+    }
+    .material-spec dd em{font-style:italic;color:var(--ochre)}
+    .material-prose{
+      font-family:var(--serif);
+      font-size:16px;
+      line-height:1.55;
+      color:var(--ink-soft);
+      font-weight:380;
+    }
+    @media(max-width:860px){.materials{grid-template-columns:1fr}}
+
+    /* ---------- pull quote ---------- */
+    .quote{padding:clamp(72px,9vw,140px) var(--margin) clamp(72px,9vw,140px)}
+    .quote-inner{
+      max-width:1180px;margin:0 auto;
+      display:grid;
+      grid-template-columns:minmax(0,.42fr) minmax(0,1fr);
+      gap:clamp(32px,5vw,80px);
+      align-items:start;
+    }
+    .quote-portrait{
+      position:relative;
+      aspect-ratio:3/4;
+      overflow:hidden;
+      max-width:280px;
+    }
+    .quote-portrait img{
+      width:100%;height:100%;
+      object-fit:cover;
+      object-position:center 30%;
+      filter:saturate(.92) contrast(1.04);
+    }
+    .quote-portrait-caption{
+      margin-top:14px;
+      display:grid;gap:4px;
+    }
+    .quote-portrait-caption .n{
+      font-family:var(--serif);font-style:italic;font-size:18px;font-weight:380;letter-spacing:-.01em;
+    }
+    .quote-portrait-caption .r{
+      font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-mute);
+    }
+    .quote-body{position:relative;padding-top:6px}
+    .quote-body::before{
+      content:"";
+      display:block;
+      width:64px;height:1px;
+      background:var(--ochre);
+      margin-bottom:24px;
+    }
+    .quote-body blockquote{
+      margin:0;
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;
+      font-size:clamp(32px,4.4vw,68px);
+      line-height:1.04;
+      letter-spacing:-.025em;
+      font-weight:300;
+      color:var(--ink);
+      text-wrap:balance;
+    }
+    .quote-body blockquote .open,.quote-body blockquote .close{
+      color:var(--ochre);
+      font-style:italic;
+      font-weight:300;
+    }
+    .quote-attr{
+      margin-top:36px;
+      display:flex;flex-wrap:wrap;gap:22px;
+      align-items:center;
+      font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--ink-mute);
+    }
+    .quote-attr::before{
+      content:"";flex:0 0 28px;height:1px;background:var(--ink-mute);
+    }
+    @media(max-width:860px){
+      .quote-inner{grid-template-columns:1fr;gap:28px}
+      .quote-portrait{max-width:200px}
+    }
+
+    /* ---------- voice / audio chapter ---------- */
+    .voice-card{
+      background:var(--ink);
+      color:var(--paper);
+      padding:clamp(36px,4vw,68px) clamp(28px,3.4vw,52px);
+      position:relative;
+      overflow:hidden;
+    }
+    .voice-card::before{
+      content:"";
+      position:absolute;
+      left:0;top:0;bottom:0;
+      width:4px;background:var(--ochre);
+    }
+    .voice-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);
+      gap:clamp(28px,4vw,64px);
+      align-items:center;
+    }
+    .voice-meta-block{display:grid;gap:14px;align-content:start}
+    .voice-meta-block .meta{color:rgba(241,232,214,.6)}
+    .voice-meta-block .meta--ochre{color:var(--ochre)}
+    .voice-card h3{
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;
+      font-size:clamp(28px,3vw,40px);
+      font-weight:340;
+      line-height:1.04;
+      color:var(--paper);
+    }
+    .voice-excerpt{
+      font-family:var(--serif);
+      font-size:17px;
+      line-height:1.55;
+      color:rgba(241,232,214,.78);
+      font-weight:380;
+      max-width:36ch;
+    }
+    .voice-excerpt::before{content:"„";color:var(--ochre);margin-right:2px}
+    .voice-excerpt::after{content:"\"";color:var(--ochre);margin-left:2px}
+
+    .player{display:grid;gap:18px;align-content:center}
+    .player-top{
+      display:flex;align-items:center;gap:16px;
+    }
+    .player-play{
+      width:64px;height:64px;
+      border-radius:50%;
+      background:var(--paper);
+      color:var(--ink);
+      display:grid;place-items:center;
+      transition:transform .25s cubic-bezier(.16,1,.3,1),background .25s;
+      flex:0 0 auto;
+    }
+    .player-play:hover{transform:scale(1.05);background:var(--ochre);color:var(--paper)}
+    .player-play .icon{
+      width:0;height:0;
+      border-left:14px solid currentColor;
+      border-top:9px solid transparent;
+      border-bottom:9px solid transparent;
+      margin-left:4px;
+      transition:.2s;
+    }
+    .player.playing .player-play .icon{
+      border-left-color:transparent;
+      border-top-color:transparent;
+      border-bottom-color:transparent;
+      width:14px;height:16px;margin-left:0;
+      box-shadow:inset 4px 0 0 currentColor,inset -4px 0 0 currentColor;
+    }
+    .player-times{
+      display:flex;flex-direction:column;gap:2px;
+    }
+    .player-times .now{
+      font-family:var(--serif);font-style:italic;
+      font-variation-settings:"opsz" 144;
+      font-size:32px;line-height:1;
+      color:var(--paper);
+    }
+    .player-times .dur{
+      font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;
+      color:rgba(241,232,214,.55);
+    }
+    .player-waveform{
+      display:flex;align-items:center;gap:3px;
+      height:64px;
+      padding:0 2px;
+      cursor:pointer;
+      position:relative;
+    }
+    .player-waveform .bar{
+      flex:1;
+      background:rgba(241,232,214,.22);
+      border-radius:1px;
+      transition:background .15s ease,transform .25s cubic-bezier(.16,1,.3,1);
+      transform-origin:center;
+    }
+    .player-waveform .bar.played{background:var(--ochre)}
+    .player.playing .player-waveform .bar.active{
+      background:var(--paper);
+      transform:scaleY(1.15);
+    }
+    .player-meta{
+      display:flex;justify-content:space-between;align-items:center;
+      padding-top:14px;border-top:1px solid rgba(241,232,214,.16);
+      font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;
+      color:rgba(241,232,214,.55);
+    }
+    .player-meta strong{font-weight:400;color:rgba(241,232,214,.85)}
+    @media(max-width:860px){
+      .voice-grid{grid-template-columns:1fr;gap:32px}
+      .player-waveform{height:54px}
+    }
+
+    /* ---------- process / verfahren ---------- */
+    .verfahren{
+      display:grid;
+      gap:1px;
+      background:var(--rule);
+      border-top:1px solid var(--rule-strong);
+      border-bottom:1px solid var(--rule-strong);
+    }
+    .akt{
+      background:var(--paper);
+      padding:clamp(36px,4vw,68px) 0;
+      display:grid;
+      grid-template-columns:clamp(70px,8vw,120px) minmax(0,2fr) minmax(0,3fr);
+      gap:clamp(22px,3vw,52px);
+      align-items:start;
+    }
+    .akt-roman{
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;
+      font-size:clamp(48px,6vw,88px);
+      font-weight:300;
+      line-height:.85;
+      color:var(--ochre);
+      letter-spacing:-.02em;
+    }
+    .akt-title{
+      font-family:var(--serif);
+      font-size:clamp(26px,3vw,38px);
+      font-weight:380;
+      line-height:1.05;
+      letter-spacing:-.018em;
+      color:var(--ink);
+    }
+    .akt-title em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100;color:var(--ochre-deep)}
+    .akt-spec{
+      margin-top:14px;
+      font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--ink-mute);
+    }
+    .akt-prose{
+      font-family:var(--serif);
+      font-size:17px;
+      line-height:1.6;
+      color:var(--ink-soft);
+      max-width:50ch;
+      font-weight:380;
+    }
+    @media(max-width:860px){
+      .akt{grid-template-columns:1fr;gap:14px}
+      .akt-roman{font-size:54px}
+    }
+
+    /* ---------- testimonials ---------- */
+    .voices{display:grid;gap:1px;background:var(--rule)}
+    .stimme{
+      background:var(--paper);
+      padding:clamp(40px,4.5vw,72px) clamp(28px,3vw,52px);
+      display:grid;
+      grid-template-columns:minmax(0,.34fr) minmax(0,1fr);
+      gap:clamp(28px,4vw,64px);
+      align-items:start;
+    }
+    .stimme:nth-child(even){background:var(--card)}
+    .stimme-portrait{
+      aspect-ratio:1;
+      max-width:180px;
+      overflow:hidden;
+      position:relative;
+      filter:saturate(.92);
+    }
+    .stimme-portrait img{width:100%;height:100%;object-fit:cover}
+    .stimme-portrait::after{
+      content:"";
+      position:absolute;inset:0;
+      background:radial-gradient(circle at 50% 30%,transparent 0%,transparent 60%,rgba(21,20,15,.12) 100%);
+    }
+    .stimme-body{display:grid;gap:24px;align-content:start}
+    .stimme-head{
+      display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px;
+      padding-bottom:14px;border-bottom:1px solid var(--rule);
+    }
+    .stimme-num{
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100;
+      font-size:24px;font-weight:380;letter-spacing:-.01em;
+    }
+    .stimme-num .label{
+      font-family:var(--mono);font-style:normal;font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--ink-mute);margin-right:10px;
+    }
+    .stimme-loc{
+      font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-mute);
+    }
+    .stimme blockquote{
+      margin:0;
+      font-family:var(--serif);
+      font-size:clamp(20px,2.2vw,28px);
+      line-height:1.35;
+      font-weight:380;
+      color:var(--ink);
+      font-feature-settings:"kern","liga";
+      text-wrap:balance;
+    }
+    .stimme blockquote em{font-style:italic;color:var(--ochre-deep)}
+    @media(max-width:680px){
+      .stimme{grid-template-columns:1fr;gap:20px}
+      .stimme-portrait{max-width:140px}
+    }
+
+    /* ---------- service area / map ---------- */
+    .map-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);
+      gap:clamp(28px,4vw,72px);
+      align-items:start;
+    }
+    .map-card{
+      aspect-ratio:5/4;
+      background:var(--card);
+      position:relative;
+      border:1px solid var(--rule-strong);
+      overflow:hidden;
+    }
+    .map-card svg{width:100%;height:100%}
+    .map-card .ring{
+      fill:none;stroke:rgba(21,20,15,.16);
+      stroke-width:.4;
+    }
+    .map-card .grid-line{
+      stroke:rgba(21,20,15,.08);stroke-width:.3;
+    }
+    .map-card .district{
+      fill:rgba(122,59,16,.05);
+      stroke:rgba(122,59,16,.42);
+      stroke-width:.5;
+      transition:fill .2s ease;
+    }
+    .map-card .district.core{fill:rgba(122,59,16,.18);stroke:rgba(122,59,16,.7);stroke-width:.7}
+    .map-card .district:hover{fill:rgba(122,59,16,.32)}
+    .map-card .pin{fill:var(--ochre)}
+    .map-card .pin-label{
+      font-family:'JetBrains Mono',monospace;
+      font-size:5px;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      fill:var(--ink);
+    }
+    .map-card .label-axis{
+      font-family:'JetBrains Mono',monospace;
+      font-size:4px;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      fill:var(--ink-mute);
+    }
+    .map-card .compass{
+      font-family:'Fraunces',serif;
+      font-style:italic;
+      font-size:8px;
+      fill:var(--ink);
+    }
+    .map-list{display:grid;gap:1px;background:var(--rule)}
+    .map-region{
+      background:var(--paper);
+      padding:18px 0;
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:18px;
+      align-items:baseline;
+    }
+    .map-region .name{
+      font-family:var(--serif);font-size:22px;font-weight:380;letter-spacing:-.01em;
+    }
+    .map-region .name em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100;color:var(--ochre-deep)}
+    .map-region .areas{
+      font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-mute);
+    }
+    .map-foot{
+      margin-top:18px;
+      font-family:var(--serif);font-size:17px;line-height:1.55;
+      color:var(--ink-soft);max-width:48ch;
+    }
+    @media(max-width:860px){
+      .map-grid{grid-template-columns:1fr}
+      .map-card{aspect-ratio:1}
+    }
+
+    /* ---------- hallmark / 25-jahre insignie ---------- */
+    .hallmark{
+      padding:clamp(80px,10vw,160px) var(--margin) clamp(72px,9vw,140px);
+      background:var(--ink);
+      color:var(--paper);
+      position:relative;
+      overflow:hidden;
+    }
+    .hallmark::before{
+      content:"";
+      position:absolute;inset:0;
+      background-image:radial-gradient(circle at 1px 1px,rgba(241,232,214,.06) 1px,transparent 1px);
+      background-size:3px 3px;
+    }
+    .hallmark-inner{
+      max-width:1080px;margin:0 auto;
+      display:grid;
+      grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+      gap:clamp(40px,6vw,96px);
+      align-items:center;
+      position:relative;
+      z-index:1;
+    }
+    .hallmark-seal{
+      position:relative;
+      aspect-ratio:1;
+      max-width:440px;
+      justify-self:center;
+    }
+    .hallmark-seal svg{
+      width:100%;height:100%;
+      animation:rotate-seal 80s linear infinite;
+    }
+    @keyframes rotate-seal{to{transform:rotate(360deg)}}
+    .hallmark-seal .seal-text{
+      font-family:'Fraunces',serif;
+      font-style:italic;
+      font-size:6.4px;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      fill:rgba(241,232,214,.7);
+    }
+    .hallmark-seal .seal-ring-outer{fill:none;stroke:var(--ochre);stroke-width:.5}
+    .hallmark-seal .seal-ring-inner{fill:none;stroke:rgba(241,232,214,.3);stroke-width:.2}
+    .hallmark-seal .seal-mark{
+      font-family:'Fraunces',serif;
+      font-weight:300;
+      font-style:italic;
+    }
+    .hallmark-copy h2{
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;
+      font-size:clamp(40px,5vw,72px);
+      font-weight:300;
+      line-height:.96;
+      letter-spacing:-.025em;
+      color:var(--paper);
+    }
+    .hallmark-copy h2 em{font-style:normal;color:var(--ochre);font-feature-settings:"smcp" 1}
+    .hallmark-prose{
+      margin-top:28px;
+      font-family:var(--serif);font-size:17px;line-height:1.6;
+      color:rgba(241,232,214,.78);font-weight:380;
+      max-width:48ch;
+    }
+    .hallmark-spec{
+      margin-top:32px;
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:18px 28px;
+      padding-top:24px;border-top:1px solid rgba(241,232,214,.18);
+    }
+    .hallmark-spec dt{
+      font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+      color:rgba(241,232,214,.5);margin-bottom:4px;
+    }
+    .hallmark-spec dd{
+      margin:0;
+      font-family:var(--serif);font-style:italic;font-size:18px;font-weight:380;
+      color:var(--paper);
+    }
+    @media(max-width:860px){
+      .hallmark-inner{grid-template-columns:1fr;gap:48px}
+      .hallmark-seal{max-width:300px}
+    }
+
+    /* ---------- colophon / cta ---------- */
+    .colophon{
+      padding:clamp(72px,9vw,140px) var(--margin) clamp(48px,6vw,90px);
+      background:var(--paper);
+    }
+    .colophon-inner{
+      max-width:1080px;margin:0 auto;
+      display:grid;
+      grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);
+      gap:clamp(36px,5vw,88px);
+      align-items:end;
+    }
+    .colophon h2{
+      font-family:var(--serif);
+      font-style:italic;
+      font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;
+      font-size:clamp(40px,5.6vw,82px);
+      font-weight:300;
+      line-height:.96;
+      letter-spacing:-.028em;
+      color:var(--ink);
+    }
+    .colophon h2 em{font-style:normal;color:var(--ochre)}
+    .colophon-prose{
+      margin-top:28px;
+      font-family:var(--serif);font-size:18px;line-height:1.55;
+      color:var(--ink-soft);max-width:46ch;font-weight:380;
+    }
+    .colophon-actions{display:grid;gap:18px;align-content:end}
+    .cta{
+      display:inline-flex;align-items:center;justify-content:center;gap:12px;
+      padding:22px 36px;
+      background:var(--ink);
+      color:var(--paper);
+      font-family:var(--mono);
+      font-size:12px;letter-spacing:.24em;text-transform:uppercase;font-weight:500;
+      border:1px solid var(--ink);
+      transition:background .2s,color .2s,transform .25s cubic-bezier(.16,1,.3,1);
+    }
+    .cta:hover{background:var(--ochre);border-color:var(--ochre);transform:translateY(-2px)}
+    .cta::after{content:"→";font-family:var(--serif);font-style:italic;font-size:18px;letter-spacing:0;text-transform:none}
+    .cta-second{
+      font-family:var(--serif);font-style:italic;font-size:22px;font-weight:380;
+      color:var(--ink-soft);
+      display:flex;align-items:center;gap:14px;
+    }
+    .cta-second::before{content:"";flex:0 0 24px;height:1px;background:var(--ink-mute)}
+    .cta-second strong{font-weight:380;color:var(--ink);font-family:var(--serif);font-style:italic}
+    @media(max-width:680px){
+      .colophon-inner{grid-template-columns:1fr;align-items:start}
+      .cta{justify-self:start}
+    }
+
+    /* ---------- footer ---------- */
+    .footer{
+      padding:clamp(40px,5vw,72px) var(--margin) clamp(72px,9vw,120px);
+      border-top:1px solid var(--rule);
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:clamp(24px,3vw,48px);
+      align-items:end;
+    }
+    .footer .col{display:grid;gap:6px}
+    .footer .label{
+      font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+      color:var(--ink-mute);
+    }
+    .footer .val{
+      font-family:var(--serif);font-size:16px;font-weight:380;color:var(--ink);
+    }
+    .footer .val em{font-style:italic;color:var(--ochre)}
+    .footer a:hover{color:var(--ochre)}
+    @media(max-width:860px){
+      .footer{grid-template-columns:1fr 1fr}
+    }
+
+    /* ---------- scroll reveal ---------- */
+    .reveal{opacity:0;transform:translateY(20px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1)}
+    .reveal.in{opacity:1;transform:none}
+    .reveal-stagger > *{opacity:0;transform:translateY(16px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+    .reveal-stagger.in > *{opacity:1;transform:none}
+    .reveal-stagger.in > *:nth-child(1){transition-delay:.05s}
+    .reveal-stagger.in > *:nth-child(2){transition-delay:.18s}
+    .reveal-stagger.in > *:nth-child(3){transition-delay:.31s}
+    .reveal-stagger.in > *:nth-child(4){transition-delay:.44s}
+    .reveal-stagger.in > *:nth-child(5){transition-delay:.57s}
+
+    @media (prefers-reduced-motion:reduce){
+      .reveal,.reveal-stagger > *{opacity:1;transform:none;transition:none}
+      .hallmark-seal svg{animation:none}
+      .hero-photo img{transform:none;transition:none}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ---------- MASTHEAD ---------- -->
+  <div class="masthead">
+    <span class="meta meta--ink">M&P · Werkverzeichnis</span>
+    <span class="center">Edition № IV · MMXXVI</span>
+    <span class="meta right">Burgenland · Niederösterreich · Wien</span>
+  </div>
+
+  <!-- ---------- TOP NAV ---------- -->
+  <nav class="topnav">
+    <a class="brand" href="index.html">
+      <span>M<span class="amp">&amp;</span>P Holzbau</span>
+      <span class="lockup">Werkstatt · seit 2004</span>
+    </a>
+    <a class="back" href="index.html">Zurück zur Übersicht</a>
+  </nav>
+
+  <!-- ---------- HERO ---------- -->
+  <header class="hero">
+    <div class="hero-edge">Edition · Carportbau · Familienbetrieb · MMIV — MMXXVI</div>
+    <div>
+      <div class="hero-grid">
+        <div class="hero-type reveal">
+          <h1>
+            Carports,<br>
+            <em>die so lange</em><br>
+            halten wie<br>
+            Ihr Haus<span class="roman">.</span>
+          </h1>
+          <p class="hero-sub">Eine Werkschau aus Bauwerksdetails, Material und Stimmen. Versammelt von Peter Preissinger und seinem Team — für Bauherren, die einen Carport nicht als Bausatz, sondern als Teil ihres Hauses denken.</p>
+        </div>
+        <figure class="hero-photo reveal">
+          <img src="assets/mp-hero-canopy-logo-kie-2026-05-26/04_oak_carport_depth_team_not_blocking.webp" alt="M&P Holzbau · Übergabe eines Carports mit überdachtem Weg zum Hauseingang">
+          <figcaption class="hero-photo-caption">
+            <span>Tafel I</span>
+            <span>Übergabe · Süd-Burgenland · MMXXIV</span>
+          </figcaption>
+        </figure>
+        <div class="hero-stats reveal-stagger">
+          <div class="stat">
+            <div class="v">MMIV</div>
+            <div class="k">Gegründet</div>
+          </div>
+          <div class="stat">
+            <div class="v"><span class="roman">XXV</span> Jahre</div>
+            <div class="k">Garantie · Standsicherheit</div>
+          </div>
+          <div class="stat">
+            <div class="v">2016</div>
+            <div class="k">Burgenländischer Holzbaupreis</div>
+          </div>
+          <div class="stat">
+            <div class="v">Drei Generationen</div>
+            <div class="k">Familienbetrieb · Holzbau</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ---------- ESSAY ---------- -->
+  <section class="essay">
+    <div class="essay-inner reveal">
+      <p class="essay-prose">
+        Ein Carport ist kein Dach über dem Auto. Er ist das erste, was Sie sehen, wenn Sie heimkommen, das letzte, was Sie zurücklassen, wenn Sie das Haus verlassen. Er steht im Wetter, hält Schnee, leitet Wasser, trägt Last und ergänzt eine Fassade — <em>oder ruiniert sie</em>. Diese Edition versammelt, woraus wir bauen, wie wir denken und wer dahintersteht. Sie ist kein Katalog. Sie ist eine Einladung, einen Holzbau ernst zu nehmen.
+      </p>
+      <div class="essay-signature">— Mst. Peter Preissinger, Zimmermeister</div>
+    </div>
+  </section>
+
+  <!-- ---------- KAPITEL I · MATERIAL ---------- -->
+  <section class="section section--cream" id="material">
+    <div class="frame">
+      <div class="section-head reveal">
+        <div>
+          <div class="chapter-mark">
+            <span>Kapitel</span><span class="roman">I.</span>
+            <span class="num">№ 01 — 03</span>
+          </div>
+          <h2 class="chapter-title">Material<em>.</em></h2>
+        </div>
+        <div class="right">
+          <p class="lede">Wir arbeiten ausschließlich mit heimischen und europäischen Hölzern. Drei Sorten kommen am häufigsten zur Sprache — jede mit eigener Stimme, jede für einen anderen Charakter am Haus.</p>
+        </div>
+      </div>
+
+      <div class="materials reveal-stagger">
+
+        <article class="material">
+          <div class="material-swatch swatch--fichte" aria-hidden="true"></div>
+          <div class="material-name">
+            <h3>Fichte</h3>
+            <span class="material-latin">Picea&nbsp;abies</span>
+          </div>
+          <dl class="material-spec">
+            <div><dt>Herkunft</dt><dd>Österreich · <em>Alpen</em></dd></div>
+            <div><dt>Charakter</dt><dd>hell, ruhig, schlicht</dd></div>
+            <div><dt>Dichte</dt><dd>ca. 470 kg/m³</dd></div>
+            <div><dt>Einsatz</dt><dd>Tragwerk</dd></div>
+          </dl>
+          <p class="material-prose">Die selbstverständliche Wahl, wenn ein Carport zurückhaltend und sauber konstruiert wirken soll. Fichte trägt verlässlich, lässt sich präzise verarbeiten und altert ruhig.</p>
+        </article>
+
+        <article class="material">
+          <div class="material-swatch swatch--laerche" aria-hidden="true"></div>
+          <div class="material-name">
+            <h3>Lärche</h3>
+            <span class="material-latin">Larix&nbsp;decidua</span>
+          </div>
+          <dl class="material-spec">
+            <div><dt>Herkunft</dt><dd>Österreich · <em>Hochlagen</em></dd></div>
+            <div><dt>Charakter</dt><dd>warm, lebendig, dicht</dd></div>
+            <div><dt>Dichte</dt><dd>ca. 590 kg/m³</dd></div>
+            <div><dt>Einsatz</dt><dd>Sichtholz, Bekleidung</dd></div>
+          </dl>
+          <p class="material-prose">Die häufigste Empfehlung, wenn der Carport am Haus auffallen soll, ohne anzubiedern. Lärche patiniert über die Jahre zu einem silbrig-gewärmten Grau, das jeder Fassade gut tut.</p>
+        </article>
+
+        <article class="material">
+          <div class="material-swatch swatch--eiche" aria-hidden="true"></div>
+          <div class="material-name">
+            <h3>Eiche</h3>
+            <span class="material-latin">Quercus&nbsp;robur</span>
+          </div>
+          <dl class="material-spec">
+            <div><dt>Herkunft</dt><dd>Mitteleuropa</dd></div>
+            <div><dt>Charakter</dt><dd>dunkel, kernig, edel</dd></div>
+            <div><dt>Dichte</dt><dd>ca. 720 kg/m³</dd></div>
+            <div><dt>Einsatz</dt><dd>Details, Sichtholz</dd></div>
+          </dl>
+          <p class="material-prose">Für Bauherren, die einen Carport als architektonisches Detail begreifen. Eiche ist anspruchsvoll, sichtbar und langlebig — kein Material für jedes Projekt, aber für die richtigen unschlagbar.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- PULL QUOTE · PETER ---------- -->
+  <section class="quote">
+    <div class="quote-inner reveal">
+      <figure class="quote-portrait">
+        <img src="assets/mp-peter-friendly-2026-05-27-gemini/selected_peter_friendly_quality_check.webp" alt="Peter Preissinger · Zimmermeister">
+        <figcaption class="quote-portrait-caption">
+          <span class="n">Peter Preissinger</span>
+          <span class="r">Mst. · Zimmermeister</span>
+        </figcaption>
+      </figure>
+      <div class="quote-body">
+        <blockquote>
+          <span class="open">„</span>Meine Carports passen zu hundert Prozent zum Haus<span class="close"> —</span> und genau deshalb schauen wir vorher so genau hin<span class="close">.“</span>
+        </blockquote>
+        <div class="quote-attr">
+          aus einem Gespräch · MMXXVI
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- KAPITEL II · TONPROBE ---------- -->
+  <section class="section section--deep">
+    <div class="frame">
+      <div class="section-head reveal">
+        <div>
+          <div class="chapter-mark">
+            <span>Kapitel</span><span class="roman">II.</span>
+            <span class="num">Tonprobe</span>
+          </div>
+          <h2 class="chapter-title">Eine Stimme<br>aus dem <em>Alltag</em>.</h2>
+        </div>
+        <div class="right">
+          <p class="lede">Ein Auftraggeber aus Niederösterreich, drei Wochen nach der Montage. Sprachnachricht, ohne Schnitt.</p>
+        </div>
+      </div>
+
+      <div class="voice-card reveal">
+        <div class="voice-grid">
+          <div class="voice-meta-block">
+            <div class="meta meta--ochre">Sprachnachricht № 01</div>
+            <h3><em>„Deine Leute haben<br>alles super<br>zusammengeräumt</em><br>hinterlassen …"</h3>
+            <p class="voice-excerpt">Über drei Minuten unkomprimierte Wertschätzung — wir haben den entscheidenden Satz herausgehoben und den Rest dem Originalton überlassen.</p>
+          </div>
+
+          <div class="player" id="player">
+            <div class="player-top">
+              <button class="player-play" id="playBtn" type="button" aria-label="Sprachnachricht abspielen">
+                <span class="icon" aria-hidden="true"></span>
+              </button>
+              <div class="player-times">
+                <span class="now" id="playerNow">0:00</span>
+                <span class="dur" id="playerDur">— · 0:33</span>
+              </div>
+            </div>
+            <div class="player-waveform" id="waveform" role="slider" tabindex="0" aria-label="Wiedergabe-Position"></div>
+            <div class="player-meta">
+              <span>Region · <strong>Niederösterreich</strong></span>
+              <span>Aufnahme · MMXXIV</span>
+            </div>
+            <audio id="audio" preload="metadata" src="assets/audio/mp-holzbau-kundenstimme-niederoesterreich.mp3"></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- KAPITEL III · VERFAHREN ---------- -->
+  <section class="section" id="verfahren">
+    <div class="frame">
+      <div class="section-head reveal">
+        <div>
+          <div class="chapter-mark">
+            <span>Kapitel</span><span class="roman">III.</span>
+            <span class="num">Vier Akte</span>
+          </div>
+          <h2 class="chapter-title">Verfahren<em>.</em></h2>
+        </div>
+        <div class="right">
+          <p class="lede">Vom ersten Foto bis zur Montage. Vier Akte, in denen niemand außer Ihnen die wichtigen Entscheidungen trifft.</p>
+        </div>
+      </div>
+
+      <div class="verfahren">
+
+        <article class="akt reveal">
+          <div class="akt-roman">I</div>
+          <div>
+            <h3 class="akt-title"><em>Eckdaten</em><br>geschickt.</h3>
+            <div class="akt-spec">Akt · Beginn</div>
+          </div>
+          <p class="akt-prose">Sie schicken uns drei Angaben: Standort, was Sie sich grob vorstellen, ein Foto vom Haus oder der Einfahrt. Mehr ist im ersten Schritt nicht nötig. Peter Preissinger antwortet persönlich.</p>
+        </article>
+
+        <article class="akt reveal">
+          <div class="akt-roman">II</div>
+          <div>
+            <h3 class="akt-title">Situation<br><em>angesehen</em>.</h3>
+            <div class="akt-spec">Akt · Lesen</div>
+          </div>
+          <p class="akt-prose">Peter liest Haus, Einfahrt und Umgebung. Welche Wetterseite trifft den Carport, wo läuft Wasser hin, welche Höhe verträgt die Fassade, wie sieht der Anschluss aus. Das passiert, bevor irgendeine Zahl Sinn ergibt.</p>
+        </article>
+
+        <article class="akt reveal">
+          <div class="akt-roman">III</div>
+          <div>
+            <h3 class="akt-title"><em>Rückmeldung</em><br>persönlich.</h3>
+            <div class="akt-spec">Akt · Antwort</div>
+          </div>
+          <p class="akt-prose">Sie bekommen eine schriftliche fachliche Einschätzung — Vorschlag zur Konstruktion, eine erste Preisrichtung, klare Hinweise auf alles, was Sie nicht übersehen sollten. Kein Konfigurator-Antwortschreiben.</p>
+        </article>
+
+        <article class="akt reveal">
+          <div class="akt-roman">IV</div>
+          <div>
+            <h3 class="akt-title">Planung<br><em>begonnen</em>.</h3>
+            <div class="akt-spec">Akt · Übergang</div>
+          </div>
+          <p class="akt-prose">Wenn alles zueinanderpasst, beginnt die konkrete Planung. Statik, Fundamente, Wasserführung, Holzbild, Montagefenster. Sie wissen ab hier, was Sie bekommen — und was nicht.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- KAPITEL IV · STIMMEN ---------- -->
+  <section class="section section--cream" id="stimmen">
+    <div class="frame">
+      <div class="section-head reveal">
+        <div>
+          <div class="chapter-mark">
+            <span>Kapitel</span><span class="roman">IV.</span>
+            <span class="num">Stimmen</span>
+          </div>
+          <h2 class="chapter-title">Auswahl<em>.</em></h2>
+        </div>
+        <div class="right">
+          <p class="lede">Sechs unter unseren Auftraggebern aus drei Bundesländern. Originalstimmen, leicht gekürzt, in editioniertem Satz.</p>
+        </div>
+      </div>
+
+      <div class="voices reveal-stagger">
+
+        <article class="stimme">
+          <figure class="stimme-portrait"><img src="assets/testimonials/diane-h.webp" alt="Diane H."></figure>
+          <div class="stimme-body">
+            <header class="stimme-head">
+              <h3 class="stimme-num"><span class="label">Stimme</span>№ 01</h3>
+              <span class="stimme-loc">Diane H. · Burgenland · MMXXIII</span>
+            </header>
+            <blockquote>„Uns war wichtig, dass der Carport <em>zum Haus gehört</em> und sauber mitgedacht ausschaut. Herr Preissinger hat gleich Punkte angesprochen, an die wir selbst gar nicht gedacht hätten."</blockquote>
+          </div>
+        </article>
+
+        <article class="stimme">
+          <figure class="stimme-portrait"><img src="assets/testimonials/martin-hoellerer.webp" alt="Martin Höllerer"></figure>
+          <div class="stimme-body">
+            <header class="stimme-head">
+              <h3 class="stimme-num"><span class="label">Stimme</span>№ 02</h3>
+              <span class="stimme-loc">Martin H. · Niederösterreich · MMXXIV</span>
+            </header>
+            <blockquote>„Man merkt den Unterschied erst richtig <em>im Alltag</em>. Einsteigen, aussteigen, Einkäufe reintragen — alles viel angenehmer. Die Ausführung ist sauber und massiv."</blockquote>
+          </div>
+        </article>
+
+        <article class="stimme">
+          <figure class="stimme-portrait"><img src="assets/testimonials/silke-kronlacher-v3.webp" alt="Silke Kronlacher"></figure>
+          <div class="stimme-body">
+            <header class="stimme-head">
+              <h3 class="stimme-num"><span class="label">Stimme</span>№ 03</h3>
+              <span class="stimme-loc">Silke K. · Wien-Umgebung · MMXXIII</span>
+            </header>
+            <blockquote>„Wir wollten <em>keinen Carport von der Stange</em>, sondern etwas, das zum Haus und zur Einfahrt passt. Bei M&P hatte man sofort das Gefühl: Die wissen, worauf es ankommt."</blockquote>
+          </div>
+        </article>
+
+        <article class="stimme">
+          <figure class="stimme-portrait"><img src="assets/testimonials/kurt-kemmer.webp" alt="Kurt Kemmer"></figure>
+          <div class="stimme-body">
+            <header class="stimme-head">
+              <h3 class="stimme-num"><span class="label">Stimme</span>№ 04</h3>
+              <span class="stimme-loc">Kurt K. · Burgenland · MMXXII</span>
+            </header>
+            <blockquote>„Der Carport schaut <em>nicht wie ein Fremdkörper</em> aus, sondern gehört richtig zum Haus dazu. Holzart, Form und Proportionen sind stimmig."</blockquote>
+          </div>
+        </article>
+
+        <article class="stimme">
+          <figure class="stimme-portrait"><img src="assets/testimonials/doris-schmiedemayr-huber.webp" alt="Doris Schmiedemayr-Huber"></figure>
+          <div class="stimme-body">
+            <header class="stimme-head">
+              <h3 class="stimme-num"><span class="label">Stimme</span>№ 05</h3>
+              <span class="stimme-loc">Doris S.-H. · Niederösterreich · MMXXIV</span>
+            </header>
+            <blockquote>„Vom ersten Gespräch bis zur Umsetzung war alles klar und bodenständig. <em>Keine großen Versprechen</em>, sondern saubere Beratung und dann ordentliches Handwerk."</blockquote>
+          </div>
+        </article>
+
+        <article class="stimme">
+          <figure class="stimme-portrait"><img src="assets/testimonials/maximilian-richter.webp" alt="Maximilian Richter"></figure>
+          <div class="stimme-body">
+            <header class="stimme-head">
+              <h3 class="stimme-num"><span class="label">Stimme</span>№ 06</h3>
+              <span class="stimme-loc">Maximilian R. · Wien · MMXXV</span>
+            </header>
+            <blockquote>„Die Baustelle war ordentlich, die Arbeit sauber, das Ergebnis <em>wie versprochen</em>. Inklusive der kleinen Dinge, die man erst Monate später bemerkt."</blockquote>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- KAPITEL V · LIEFERGEBIET ---------- -->
+  <section class="section" id="liefergebiet">
+    <div class="frame">
+      <div class="section-head reveal">
+        <div>
+          <div class="chapter-mark">
+            <span>Kapitel</span><span class="roman">V.</span>
+            <span class="num">Wirkungsbereich</span>
+          </div>
+          <h2 class="chapter-title">Wo wir <em>bauen</em>.</h2>
+        </div>
+        <div class="right">
+          <p class="lede">Drei Bundesländer und ihre Randgebiete. Wir arbeiten in einem Radius, der eine persönliche Begehung möglich macht — sonst entstehen die Carports nicht so, wie wir sie verstehen.</p>
+        </div>
+      </div>
+
+      <div class="map-grid reveal">
+        <figure class="map-card" aria-label="Karte des Wirkungsbereichs">
+          <svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <!-- compass cross -->
+            <line class="grid-line" x1="50" y1="6" x2="50" y2="74"></line>
+            <line class="grid-line" x1="10" y1="40" x2="90" y2="40"></line>
+            <text class="compass" x="49" y="5">N</text>
+
+            <!-- outer ring -->
+            <circle class="ring" cx="50" cy="40" r="32"></circle>
+            <circle class="ring" cx="50" cy="40" r="24"></circle>
+            <circle class="ring" cx="50" cy="40" r="16"></circle>
+
+            <!-- districts: simplified abstract polygons -->
+            <!-- Wien -->
+            <polygon class="district core" points="48,33 53,32 55,36 53,40 49,40 47,37"></polygon>
+            <text class="pin-label" x="46.5" y="44">Wien</text>
+
+            <!-- NÖ ring -->
+            <polygon class="district" points="38,22 50,18 64,22 68,32 60,30 50,30 40,32 36,28"></polygon>
+            <polygon class="district" points="34,30 40,32 44,40 38,46 30,42 28,36"></polygon>
+            <polygon class="district" points="58,30 70,32 74,40 66,46 56,42 54,36"></polygon>
+            <polygon class="district" points="38,46 50,44 60,46 62,52 50,56 38,52"></polygon>
+            <text class="pin-label" x="33" y="25">N Ö</text>
+
+            <!-- Burgenland -->
+            <polygon class="district core" points="62,48 72,48 76,56 70,66 60,62 58,54"></polygon>
+            <polygon class="district core" points="60,62 70,66 68,72 58,70"></polygon>
+            <text class="pin-label" x="64" y="56">Burgenland</text>
+
+            <!-- Steiermark Randgebiet -->
+            <polygon class="district" points="52,60 62,62 58,70 50,68 48,64"></polygon>
+            <text class="pin-label" x="48" y="74">Fürstenfeld</text>
+
+            <!-- pins -->
+            <circle class="pin" cx="50.5" cy="36" r=".8"></circle>
+            <circle class="pin" cx="44" cy="38" r=".6"></circle>
+            <circle class="pin" cx="64" cy="56" r=".8"></circle>
+            <circle class="pin" cx="58" cy="70" r=".6"></circle>
+            <circle class="pin" cx="50" cy="24" r=".5"></circle>
+            <circle class="pin" cx="66" cy="38" r=".5"></circle>
+
+            <!-- axis labels -->
+            <text class="label-axis" x="50" y="78" text-anchor="middle">48° 12′ N · 16° 22′ O</text>
+          </svg>
+        </figure>
+
+        <div>
+          <div class="map-list">
+            <div class="map-region">
+              <span class="name"><em>Wien</em></span>
+              <span class="areas">1010 — 1230</span>
+            </div>
+            <div class="map-region">
+              <span class="name"><em>Niederösterreich</em></span>
+              <span class="areas">Wien-Umgebung · Industrieviertel</span>
+            </div>
+            <div class="map-region">
+              <span class="name"><em>Burgenland</em></span>
+              <span class="areas">Nord · Mitte · Süd</span>
+            </div>
+            <div class="map-region">
+              <span class="name"><em>Steiermark</em></span>
+              <span class="areas">Fürstenfeld · Randgebiet</span>
+            </div>
+          </div>
+          <p class="map-foot">Außerhalb dieses Bereichs prüfen wir Anfragen einzeln. Wenn wir Ihren Standort nicht persönlich erreichen können, sagen wir das ehrlich.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- HALLMARK · 25 JAHRE ---------- -->
+  <section class="hallmark" id="garantie">
+    <div class="hallmark-inner">
+      <div class="hallmark-seal reveal" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <defs>
+            <path id="sealCircle" d="M 50,50 m -40,0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"></path>
+            <path id="sealCircleInner" d="M 50,50 m -29,0 a 29,29 0 1,1 58,0 a 29,29 0 1,1 -58,0"></path>
+          </defs>
+          <circle class="seal-ring-outer" cx="50" cy="50" r="46"></circle>
+          <circle class="seal-ring-outer" cx="50" cy="50" r="40"></circle>
+          <circle class="seal-ring-inner" cx="50" cy="50" r="29"></circle>
+          <text class="seal-text">
+            <textPath href="#sealCircle" startOffset="0">
+              · Fünfundzwanzig Jahre · Garantie auf Standsicherheit · M&P Holzbau · seit MMIV · Burgenland Niederösterreich Wien
+            </textPath>
+          </text>
+          <!-- center mark -->
+          <text x="50" y="48" text-anchor="middle" class="seal-mark" fill="#a3521b" font-size="22" font-style="italic">XXV</text>
+          <text x="50" y="58" text-anchor="middle" font-family="JetBrains Mono" font-size="3.4" letter-spacing=".22em" fill="rgba(241,232,214,.7)">JAHRE GARANTIE</text>
+          <line x1="42" y1="62" x2="58" y2="62" stroke="rgba(241,232,214,.4)" stroke-width=".2"></line>
+          <text x="50" y="68" text-anchor="middle" font-family="Fraunces" font-style="italic" font-size="4.2" fill="rgba(241,232,214,.9)">Standsicherheit</text>
+        </svg>
+      </div>
+
+      <div class="hallmark-copy reveal">
+        <h2><em>XXV</em> Jahre Garantie<br>auf Standsicherheit<em>.</em></h2>
+        <p class="hallmark-prose">Wir garantieren schriftlich für die tragende Konstruktion. Fünfundzwanzig Jahre lang. Unsere Carports halten in der Regel länger — aber wir versprechen nichts, was wir nicht halten würden.</p>
+        <dl class="hallmark-spec">
+          <div>
+            <dt>Garantiegegenstand</dt>
+            <dd>Standsicherheit · Tragwerk</dd>
+          </div>
+          <div>
+            <dt>Laufzeit</dt>
+            <dd>25 Jahre ab Übergabe</dd>
+          </div>
+          <div>
+            <dt>Schriftform</dt>
+            <dd>Vertraglich</dd>
+          </div>
+          <div>
+            <dt>Übertragbarkeit</dt>
+            <dd>auf Eigentumsnachfolger</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- COLOPHON · CTA ---------- -->
+  <section class="colophon">
+    <div class="colophon-inner">
+      <div class="reveal">
+        <h2>Wenn das alles<br>für Sie <em>passt</em><em>—</em><br>schreiben Sie uns.</h2>
+        <p class="colophon-prose">Drei kurze Fragen, eine Postleitzahl. Peter Preissinger meldet sich werktags innerhalb von 24 Stunden mit einer ersten fachlichen Einschätzung. Kein Konfigurator, kein Vertriebsanruf.</p>
+      </div>
+      <div class="colophon-actions reveal">
+        <a class="cta" href="index.html#anfrage">Projekt-Check starten</a>
+        <div class="cta-second">oder direkt: <strong>+43 …</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- FOOTER ---------- -->
+  <footer class="footer">
+    <div class="col">
+      <span class="label">Werkstatt</span>
+      <span class="val"><em>M&P</em> Holzbau</span>
+      <span class="val">Familienbetrieb · seit 2004</span>
+    </div>
+    <div class="col">
+      <span class="label">Edition</span>
+      <span class="val">№ IV · <em>MMXXVI</em></span>
+      <span class="val">Werkverzeichnis · Carportbau</span>
+    </div>
+    <div class="col">
+      <span class="label">Gebiet</span>
+      <span class="val">Wien · NÖ · Burgenland</span>
+      <span class="val">Steiermark · Randgebiet</span>
+    </div>
+    <div class="col">
+      <span class="label">Service</span>
+      <a class="val" href="index.html">Übersicht</a>
+      <a class="val" href="index.html#anfrage">Projekt-Check</a>
+      <a class="val" href="datenschutz.html">Datenschutz</a>
+    </div>
+  </footer>
+
+  <script>
+    /* ---------- scroll reveal ---------- */
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    }), { threshold: .12, rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => io.observe(el));
+
+    /* ---------- audio player ---------- */
+    (() => {
+      const audio = document.getElementById('audio');
+      const wave = document.getElementById('waveform');
+      const playBtn = document.getElementById('playBtn');
+      const nowEl = document.getElementById('playerNow');
+      const durEl = document.getElementById('playerDur');
+      const playerEl = document.getElementById('player');
+      if (!audio || !wave || !playBtn) return;
+
+      // build waveform bars — deterministic pseudo-random heights so it looks like a real waveform
+      const BAR_COUNT = 88;
+      const heights = [];
+      let seed = 1337;
+      const rng = () => { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
+      // shape envelope: builds up, sustains with variation, tails off
+      for (let i = 0; i < BAR_COUNT; i++) {
+        const t = i / BAR_COUNT;
+        const env = Math.sin(Math.PI * t) ** .6;
+        const noise = .35 + rng() * .65;
+        const punch = (i % 7 === 0 ? 1.1 : 1) * (i % 13 === 0 ? 1.2 : 1);
+        let h = env * noise * punch;
+        h = Math.max(.16, Math.min(1, h));
+        heights.push(h);
+      }
+      const frag = document.createDocumentFragment();
+      heights.forEach((h, i) => {
+        const b = document.createElement('span');
+        b.className = 'bar';
+        b.style.height = (h * 100) + '%';
+        b.dataset.idx = i;
+        frag.appendChild(b);
+      });
+      wave.appendChild(frag);
+      const bars = wave.querySelectorAll('.bar');
+
+      const fmt = s => {
+        if (!isFinite(s)) return '0:00';
+        const m = Math.floor(s / 60);
+        const r = Math.floor(s % 60).toString().padStart(2, '0');
+        return `${m}:${r}`;
+      };
+
+      audio.addEventListener('loadedmetadata', () => {
+        durEl.textContent = `— · ${fmt(audio.duration)}`;
+      });
+
+      const setPlayed = pct => {
+        const cut = Math.floor(pct * bars.length);
+        bars.forEach((b, i) => {
+          b.classList.toggle('played', i < cut);
+          b.classList.toggle('active', i === cut);
+        });
+      };
+
+      audio.addEventListener('timeupdate', () => {
+        nowEl.textContent = fmt(audio.currentTime);
+        if (audio.duration) setPlayed(audio.currentTime / audio.duration);
+      });
+
+      audio.addEventListener('ended', () => {
+        playerEl.classList.remove('playing');
+        setPlayed(0);
+        nowEl.textContent = '0:00';
+      });
+
+      const toggle = () => {
+        if (audio.paused) {
+          audio.play();
+          playerEl.classList.add('playing');
+        } else {
+          audio.pause();
+          playerEl.classList.remove('playing');
+        }
+      };
+
+      playBtn.addEventListener('click', toggle);
+
+      const seek = e => {
+        const rect = wave.getBoundingClientRect();
+        const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+        const pct = Math.max(0, Math.min(1, x / rect.width));
+        if (audio.duration) {
+          audio.currentTime = pct * audio.duration;
+          setPlayed(pct);
+        }
+      };
+      wave.addEventListener('click', seek);
+      wave.addEventListener('keydown', e => {
+        if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(); }
+        if (e.key === 'ArrowRight') audio.currentTime = Math.min(audio.duration, audio.currentTime + 2);
+        if (e.key === 'ArrowLeft') audio.currentTime = Math.max(0, audio.currentTime - 2);
+      });
+    })();
+  </script>
+</body>
+</html>

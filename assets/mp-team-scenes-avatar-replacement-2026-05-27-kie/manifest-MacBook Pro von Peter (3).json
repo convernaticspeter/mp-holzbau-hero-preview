@@ -1,0 +1,286 @@
+{
+  "created_at": "2026-05-27T12:08:11.065423+00:00",
+  "batch": "mp-team-scenes-avatar-replacement-2026-05-27-kie",
+  "model": "nano-banana-2",
+  "source_scenes": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie-white-logo-v2/images",
+  "avatar_refs": {
+    "Lena": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-portraits-5-unique-v2/01_lena_office_plans_turn.png",
+    "Tobias": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-portraits-5-unique-v2/02_tobias_apprentice_tool_belt.png",
+    "Harald": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-portraits-5-unique-v2/03_harald_master_crossed_arms.png",
+    "Lukas": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-portraits-5-unique-v2/04_lukas_measure_tape_side.png",
+    "Daniel": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_CUSTOMER_SYSTEMS/M&P Holzbau/assets/generated-images/mp-holzbau-portraits-5-unique-v2/05_daniel_tablet_consulting.png"
+  },
+  "avatar_urls": {
+    "Lena": "https://tempfile.redpandaai.co/kieai/768263/images/1779883692578-dafmw44svht.png",
+    "Tobias": "https://tempfile.redpandaai.co/kieai/768263/images/1779883697933-g9zzjs90m0v.png",
+    "Harald": "https://tempfile.redpandaai.co/kieai/768263/images/1779883703230-m9q9z1i9ce.png",
+    "Lukas": "https://tempfile.redpandaai.co/kieai/768263/images/1779883708950-lo90zxjmbb.png",
+    "Daniel": "https://tempfile.redpandaai.co/kieai/768263/images/1779883713152-0eg133z66qlm.png"
+  },
+  "base_scene_urls": {
+    "01_peter_team_site_check_driveway": "https://tempfile.redpandaai.co/kieai/768263/images/1779883719178-j17vybdmxnp.png",
+    "02_peter_customer_photo_review": "https://tempfile.redpandaai.co/kieai/768263/images/1779883725578-kj15lczi9j8.png",
+    "03_team_laser_measure_foundation": "https://tempfile.redpandaai.co/kieai/768263/images/1779883731748-oti4fjlm3q.png",
+    "04_peter_spirit_level_post": "https://tempfile.redpandaai.co/kieai/768263/images/1779883735923-yi6qd632hr.png",
+    "05_team_lifting_glulam_beam": "https://tempfile.redpandaai.co/kieai/768263/images/1779883742218-0tz7gsujalpm.png",
+    "06_workshop_cutting_beam": "https://tempfile.redpandaai.co/kieai/768263/images/1779883747612-4fw9pkk6a75.png",
+    "07_workshop_plan_table_team": "https://tempfile.redpandaai.co/kieai/768263/images/1779883753338-bj0jlgdtyc9.png",
+    "08_peter_roofline_inspection": "https://tempfile.redpandaai.co/kieai/768263/images/1779883757598-wy3xsmgvpul.png",
+    "09_team_drainage_detail": "https://tempfile.redpandaai.co/kieai/768263/images/1779883763127-cldmc2mtbv9.png",
+    "10_team_weather_side_screen": "https://tempfile.redpandaai.co/kieai/768263/images/1779883768223-k30c9eqqgw.png",
+    "11_peter_house_connection": "https://tempfile.redpandaai.co/kieai/768263/images/1779883774114-hzf18r27nq.png"
+  },
+  "items": [
+    {
+      "id": "01_peter_team_site_check_driveway",
+      "avatars": [
+        "Harald",
+        "Daniel",
+        "Lukas"
+      ],
+      "task_id": "2c5dfe031783ad6efbfed01fd06982e1",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Harald, Daniel, Lukas.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883719178-j17vybdmxnp.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883703230-m9q9z1i9ce.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883713152-0eg133z66qlm.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883708950-lo90zxjmbb.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "2c5dfe031783ad6efbfed01fd06982e1",
+          "recordId": "2c5dfe031783ad6efbfed01fd06982e1"
+        }
+      }
+    },
+    {
+      "id": "02_peter_customer_photo_review",
+      "avatars": [
+        "Daniel",
+        "Lena"
+      ],
+      "task_id": "166475bee9fb6c90ef07d889587b840b",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Daniel, Lena.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883725578-kj15lczi9j8.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883713152-0eg133z66qlm.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883692578-dafmw44svht.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "166475bee9fb6c90ef07d889587b840b",
+          "recordId": "166475bee9fb6c90ef07d889587b840b"
+        }
+      }
+    },
+    {
+      "id": "03_team_laser_measure_foundation",
+      "avatars": [
+        "Lukas",
+        "Tobias"
+      ],
+      "task_id": "138fdcd503a194a6929b0695f7bf0c65",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Lukas, Tobias.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883731748-oti4fjlm3q.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883708950-lo90zxjmbb.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883697933-g9zzjs90m0v.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "138fdcd503a194a6929b0695f7bf0c65",
+          "recordId": "138fdcd503a194a6929b0695f7bf0c65"
+        }
+      }
+    },
+    {
+      "id": "04_peter_spirit_level_post",
+      "avatars": [
+        "Harald"
+      ],
+      "task_id": "2f3f4815281b387238d8c728511269eb",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Harald.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883735923-yi6qd632hr.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883703230-m9q9z1i9ce.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "2f3f4815281b387238d8c728511269eb",
+          "recordId": "2f3f4815281b387238d8c728511269eb"
+        }
+      }
+    },
+    {
+      "id": "05_team_lifting_glulam_beam",
+      "avatars": [
+        "Harald",
+        "Lukas",
+        "Tobias"
+      ],
+      "task_id": "53acf35e4ae692374c475262bca5867f",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Harald, Lukas, Tobias.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883742218-0tz7gsujalpm.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883703230-m9q9z1i9ce.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883708950-lo90zxjmbb.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883697933-g9zzjs90m0v.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "53acf35e4ae692374c475262bca5867f",
+          "recordId": "53acf35e4ae692374c475262bca5867f"
+        }
+      }
+    },
+    {
+      "id": "06_workshop_cutting_beam",
+      "avatars": [
+        "Lukas"
+      ],
+      "task_id": "24f43207f008a463fa05e9040b862370",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Lukas.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883747612-4fw9pkk6a75.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883708950-lo90zxjmbb.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "24f43207f008a463fa05e9040b862370",
+          "recordId": "24f43207f008a463fa05e9040b862370"
+        }
+      }
+    },
+    {
+      "id": "07_workshop_plan_table_team",
+      "avatars": [
+        "Harald",
+        "Daniel",
+        "Lena"
+      ],
+      "task_id": "28c3ba6b9f505ae46823df480b037e02",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Harald, Daniel, Lena.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883753338-bj0jlgdtyc9.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883703230-m9q9z1i9ce.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883713152-0eg133z66qlm.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883692578-dafmw44svht.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "28c3ba6b9f505ae46823df480b037e02",
+          "recordId": "28c3ba6b9f505ae46823df480b037e02"
+        }
+      }
+    },
+    {
+      "id": "08_peter_roofline_inspection",
+      "avatars": [
+        "Harald"
+      ],
+      "task_id": "8531e173dda2d23d027b7b07b0f488e1",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Harald.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883757598-wy3xsmgvpul.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883703230-m9q9z1i9ce.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "8531e173dda2d23d027b7b07b0f488e1",
+          "recordId": "8531e173dda2d23d027b7b07b0f488e1"
+        }
+      }
+    },
+    {
+      "id": "09_team_drainage_detail",
+      "avatars": [
+        "Lukas",
+        "Daniel"
+      ],
+      "task_id": "411a0d86e358d7cb77049ba70bb98332",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Lukas, Daniel.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883763127-cldmc2mtbv9.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883708950-lo90zxjmbb.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883713152-0eg133z66qlm.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "411a0d86e358d7cb77049ba70bb98332",
+          "recordId": "411a0d86e358d7cb77049ba70bb98332"
+        }
+      }
+    },
+    {
+      "id": "10_team_weather_side_screen",
+      "avatars": [
+        "Lukas",
+        "Tobias"
+      ],
+      "task_id": "29b294b7a122798d3fe391eb56f81748",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Lukas, Tobias.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883768223-k30c9eqqgw.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883708950-lo90zxjmbb.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883697933-g9zzjs90m0v.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "29b294b7a122798d3fe391eb56f81748",
+          "recordId": "29b294b7a122798d3fe391eb56f81748"
+        }
+      }
+    },
+    {
+      "id": "11_peter_house_connection",
+      "avatars": [
+        "Harald"
+      ],
+      "task_id": "d9c2e4eaf6c876b342b5e2391b7844b9",
+      "state": "submitted",
+      "prompt": "Use the first supplied image as the exact base scene/composition reference.\nThis is a people-and-workwear replacement pass, not a redesign.\nKeep the same camera angle, framing, carport/workshop/driveway setting, timber structure, tools, lighting, and documentary realism from the base scene.\nReplace the visible worker/person identities and workwear with the supplied M&P avatar references: Harald.\nKeep each referenced person's face, age impression, body type, red hoodie/workwear, and existing small white M&P chest logo/textile mark from the avatar reference as consistently as possible.\nIMPORTANT LOGO RULE: do not invent a new logo, do not create colored logo patches, do not add fake letters, do not add extra badges. If the logo is small or partly hidden by pose/folds, that is correct. It should read as a subtle white textile print/embroidery on burgundy fabric, not a prominent advertising badge.\nAll workers must wear burgundy/dark red M&P hoodies or work jackets, dark work trousers, black work shoes. No generic black-only outfits. No random signage. No watermarks. No gibberish text.\nPreserve physically plausible carpentry action: correct tools, believable hands, straight posts/beams, no Blechwinkel hero detail, no impossible structure.\nTrue horizontal 16:9 realistic Austrian timber-construction photo.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883774114-hzf18r27nq.png",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779883703230-m9q9z1i9ce.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "d9c2e4eaf6c876b342b5e2391b7844b9",
+          "recordId": "d9c2e4eaf6c876b342b5e2391b7844b9"
+        }
+      }
+    }
+  ]
+}

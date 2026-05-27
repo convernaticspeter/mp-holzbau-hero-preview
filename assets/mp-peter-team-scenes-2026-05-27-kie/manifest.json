@@ -1,0 +1,1257 @@
+{
+  "created_at": "2026-05-27T10:50:41.422354+00:00",
+  "batch": "mp-peter-team-scenes-2026-05-27-kie",
+  "model": "nano-banana-2",
+  "refs": {
+    "logo": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/_refs_local/logo.png",
+    "peter1": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/_refs_local/peter-preissinger-1.jpeg",
+    "peter2": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/_refs_local/peter-preissinger-2.jpeg",
+    "peter3": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/_refs_local/peter-preissinger-3.jpeg",
+    "peter4": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/_refs_local/peter-preissinger-4.jpeg"
+  },
+  "ref_urls": {
+    "logo": "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png",
+    "peter1": "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+    "peter2": "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+    "peter3": "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+    "peter4": "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg"
+  },
+  "items": [
+    {
+      "id": "01_peter_team_site_check_driveway",
+      "task_id": "4c0ef02857af8ea29182ee2be562023f",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter and two team members stand at a residential driveway with a printed plan and measuring wheel, checking carport position and turning radius.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4c0ef02857af8ea29182ee2be562023f",
+          "recordId": "4c0ef02857af8ea29182ee2be562023f"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4c0ef02857af8ea29182ee2be562023f",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter and two team members stand at a residential driveway with a printed plan and measuring wheel, checking carport position and turning radius.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/ggc/4c0ef02857af8ea29182ee2be562023f_1779879095874.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 43,
+          "completeTime": 1779879097034,
+          "createTime": 1779879053927,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/ggc/4c0ef02857af8ea29182ee2be562023f_1779879095874.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/01_peter_team_site_check_driveway.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/01_peter_team_site_check_driveway.webp"
+    },
+    {
+      "id": "02_peter_customer_photo_review",
+      "task_id": "4ad165d8c5447f47302a4c507ffb3ff9",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter holds a tablet with driveway photos while a colleague marks measurements on a clipboard beside a timber carport bay; no customer face visible.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4ad165d8c5447f47302a4c507ffb3ff9",
+          "recordId": "4ad165d8c5447f47302a4c507ffb3ff9"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4ad165d8c5447f47302a4c507ffb3ff9",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter holds a tablet with driveway photos while a colleague marks measurements on a clipboard beside a timber carport bay; no customer face visible.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879117323-fdviirv3i8.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 62,
+          "completeTime": 1779879118805,
+          "createTime": 1779879055634,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879117323-fdviirv3i8.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/02_peter_customer_photo_review.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/02_peter_customer_photo_review.webp"
+    },
+    {
+      "id": "03_team_laser_measure_foundation",
+      "task_id": "868def0ba958950de41d18ca93735a59",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Two M&P workers use a laser level and tape measure to mark foundation points on paving for a carport.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "868def0ba958950de41d18ca93735a59",
+          "recordId": "868def0ba958950de41d18ca93735a59"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "868def0ba958950de41d18ca93735a59",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Two M&P workers use a laser level and tape measure to mark foundation points on paving for a carport.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879138994-47olx0k531l.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 83,
+          "completeTime": 1779879140526,
+          "createTime": 1779879057300,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879138994-47olx0k531l.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/03_team_laser_measure_foundation.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/03_team_laser_measure_foundation.webp"
+    },
+    {
+      "id": "04_peter_spirit_level_post",
+      "task_id": "aa32f481b1769274879923f407bc22f6",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter checks a tall carport post with a long spirit level, roof line visible above, realistic scale.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "aa32f481b1769274879923f407bc22f6",
+          "recordId": "aa32f481b1769274879923f407bc22f6"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "aa32f481b1769274879923f407bc22f6",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter checks a tall carport post with a long spirit level, roof line visible above, realistic scale.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879101830-8btazvrkoz9.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 44,
+          "completeTime": 1779879103468,
+          "createTime": 1779879059033,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879101830-8btazvrkoz9.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/04_peter_spirit_level_post.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/04_peter_spirit_level_post.webp"
+    },
+    {
+      "id": "05_team_lifting_glulam_beam",
+      "task_id": "d2be59d197f52f65b065c2f63a02c17b",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Three workers carefully position a glulam beam on prepared posts, safe controlled movement, no crane fantasy.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "d2be59d197f52f65b065c2f63a02c17b",
+          "recordId": "d2be59d197f52f65b065c2f63a02c17b"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "d2be59d197f52f65b065c2f63a02c17b",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Three workers carefully position a glulam beam on prepared posts, safe controlled movement, no crane fantasy.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/ggc/d2be59d197f52f65b065c2f63a02c17b_1779879113673.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 53,
+          "completeTime": 1779879114937,
+          "createTime": 1779879061065,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/ggc/d2be59d197f52f65b065c2f63a02c17b_1779879113673.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/05_team_lifting_glulam_beam.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/05_team_lifting_glulam_beam.webp"
+    },
+    {
+      "id": "06_workshop_cutting_beam",
+      "task_id": "20376073c0801553364b38483a4c1966",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: A worker in M&P hoodie marks and cuts a glulam beam in the workshop, saw setup safe and realistic.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "20376073c0801553364b38483a4c1966",
+          "recordId": "20376073c0801553364b38483a4c1966"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "20376073c0801553364b38483a4c1966",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: A worker in M&P hoodie marks and cuts a glulam beam in the workshop, saw setup safe and realistic.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879127644-ang33x1t92.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 66,
+          "completeTime": 1779879129180,
+          "createTime": 1779879062718,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879127644-ang33x1t92.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/06_workshop_cutting_beam.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/06_workshop_cutting_beam.webp"
+    },
+    {
+      "id": "07_workshop_plan_table_team",
+      "task_id": "26dfd8049d5e582e00d603f57bbf1de4",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter and two colleagues review plans on a large workshop table with timber samples and fasteners sorted neatly.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "26dfd8049d5e582e00d603f57bbf1de4",
+          "recordId": "26dfd8049d5e582e00d603f57bbf1de4"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "26dfd8049d5e582e00d603f57bbf1de4",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter and two colleagues review plans on a large workshop table with timber samples and fasteners sorted neatly.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879121761-00q9yzyf7mrkj.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 59,
+          "completeTime": 1779879123368,
+          "createTime": 1779879064387,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879121761-00q9yzyf7mrkj.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/07_workshop_plan_table_team.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/07_workshop_plan_table_team.webp"
+    },
+    {
+      "id": "08_peter_roofline_inspection",
+      "task_id": "2d92ced434d64787f480a973055194e0",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter inspects the finished roof line of a timber carport from a side angle, hand on beam, calm expert expression.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "2d92ced434d64787f480a973055194e0",
+          "recordId": "2d92ced434d64787f480a973055194e0"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "2d92ced434d64787f480a973055194e0",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter inspects the finished roof line of a timber carport from a side angle, hand on beam, calm expert expression.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879124428-4ilrxs4v6zg.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 60,
+          "completeTime": 1779879126098,
+          "createTime": 1779879065973,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879124428-4ilrxs4v6zg.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/08_peter_roofline_inspection.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/08_peter_roofline_inspection.webp"
+    },
+    {
+      "id": "09_team_drainage_detail",
+      "task_id": "cc377d80b3f878dd9674802e4734b9f9",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Two workers discuss gutter/downpipe routing on a carport roof edge, waterführung visibly part of the craft.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "cc377d80b3f878dd9674802e4734b9f9",
+          "recordId": "cc377d80b3f878dd9674802e4734b9f9"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "cc377d80b3f878dd9674802e4734b9f9",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Two workers discuss gutter/downpipe routing on a carport roof edge, waterführung visibly part of the craft.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879107020-hggm0ih06qf.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 40,
+          "completeTime": 1779879108661,
+          "createTime": 1779879067629,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879107020-hggm0ih06qf.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/09_team_drainage_detail.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/09_team_drainage_detail.webp"
+    },
+    {
+      "id": "10_team_weather_side_screen",
+      "task_id": "79957b0d86be7425d550511289ea2b1a",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Team installs or checks a timber weather-side screen on one side of a carport, clean vertical battens.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "79957b0d86be7425d550511289ea2b1a",
+          "recordId": "79957b0d86be7425d550511289ea2b1a"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "79957b0d86be7425d550511289ea2b1a",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Team installs or checks a timber weather-side screen on one side of a carport, clean vertical battens.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879543090-hpwgziedn4r.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 475,
+          "completeTime": 1779879544444,
+          "createTime": 1779879069255,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879543090-hpwgziedn4r.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/10_team_weather_side_screen.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/10_team_weather_side_screen.webp"
+    },
+    {
+      "id": "11_peter_house_connection",
+      "task_id": "7dfa2aab9db7bd1a6daa82541db71170",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter checks the junction between house façade and carport roof, showing how the structure fits the house.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "7dfa2aab9db7bd1a6daa82541db71170",
+          "recordId": "7dfa2aab9db7bd1a6daa82541db71170"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "7dfa2aab9db7bd1a6daa82541db71170",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter checks the junction between house façade and carport roof, showing how the structure fits the house.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879488437-ygzkrini0cq.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 418,
+          "completeTime": 1779879489752,
+          "createTime": 1779879070952,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879488437-ygzkrini0cq.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/11_peter_house_connection.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/11_peter_house_connection.webp"
+    },
+    {
+      "id": "12_team_customer_handover_no_faces",
+      "task_id": "069fa851e696f416a9d6413fc8430519",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter and team at a finished carport handover, customers only from behind or out of focus, focus on carport and craft.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "069fa851e696f416a9d6413fc8430519",
+          "recordId": "069fa851e696f416a9d6413fc8430519"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "069fa851e696f416a9d6413fc8430519",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter and team at a finished carport handover, customers only from behind or out of focus, focus on carport and craft.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879197467-g9mt6d8fwra.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 125,
+          "completeTime": 1779879199000,
+          "createTime": 1779879072636,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879197467-g9mt6d8fwra.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/12_team_customer_handover_no_faces.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/12_team_customer_handover_no_faces.webp"
+    },
+    {
+      "id": "13_worker_sanding_surface",
+      "task_id": "c42a7c3174e86eb8e5e306118cfe7a71",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Close documentary scene: worker sanding or finishing timber surface on a beam, M&P sleeve patch visible, hands plausible.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "c42a7c3174e86eb8e5e306118cfe7a71",
+          "recordId": "c42a7c3174e86eb8e5e306118cfe7a71"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "c42a7c3174e86eb8e5e306118cfe7a71",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Close documentary scene: worker sanding or finishing timber surface on a beam, M&P sleeve patch visible, hands plausible.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879115798-h62o9zu01k.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 43,
+          "completeTime": 1779879117242,
+          "createTime": 1779879074263,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879115798-h62o9zu01k.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/13_worker_sanding_surface.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/13_worker_sanding_surface.webp"
+    },
+    {
+      "id": "14_team_loading_timber_truck",
+      "task_id": "1d207ee11456b128c60cfd519502f61d",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Team loads prepared beams onto a small truck/trailer in yard, safe straps and organized material.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "1d207ee11456b128c60cfd519502f61d",
+          "recordId": "1d207ee11456b128c60cfd519502f61d"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "1d207ee11456b128c60cfd519502f61d",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Team loads prepared beams onto a small truck/trailer in yard, safe straps and organized material.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/ggc/1d207ee11456b128c60cfd519502f61d_1779879110022.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 35,
+          "completeTime": 1779879111118,
+          "createTime": 1779879075874,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/ggc/1d207ee11456b128c60cfd519502f61d_1779879110022.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/14_team_loading_timber_truck.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/14_team_loading_timber_truck.webp"
+    },
+    {
+      "id": "15_peter_foundation_discussion",
+      "task_id": "474b289db1c37e1038242d4b34c60b8f",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter kneels near foundation point with plan and marker, explaining base position to colleague, no customer face.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "474b289db1c37e1038242d4b34c60b8f",
+          "recordId": "474b289db1c37e1038242d4b34c60b8f"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "474b289db1c37e1038242d4b34c60b8f",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter kneels near foundation point with plan and marker, explaining base position to colleague, no customer face.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879127823-y20q4m8va3k.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 51,
+          "completeTime": 1779879129304,
+          "createTime": 1779879077512,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879127823-y20q4m8va3k.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/15_peter_foundation_discussion.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/15_peter_foundation_discussion.webp"
+    },
+    {
+      "id": "16_team_roof_board_installation",
+      "task_id": "cf24a050ade90b6a00893653771e6473",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Two workers install roof boards/underside planking on a carport, realistic ladders/scaffold, no dangerous pose.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "cf24a050ade90b6a00893653771e6473",
+          "recordId": "cf24a050ade90b6a00893653771e6473"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "cf24a050ade90b6a00893653771e6473",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Two workers install roof boards/underside planking on a carport, realistic ladders/scaffold, no dangerous pose.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879151759-cuzlop8nj7.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 74,
+          "completeTime": 1779879153581,
+          "createTime": 1779879079214,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879151759-cuzlop8nj7.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/16_team_roof_board_installation.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/16_team_roof_board_installation.webp"
+    },
+    {
+      "id": "17_peter_carport_depth_demo",
+      "task_id": "e403abf92328bfaead5820a19ace4ee2",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter stands beside a parked car fully under roof and points to the generous door-opening space; car protected, blank plate.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "e403abf92328bfaead5820a19ace4ee2",
+          "recordId": "e403abf92328bfaead5820a19ace4ee2"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "e403abf92328bfaead5820a19ace4ee2",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter stands beside a parked car fully under roof and points to the generous door-opening space; car protected, blank plate.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/ggc/e403abf92328bfaead5820a19ace4ee2_1779879121483.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 41,
+          "completeTime": 1779879122583,
+          "createTime": 1779879080898,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/ggc/e403abf92328bfaead5820a19ace4ee2_1779879121483.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/17_peter_carport_depth_demo.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/17_peter_carport_depth_demo.webp"
+    },
+    {
+      "id": "18_team_rain_day_shelter",
+      "task_id": "3a8366984b2819c9dd697fb4bfedfb28",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Team under completed carport during rain, dry sheltered interior visible, not theatrical storm.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "3a8366984b2819c9dd697fb4bfedfb28",
+          "recordId": "3a8366984b2819c9dd697fb4bfedfb28"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "3a8366984b2819c9dd697fb4bfedfb28",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Team under completed carport during rain, dry sheltered interior visible, not theatrical storm.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879127548-wveejfumnz.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 46,
+          "completeTime": 1779879129366,
+          "createTime": 1779879082533,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879127548-wveejfumnz.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/18_team_rain_day_shelter.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/18_team_rain_day_shelter.webp"
+    },
+    {
+      "id": "19_winter_check_team",
+      "task_id": "9cde125662bcc2d442d628324a3fc4af",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter and one colleague check a carport in winter conditions, snow outside, structure clean and stable.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "9cde125662bcc2d442d628324a3fc4af",
+          "recordId": "9cde125662bcc2d442d628324a3fc4af"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "9cde125662bcc2d442d628324a3fc4af",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter and one colleague check a carport in winter conditions, snow outside, structure clean and stable.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879123552-fil61czw23.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 41,
+          "completeTime": 1779879125142,
+          "createTime": 1779879084171,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879123552-fil61czw23.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/19_winter_check_team.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/19_winter_check_team.webp"
+    },
+    {
+      "id": "20_team_detail_connection",
+      "task_id": "8b29441a3f89818e26d54ee7aa4937d9",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Close scene of worker checking clean timber joint/connection with pencil and folding rule, avoid metal angle-bracket hero.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "8b29441a3f89818e26d54ee7aa4937d9",
+          "recordId": "8b29441a3f89818e26d54ee7aa4937d9"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "8b29441a3f89818e26d54ee7aa4937d9",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Close scene of worker checking clean timber joint/connection with pencil and folding rule, avoid metal angle-bracket hero.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879524686-khcgbx8xfqp.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 440,
+          "completeTime": 1779879526091,
+          "createTime": 1779879085799,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879524686-khcgbx8xfqp.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/20_team_detail_connection.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/20_team_detail_connection.webp"
+    },
+    {
+      "id": "21_peter_portrait_workshop",
+      "task_id": "4ac286d6dd6f57e88bd91277d3555c32",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter portrait in workshop, burgundy M&P jacket, timber and plans behind him, professional but natural.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4ac286d6dd6f57e88bd91277d3555c32",
+          "recordId": "4ac286d6dd6f57e88bd91277d3555c32"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "4ac286d6dd6f57e88bd91277d3555c32",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter portrait in workshop, burgundy M&P jacket, timber and plans behind him, professional but natural.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879230748-l987pcblwf.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 144,
+          "completeTime": 1779879232149,
+          "createTime": 1779879087481,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879230748-l987pcblwf.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/21_peter_portrait_workshop.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/21_peter_portrait_workshop.webp"
+    },
+    {
+      "id": "22_team_group_finished_carport",
+      "task_id": "f2cc40b13f49643328467ce680a71a6d",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter with three team members in front of a finished timber carport, relaxed not posed like stock, logo patches subtle.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "f2cc40b13f49643328467ce680a71a6d",
+          "recordId": "f2cc40b13f49643328467ce680a71a6d"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "f2cc40b13f49643328467ce680a71a6d",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter with three team members in front of a finished timber carport, relaxed not posed like stock, logo patches subtle.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879141758-5d4s6x9hvin.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 54,
+          "completeTime": 1779879143289,
+          "createTime": 1779879089207,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879141758-5d4s6x9hvin.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/22_team_group_finished_carport.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/22_team_group_finished_carport.webp"
+    },
+    {
+      "id": "23_worker_drilling_preparation",
+      "task_id": "f00a2ea64686f19d93594807cf4901df",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Worker prepares a precise pre-drill on timber beam at bench, clamp visible, safe realistic tool use.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "f00a2ea64686f19d93594807cf4901df",
+          "recordId": "f00a2ea64686f19d93594807cf4901df"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "f00a2ea64686f19d93594807cf4901df",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Worker prepares a precise pre-drill on timber beam at bench, clamp visible, safe realistic tool use.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879285209-a0l9to3usw.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 195,
+          "completeTime": 1779879286633,
+          "createTime": 1779879090817,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879285209-a0l9to3usw.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/23_worker_drilling_preparation.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/23_worker_drilling_preparation.webp"
+    },
+    {
+      "id": "24_team_material_sorting",
+      "task_id": "6de8dfbeb1bed71eb42a904c406834cd",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Two workers sort labeled timber parts before transport, labels are blank/unreadable, organized craft process.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "6de8dfbeb1bed71eb42a904c406834cd",
+          "recordId": "6de8dfbeb1bed71eb42a904c406834cd"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "6de8dfbeb1bed71eb42a904c406834cd",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Two workers sort labeled timber parts before transport, labels are blank/unreadable, organized craft process.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/ggc/6de8dfbeb1bed71eb42a904c406834cd_1779879127407.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 36,
+          "completeTime": 1779879128510,
+          "createTime": 1779879092429,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/ggc/6de8dfbeb1bed71eb42a904c406834cd_1779879127407.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/24_team_material_sorting.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/24_team_material_sorting.webp"
+    },
+    {
+      "id": "25_peter_tablet_site_photo",
+      "task_id": "1f6a507953394476305701179cf287ec",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter uses tablet on site to compare driveway photo/plan, carport structure behind, one colleague measuring in background.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "1f6a507953394476305701179cf287ec",
+          "recordId": "1f6a507953394476305701179cf287ec"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "1f6a507953394476305701179cf287ec",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter uses tablet on site to compare driveway photo/plan, carport structure behind, one colleague measuring in background.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/ggc/1f6a507953394476305701179cf287ec_1779879133217.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 40,
+          "completeTime": 1779879134343,
+          "createTime": 1779879094093,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/ggc/1f6a507953394476305701179cf287ec_1779879133217.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/25_peter_tablet_site_photo.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/25_peter_tablet_site_photo.webp"
+    },
+    {
+      "id": "26_team_under_roof_quality_check",
+      "task_id": "1b766966d07ea8f5a5ae2aec27ecc8e0",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Team checks roof underside, alignment and straightness under a new carport, natural daylight.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "1b766966d07ea8f5a5ae2aec27ecc8e0",
+          "recordId": "1b766966d07ea8f5a5ae2aec27ecc8e0"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "1b766966d07ea8f5a5ae2aec27ecc8e0",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Team checks roof underside, alignment and straightness under a new carport, natural daylight.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879293888-v6s8obdkl3i.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 199,
+          "completeTime": 1779879295288,
+          "createTime": 1779879096052,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879293888-v6s8obdkl3i.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/26_team_under_roof_quality_check.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/26_team_under_roof_quality_check.webp"
+    },
+    {
+      "id": "27_peter_with_young_apprentice",
+      "task_id": "5014b5091782aa7706c355ec5e1b1882",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter explains a timber detail to a younger apprentice, respectful training moment, no staged thumbs-up.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "5014b5091782aa7706c355ec5e1b1882",
+          "recordId": "5014b5091782aa7706c355ec5e1b1882"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "5014b5091782aa7706c355ec5e1b1882",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter explains a timber detail to a younger apprentice, respectful training moment, no staged thumbs-up.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879150649-g84kt6scmi.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 53,
+          "completeTime": 1779879151983,
+          "createTime": 1779879097749,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879150649-g84kt6scmi.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/27_peter_with_young_apprentice.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/27_peter_with_young_apprentice.webp"
+    },
+    {
+      "id": "28_team_clean_finished_driveway",
+      "task_id": "12ca7b4ac05602760ec40c7eea44f5d9",
+      "state": "success",
+      "prompt": "\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Workers sweep/clean finished driveway around a new carport, shows handover quality and tidy site.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "12ca7b4ac05602760ec40c7eea44f5d9",
+          "recordId": "12ca7b4ac05602760ec40c7eea44f5d9"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "12ca7b4ac05602760ec40c7eea44f5d9",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Workers sweep/clean finished driveway around a new carport, shows handover quality and tidy site.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879141071-tu35zgfn0c.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 43,
+          "completeTime": 1779879142749,
+          "createTime": 1779879099314,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879141071-tu35zgfn0c.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/28_team_clean_finished_driveway.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/28_team_clean_finished_driveway.webp"
+    },
+    {
+      "id": "29_peter_evening_finished_carport",
+      "task_id": "fd9db6abc4b3caa417454040910d1dbe",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter at dusk beside warmly lit completed timber carport, quiet proud expression, not glossy luxury ad.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "fd9db6abc4b3caa417454040910d1dbe",
+          "recordId": "fd9db6abc4b3caa417454040910d1dbe"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "fd9db6abc4b3caa417454040910d1dbe",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter at dusk beside warmly lit completed timber carport, quiet proud expression, not glossy luxury ad.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879146200-m5ohy2rkm4a.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 46,
+          "completeTime": 1779879147659,
+          "createTime": 1779879100934,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879146200-m5ohy2rkm4a.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/29_peter_evening_finished_carport.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/29_peter_evening_finished_carport.webp"
+    },
+    {
+      "id": "30_team_walkthrough_sequence",
+      "task_id": "c725d38ed627d33dd54a6206c0b2ffaa",
+      "state": "success",
+      "prompt": "Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\n\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\n\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\n\nScene: Peter and team walk through a finished carport checking final points: post, roof edge, drainage, clear car space.\n\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.",
+      "image_input": [
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg",
+        "https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png"
+      ],
+      "submit_response": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "c725d38ed627d33dd54a6206c0b2ffaa",
+          "recordId": "c725d38ed627d33dd54a6206c0b2ffaa"
+        }
+      },
+      "last_status": {
+        "code": 200,
+        "msg": "success",
+        "data": {
+          "taskId": "c725d38ed627d33dd54a6206c0b2ffaa",
+          "model": "nano-banana-2",
+          "state": "success",
+          "param": "{\"input\":\"{\\\"image_input\\\":[\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879044085-x8h8usurxx.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879046020-c2e6v98pgt.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879048869-1udwv36f645.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879050992-2gt73bkf68t.jpeg\\\",\\\"https://tempfile.redpandaai.co/kieai/768263/images/1779879042095-34r1u8t6j0m.png\\\"],\\\"aspect_ratio\\\":\\\"16:9\\\",\\\"output_format\\\":\\\"png\\\",\\\"prompt\\\":\\\"Use the supplied real Peter Preissinger photos as identity anchors whenever Peter appears: Austrian male Zimmermeister, late 50s/early 60s, short gray hair, gray stubble beard, natural experienced face. Preserve age and character; do not make him younger or turn him into a generic model.\\\\n\\\\nM&P Holzbau documentary image set. Workwear must be burgundy/dark red M&P work jackets or hoodies, dark grey/black work trousers, black safety shoes. Use the supplied official M&P logo as the exact logo reference: only one small believable chest patch or sleeve patch, no fake text, no extra logos, no huge centered branding. If the logo is too small to read, keep it as a subtle exact-color patch rather than inventing letters.\\\\n\\\\nRealistic Austrian/DACH small-business timber construction photography, Wiener Becken / Lower Austria / Burgenland residential context, natural overcast daylight, no Alps, no stock-photo smile, no AI gloss, no random signage, no watermarks, no gibberish text, no impossible beams, no Blechwinkel hero detail. Structurally plausible timber carport craft: straight posts, rafters, clean joints, roof depth, drainage and house fit. True horizontal 16:9 photo.\\\\n\\\\nScene: Peter and team walk through a finished carport checking final points: post, roof edge, drainage, clear car space.\\\\n\\\\nImportant: create an original documentary photo, not a collage. Correct anatomy and hands. The logo patch must be small and physically attached to workwear, never floating.\\\",\\\"resolution\\\":\\\"2K\\\"}\",\"model\":\"nano-banana-2\"}",
+          "resultJson": "{\"resultUrls\":[\"https://tempfile.aiquickdraw.com/images/1779879152443-tg1mnuljc6.png\"]}",
+          "failCode": null,
+          "failMsg": null,
+          "costTime": 50,
+          "completeTime": 1779879153938,
+          "createTime": 1779879102578,
+          "creditsConsumed": 12.0
+        }
+      },
+      "result_urls": [
+        "https://tempfile.aiquickdraw.com/images/1779879152443-tg1mnuljc6.png"
+      ],
+      "file": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/30_team_walkthrough_sequence.png",
+      "webp": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/images/30_team_walkthrough_sequence.webp"
+    }
+  ],
+  "finished_at": "2026-05-27T10:59:17.224968+00:00",
+  "contact_sheet": "/Users/theo/Library/CloudStorage/OneDrive-Convernatics/_AGENT_SHARE_HUB/_REPOS/mp-holzbau-hero-preview/assets/mp-peter-team-scenes-2026-05-27-kie/_contact_sheet.jpg"
+}
