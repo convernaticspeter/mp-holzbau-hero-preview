@@ -7,7 +7,7 @@
   <title>M&P Holzbau · Holz-Carports vom Zimmermeister</title>
   <meta name="description" content="Holz-Carports von M&P Holzbau: vom Zimmermeister geplant, passend zu Haus und Einfahrt, mit persönlicher Rückmeldung von Peter Preissinger.">
   <link rel="icon" type="image/png" href="assets/logo-white.png?v=20260525-logo-contrast">
-  <link rel="preload" as="image" href="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_hero_peter_paved_workwear_official_logo.webp?v=20260527-official-hero-logo">
+  <link rel="preload" as="image" href="assets/no-logo-workwear-2026-05-27/hero_peter_paved_workwear_official_logo_plain_red_black.webp?v=20260527-plain-red-black">
   <link rel="preload" as="font" href="assets/fonts/inter-regular.woff2?v=20260525-impact" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="assets/fonts/space-grotesk-bold.woff2?v=20260525-impact" type="font/woff2" crossorigin>
   <style>
@@ -1289,25 +1289,401 @@
       .btn.btn-primary{font-size:17px !important;padding:18px 22px !important;min-height:60px !important}
       .btn.btn-primary::after{width:18px;height:12px}
     }
+
+    /* ============================================================
+       2026-05-27 Visual Refinements Batch — Tokens, Card-System,
+       Signature, Quickfact-Icons, Hero-Caption, FAQ, Pull-Quote,
+       Atmospheric Scroll-Gallery
+       ============================================================ */
+
+    /* #7 — Spacing-Token-System */
+    :root{
+      --space-xs:8px;
+      --space-sm:14px;
+      --space-md:24px;
+      --space-lg:clamp(40px,4vw,64px);
+      --space-xl:clamp(60px,6vw,96px);
+      --space-2xl:clamp(80px,8vw,120px);
+      --section-py:clamp(72px,7vw,108px);
+      --card-pad:clamp(22px,2.4vw,30px);
+      --card-radius:2px;
+      --card-border:1px solid rgba(255,247,232,.16);
+      --card-border-light:1px solid rgba(9,13,9,.14);
+      --hover-lift:translateY(-2px);
+      --hover-shadow:0 22px 56px -42px rgba(0,0,0,.7);
+    }
+
+    /* #2 — Konsolidiertes Card-System: sharp corners, unified hover */
+    .compare-card,
+    .testimonial-card,
+    .fact,
+    .peter,
+    .benefit-grid article,
+    .longevity-grid article,
+    .material-proof .step,
+    .flow-proof .step,
+    .steps .step,
+    .quiz-entry-card,
+    .faq details,
+    .voice-proof,
+    .map-card,
+    .map-tooltip,
+    .quiz-entry-points span,
+    .hero-creds,
+    .hero .hero-person,
+    .hero .seal-row,
+    .hero .award-chip,
+    .hero .proof-chip{
+      border-radius:var(--card-radius) !important;
+    }
+    .compare-card,
+    .testimonial-card,
+    .benefit-grid article,
+    .longevity-grid article,
+    .fact,
+    .peter,
+    .material-proof .step,
+    .flow-proof .step{
+      transition:transform .25s cubic-bezier(.16,1,.3,1), border-color .25s ease, box-shadow .25s ease;
+    }
+    .compare-card:hover,
+    .benefit-grid article:hover,
+    .longevity-grid article:hover,
+    .fact:hover,
+    .material-proof .step:hover,
+    .flow-proof .step:hover{
+      transform:var(--hover-lift);
+      border-color:rgba(214,161,77,.4) !important;
+    }
+    .section:not(.dark) .compare-card:hover,
+    .section:not(.dark) .benefit-grid article:hover,
+    .section:not(.dark) .longevity-grid article:hover,
+    .section:not(.dark) .fact:hover,
+    .section:not(.dark) .material-proof .step:hover,
+    .section:not(.dark) .flow-proof .step:hover{
+      box-shadow:var(--hover-shadow);
+    }
+
+    /* #4 — Quickfacts mit SVG-Icons */
+    .hero-quickfacts span{display:inline-flex;align-items:center;gap:8px}
+    .hero-quickfacts .qf-icon{
+      width:15px;height:15px;
+      color:var(--gold);
+      flex:0 0 auto;
+    }
+
+    /* #6 — Hero-Foto Editorial-Caption */
+    .hero-figure{
+      margin:0;
+      position:relative;
+      grid-column:2;
+      grid-row:1;
+      aspect-ratio:16 / 9;
+      overflow:hidden;
+    }
+    .hero-figure .hero-bg{
+      position:absolute !important;
+      inset:0 !important;
+      width:100% !important;
+      height:100% !important;
+      grid-column:auto !important;
+      grid-row:auto !important;
+      aspect-ratio:auto !important;
+      margin:0 !important;
+    }
+    .hero-figure .hero-bg img{
+      width:100% !important;
+      height:100% !important;
+      object-fit:cover !important;
+      object-position:100% 50% !important;
+    }
+    .hero-figure-caption{
+      position:absolute;
+      left:14px;right:14px;bottom:14px;
+      display:flex;justify-content:space-between;gap:18px;
+      align-items:flex-end;
+      pointer-events:none;
+      z-index:2;
+    }
+    .hero-figure-caption span{
+      background:rgba(9,13,9,.6);
+      backdrop-filter:blur(6px);
+      -webkit-backdrop-filter:blur(6px);
+      color:rgba(255,247,232,.88);
+      padding:6px 10px;
+      font-family:ui-monospace,'JetBrains Mono','Menlo',monospace;
+      font-size:10.5px;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      font-weight:500;
+      border:1px solid rgba(255,247,232,.16);
+    }
+    .hero-figure-caption span.right{text-align:right}
+    @media(min-width:981px){
+      header.hero .wide.hero-content > .hero-figure{
+        grid-column:2 !important;
+        grid-row:1 !important;
+      }
+    }
+
+    /* #5 — FAQ Refinement: custom +/- with rotation */
+    .faq{display:grid;gap:0;border-top:1px solid var(--darkline)}
+    .faq details{
+      background:transparent !important;
+      border:0 !important;
+      border-bottom:1px solid var(--darkline) !important;
+      padding:22px 0 !important;
+      margin:0;
+    }
+    .faq details[open]{padding-bottom:26px !important}
+    .faq summary{
+      list-style:none !important;
+      cursor:pointer;
+      font-weight:950;
+      font-size:17px;
+      line-height:1.35;
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:18px;
+      align-items:start;
+      color:#211912;
+      transition:color .2s ease;
+    }
+    .faq summary:hover{color:var(--ochre,#8a521f)}
+    .faq summary::-webkit-details-marker{display:none}
+    .faq summary::after{
+      content:"";
+      width:18px;height:18px;
+      flex:0 0 auto;
+      background:
+        linear-gradient(currentColor, currentColor) center / 12px 1.6px no-repeat,
+        linear-gradient(currentColor, currentColor) center / 1.6px 12px no-repeat;
+      transition:transform .3s cubic-bezier(.16,1,.3,1);
+      color:var(--ochre,#8a521f);
+      margin-top:6px;
+    }
+    .faq details[open] summary::after{
+      transform:rotate(135deg);
+    }
+    .faq details > p{
+      margin-top:14px !important;
+      color:#5a5145 !important;
+      font-size:16px;
+      line-height:1.6 !important;
+      max-width:62ch;
+      animation:faqReveal .35s cubic-bezier(.16,1,.3,1) both;
+    }
+    @keyframes faqReveal{
+      from{opacity:0;transform:translateY(-4px)}
+      to{opacity:1;transform:none}
+    }
+
+    /* #3 — Signatur-Divider (Carpenter's Mark) */
+    .signature-rule{
+      display:grid;
+      place-items:center;
+      padding:clamp(36px,4vw,68px) 0;
+      position:relative;
+      background:transparent;
+    }
+    .signature-rule::before{
+      content:"";
+      width:min(260px,72%);
+      height:1px;
+      background:linear-gradient(90deg,
+        transparent 0%,
+        rgba(122,59,16,.35) 22%,
+        rgba(122,59,16,.35) 78%,
+        transparent 100%);
+    }
+    .signature-rule::after{
+      content:"";
+      position:absolute;
+      width:7px;height:7px;
+      border-radius:50%;
+      background:var(--gold,#d6a14d);
+      box-shadow:0 0 0 5px var(--paper,#f1e5d0);
+    }
+    /* dark variant: invertierte Mantel-Farbe */
+    .section.dark + .signature-rule,
+    .signature-rule.on-dark{
+      background:var(--night,#0d130e);
+    }
+    .signature-rule.on-dark::before{
+      background:linear-gradient(90deg,
+        transparent 0%,
+        rgba(214,161,77,.4) 22%,
+        rgba(214,161,77,.4) 78%,
+        transparent 100%);
+    }
+    .signature-rule.on-dark::after{
+      box-shadow:0 0 0 5px var(--night,#0d130e);
+    }
+
+    /* #8 — Pull-Quote für Long-Form-Sections */
+    .pull-quote{
+      max-width:1080px;
+      margin:clamp(32px,4vw,56px) auto;
+      padding:clamp(20px,2vw,32px) clamp(24px,3vw,40px);
+      border-left:4px solid var(--gold,#d6a14d);
+      position:relative;
+    }
+    .pull-quote::before{
+      content:"\201E";
+      position:absolute;
+      left:clamp(18px,2vw,28px);
+      top:-10px;
+      font-family:Georgia,serif;
+      font-size:clamp(48px,5vw,74px);
+      line-height:.75;
+      color:var(--gold,#d6a14d);
+      opacity:.35;
+      pointer-events:none;
+    }
+    .pull-quote blockquote{
+      margin:0;
+      font-family:Space,Inter,sans-serif;
+      font-size:clamp(22px,2.4vw,32px);
+      line-height:1.18;
+      letter-spacing:-.025em;
+      font-weight:550;
+      color:inherit;
+      text-wrap:balance;
+    }
+    .pull-quote blockquote em{font-style:italic;color:var(--gold,#d6a14d)}
+    .pull-quote .pull-attr{
+      margin-top:14px;
+      font-family:ui-monospace,'JetBrains Mono','Menlo',monospace;
+      font-size:11px;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      color:rgba(255,247,232,.55);
+    }
+    .section:not(.dark) .pull-quote .pull-attr{color:#7a4d1a}
+
+    /* #1 — Atmospheric Scroll-Gallery (ersetzt Lightbox-Galerie) */
+    .scroll-gallery{
+      display:grid;
+      gap:0;
+      margin:0;
+      padding:0;
+    }
+    .scroll-scene{
+      position:relative;
+      width:100vw;
+      margin-left:calc(50% - 50vw);
+      margin-right:calc(50% - 50vw);
+      aspect-ratio:21/9;
+      overflow:hidden;
+      background:#101610;
+      isolation:isolate;
+    }
+    .scroll-scene:nth-child(n+2){margin-top:clamp(36px,4vw,68px)}
+    .scroll-scene img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      transform:scale(1.06);
+      transition:transform 1.8s cubic-bezier(.16,1,.3,1), filter 1.5s ease;
+      filter:saturate(.9) brightness(.95);
+    }
+    .scroll-scene.in img{transform:scale(1.0);filter:saturate(1) brightness(1)}
+    .scroll-scene::after{
+      content:"";
+      position:absolute;inset:0;
+      background:linear-gradient(180deg,
+        rgba(9,13,9,0) 50%,
+        rgba(9,13,9,.55) 100%);
+      pointer-events:none;
+      z-index:1;
+    }
+    .scroll-scene-caption{
+      position:absolute;
+      left:clamp(20px,4vw,68px);
+      bottom:clamp(20px,4vw,56px);
+      right:clamp(20px,4vw,68px);
+      display:grid;
+      gap:8px;
+      z-index:2;
+      max-width:min(720px,80%);
+      opacity:0;
+      transform:translateY(14px);
+      transition:opacity .8s cubic-bezier(.16,1,.3,1) .2s, transform .8s cubic-bezier(.16,1,.3,1) .2s;
+    }
+    .scroll-scene.in .scroll-scene-caption{opacity:1;transform:none}
+    .scroll-scene-caption .marker{
+      font-family:ui-monospace,'JetBrains Mono','Menlo',monospace;
+      font-size:11px;
+      letter-spacing:.24em;
+      text-transform:uppercase;
+      color:var(--gold,#d6a14d);
+      font-weight:500;
+    }
+    .scroll-scene-caption .line{
+      font-family:Space,Inter,sans-serif;
+      font-size:clamp(22px,2.8vw,38px);
+      line-height:1.1;
+      letter-spacing:-.025em;
+      color:#fff7e8;
+      font-weight:550;
+      max-width:24ch;
+      text-shadow:0 2px 22px rgba(0,0,0,.5);
+    }
+    @media(max-width:640px){
+      .scroll-scene{aspect-ratio:4/5;margin-top:clamp(20px,3vw,32px) !important}
+      .scroll-scene-caption .line{font-size:22px;max-width:none}
+    }
   </style>
 </head>
 <body>
   <nav class="nav" aria-label="Hauptnavigation"><div class="nav-inner"><a class="brand" href="#top"><img src="assets/logo-white.png?v=20260525-logo-contrast" alt="M&P Holzbau"><span>M&P Holzbau</span></a><div class="nav-links"><a href="#wunsch">Wunschbild</a><a href="#alltag">Alltag</a><a href="#peter">Peter</a><a href="#faq">FAQ</a><button class="nav-cta" type="button" onclick="openQuiz()">Mein Carport-Projekt starten</button></div></div></nav>
   <header class="hero" id="top">
     <div class="wide hero-content">
-      <div class="reveal"><p class="eyebrow">Zimmermeister-Carports für Wien, NÖ und Burgenland · seit 2004</p><h1>Carports die <span class="hl">so lange halten</span> wie Ihr Haus.</h1><p class="lead">Trocken aussteigen, Einkäufe in Ruhe ausladen, die Einfahrt wirkt endlich fertig — und die Konstruktion ist so geplant, dass sie auch in Jahren noch passt.</p><div class="actions"><button class="btn btn-primary" type="button" onclick="openQuiz()"><span>Mein Carport-Projekt starten</span><small>in 2 Min · persönlich · kostenlos</small></button></div><a class="hero-link" href="#wunsch">Referenzen ansehen</a></div>
-      <picture class="hero-bg"><source media="(max-width: 640px)" srcset="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_hero_peter_paved_workwear_official_logo.webp?v=20260527-official-hero-logo"><img src="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_hero_peter_paved_workwear_official_logo.webp?v=20260527-official-hero-logo" alt="Peter Preissinger steht neben einem fertigen Holz-Carport und zeigt die Zimmererarbeit am Carport" fetchpriority="high"></picture>
-      <div class="hero-panel reveal"><div class="hero-person"><img src="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_peter_portrait_professional_carport.webp?v=20260527-pro-portrait" alt="Peter Preissinger"><div><strong>Peter Preissinger</strong><span>Zimmermeister · meldet sich persönlich</span></div></div><div class="hero-awards"><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb</span></div><div class="award-chip"><img class="award-icon" src="assets/icons/fa/award.svg" alt=""><div><strong>Holzbaupreis Burgenland</strong><span>2016</span></div></div></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit<small>schriftlich für die tragende Konstruktion</small></div><div class="proof-chip"><b>Seit 2004</b>persönlich geführt<small>eigene Werkstatt · eigener Ansprechpartner</small></div></div></div>
+      <div class="reveal"><p class="eyebrow">Zimmermeister-Carports für Wien, NÖ und Burgenland · seit 2004</p><h1>Carports die <span class="hl">so lange halten</span> wie Ihr Haus.</h1><p class="lead">Trocken aussteigen, Einkäufe in Ruhe ausladen, die Einfahrt wirkt endlich fertig — und die Konstruktion ist so geplant, dass sie auch in Jahren noch passt.</p><div class="actions"><button class="btn btn-primary" type="button" onclick="openQuiz()"><span>Mein Carport-Projekt starten</span></button></div><div class="hero-quickfacts"><span><svg class="qf-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M12 7v5l3.2 2" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>Antwort werktags in &lt;24 Stunden</span><span><svg class="qf-icon" viewBox="0 0 24 24" aria-hidden="true"><polyline points="4,12.5 10,18.5 20,6" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Kostenlos und unverbindlich</span></div><a class="hero-link" href="#wunsch">Referenzen ansehen</a></div>
+      <picture class="hero-bg"><source media="(max-width: 640px)" srcset="assets/no-logo-workwear-2026-05-27/hero_peter_paved_workwear_official_logo_plain_red_black.webp?v=20260527-plain-red-black"><img src="assets/no-logo-workwear-2026-05-27/hero_peter_paved_workwear_official_logo_plain_red_black.webp?v=20260527-plain-red-black" alt="Peter Preissinger steht neben einem fertigen Holz-Carport und zeigt die Zimmererarbeit am Carport" fetchpriority="high"></picture>
+      <div class="hero-panel reveal"><div class="hero-person"><img src="assets/no-logo-workwear-2026-05-27/peter_portrait_professional_carport_plain_red_black.webp?v=20260527-plain-red-black" alt="Peter Preissinger"><div><strong>Peter Preissinger</strong><span>Zimmermeister · meldet sich persönlich</span></div></div><div class="hero-awards"><div class="seal-row"><img src="assets/gutesiegel-meisterbetrieb.png?v=20260526-vision" alt="Meisterbetrieb"><span>Meisterbetrieb</span></div><div class="award-chip"><img class="award-icon" src="assets/icons/fa/award.svg" alt=""><div><strong>Holzbaupreis Burgenland</strong><span>2016</span></div></div></div><div class="hero-proof"><div class="proof-chip"><b>25 Jahre</b>Garantie auf Standsicherheit<small>schriftlich für die tragende Konstruktion</small></div><div class="proof-chip"><b>Seit 2004</b>persönlich geführt<small>eigene Werkstatt · eigener Ansprechpartner</small></div></div></div>
     </div><div class="scroll-cue">scroll</div>
   </header>
   <main>
-    <section class="section" id="wunsch"><div class="wrap section-head"><div><p class="eyebrow">Wunschbild</p><h2>Ein Carport, der Haus und Einfahrt <span class="hl">komplett macht</span>.</h2></div><p class="lead">Beim Heimkommen, beim Einparken, beim Blick von der Straße — ein Carport, der wirklich passt, verändert, wie Ihr Haus wirkt. Jeden Tag.</p></div><div class="wide image-band wunsch-gallery"><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-lp-balanced-2026-05-21/ref-04-car-door-space.webp?v=20260526-wunsch-rich" data-lightbox-alt="Tiefer Holz-Carport mit genug Bewegungsfläche am Auto" aria-label="Bild vergrößern: Tiefer Holz-Carport mit genug Bewegungsfläche am Auto"><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-04-car-door-space.webp?v=20260526-wunsch-rich" alt="Tiefer Holz-Carport mit genug Bewegungsfläche am Auto"></button><figcaption>Mehr Tiefe und saubere Bewegungsfläche rund ums Auto.</figcaption></figure><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-lp-balanced-2026-05-21/hero-03-car-rain-protection.webp?v=20260526-wunsch-rich" data-lightbox-alt="Trocken ausladen unter dem Holz-Carport" aria-label="Bild vergrößern: Trocken ausladen unter dem Holz-Carport"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-03-car-rain-protection.webp?v=20260526-wunsch-rich" alt="Trocken ausladen unter dem Holz-Carport"></button><figcaption>Trocken ankommen und Einkäufe ohne Stress ausladen.</figcaption></figure><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-lp-balanced-2026-05-21/hero-05-car-solar-wallbox.webp?v=20260526-wunsch-rich" data-lightbox-alt="Holz-Carport passend zur Hausarchitektur" aria-label="Bild vergrößern: Holz-Carport passend zur Hausarchitektur"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-05-car-solar-wallbox.webp?v=20260526-wunsch-rich" alt="Holz-Carport passend zur Hausarchitektur"></button><figcaption>Technik, Dach und Hausbild wirken wie gemeinsam geplant.</figcaption></figure><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-lp-balanced-2026-05-21/ref-01-car-double-clearance.webp?v=20260526-wunsch-rich" data-lightbox-alt="Doppelcarport mit Auto vollständig unter Dach" aria-label="Bild vergrößern: Doppelcarport mit Auto vollständig unter Dach"><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-01-car-double-clearance.webp?v=20260526-wunsch-rich" alt="Doppelcarport mit Auto vollständig unter Dach"></button><figcaption>Zwei Fahrzeuge komplett unter Dach — ohne enge Lösung.</figcaption></figure><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-lp-nocars-2026-05-21/ref-05-facade-empty.webp?v=20260526-wunsch-rich" data-lightbox-alt="Holz-Carport passend zur Fassade" aria-label="Bild vergrößern: Holz-Carport passend zur Fassade"><img src="assets/mp-carport-lp-nocars-2026-05-21/ref-05-facade-empty.webp?v=20260526-wunsch-rich" alt="Holz-Carport passend zur Fassade"></button><figcaption>Der Carport ergänzt die Fassade statt mit ihr zu kämpfen.</figcaption></figure><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-corrections-2026-05-21-kie/07_referenz_carport_wunschcarport.webp?v=20260526-wunsch-rich" data-lightbox-alt="Wunsch-Carport aus Holz vor Wohnhaus" aria-label="Bild vergrößern: Wunsch-Carport aus Holz vor Wohnhaus"><img src="assets/mp-carport-corrections-2026-05-21-kie/07_referenz_carport_wunschcarport.webp?v=20260526-wunsch-rich" alt="Wunsch-Carport aus Holz vor Wohnhaus"></button><figcaption>Ein Carport, der Haus, Zufahrt und Alltag sichtbar aufwertet.</figcaption></figure><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-lp-balanced-2026-05-21/ref-03-empty-drainage-detail.webp?v=20260526-wunsch-rich2" data-lightbox-alt="Sauberes Holzbau-Detail am Carport" aria-label="Bild vergrößern: Sauberes Holzbau-Detail am Carport"><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-03-empty-drainage-detail.webp?v=20260526-wunsch-rich2" alt="Sauberes Holzbau-Detail am Carport"></button><figcaption>Wasserführung und Anschlüsse gehören mitgedacht.</figcaption></figure><figure><button class="lightbox-trigger" type="button" data-lightbox-src="assets/mp-carport-lp-nocars-2026-05-21/hero-06-evening-empty.webp?v=20260527-wunsch-fix" data-lightbox-alt="Abendlicher Holz-Carport passend am Haus" aria-label="Bild vergrößern: Abendlicher Holz-Carport passend am Haus"><img src="assets/mp-carport-lp-nocars-2026-05-21/hero-06-evening-empty.webp?v=20260527-wunsch-fix" alt="Abendlicher Holz-Carport passend am Haus"></button><figcaption>Auch am Abend wirkt der Carport wie ein ruhiger Teil des Hauses.</figcaption></figure></div></section>
-    <section class="section trust-section" id="peter"><div class="wrap section-head"><div><p class="eyebrow">Vertrauen</p><h2>Ihr Carport wird von jemandem geplant, der ihn danach <span class="hl">auch baut</span>.</h2></div><p class="lead">Die entscheidenden Punkte liegen oft vor der Montage: Tiefe, Wasserführung, Fundamente, Schneelast und der Anschluss ans Haus. Peter Preissinger sieht diese Punkte, bevor eine Zahl Sinn macht.</p></div><div class="wrap trust-proof"><article class="peter"><img src="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_hero_peter_paved_workwear_official_logo.webp?v=20260527-official-hero-logo" alt="Peter Preissinger neben einem fertigen Holz-Carport"><div><p class="eyebrow">Persönlich geführt</p><h3>Der erste Blick kommt von jemandem, der Ihren Carport später verantwortet.</h3><p>Sie schicken Eckdaten und wenn möglich ein Foto. Peter Preissinger schaut fachlich drauf und meldet sich mit einer ehrlichen ersten Rückmeldung.</p></div></article><div class="facts"><div class="fact"><img class="fa-icon" src="assets/icons/fa/calendar-days.svg" alt=""><div><h3>Seit 2004 ein echter Familienbetrieb</h3><p>Familienbetrieb mit eigener Handschrift, eigener Werkstatt und direktem Ansprechpartner.</p></div></div><div class="fact"><img class="fa-icon" src="assets/icons/fa/shield-check.svg" alt=""><div><h3>Ein Carport ist ein Bauwerk</h3><p>M&P steht schriftlich für die Standsicherheit der tragenden Konstruktion ein.</p></div></div><div class="fact"><img class="fa-icon" src="assets/icons/fa/users-gear.svg" alt=""><div><h3>Meisterbetrieb & Ausbildungsbetrieb</h3><p>Holzbau wird hier nicht nur verkauft, sondern meisterhaft geplant, vorbereitet und montiert.</p></div></div><div class="fact"><img class="fa-icon" src="assets/icons/fa/award.svg" alt=""><div><h3>Burgenländischer Holzbaupreis 2016</h3><p>Ausgezeichneter Holzbau aus der Region — als Anspruch an Planung, Ausführung und Wirkung am Haus.</p></div></div></div></div></section>
-    <section class="section dark" id="planung"><div class="wrap section-head"><div><p class="eyebrow">Was M&P-Carports besonders macht</p><h2>Geplant, <span class="hl">bevor</span> das erste Brett bestellt wird.</h2></div><p class="lead">M&P plant Wirkung am Haus, Standsicherheit, Wasserführung, Fundamente und Alltag gemeinsam. Erst wenn diese Punkte zusammenpassen, bleibt nach der Montage wirklich Ruhe.</p></div><div class="wrap advisor-card action-advisor"><img src="assets/mp-peter-hero-portraits-v2-2026-05-27-kie/selected_peter_portrait_professional_workshop.webp?v=20260527-pro-portrait" alt="Peter Preissinger"><div class="quote-design"><p class="eyebrow">Mst. Peter Preissinger · Zimmermeister</p><blockquote>„Meine Carports passen zu 100% zum Haus — und genau deshalb schauen wir vorher so genau hin.“</blockquote><p>Proportion, Dachform, Holzbild und Position werden von M&P so gedacht, dass der Carport nicht wie nachträglich dazugestellt wirkt.</p></div></div><div class="wrap compare action-benefit-list"><article class="compare-card good"><h3>Mehr als nur ein Dach fürs Auto.</h3><ul class="icon-list"><li><img class="fa-icon" src="assets/icons/fa/ruler-combined.svg" alt="">genug Platz links und rechts vom Auto</li><li><img class="fa-icon" src="assets/icons/fa/umbrella.svg" alt="">trocken aussteigen ohne Verrenkungen</li><li><img class="fa-icon" src="assets/icons/fa/basket-shopping.svg" alt="">Einkäufe entspannt ausladen</li><li><img class="fa-icon" src="assets/icons/fa/children.svg" alt="">Kinder trocken ins Haus bringen</li><li><img class="fa-icon" src="assets/icons/fa/road.svg" alt="">auf Wunsch den Weg bis zum Eingang mitdenken</li><li><img class="fa-icon" src="assets/icons/fa/car-rear.svg" alt="">genug Tiefe für das jetzige Auto und das nächste</li><li><img class="fa-icon" src="assets/icons/fa/person-walking.svg" alt="">genug Bewegungsfläche rund ums Auto</li><li><img class="fa-icon" src="assets/icons/fa/shield-check.svg" alt="">wenn wichtig: mit Blick auf Schnee, Regen und Wetterseite</li></ul></article></div></section>
+    <section class="section" id="wunsch"><div class="wrap section-head"><div><p class="eyebrow">Wunschbild</p><h2>Ein Carport, der Haus und Einfahrt <span class="hl">komplett macht</span>.</h2></div><p class="lead">Beim Heimkommen, beim Einparken, beim Blick von der Straße — ein Carport, der wirklich passt, verändert, wie Ihr Haus wirkt. Jeden Tag.</p></div><div class="scroll-gallery">
+        <figure class="scroll-scene">
+          <img loading="lazy" src="assets/mp-carport-lp-balanced-2026-05-21/hero-03-car-rain-protection.webp?v=20260527-scroll" alt="Trocken aussteigen unter dem Holz-Carport im Regen">
+          <figcaption class="scroll-scene-caption">
+            <span class="marker">Szene I · Alltag</span>
+            <span class="line">Trocken ankommen — auch wenn es draußen schüttet.</span>
+          </figcaption>
+        </figure>
+        <figure class="scroll-scene">
+          <img loading="lazy" src="assets/mp-carport-lp-balanced-2026-05-21/ref-01-car-double-clearance.webp?v=20260527-scroll" alt="Doppelcarport mit zwei Fahrzeugen vollständig unter Dach">
+          <figcaption class="scroll-scene-caption">
+            <span class="marker">Szene II · Tiefe</span>
+            <span class="line">Zwei Fahrzeuge, ein Dach — ohne enge Lösung.</span>
+          </figcaption>
+        </figure>
+        <figure class="scroll-scene">
+          <img loading="lazy" src="assets/mp-carport-lp-balanced-2026-05-21/hero-05-car-solar-wallbox.webp?v=20260527-scroll" alt="Carport mit Solar und Wallbox integriert">
+          <figcaption class="scroll-scene-caption">
+            <span class="marker">Szene III · Integration</span>
+            <span class="line">Wallbox, Solar und Hausbild — gemeinsam mitgedacht.</span>
+          </figcaption>
+        </figure>
+        <figure class="scroll-scene">
+          <img loading="lazy" src="assets/mp-carport-lp-nocars-2026-05-21/hero-06-evening-empty.webp?v=20260527-scroll" alt="Abendlicher Holz-Carport in ruhiger Wohnumgebung">
+          <figcaption class="scroll-scene-caption">
+            <span class="marker">Szene IV · Wirkung</span>
+            <span class="line">Auch abends — ein ruhiger Teil des Hauses.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="section trust-section" id="peter"><div class="wrap section-head"><div><p class="eyebrow">Vertrauen</p><h2>Ihr Carport wird von jemandem geplant, der ihn danach <span class="hl">auch baut</span>.</h2></div><p class="lead">Die entscheidenden Punkte liegen oft vor der Montage: Tiefe, Wasserführung, Fundamente, Schneelast und der Anschluss ans Haus. Peter Preissinger sieht diese Punkte, bevor eine Zahl Sinn macht.</p></div><div class="wrap trust-proof"><article class="peter"><img src="assets/no-logo-workwear-2026-05-27/hero_peter_paved_workwear_official_logo_plain_red_black.webp?v=20260527-plain-red-black" alt="Peter Preissinger neben einem fertigen Holz-Carport"><div><p class="eyebrow">Persönlich geführt</p><h3>Der erste Blick kommt von jemandem, der Ihren Carport später verantwortet.</h3><p>Sie schicken Eckdaten und wenn möglich ein Foto. Peter Preissinger schaut fachlich drauf und meldet sich mit einer ehrlichen ersten Rückmeldung.</p></div></article><div class="facts"><div class="fact"><img class="fa-icon" src="assets/icons/fa/calendar-days.svg" alt=""><div><h3>Seit 2004 ein echter Familienbetrieb</h3><p>Familienbetrieb mit eigener Handschrift, eigener Werkstatt und direktem Ansprechpartner.</p></div></div><div class="fact"><img class="fa-icon" src="assets/icons/fa/shield-check.svg" alt=""><div><h3>Ein Carport ist ein Bauwerk</h3><p>M&P steht schriftlich für die Standsicherheit der tragenden Konstruktion ein.</p></div></div><div class="fact"><img class="fa-icon" src="assets/icons/fa/users-gear.svg" alt=""><div><h3>Meisterbetrieb & Ausbildungsbetrieb</h3><p>Holzbau wird hier nicht nur verkauft, sondern meisterhaft geplant, vorbereitet und montiert.</p></div></div><div class="fact"><img class="fa-icon" src="assets/icons/fa/award.svg" alt=""><div><h3>Burgenländischer Holzbaupreis 2016</h3><p>Ausgezeichneter Holzbau aus der Region — als Anspruch an Planung, Ausführung und Wirkung am Haus.</p></div></div></div></div></section>
+    <div class="signature-rule" aria-hidden="true"></div>
+    <section class="section dark" id="planung"><div class="wrap section-head"><div><p class="eyebrow">Was M&P-Carports besonders macht</p><h2>Geplant, <span class="hl">bevor</span> das erste Brett bestellt wird.</h2></div><p class="lead">M&P plant Wirkung am Haus, Standsicherheit, Wasserführung, Fundamente und Alltag gemeinsam. Erst wenn diese Punkte zusammenpassen, bleibt nach der Montage wirklich Ruhe.</p></div><div class="wrap advisor-card action-advisor"><img src="assets/no-logo-workwear-2026-05-27/peter_portrait_professional_workshop_plain_red_black.webp?v=20260527-plain-red-black" alt="Peter Preissinger"><div class="quote-design"><p class="eyebrow">Mst. Peter Preissinger · Zimmermeister</p><blockquote>„Meine Carports passen zu 100% zum Haus — und genau deshalb schauen wir vorher so genau hin.“</blockquote><p>Proportion, Dachform, Holzbild und Position werden von M&P so gedacht, dass der Carport nicht wie nachträglich dazugestellt wirkt.</p></div></div><div class="wrap compare action-benefit-list"><article class="compare-card good"><h3>Mehr als nur ein Dach fürs Auto.</h3><ul class="icon-list"><li><img class="fa-icon" src="assets/icons/fa/ruler-combined.svg" alt="">genug Platz links und rechts vom Auto</li><li><img class="fa-icon" src="assets/icons/fa/umbrella.svg" alt="">trocken aussteigen ohne Verrenkungen</li><li><img class="fa-icon" src="assets/icons/fa/basket-shopping.svg" alt="">Einkäufe entspannt ausladen</li><li><img class="fa-icon" src="assets/icons/fa/children.svg" alt="">Kinder trocken ins Haus bringen</li><li><img class="fa-icon" src="assets/icons/fa/road.svg" alt="">auf Wunsch den Weg bis zum Eingang mitdenken</li><li><img class="fa-icon" src="assets/icons/fa/car-rear.svg" alt="">genug Tiefe für das jetzige Auto und das nächste</li><li><img class="fa-icon" src="assets/icons/fa/person-walking.svg" alt="">genug Bewegungsfläche rund ums Auto</li><li><img class="fa-icon" src="assets/icons/fa/shield-check.svg" alt="">wenn wichtig: mit Blick auf Schnee, Regen und Wetterseite</li></ul></article></div></section>
     <section class="section" id="alltag"><div class="wrap split"><figure class="feature-img"><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-04-empty-winter.webp?v=20260526-alltag-top" alt="Holz-Carport im Winter"></figure><div class="split-copy"><p class="eyebrow">Alltag</p><h2>Sie merken jeden Tag, dass Ihr Carport passt.</h2><p class="lead">Genug Tiefe, bequemes Einparken, trocken aussteigen, Einkäufe ausladen: Ein guter Carport schützt das Auto und die kleinen Wege rund ums Haus.</p><ul class="icon-list"><li><img class="fa-icon" src="assets/icons/fa/umbrella.svg" alt="">Es regnet, und Sie steigen trotzdem trocken aus.</li><li><img class="fa-icon" src="assets/icons/fa/basket-shopping.svg" alt="">Die Einkäufe landen nicht zuerst im Nassen.</li><li><img class="fa-icon" src="assets/icons/fa/children.svg" alt="">Das Kind muss nicht durchs Wetter.</li><li><img class="fa-icon" src="assets/icons/fa/sun.svg" alt="">Das Auto steht im Schatten statt in der Hitze.</li><li><img class="fa-icon" src="assets/icons/fa/snowflake.svg" alt="">Im Winter ist nicht alles voll Schnee und Eis.</li><li><img class="fa-icon" src="assets/icons/fa/person-walking.svg" alt="">Sie kommen bequem ums Auto herum.</li></ul></div></div></section>
-    <section class="section"><div class="wrap section-head"><div><p class="eyebrow">Wirkung</p><h2>Zu schmal, zu wuchtig, zu nah an der Fassade — oder <span class="hl">genau richtig</span>.</h2></div><p class="lead">M&P plant den Carport so, dass Proportion, Dachform, Holzbild und Position stimmig wirken — ruhig, hochwertig und wie mit dem Haus mitgedacht.</p></div><div class="wrap compare"><article class="compare-card good"><h3>Ein Carport, der dazugehört</h3><ul class="icon-list"><li><img class="fa-icon" src="assets/icons/fa/ruler-combined.svg" alt="">der gute Proportionen hat,</li><li><img class="fa-icon" src="assets/icons/fa/house.svg" alt="">der nicht zu wuchtig wirkt,</li><li><img class="fa-icon" src="assets/icons/fa/road.svg" alt="">der zur Einfahrt passt,</li><li><img class="fa-icon" src="assets/icons/fa/house-chimney.svg" alt="">der zur Architektur passt,</li><li><img class="fa-icon" src="assets/icons/fa/circle-check.svg" alt="">und der so aussieht, als wäre er von Anfang an mitgedacht worden.</li></ul></article><article class="compare-card good"><h3>So wirkt das Haus beim Heimkommen.</h3><ul class="icon-list"><li><img class="fa-icon" src="assets/icons/fa/house.svg" alt="">Die Fassade bekommt einen Rahmen — statt eines Vorbaus.</li><li><img class="fa-icon" src="assets/icons/fa/road.svg" alt="">Die Einfahrt wirkt fertig — nicht provisorisch.</li><li><img class="fa-icon" src="assets/icons/fa/car-rear.svg" alt="">Das Auto wirkt eingeordnet — statt zufällig abgestellt.</li><li><img class="fa-icon" src="assets/icons/fa/award.svg" alt="">Das ganze Grundstück wirkt hochwertiger — ohne Umbau.</li></ul></article></div><figure class="wrap proof-band"><img src="assets/mp-workwear-corrections-2026-05-26-kie/03_peter_red_hoodie_roofline.webp?v=20260527-workwear-logo-exact" alt="Peter Preissinger kontrolliert Dachlinie und Proportion eines hohen Holz-Carports"></figure><div class="wide image-band"><figure><img src="assets/lp-facade-matched-carport-v2.webp?v=20260525-v15" alt="Carport passend zur Hausfassade"></figure><figure><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-02-empty-weather-side.webp?v=20260525-v15" alt="Ruhige Einfahrt mit Holz-Carport"></figure><figure><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-03-empty-drainage-detail.webp?v=20260525-v15" alt="Holzbau Detail am Carport"></figure></div></section>
-    <section class="section dark"><div class="wrap split longevity-split"><div class="split-copy"><p class="eyebrow">Langlebigkeit</p><h2>Ein Carport ist ein <span class="hl">Bauwerk</span>. M&P plant ihn auch so.</h2><p class="lead">M&P plant Konstruktion, Fundamente, Wasserführung, Schneelast, Wetterseite und Nutzung so, dass der Carport über viele Jahre sicher steht und im Alltag angenehm bleibt.</p><div class="longevity-grid"><article><img class="fa-icon" src="assets/icons/fa/hammer.svg" alt=""><h3>Fundament</h3><p>Damit der Carport dauerhaft sicher steht.</p></article><article><img class="fa-icon" src="assets/icons/fa/ruler-combined.svg" alt=""><h3>Stützenpunkte</h3><p>Sauber und nachvollziehbar gesetzt.</p></article><article><img class="fa-icon" src="assets/icons/fa/water-arrow-down.svg" alt=""><h3>Wasserführung</h3><p>Damit Regen dort wegkommt, wo er wegkommen soll.</p></article><article><img class="fa-icon" src="assets/icons/fa/shield-check.svg" alt=""><h3>Dachaufbau</h3><p>Geplant für Wetter, Schneelast und Nutzung.</p></article><article><img class="fa-icon" src="assets/icons/fa/snowflake.svg" alt=""><h3>Wetterseite</h3><p>Schnee, Regen und Wind werden mitgedacht.</p></article><article><img class="fa-icon" src="assets/icons/fa/house-chimney.svg" alt=""><h3>Hausanschluss</h3><p>Anschluss an Haus und Einfahrt wirkt wie mitgeplant.</p></article><article><img class="fa-icon" src="assets/icons/fa/car-rear.svg" alt=""><h3>Maßreserve</h3><p>Mit Reserve geplant — auch das nächste Auto passt noch ohne Umbau.</p></article><article><img class="fa-icon" src="assets/icons/fa/sun.svg" alt=""><h3>Erweiterbar</h3><p>Wallbox, Solaranlage oder Stauraum lassen sich später nachrüsten.</p></article></div><p class="lead">Deshalb garantieren wir die Standsicherheit der tragenden Konstruktion schriftlich für <span class="hl">25 Jahre</span>. In der Praxis halten unsere Carports deutlich länger.</p></div><figure class="feature-img"><img src="assets/sturm-schnee-sicherheit.webp?v=20260525-v15" alt="Stabiler Holz-Carport bei Wetter"></figure></div></section>
-    <section class="section"><div class="wrap section-head"><div><p class="eyebrow">Material und Ausführung</p><h2>Heimisches und europäisches Holz, <span class="hl">meisterhaft</span> ausgeführt.</h2></div><p class="lead">M&P arbeitet je nach Projekt mit heimischen beziehungsweise europäischen Hölzern wie Fichte, Lärche oder Eiche. Entscheidend ist am Ende die Verbindung aus Holzart, Dachkante, Anschlüssen, Auflagern, Stützenpunkten und Montage.</p></div><div class="wrap steps"><article class="step"><b>1</b><h3>Ruhige Dachkante</h3><p>Der Carport soll hochwertig wirken, nicht wuchtig.</p></article><article class="step"><b>2</b><h3>Saubere Anschlüsse</h3><p>Haus, Einfahrt und Konstruktion werden zusammen gedacht.</p></article><article class="step"><b>3</b><h3>Gute Proportionen</h3><p>Damit der Carport zur Architektur passt.</p></article><article class="step"><b>4</b><h3>Sichtbare Ausführung</h3><p>Holzdetails, die auch in Jahren noch Freude machen.</p></article></div><div class="wrap material-proof"><figure><img src="assets/mp-workwear-corrections-2026-05-26-kie/02_peter_red_hoodie_post_level.webp?v=20260527-workwear-logo-exact" alt="Peter Preissinger kontrolliert mit der Wasserwaage einen hohen Holz-Carport-Pfosten"><figcaption>Saubere Ausrichtung, stabile Konstruktion und fachgerechte Montage werden nicht dem Zufall überlassen.</figcaption></figure><article class="step"><b>5</b><h3>Kontrollierte Ausführung vor Ort</h3><p>Die Details sitzen dort, wo man sie später jeden Tag sieht: an Pfosten, Anschluss und Dachlinie.</p></article></div></section>
+    <section class="section"><div class="wrap section-head"><div><p class="eyebrow">Wirkung</p><h2>Zu schmal, zu wuchtig, zu nah an der Fassade — oder <span class="hl">genau richtig</span>.</h2></div><p class="lead">M&P plant den Carport so, dass Proportion, Dachform, Holzbild und Position stimmig wirken — ruhig, hochwertig und wie mit dem Haus mitgedacht.</p></div><div class="wrap compare"><article class="compare-card good"><h3>Ein Carport, der dazugehört</h3><ul class="icon-list"><li><img class="fa-icon" src="assets/icons/fa/ruler-combined.svg" alt="">der gute Proportionen hat,</li><li><img class="fa-icon" src="assets/icons/fa/house.svg" alt="">der nicht zu wuchtig wirkt,</li><li><img class="fa-icon" src="assets/icons/fa/road.svg" alt="">der zur Einfahrt passt,</li><li><img class="fa-icon" src="assets/icons/fa/house-chimney.svg" alt="">der zur Architektur passt,</li><li><img class="fa-icon" src="assets/icons/fa/circle-check.svg" alt="">und der so aussieht, als wäre er von Anfang an mitgedacht worden.</li></ul></article><article class="compare-card good"><h3>So wirkt das Haus beim Heimkommen.</h3><ul class="icon-list"><li><img class="fa-icon" src="assets/icons/fa/house.svg" alt="">Die Fassade bekommt einen Rahmen — statt eines Vorbaus.</li><li><img class="fa-icon" src="assets/icons/fa/road.svg" alt="">Die Einfahrt wirkt fertig — nicht provisorisch.</li><li><img class="fa-icon" src="assets/icons/fa/car-rear.svg" alt="">Das Auto wirkt eingeordnet — statt zufällig abgestellt.</li><li><img class="fa-icon" src="assets/icons/fa/award.svg" alt="">Das ganze Grundstück wirkt hochwertiger — ohne Umbau.</li></ul></article></div><figure class="wrap proof-band"><img src="assets/no-logo-workwear-2026-05-27/03_peter_red_hoodie_roofline_plain_red_black.webp?v=20260527-plain-red-black" alt="Peter Preissinger kontrolliert Dachlinie und Proportion eines hohen Holz-Carports"></figure><div class="wide image-band"><figure><img src="assets/lp-facade-matched-carport-v2.webp?v=20260525-v15" alt="Carport passend zur Hausfassade"></figure><figure><img src="assets/mp-carport-lp-balanced-2026-05-21/hero-02-empty-weather-side.webp?v=20260525-v15" alt="Ruhige Einfahrt mit Holz-Carport"></figure><figure><img src="assets/mp-carport-lp-balanced-2026-05-21/ref-03-empty-drainage-detail.webp?v=20260525-v15" alt="Holzbau Detail am Carport"></figure></div></section>
+    <section class="section dark"><div class="wrap split longevity-split"><div class="split-copy"><p class="eyebrow">Langlebigkeit</p><h2>Ein Carport ist ein <span class="hl">Bauwerk</span>. M&P plant ihn auch so.</h2><p class="lead">M&P plant Konstruktion, Fundamente, Wasserführung, Schneelast, Wetterseite und Nutzung so, dass der Carport über viele Jahre sicher steht und im Alltag angenehm bleibt.</p><div class="longevity-grid"><article><img class="fa-icon" src="assets/icons/fa/hammer.svg" alt=""><h3>Fundament</h3><p>Damit der Carport dauerhaft sicher steht.</p></article><article><img class="fa-icon" src="assets/icons/fa/ruler-combined.svg" alt=""><h3>Stützenpunkte</h3><p>Sauber und nachvollziehbar gesetzt.</p></article><article><img class="fa-icon" src="assets/icons/fa/water-arrow-down.svg" alt=""><h3>Wasserführung</h3><p>Damit Regen dort wegkommt, wo er wegkommen soll.</p></article><article><img class="fa-icon" src="assets/icons/fa/shield-check.svg" alt=""><h3>Dachaufbau</h3><p>Geplant für Wetter, Schneelast und Nutzung.</p></article><article><img class="fa-icon" src="assets/icons/fa/snowflake.svg" alt=""><h3>Wetterseite</h3><p>Schnee, Regen und Wind werden mitgedacht.</p></article><article><img class="fa-icon" src="assets/icons/fa/house-chimney.svg" alt=""><h3>Hausanschluss</h3><p>Anschluss an Haus und Einfahrt wirkt wie mitgeplant.</p></article><article><img class="fa-icon" src="assets/icons/fa/car-rear.svg" alt=""><h3>Maßreserve</h3><p>Mit Reserve geplant — auch das nächste Auto passt noch ohne Umbau.</p></article><article><img class="fa-icon" src="assets/icons/fa/sun.svg" alt=""><h3>Erweiterbar</h3><p>Wallbox, Solaranlage oder Stauraum lassen sich später nachrüsten.</p></article></div><aside class="pull-quote"><blockquote>Ein Carport hält am Ende nur so lange, wie er <em>am Anfang durchdacht</em> war.</blockquote><div class="pull-attr">Mst. Peter Preissinger · Zimmermeister</div></aside><p class="lead">Deshalb garantieren wir die Standsicherheit der tragenden Konstruktion schriftlich für <span class="hl">25 Jahre</span>. In der Praxis halten unsere Carports deutlich länger.</p></div><figure class="feature-img"><img src="assets/sturm-schnee-sicherheit.webp?v=20260525-v15" alt="Stabiler Holz-Carport bei Wetter"></figure></div></section>
+    <section class="section"><div class="wrap section-head"><div><p class="eyebrow">Material und Ausführung</p><h2>Heimisches und europäisches Holz, <span class="hl">meisterhaft</span> ausgeführt.</h2></div><p class="lead">M&P arbeitet je nach Projekt mit heimischen beziehungsweise europäischen Hölzern wie Fichte, Lärche oder Eiche. Entscheidend ist am Ende die Verbindung aus Holzart, Dachkante, Anschlüssen, Auflagern, Stützenpunkten und Montage.</p></div><div class="wrap steps"><article class="step"><b>1</b><h3>Ruhige Dachkante</h3><p>Der Carport soll hochwertig wirken, nicht wuchtig.</p></article><article class="step"><b>2</b><h3>Saubere Anschlüsse</h3><p>Haus, Einfahrt und Konstruktion werden zusammen gedacht.</p></article><article class="step"><b>3</b><h3>Gute Proportionen</h3><p>Damit der Carport zur Architektur passt.</p></article><article class="step"><b>4</b><h3>Sichtbare Ausführung</h3><p>Holzdetails, die auch in Jahren noch Freude machen.</p></article></div><div class="wrap material-proof"><figure><img src="assets/no-logo-workwear-2026-05-27/02_peter_red_hoodie_post_level_plain_red_black.webp?v=20260527-plain-red-black" alt="Peter Preissinger kontrolliert mit der Wasserwaage einen hohen Holz-Carport-Pfosten"><figcaption>Saubere Ausrichtung, stabile Konstruktion und fachgerechte Montage werden nicht dem Zufall überlassen.</figcaption></figure><article class="step"><b>5</b><h3>Kontrollierte Ausführung vor Ort</h3><p>Die Details sitzen dort, wo man sie später jeden Tag sieht: an Pfosten, Anschluss und Dachlinie.</p></article></div></section>
+    <div class="signature-rule" aria-hidden="true"></div>
     <section class="section dark testimonials-section" id="kundenstimmen"><div class="wrap section-head"><div><p class="eyebrow">Kundenstimmen</p><h2>So klingt es, wenn ein Carport wirklich zum Haus passt.</h2></div><p class="lead">Echte Rückmeldungen aus Wien, Niederösterreich und dem Burgenland.</p></div>
 
       <div class="wrap testimonial-row">
@@ -1427,7 +1803,7 @@
         </article>
       </div>
     </section>
-    <section class="section dark"><div class="wrap section-head"><div><p class="eyebrow">Ablauf</p><h2>So wird aus einer Idee ein Carport, der wirklich passt.</h2></div><p class="lead">Der erste Schritt ist bewusst einfach. Sie geben M&P genug Kontext, damit Peter Preissinger persönlich sehen kann, worauf es bei Ihrem Haus ankommt.</p></div><div class="wrap flow-proof"><div class="steps"><article class="step"><b>1</b><h3>Eckdaten schicken</h3><p>Sie schicken M&P ein paar Angaben zu Ihrem Vorhaben.</p></article><article class="step"><b>2</b><h3>Situation ansehen</h3><p>M&P schaut auf Haus, Einfahrt, Alltag und Konstruktion.</p></article><article class="step"><b>3</b><h3>Rückmeldung erhalten</h3><p>Sie erhalten eine persönliche Einschätzung und eine erste Preisrichtung.</p></article><article class="step"><b>4</b><h3>Planung starten</h3><p>Wenn es für Sie passt, startet die konkrete Planung.</p></article></div><figure><img src="assets/mp-team-action-fix-2026-05-21-kie/03_team_vor_ort_zollstock_anzeichnen.webp?v=20260527-workwear-logo-exact" alt="Zwei M&P Zimmerer in roter Arbeitskleidung zeichnen einen Holzpfosten am Carport an"></figure></div></section>
+    <section class="section dark"><div class="wrap section-head"><div><p class="eyebrow">Ablauf</p><h2>So wird aus einer Idee ein Carport, der wirklich passt.</h2></div><p class="lead">Der erste Schritt ist bewusst einfach. Sie geben M&P genug Kontext, damit Peter Preissinger persönlich sehen kann, worauf es bei Ihrem Haus ankommt.</p></div><div class="wrap flow-proof"><div class="steps"><article class="step"><b>1</b><h3>Eckdaten schicken</h3><p>Sie schicken M&P ein paar Angaben zu Ihrem Vorhaben.</p></article><article class="step"><b>2</b><h3>Situation ansehen</h3><p>M&P schaut auf Haus, Einfahrt, Alltag und Konstruktion.</p></article><article class="step"><b>3</b><h3>Rückmeldung erhalten</h3><p>Sie erhalten eine persönliche Einschätzung und eine erste Preisrichtung.</p></article><article class="step"><b>4</b><h3>Planung starten</h3><p>Wenn es für Sie passt, startet die konkrete Planung.</p></article></div><figure><img src="assets/no-logo-workwear-2026-05-27/03_team_vor_ort_zollstock_anzeichnen_plain_red_black.webp?v=20260527-plain-red-black" alt="Zwei M&P Zimmerer in roter Arbeitskleidung zeichnen einen Holzpfosten am Carport an"></figure></div></section>
     <section class="section" id="faq"><div class="wrap section-head"><div><p class="eyebrow">FAQ</p><h2>Häufige Fragen</h2></div><p class="lead">Ein Wunsch-Carport entsteht aus Standort, Optik, Alltag und Konstruktion. Deshalb beginnt M&P mit einer persönlichen Einordnung.</p></div><div class="faq"><details open><summary>Welche Hölzer kommen für einen Carport in Frage?</summary><p>Je nach Projekt und gewünschter Wirkung arbeitet M&P mit heimischen beziehungsweise europäischen Hölzern wie Fichte, Lärche oder Eiche.</p></details><details><summary>Bekomme ich sofort einen Fixpreis?</summary><p>Für eine erste Rückmeldung reichen die wichtigsten Eckdaten. Für ein genaues Angebot braucht es den Blick auf die konkrete Situation und die gewünschte Ausführung.</p></details><details><summary>Ist Peter Preissinger mein Ansprechpartner?</summary><p>Ja. Die erste Rückmeldung kommt persönlich von Peter Preissinger.</p></details><details><summary>Wo ist M&P Holzbau tätig?</summary><p>M&P betreut Carport-Projekte in Wien, Niederösterreich, dem Burgenland und ausgewählten Randgebieten. Im Projekt-Check wird die PLZ direkt geprüft.</p></details><details><summary>Warum gibt M&P 25 Jahre Garantie auf die Standsicherheit?</summary><p>Carports von M&P Holzbau sind auf jahrzehntelange Nutzung ausgelegt. Unsere Carports halten durchaus auch deutlich länger, wir garantieren aber mindestens 25 Jahre Standsicherheit.</p></details></div></section>
     <section class="section service-area" id="liefergebiet">
       <div class="wrap service-card service-area-grid">
@@ -1487,7 +1863,7 @@
 
   <script>
     const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});
-    document.querySelectorAll('.reveal,.section-head,.image-band figure,.split,.compare-card,.peter,.fact,.step,.quiz-entry-card').forEach(el=>io.observe(el));
+    document.querySelectorAll('.reveal,.section-head,.image-band figure,.split,.compare-card,.peter,.fact,.step,.quiz-entry-card,.scroll-scene,.pull-quote').forEach(el=>io.observe(el));
     const sticky=document.querySelector('.sticky');
     const lightbox=document.getElementById('galleryLightbox');
     const lightboxImage=document.getElementById('lightboxImage');
