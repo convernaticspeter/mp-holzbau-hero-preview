@@ -246,7 +246,7 @@
             <div class="service-region"><span class="name"><span class="dot"></span>Wien</span><span class="code">1010 — 1230</span></div>
             <div class="service-region"><span class="name"><span class="dot"></span>Niederösterreich</span><span class="code">Wien-Umgebung · IV</span></div>
             <div class="service-region"><span class="name"><span class="dot"></span>Burgenland</span><span class="code">Nord · Mitte · Süd</span></div>
-            <div class="service-region conditional"><span class="name"><span class="dot"></span>PLZ-abhängig</span><span class="code">Tulln · Korneuburg · Mistelbach · Gänserndorf</span></div>
+            <div class="service-region conditional"><span class="name"><span class="dot"></span>PLZ-abhängig</span><span class="code">Sankt-Pölten-Land · Tulln · Korneuburg · Mistelbach · Gänserndorf</span></div>
             <div class="service-region out"><span class="name"><span class="dot"></span>Steiermark</span><span class="code">Fürstenfeld · Randgebiet</span></div>
           </div>
           <p class="service-note">Im Projekt-Check reicht zuerst die PLZ. So kann Peter Montagegebiet und erste Machbarkeit besser einordnen.</p>
@@ -444,7 +444,7 @@
         const ringPath=ring=>ring.map((pt,i)=>{const p=project(pt);return (i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)}).join(' ')+' Z';
         const geomPath=geom=>geom.type==='Polygon'?geom.coordinates.map(ringPath).join(' '):(geom.type==='MultiPolygon'?geom.coordinates.map(poly=>poly.map(ringPath).join(' ')).join(' '):'');
         const core=new Set(['900','304','306','307','308','312','316','317','318','319','321','323','101','102','103','104','105','106','107','108','109','622']);
-        const conditional=new Set(['321','312','316','308']);
+        const conditional=new Set(['321','312','316','308','319']);
         const areaText={core:'M&P ist hier regelmäßig für Carport-Projekte unterwegs. Im Projekt-Check wird Ihre PLZ direkt geprüft.',conditional:'PLZ-abhängig: In diesem Bezirk prüft M&P zuerst die konkrete Postleitzahl und Entfernung.',out:'Liegt außerhalb des regulären Kerngebiets. Eine Anfrage ist trotzdem möglich – M&P prüft den Standort separat.'};
         const defs=document.createElementNS('http://www.w3.org/2000/svg','defs');
         defs.innerHTML='<pattern id="mapConditionalHatch" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)"><rect width="10" height="10" fill="#3f7b44"/><path d="M 0 0 L 0 10" stroke="#ecbe65" stroke-width="2.6" opacity=".9"/></pattern><pattern id="mapConditionalHatchActive" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)"><rect width="10" height="10" fill="#172419"/><path d="M 0 0 L 0 10" stroke="#ecbe65" stroke-width="2.8" opacity=".95"/></pattern>'; svg.appendChild(defs);
