@@ -20,7 +20,7 @@ function validate_step_audit_payload(array $payload): void
     if ($eventName === '' || strlen($eventName) > 80) {
         lead_abort(422, ['ok' => false, 'error' => 'invalid_event_name']);
     }
-    if ($stepNumber !== null && (!is_numeric($stepNumber) || (int)$stepNumber < 0 || (int)$stepNumber > 11)) {
+    if ($stepNumber !== null && (!is_numeric($stepNumber) || (int)$stepNumber < 0 || (int)$stepNumber > 13)) {
         lead_abort(422, ['ok' => false, 'error' => 'invalid_step_number']);
     }
 }

@@ -7,9 +7,12 @@ DirectoryIndex disabled
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # lead-submit.php should only accept browser submissions/preflight.
+    # Lead API entrypoints should only accept browser submissions/preflight.
     RewriteCond %{REQUEST_METHOD} !^(POST|OPTIONS)$
     RewriteRule ^lead-submit\.php$ - [F,L]
+
+    RewriteCond %{REQUEST_METHOD} !^(POST|OPTIONS)$
+    RewriteRule ^lead-step-log\.php$ - [F,L]
 
     # retry-leads.php may be called by CLI cron. If URL cron is used,
     # the PHP file must still validate a secret token.

@@ -33,13 +33,22 @@ try {
     $uuid = insert_lead($pdo, $payload);
     update_submission_audit($pdo, $auditId, 'queued', null, $uuid);
 
+    $googleAdsConversion = null;
+    try {
+        // Conversion enqueue follows durable local storage, not third-party CRM
+        // delivery. LeadTable/webhook retries must not decide whether a saved
+        // inquiry can be attributed.
+        $googleAdsConversion = enqueue_and_try_google_ads_conversion($pdo, $uuid, $payload, $config);
+    } catch (Throwable $conversionError) {
+        error_log('google ads conversion enqueue failed: ' . $conversionError->getMessage());
+    }
+
     // Local persistence is the source of truth, but do not wait for cron for the
     // business handoff. Try the LeadTable/webhook delivery immediately once; if
     // the third-party endpoint is slow/down, the existing retry queue remains the
     // fallback instead of losing the lead.
     $deliveryStatus = 'queued_for_retry';
     $deliveryError = null;
-    $googleAdsConversion = null;
 
     $delivery = forward_to_leadtable($payload, $config);
     if ($delivery['ok'] ?? false) {
@@ -47,11 +56,6 @@ try {
         update_submission_audit($pdo, $auditId, 'delivered', null, $uuid);
         $deliveryStatus = 'delivered';
 
-        try {
-            $googleAdsConversion = enqueue_and_try_google_ads_conversion($pdo, $uuid, $payload, $config);
-        } catch (Throwable $conversionError) {
-            error_log('google ads conversion enqueue failed: ' . $conversionError->getMessage());
-        }
     } else {
         $deliveryError = (string)($delivery['error'] ?? 'unknown_error');
         update_delivery_failure($pdo, $uuid, $deliveryError);

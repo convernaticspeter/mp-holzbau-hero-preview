@@ -19,8 +19,27 @@ function lead_abort(int $status, array $body): void
     throw new LeadHttpException($status, $body);
 }
 
+function apply_cors_headers(): void
+{
+    $origin = (string)($_SERVER['HTTP_ORIGIN'] ?? '');
+    $allowedOrigins = [
+        'https://m.meistercarports.at',
+        'https://www.meistercarports.at',
+        'https://mp-holzbau-hero.preview.convernatics.eu',
+    ];
+
+    if ($origin !== '' && in_array($origin, $allowedOrigins, true)) {
+        header('Access-Control-Allow-Origin: ' . $origin);
+        header('Vary: Origin', false);
+        header('Access-Control-Allow-Methods: POST, OPTIONS');
+        header('Access-Control-Allow-Headers: Content-Type');
+        header('Access-Control-Max-Age: 600');
+    }
+}
+
 function json_response(int $status, array $body): void
 {
+    apply_cors_headers();
     http_response_code($status);
     header('Content-Type: application/json; charset=utf-8');
     header('Cache-Control: no-store');
@@ -113,10 +132,10 @@ function validate_required_fields(array $payload): void
     $source = field_value($payload, 'source');
 
     if ($source === 'landingpage.carports-zimmermeister') {
-        $required = [
-            'name', 'phone', 'plz', 'carport_typ', 'carport_position',
-            'prioritaeten', 'zeitrahmen'
-        ];
+        // The current 4-step quiz intentionally asks only for project type,
+        // wish, PLZ and contact data. Accept both the legacy carport_typ field
+        // and the newer carport_art field so old and preview forms stay valid.
+        $required = ['name', 'phone', 'plz'];
     } elseif ($source === 'landingpage.carports-kontaktformular') {
         $required = ['name', 'email', 'phone', 'ort', 'interesse', 'nachricht'];
     } else {
@@ -128,6 +147,12 @@ function validate_required_fields(array $payload): void
         if (field_value($payload, $key) === '' || field_value($payload, $key) === 'keine Angabe') {
             $missing[] = $key;
         }
+    }
+
+    if ($source === 'landingpage.carports-zimmermeister'
+        && field_value($payload, 'carport_typ') === ''
+        && field_value($payload, 'carport_art') === '') {
+        $missing[] = 'carport_typ';
     }
 
     if ($missing) {
