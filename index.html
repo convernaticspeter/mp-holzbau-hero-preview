@@ -1821,6 +1821,23 @@
     }
     @media(max-width:760px){#wunsch.section{padding-bottom:32px!important}}
 
+    /* 2026-05-28 Mobile overflow guard: Wunschbild stack text must shrink inside cards */
+    @media(max-width:760px){
+      html,body{max-width:100%;overflow-x:hidden}
+      #wunsch .card-stack{width:100%;max-width:100%;overflow:hidden}
+      #wunsch .stack-card{max-width:100%;min-width:0}
+      #wunsch .stack-body{left:18px;right:18px;gap:12px;grid-template-columns:42px minmax(0,1fr);min-width:0}
+      #wunsch .stack-num{font-size:44px}
+      #wunsch .stack-num .stack-num-suffix{margin-left:.32em;letter-spacing:.18em}
+      #wunsch .stack-text,
+      #wunsch .stack-tags,
+      #wunsch .stack-tag,
+      #wunsch .stack-text h3,
+      #wunsch .stack-text > p{min-width:0;max-width:100%;overflow-wrap:anywhere}
+      #wunsch .stack-tag{letter-spacing:.22em}
+      #wunsch .stack-tags li{letter-spacing:.14em;overflow-wrap:anywhere;word-break:break-word}
+    }
+
   </style>
 </head>
 <body>
