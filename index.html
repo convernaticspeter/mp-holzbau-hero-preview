@@ -9,6 +9,7 @@
   <script>
     window.dataLayer=window.dataLayer||[];
     window.GTAG_ID='AW-18076280258';
+    window.CLARITY_ID='wmwo3bw15c';
     function gtag(){dataLayer.push(arguments)}
     gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
     function ensureGtag(){
@@ -25,6 +26,15 @@
       gtag('js',new Date());
       gtag('config',window.GTAG_ID,{send_page_view:false,allow_enhanced_conversions:false});
       return window.__gtagPromise;
+    }
+    function ensureClarity(){
+      if(window.__clarityLoaded)return;
+      window.__clarityLoaded=true;
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window,document,'clarity','script',window.CLARITY_ID);
     }
   </script>
   <link rel="icon" type="image/png" href="assets/logo-white.png?v=e5c64ee">
@@ -431,7 +441,7 @@
     function getQuizSessionUuid(reset=false){let id='';try{id=reset?'':sessionStorage.getItem(QUIZ_SESSION_STORAGE_KEY)||''}catch(e){} if(!id){id=uuid();try{sessionStorage.setItem(QUIZ_SESSION_STORAGE_KEY,id)}catch(e){}} return id}
     function getAttributionParams(){const params=new URLSearchParams(location.search);const keys=['gclid','gbraid','wbraid','utm_source','utm_medium','utm_campaign','utm_content','utm_term','msclkid'];let stored={};try{stored=JSON.parse(sessionStorage.getItem(ATTRIBUTION_STORAGE_KEY)||localStorage.getItem(ATTRIBUTION_STORAGE_KEY)||'{}')}catch(e){};const latest={landing_url:location.href,landing_path:location.pathname+location.search,referrer:document.referrer||'',captured_at:new Date().toISOString()};keys.forEach(k=>{if(params.get(k))latest[k]=params.get(k)});const merged=Object.assign({},stored,latest);try{sessionStorage.setItem(ATTRIBUTION_STORAGE_KEY,JSON.stringify(merged));localStorage.setItem(ATTRIBUTION_STORAGE_KEY,JSON.stringify(merged))}catch(e){} return merged}
     const attributionData=getAttributionParams();
-    function applyConsent(choice){const granted=choice==='granted';try{localStorage.setItem(CONSENT_STORAGE_KEY,choice)}catch(e){} if(granted&&typeof ensureGtag==='function')ensureGtag();if(typeof gtag==='function')gtag('consent','update',{ad_storage:granted?'granted':'denied',analytics_storage:granted?'granted':'denied',ad_user_data:granted?'granted':'denied',ad_personalization:granted?'granted':'denied'});const banner=document.getElementById('consentBanner');if(banner)banner.dataset.visible='false'}
+    function applyConsent(choice){const granted=choice==='granted';try{localStorage.setItem(CONSENT_STORAGE_KEY,choice)}catch(e){} if(granted){if(typeof ensureGtag==='function')ensureGtag();if(typeof ensureClarity==='function')ensureClarity()}if(typeof gtag==='function')gtag('consent','update',{ad_storage:granted?'granted':'denied',analytics_storage:granted?'granted':'denied',ad_user_data:granted?'granted':'denied',ad_personalization:granted?'granted':'denied'});const banner=document.getElementById('consentBanner');if(banner)banner.dataset.visible='false'}
     function initConsent(){let choice='';try{choice=localStorage.getItem(CONSENT_STORAGE_KEY)||''}catch(e){} if(choice)applyConsent(choice);else{const banner=document.getElementById('consentBanner');if(banner)banner.dataset.visible='true'}document.querySelectorAll('[data-consent]').forEach(btn=>btn.addEventListener('click',()=>applyConsent(btn.dataset.consent||'denied')))}
     function hasAnalyticsConsent(){try{return localStorage.getItem(CONSENT_STORAGE_KEY)==='granted'}catch(e){return false}}
     initConsent();
