@@ -1784,6 +1784,43 @@
       .hero-panel{order:2}
     }
 
+    /* 2026-05-28 Peter feedback: keep Wunschbild headline visible while card-stack scrolls, tighten exit whitespace */
+    #wunsch.section{padding-bottom:clamp(22px,3.5vw,48px)!important}
+    @media(min-width:761px){
+      #wunsch .section-head{
+        position:sticky;
+        top:112px;
+        z-index:46;
+        margin-bottom:clamp(10px,1.5vw,18px)!important;
+        padding:clamp(10px,1.2vw,16px) 0 clamp(12px,1.4vw,18px);
+        background:linear-gradient(180deg,rgba(241,229,208,.98) 0%,rgba(241,229,208,.94) 72%,rgba(241,229,208,0) 100%);
+        backdrop-filter:blur(10px);
+      }
+      #wunsch .section-head h2{
+        font-size:clamp(34px,3.4vw,54px);
+        max-width:19ch;
+      }
+      #wunsch .section-head .lead{
+        max-width:56ch;
+        font-size:clamp(15px,1.1vw,17px);
+        line-height:1.45;
+      }
+      #wunsch .card-stack{margin-top:clamp(6px,1vw,14px)}
+      #wunsch .stack-card{
+        top:clamp(250px,30vh,315px);
+        height:clamp(380px,52vh,600px);
+        margin-bottom:clamp(52vh,68vh,86vh);
+      }
+      #wunsch .stack-card:last-child{margin-bottom:clamp(22px,3vw,46px)}
+    }
+    @media(min-width:761px) and (max-height:780px){
+      #wunsch .section-head{top:96px}
+      #wunsch .section-head h2{font-size:clamp(30px,3vw,42px)}
+      #wunsch .section-head .lead{font-size:14px;line-height:1.4}
+      #wunsch .stack-card{top:clamp(216px,34vh,250px);height:clamp(320px,50vh,440px)}
+    }
+    @media(max-width:760px){#wunsch.section{padding-bottom:32px!important}}
+
   </style>
 </head>
 <body>
@@ -2078,8 +2115,6 @@
     <section class="section service-area" id="liefergebiet">
       <div class="wrap service-card service-area-grid">
         <div class="map-card">
-          <span class="map-corner-tl">48°12′N · 16°22′O</span>
-          <span class="map-corner-tr">Edition · 2026</span>
           <div class="map-compass" aria-hidden="true"></div>
           <svg class="service-map" id="serviceMap" viewBox="0 0 900 620" role="img" aria-label="Liefergebiet Wien, Niederösterreich, Burgenland und Fürstenfeld"></svg>
           <div class="map-watermark">Wien · NÖ<br>Burgenland · Stmk.</div>
